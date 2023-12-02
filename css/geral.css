@@ -1,0 +1,56 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Inter;
+    src: url(../font/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Inter;
+}
+
+body {
+    height: 80vh;
+    display: flex;
+    background-color: black;
+}
+
+/*Esquerda-----------------------------*/ 
+.esquerda { 
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+header {
+    font-size: 25px;
+    color: white;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+}
+.apresentacao {
+    
+}
+
+.perfil img {
+    width: 30%;
+    border-radius: 50%;
+}
+
+
+/*Direita------------------------------*/
+
+.direita {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.contactos .social a img    {
+    color: white;
+}
