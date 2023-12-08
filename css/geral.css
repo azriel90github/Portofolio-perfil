@@ -12,7 +12,7 @@
 body {
     height: 80vh;
     display: flex;
-    background-color: black;
+    background-color: #0C141A;
 }
 
 /*Esquerda-----------------------------*/ 
@@ -32,13 +32,57 @@ header {
     display: flex;
     align-items: center;
 }
+
 .apresentacao {
-    
+    margin-left: 40px;
 }
 
+.primeiro {
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.segundo {
+    font-weight: 800;
+    font-size: 35px;
+    color: #71C0F5;
+}
+
+
 .perfil img {
-    width: 30%;
+    border: 2px solid #71C0F5;
+    width: 15%;
     border-radius: 50%;
+    margin-left: 50px;
+}
+
+.experiencia {
+    padding: 30px 30px 20px 70px;
+}
+
+.experiencia h2 {
+    font-weight: 200;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.experiencia p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.experiencia button {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    margin: 20px 20px 0px 0px;
+}
+
+.competencias h2 {
+    padding-left: 70px;
+    font-weight: 200;
+    font-size: 30px;
 }
 
 
