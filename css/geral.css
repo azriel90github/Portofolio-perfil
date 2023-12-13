@@ -3,10 +3,16 @@
     font-family: Inter;
     src: url(../font/Inter/Inter-VariableFont_slnt\,wght.ttf);
 }
+
+@font-face {
+    font-family: Rethink;
+    src: url(../font/Rethink_Sans/RethinkSans-VariableFont_wght.ttf);
+}
+
 * {
     margin: 0px;
     padding: 0px;
-    font-family: Inter;
+    font-family: Rethink;
 }
 
 body {
@@ -17,6 +23,8 @@ body {
 
 /*Esquerda-----------------------------*/ 
 .esquerda { 
+    padding-left: 120px;
+    padding-top: 30px;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -37,8 +45,17 @@ header {
     margin-left: 40px;
 }
 
+#code {
+    margin-left: 8px;
+    margin-top: 8px;
+    border-radius: 0px;
+    width: 40px;
+    color: #5a9ecc;
+}
+
 .primeiro {
     font-size: 40px;
+    padding-top: 40px;
     padding-bottom: 10px;
 }
 
@@ -51,13 +68,14 @@ header {
 
 .perfil img {
     /*border: 1px solid #71C0F5;*/
-    width: 18%;
+    width: 20%;
     border-radius: 50%;
     margin-left: 50px;
+    margin-top: 30px;
 }
 
 .experiencia {
-    padding: 30px 30px 20px 70px;
+    padding: 30px 30px 20px 60px;
 }
 
 .experiencia h2 {
@@ -73,7 +91,8 @@ header {
 }
 
 .experiencia button {
-    background-color: #3d6a88;
+    background-image: linear-gradient(to right, #5a9ecc 20%, #1572B6 );
+    background-color: #3a5263;
     width: 250px;
     font-weight: 600;
     font-size: 17px;
@@ -84,53 +103,101 @@ header {
     margin: 20px 20px 0px 0px;
 }
 
+.experiencia button:hover {
+    background-color: #3a5263;
+}
+
 .competencias h2 {
     color: #5a9ecc;
-    padding-left: 70px;
+    padding-left: 60px;
     font-weight: 300;
     font-size: 25px;
+    padding-bottom: 10px;
 }
 
 .competencias {
-    width: 700px;
-    margin: 10px;
+    width: 550px;
     color: white;
-    padding: 20px;
+    padding: 10px;
 }
 
-.competencias li {
-    margin: 20px 0;
-    padding: 0px;
+.competencias01 {
+    padding-left: 45px;
+    padding-top: 20px;
 }
+
+
+.competencias01 span {
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+}
+
+.skills img {
+    width: 30px;
+    margin: 5px;
+}
+
+
 
 .bar {
-    background-color: aquamarine;
-    display: block;
-    height: 20px;
-    border: 1px solid white;
-    border-radius: 10px;
+    padding: 8px;
+    margin: 8px;
+    background-color: #0C141A;
+    height: 10px;
+    border: 1px solid #3d6a88;
+    border-radius: 20px;
     overflow: hidden;
     transition: all 0.3 cubic-bezier(.25,.8,.25,1);
 }
 
 
 .bar span {
-    height: 20px;
+    text-align: center;
+    border-radius: 20px;
+    height: 10px;
     float: left;
-    background: linear-gradient(135deg, white, black);
+    background: #3d6a88;
 }
 
-.front {
+
+span.html-css {
+    background-image: linear-gradient(to right, #FF4B00 30%, #1572B6 20%);
+}
+
+.html-css {
     width: 80%;
-    animation: front 3s;
+    animation: html-css 3s;
 }
 
-.back {
+.java-node {
     width: 30%;
-    animation: back 3s;
+    animation: java-node 3s;
 }
 
-@keyframes front {
+span.java-node {
+    background-image: linear-gradient(to right, #FFDF00 30%, #59A946 20%);
+}
+
+.git-hub {
+    width: 60%;
+    animation: git-hub 3s;
+}
+
+span.git-hub {
+    background-image: linear-gradient(to right, #CC4342 30%, #5C6BC0 20%);
+}
+
+.php-dados {
+    width: 75%;
+    animation: php-dados 3s;
+}
+
+span.php-dados {
+    background-image: linear-gradient(to right, #777BB3 30%, #424A60 20%);
+}
+
+@keyframes html-css {
     0%{
         width: 0%;
     }
@@ -139,7 +206,7 @@ header {
     }
 }
 
-@keyframes back {
+@keyframes java-node {
     0%{
         width: 0%;
     }
@@ -148,11 +215,30 @@ header {
     }
 }
 
+@keyframes git-hub {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+
+@keyframes php-dados {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%;
+    }
+}
+
 
 /*Direita------------------------------*/
 
 .direita {
-    padding-right: 70px;
+    padding-top: 80px;
+    padding-right: 200px;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -174,10 +260,21 @@ header {
     padding-bottom: 30px;
 }
 
+.idiomas p img {
+    width: 25px;
+    padding-right: 8px;
+
+}
+
 .educacao p {
     font-size: 18px;
     line-height: 30px;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
+}
+
+.educacao img {
+    width: 25px;
+    color: #5a9ecc;
 }
 
 .contactos .social a i    {
@@ -190,6 +287,7 @@ header {
 }
 
 .contactos button {
+    background-image: linear-gradient(to right, #5a9ecc 20%, #1572B6 );
     background-color: #3d6a88;
     font-weight: 600;
     font-size: 17px;
