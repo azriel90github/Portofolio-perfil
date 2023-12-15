@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body {
+        display: flex;
+        background-color: #0C141A;
+    }
+    main {
+        display: grid;
+    }
+    /*Esquerda-----------------------------*/ 
+    .esquerda { 
+        padding-left: 0px;
+        padding-top: 10px;
+
+
+        flex-direction: column;
+        color: white;
+    }
+    .perfil {
+        display: grid;
+
+    }
+    .primeiro {
+        font-size: 24px;
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+    .segundo {
+        font-weight: 800;
+        font-size: 25px;
+        color: #5a9ecc  ;
+    }
+    .apresentacao {
+        padding-top: 15px;
+    }
+    .perfil img {
+        /*border: 1px solid #71C0F5;*/
+        width: 35%;
+        border-radius: 50%;
+    }
+    .competencias {
+        width: 360px;
+        color: white;
+        padding: 10px;
+    }
+    .competencias01 {
+        padding-left: 15px;
+        padding-top: 20px;
+    }
+    .experiencia {
+        padding: 10px 30px 20px 30px;
+    }
+    .skills img {
+        width: 25px;
+        margin: 3px;
+    }
+    .competencias h2 {
+        padding-left: 20px;
+        font-weight: 300;
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}

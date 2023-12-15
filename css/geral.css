@@ -21,6 +21,10 @@ body {
     background-color: #0C141A;
 }
 
+main {
+    display: flex;
+}
+
 /*Esquerda-----------------------------*/ 
 .esquerda { 
     padding-left: 120px;
