@@ -15,6 +15,18 @@
     font-family: Rethink;
 }
 
+.fundo {
+    cursor: pointer;
+    color: #dfdfdf;
+    font-size: 25px;
+    padding-top: 5px;
+}
+
+.cor-fundo span {
+    padding-left: 5px;
+    font-size: 20px;
+}
+
 body {
     height: 80vh;
     display: flex;
@@ -32,12 +44,12 @@ main {
     margin: auto;
     display: flex;
     flex-direction: column;
-    color: white;
+    color: #dfdfdf;
 }
 
 header {
     font-size: 25px;
-    color: white;
+    color: #dfdfdf;
 }
 
 .perfil {
@@ -60,7 +72,7 @@ header {
 .primeiro {
     font-size: 40px;
     padding-top: 40px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 
 .segundo {
@@ -121,7 +133,7 @@ header {
 
 .competencias {
     width: 550px;
-    color: white;
+    color:  #dfdfdf;
     padding: 10px;
 }
 
@@ -246,7 +258,7 @@ span.php-dados {
     margin: auto;
     display: flex;
     flex-direction: column;
-    color: white;
+    color: #dfdfdf;
 }
 
 .direita h2 {
