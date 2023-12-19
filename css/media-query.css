@@ -7,7 +7,7 @@
         height: 100%;
         display: flex;
         background-color: #0C141A;
-        /*overflow-x: hidden;*/
+        overflow-x: none;
     }
     main {
         display: grid;
