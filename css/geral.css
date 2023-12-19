@@ -20,13 +20,14 @@
     color: #dfdfdf;
     font-size: 25px;
     padding-top: 5px;
+    width: 20px;
 }
-
+/*
 .cor-fundo span {
     padding-left: 5px;
     font-size: 20px;
 }
-
+*/
 body {
     height: 80vh;
     display: flex;
@@ -58,7 +59,7 @@ header {
 }
 
 .apresentacao {
-    margin-left: 40px;
+    margin-left: 28px;
 }
 
 #code {
@@ -106,6 +107,10 @@ header {
     line-height: 30px;
 }
 
+.sobre {
+    display: none;
+}
+
 .experiencia button {
     background-image: linear-gradient(to right, #5a9ecc 20%, #1572B6 );
     background-color: #3a5263;
@@ -113,6 +118,7 @@ header {
     font-weight: 600;
     font-size: 17px;
     cursor: pointer;
+    margin-left: 20px;
     padding: 10px;
     border-radius: 25px;
     border: none;
@@ -249,6 +255,20 @@ span.php-dados {
     }
 }
 
+.servicos h2 {
+    color: #5a9ecc;
+    font-weight: 300;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.servicos {
+    display: none;
+    color: #dfdfdf;
+    font-size: 18px;
+    line-height: 35px;
+}
+
 
 /*Direita------------------------------*/
 
@@ -271,7 +291,7 @@ span.php-dados {
 
 .idiomas p {
     padding-right: 30px;
-    line-height: 30px;
+    line-height: 25px;
     font-size: 18px;
     padding-bottom: 30px;
 }
@@ -284,7 +304,7 @@ span.php-dados {
 
 .educacao p {
     font-size: 18px;
-    line-height: 30px;
+    line-height: 25px;
     padding-bottom: 10px;
 }
 

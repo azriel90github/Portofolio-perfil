@@ -4,9 +4,10 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     body {
+        height: 100%;
         display: flex;
         background-color: #0C141A;
-        overflow-x: hidden;
+        /*overflow-x: hidden;*/
     }
     main {
         display: grid;
@@ -17,15 +18,16 @@
     }
     /*Esquerda-----------------------------*/ 
     .esquerda { 
-        padding-left: 0px;
+        padding-left: 10px;
         padding-top: 10px;
     }
     .perfil {
         display: grid;
-
+        padding-right: 0px;
+        padding-left: 0px;
     }
     .primeiro {
-        font-size: 24px;
+        font-size: 26px;
         padding-top: 10px;
         padding-bottom: 0px;
     }
@@ -38,16 +40,47 @@
     }
     .perfil img {
         /*border: 1px solid #71C0F5;*/
-        width: 37%;
+        margin-left: 25px;
+        margin-top: 30px;
+
+        width: 50%;
+        border-radius: 30px;
     }
+    .sobre {
+        padding-left: 0px;
+        display: grid;
+        width: 330px;
+    }
+
+    .servicos {
+        padding-left: 20px;
+        width: 300px;
+        display: grid;
+    }
+    .servicos {
+        font-size: 19px;
+    }
+    #servicos {
+        padding-left: 20px;
+    }
+    .servicos h2 {
+        padding: 15px 20px 20px 0px;
+    }
+    
     .competencias {
         width: 360px;
     }
     .competencias01 {
-        padding-left: 15px;
+        padding-left: 0px;
     }
     .experiencia {
-        padding: 10px 30px 20px 30px;
+        padding: 15px 0px 20px 30px;
+    }
+    .experiencia h2 {
+        padding-bottom: 13px;
+    }
+    .experiencia p {
+        font-size: 19px;
     }
     .skills img {
         padding-left: 10px;
@@ -55,14 +88,23 @@
         margin: 0px;
     }
     .competencias h2 {
-        padding-left: 30px;
+        padding-left: 20px;
+    }
+    .experiencia button {
+        padding-left: 0px;
+    }
+    .contactos h2 {
+        padding-top: 25px;
+        padding-bottom: 10px;
     }
 
     /*Direita------------------------------*/
 
     .direita {
+        font-size: 19px;
+        padding-right: 50px;
         padding-top: 30px;
-        padding-left: 30px;
+        padding-left: 0px;
         padding-bottom: 50px;
     }
     .direita h2 {
@@ -75,6 +117,7 @@
         padding-right: 0px;
     
     }
+
     
 }
 
