@@ -126,8 +126,8 @@ header {
     margin: 20px 20px 0px 0px;
 }
 
-.experiencia button:hover {
-    background-color: #3a5263;
+.experiencia button a {
+    color: #0C141A;
 }
 
 .competencias h2 {
@@ -320,7 +320,7 @@ span.php-dados {
     padding: 8px;
     border: 1px solid #5a9ecc;
     border-radius: 50%;
-    margin: 8px;
+    margin: 5px;
 }
 
 .contactos button {
@@ -334,4 +334,9 @@ span.php-dados {
     border-radius: 25px;
     border: none;
     margin: 20px 20px 0px 0px;
+}
+
+
+.contactos button a {
+    color: #0C141A;
 }
