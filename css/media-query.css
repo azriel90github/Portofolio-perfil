@@ -7,7 +7,6 @@
         height: 100%;
         display: flex;
         background-color: #0C141A;
-        overflow-x: none;
     }
     main {
         display: grid;
@@ -18,7 +17,7 @@
     }
     /*Esquerda-----------------------------*/ 
     .esquerda { 
-        padding-left: 10px;
+        padding-left: 5px;
         padding-top: 10px;
     }
     .perfil {
@@ -40,7 +39,7 @@
     }
     .perfil img {
         /*border: 1px solid #71C0F5;*/
-        margin-left: 25px;
+        margin-left: 20x;
         margin-top: 30px;
 
         width: 50%;
@@ -53,7 +52,7 @@
     }
 
     .servicos {
-        padding-left: 20px;
+        padding-left: 19px;
         width: 300px;
         display: grid;
     }
@@ -61,18 +60,25 @@
         font-size: 19px;
     }
     #servicos {
-        padding-left: 20px;
+        padding-left: 15px;
     }
     .servicos h2 {
-        padding: 15px 20px 20px 0px;
+        padding: 15px 0px 10px 0px;
     }
     
     .competencias {
         width: 360px;
     }
+
+    .competencias h2 {
+        padding-left: 20px;
+    }
+
     .competencias01 {
         padding-left: 0px;
     }
+
+
     .experiencia {
         padding: 15px 0px 20px 30px;
     }
@@ -88,7 +94,7 @@
         margin: 0px;
     }
     .competencias h2 {
-        padding-left: 20px;
+        padding-left: 10px;
     }
     .experiencia button {
         padding-left: 0px;
@@ -96,14 +102,14 @@
     .contactos h2 {
         padding-top: 25px;
         padding-bottom: 10px;
-        padding-left: 5px;
+        padding-left: 15px;
     }
 
     /*Direita------------------------------*/
 
     .direita {
         font-size: 19px;
-        padding-right: 50px;
+        padding-right: 80px;
         padding-top: 30px;
         padding-left: 0px;
         padding-bottom: 50px;
