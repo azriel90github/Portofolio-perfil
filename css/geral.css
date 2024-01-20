@@ -364,7 +364,7 @@ footer .content-number p {
 
 footer .content-number {
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 35px;
 }
 
 footer .social h3 {
@@ -398,5 +398,10 @@ footer  button {
     padding: 10px;
     border-radius: 25px;
     border: none;
+}
+
+.final {
+    text-align: center;
+    padding: 25px;
 }
 
