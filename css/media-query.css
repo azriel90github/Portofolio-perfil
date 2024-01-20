@@ -4,7 +4,14 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
-
+    .contacto {
+        padding-top: 700px;
+        width: 100%;
+        
+    }
+    .send-footer {
+        width: 320px;
+    }
     
 }
 

@@ -84,7 +84,7 @@ header span {
 .home p.segundo {
     padding-top: 20px;
     margin: auto;
-    width: 20%;
+    width: 410px;
 }
 
 .home span {
@@ -99,7 +99,6 @@ header span {
 
 .sobre {
     display: grid;
-    height: 90vh;
     gap: 20px;
     justify-content: center;
 }
@@ -258,8 +257,8 @@ header span {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
     color: #60A4D1;
+    padding-bottom: 240px;
 }
 
 .contacto h1 {
@@ -287,7 +286,7 @@ header span {
 
 .send-footer {
     background-color: #0c141a;
-    border: 2px solid var(--cor04);
+    border: 2px solid #1D3241;
     color: #60A4D1;
     height: 30px;
     width: 500px;
@@ -303,8 +302,7 @@ header span {
     align-items: center;
     justify-content: center;
     margin: auto;
-    background-image: linear-gradient(to right, #5a9ecc 20%, #1572B6 );
-    background-color: #3d6a88;
+    background-color: #1A65BB;
     font-weight: 600;
     font-size: 17px;
     width: 250px;
@@ -320,7 +318,6 @@ header span {
 .cadastrar {
     padding: 5px;
     color: #60A4D1;
-    background-color: var(--cor05);
     cursor: pointer;
 }
 
@@ -330,22 +327,59 @@ header span {
 
 /*rodape------------------------------------------*/
 
-
-
-.social-contentor  {
-
-    padding: 50px;
-    text-align: center;
+footer {
+    background-color: #121F29;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
 
-.social-contentor h2 {
-    padding-bottom: 10px;
+footer .pages menu {
+    padding-top: 30px;
+}
+
+footer .pages menu h3 {
     font-weight: 300;
     font-size: 25px;
     color: #5a9ecc;
 }
 
-.social-contentor .social a i    {
+footer .pages menu a {
+    display: flex;
+    text-decoration: none;
+    padding-top: 20px;
+}
+
+footer .content-number h3 {
+    font-weight: 300;
+    font-size: 25px;
+    color: #5a9ecc;
+    padding-bottom: 20px;
+}
+
+footer .content-number p {
+    padding-bottom: 10px;
+    font-size: 17px;
+}
+
+footer .content-number {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+footer .social h3 {
+    font-weight: 300;
+    font-size: 25px;
+    color: #5a9ecc;
+}
+
+footer .social {
+
+    padding-top: 30px;
+}
+
+
+footer .social a i    {
     color: #5a9ecc;
     font-size: 25px;
     padding: 8px;
@@ -354,10 +388,9 @@ header span {
     margin: 5px;
 }
 
-.social-contentor  button {
+footer  button {
     margin-top: 15px;
-    background-image: linear-gradient(to right, #5a9ecc 20%, #1572B6 );
-    background-color: #3d6a88;
+    background-color: #1A65BB;
     font-weight: 600;
     font-size: 17px;
     width: 250px;
