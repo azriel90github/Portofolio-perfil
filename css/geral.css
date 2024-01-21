@@ -13,7 +13,7 @@
     margin: 0px;
     padding: 0px;
     font-family: Rethink;
-    color: white;
+    color: #9ed1f3;
 }
 
 
@@ -41,6 +41,7 @@ header {
     align-items: center;
     justify-content: space-around;
     padding: 10px;
+    box-shadow: 2px solid #8EC4E9;
 
 }
 
@@ -49,19 +50,28 @@ header p {
     color: #8EC4E9;
 }
 
+
 nav a {
     margin: 8px;
     font-size: 17px;
     text-decoration: none;
 }
 
+nav a:hover {
+    color: #e6e6e6;
+    background-color: #830060;
+    padding: 10px;
+    border-radius: 10px;
+    transition: .2s;
+}
+
 header span {
     font-size: 35px;
-    color: #8EC4E9;
+    color: #e6e6e6;
 }
 
 .home {
-    padding-top: 150px;
+    padding-top: 130px;
     height: 90vh;
     margin: auto;
     text-align: center;
@@ -77,21 +87,25 @@ header span {
 
 
 .home p.primeiro {
-    font-size: 40px;
-    
-}
-
-.home p.segundo {
-    padding-top: 20px;
-    margin: auto;
-    width: 410px;
+    font-size: 43px;
+    color: #e6e6e6;
+    /*text-shadow: 0px 0px 3px #D946EF, 0 0 0px #D946EF, 0 0 10px #D946EF;*/
 }
 
 .home span {
     font-size: 35px;
-    color: #5A9ECC;
+    font-weight: 300;
+    color: #C4008F;
     gap: 30px;
 }
+
+.home p.segundo {
+    padding-top: 20px;
+    font-size: 17px;
+    margin: auto;
+    width: 410px;
+}
+
 
 
 /*Sobre------------------------*/
@@ -122,6 +136,7 @@ header span {
 }
 
 .trilha h3 {
+    color: #e6e6e6;
     border-radius: 15px 15px 0px 0px;
     padding: 10px 20px;
     background-color: #0E1820;
@@ -139,12 +154,15 @@ header span {
     cursor: pointer;
     display: flex;
     justify-content: space-between;
-    padding: 15px 20px;
-    color: white;
+    padding: 10px 20px;
+    color: #e6e6e6;
+    font-size: 15px;
 }
+
 
 .trilha button i {
     font-size: 20px;
+    color: #e6e6e6;
 }
 
 
@@ -156,7 +174,6 @@ header span {
 /*Portofolio------------------------*/
 
 #portofolio {
-
     padding-top: 10px;
     gap: 20px;
 }
@@ -187,23 +204,24 @@ header span {
     border-radius: 20px;
     background-image: url(../img/Captura\ de\ ecrã\ 2024-01-19\ 171939.png);
     background-size: cover;
-    width: 300px;
+    width: 500px;
 }
 
 .port p {
     border-radius: 20px;
     display: grid;
     width: 300px;
-    padding: 20px;
+    padding: 50px;
     background-color: #0E1820;
 
 }
 
 .port p span {
+    color: #e6e6e6;
     text-align: center;
     width: 100%;
     font-size: 25px;
-    padding: 10px;
+    padding-bottom: 30px;
 }
 
 .port p a {
@@ -213,39 +231,96 @@ header span {
     padding: 10px;
     text-align: center;
     border-radius: 8px;
-    background-color: #1D3241;
+    background-color: #830060;
+    color: #e6e6e6;
+}
+
+.port p a:hover {
+    background-color: #c4008f;
+    transition-duration: .3s;
 }
 
 .port p a i {
+    color: #e6e6e6;
     font-size: 20px;
 }
 
 
+/*Serviços--------------------*/
+
+.services-title {
+    text-align: center;
+    padding-top: 100px;
+}
+
+#serviços {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 25% 25%;
+    padding: 10px;
+    gap: 20px;
+    
+}
+
+.serviços {
+    border-radius: 30px;
+    display: flex;
+    background-color: #1D3241;
+    padding: 8px;
+}
+
+.serviços  .serv {
+    width: 500px;
+    border-radius: 20px;
+    background-color: #121F29;
+    padding: 10px;
+}
+
+.serviços .serv h3 {
+    background-color: #0E1820;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.serviços  .serv .content-list p {
+    margin: 30px;
+}
 
 
+.serviços  .serv .content-preço {
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+}
 
+.serviços  .serv .content-img {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
 
+.serviços  .serv button {
+    cursor: pointer;
+    font-size: 15px;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;  
+    background-color: #830060;
+    color: #e6e6e6;
+    border: none;
+    padding: 10px;
+    
+}
 
+.serviços  .serv button:hover {
+    background-color: #C4008F;
+    transition-duration: .2s;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.content-img-dados img {
+    width: 60px;
+}
 
 
 /*Footer------------------------*/
@@ -302,7 +377,8 @@ header span {
     align-items: center;
     justify-content: center;
     margin: auto;
-    background-color: #1A65BB;
+    background-color: #830060;
+    color: #e6e6e6;
     font-weight: 600;
     font-size: 17px;
     width: 250px;
@@ -310,8 +386,11 @@ header span {
     padding: 10px;
     border-radius: 25px;
     border: none;
+}
 
-
+.send-botao:hover {
+    background-color: #C4008F;
+    transition: .4s;
 }
 
 
@@ -334,49 +413,67 @@ footer {
     justify-content: space-around;
 }
 
-footer .pages menu {
-    padding-top: 30px;
+footer .pages {
+    padding-top: 40px;
 }
 
 footer .pages menu h3 {
     font-weight: 300;
     font-size: 25px;
-    color: #5a9ecc;
+    color: #e6e6e6;
+    padding-bottom: 20px;
 }
 
 footer .pages menu a {
     display: flex;
+    width: 90%;
     text-decoration: none;
-    padding-top: 20px;
+    margin-bottom: 10px;
+    color: #8dd1ff;
+
+}
+
+footer .pages menu a:hover {
+    color: #e6e6e6;
+    padding: 2px;
+    transition: .2s;
 }
 
 footer .content-number h3 {
     font-weight: 300;
     font-size: 25px;
-    color: #5a9ecc;
-    padding-bottom: 20px;
+    color: #e6e6e6;
+    padding-bottom: 10px;
 }
 
 footer .content-number p {
     padding-bottom: 10px;
+    margin-bottom: 5px;
     font-size: 17px;
+    color: #8dd1ff;
 }
 
 footer .content-number {
-    padding-top: 30px;
+    padding-top: 40px;
     padding-bottom: 35px;
 }
 
 footer .social h3 {
     font-weight: 300;
     font-size: 25px;
-    color: #5a9ecc;
+    color: #e6e6e6;
+    padding-bottom: 15px;
 }
 
-footer .social {
+footer .social  {
+    padding-top: 40px;
 
-    padding-top: 30px;
 }
+
+footer .social a {
+    padding-bottom: 30px;
+}
+
 
 
 footer .social a i    {
@@ -388,9 +485,16 @@ footer .social a i    {
     margin: 5px;
 }
 
+footer .social a i:hover {
+    border: 1px solid #e6e6e6;
+    color: #e6e6e6;
+    transition: .3s;
+}
+
 footer  button {
     margin-top: 15px;
-    background-color: #1A65BB;
+    background-color: #830060;
+    color: #e6e6e6;
     font-weight: 600;
     font-size: 17px;
     width: 250px;
@@ -400,8 +504,14 @@ footer  button {
     border: none;
 }
 
+footer  button:hover {
+    background-color: #C4008F;
+    transition: .4s;
+}
+
 .final {
     text-align: center;
     padding: 25px;
+    color: #e6e6e6;
 }
 
