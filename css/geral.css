@@ -106,6 +106,32 @@ header span {
     width: 410px;
 }
 
+.home button {
+    margin-top: 15px;
+    background-color: #830060;
+    color: #e6e6e6;
+    font-weight: 600;
+    font-size: 17px;
+    width: 250px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+}
+
+.home button:hover {
+    background-color: #C4008F;
+    transition: .4s;
+}
+
+header a.link-header {
+    color: #e6e6e6; background-color: #830060; padding: 10px; border-radius: 10px;
+}
+
+header a.link-header:hover {
+    background-color: #C4008F;
+    transition: .4s;
+}
 
 
 /*Sobre------------------------*/
