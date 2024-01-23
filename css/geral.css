@@ -40,7 +40,6 @@ body {
 
 nav {
     position: fixed;
-
     display: flex;
     justify-content: space-around;
     width: 100%;
@@ -87,7 +86,7 @@ nav a {
 nav p {
     font-size: 30px;
     color: #8EC4E9;
-}::backdrop
+}
 .nav-logo p{
     color: white;
     font-size: 25px;
@@ -116,7 +115,6 @@ nav p {
 
 .casa {
     padding-top: 130px;
-    height: 90vh;   
     margin: auto;
     text-align: center;
 
@@ -178,6 +176,7 @@ nav p {
     justify-content: center;
 }
 .sobre h2 {
+    padding-top: 150px;
     padding-bottom: 25px;
     font-weight: 300;
     font-size: 30px;

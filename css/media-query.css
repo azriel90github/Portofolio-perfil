@@ -5,16 +5,25 @@
 @media only screen and (max-width: 600px) {
 
 
+    nav {
+        width: 100%;
+    }
+
+    nav p {
+        font-size: 25px;
+        color: #8EC4E9;
+    }
+
     .nav-menu.responsive{
         top: 80px;
     }
     .nav-menu{
         position: absolute;
-        top: -800px;
+        top: -600px;
         display: flex;
         justify-content: center;
         width: 100%;
-        height: 24vh;
+        height: 30vh;
         backdrop-filter: blur(20px);
         transition: .3s;
     }
@@ -38,7 +47,64 @@
         background: rgba(255, 255, 255, 0.15);
     }
 
+    .casa {
+  
+        text-align: left;
+        margin-left: 30px;
+        
+    }
+    .casa img {
+        width: 200px;
+        border-radius: 10%;
 
+    }
+    .casa p.primeiro {
+        font-size: 35px;
+        text-align: left;
+    }
+    
+    .casa span {
+        font-size: 35px;
+    }
+    
+    .casa p.segundo {
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        font-size: 17px;
+    }
+
+    .sobre h2 {
+        width: 100%;
+        padding-top: 70px;
+        font-size: 25px;
+    }
+
+    .trilha {
+        width: 80%;
+    }
+
+    .portofolio {
+        width: 80%;
+    }
+
+    .port {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .services-title {
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+
+    #serviços {
+        grid-template-columns: 350px;
+    }
+
+    
+    
 
     nav span {
         display: none;
@@ -51,6 +117,10 @@
     }
     .send-footer {
         width: 300px;
+    }
+
+    footer {
+        display: grid;
     }
         
 }
