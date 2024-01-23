@@ -4,7 +4,9 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
-
+    header {
+        width: 100%;
+    }
     nav {
         width: 100%;
     }
@@ -111,17 +113,45 @@
     }
 
     .contacto {
-        padding-top: 700px;
+        padding-top: 50px;
         width: 100%;
         
     }
+
+    .contacto {
+        padding-bottom: 100px;
+    }
+    
     .send-footer {
         width: 300px;
     }
 
     footer {
+        width: 100%;
         display: grid;
     }
+
+    footer .social button {
+        padding: 15px;
+    }
+
+    footer .social h3 {
+        padding-bottom: 10px;
+    }
+
+    footer .content-number h3 {
+        padding-bottom: 10px;
+    }
+    
+
+    footer .pages menu h3 {
+        padding-bottom: 20px;
+    }
+
+    footer .pages {
+        padding-top: 0px;
+    }
+    
         
 }
 
