@@ -17,7 +17,7 @@
 }
 
 
-body {
+#corpo {
     background-color: #0C141A;
     overflow-x: none;
 }
@@ -33,28 +33,27 @@ body {
     --cor07:#0C141A;
 }
 
-header {
-    background-color: #121F29;
+body {
+    background-color: #0C141A
+}
+
+
+nav {
     position: fixed;
-    width: 100%;
+
     display: flex;
-    align-items: center;
     justify-content: space-around;
-    padding: 15px;
-    box-shadow: 2px solid #8EC4E9;
-
+    width: 100%;
+    padding: 12px;
+    line-height: 50px;
+    background-color: #121F29;
+    /*background: linear-gradient(rgba(39,39,39, 0.6), transparent);*/
+    z-index: 100;
 }
 
-header p {
-    font-size: 30px;
-    color: #8EC4E9;
-}
-
-
-nav a {
-    margin: 8px;
-    font-size: 17px;
-    text-decoration: none;
+nav span {
+    font-size: 35px;
+    color: #e6e6e6;
 }
 
 nav a:hover {
@@ -65,20 +64,65 @@ nav a:hover {
     transition: .2s;
 }
 
-header span {
-    font-size: 35px;
+
+
+.port-nav {
     color: #e6e6e6;
+    background-color: #830060;
+    padding: 10px;
+    border-radius: 10px;
 }
 
-.home {
+.port-nav:hover {
+    background-color: #C4008F;
+    transition: .4s;
+}
+
+nav a {
+    margin: 10px;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+nav p {
+    font-size: 30px;
+    color: #8EC4E9;
+}::backdrop
+.nav-logo p{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+.nav-menu-btn{
+    display: none;
+}
+.nav-menu ul{
+    display: flex;
+}
+.nav-menu ul li{
+    list-style-type: none;
+}
+.nav-menu ul li .link{
+    text-decoration: none;
+    font-weight: 650;
+    color: #efefef;
+    padding-bottom: 10px;
+    margin: 0 25px;
+    overflow: hidden;
+}
+
+
+
+
+.casa {
     padding-top: 130px;
-    height: 90vh;
+    height: 90vh;   
     margin: auto;
     text-align: center;
 
 }
 
-.home img {
+.casa img {
     width: 250px;
     border-radius: 50%;
     margin-bottom: 20px;
@@ -86,27 +130,27 @@ header span {
 }
 
 
-.home p.primeiro {
+.casa p.primeiro {
     font-size: 43px;
     color: #e6e6e6;
     /*text-shadow: 0px 0px 3px #D946EF, 0 0 0px #D946EF, 0 0 10px #D946EF;*/
 }
 
-.home span {
+.casa span {
     font-size: 35px;
     font-weight: 300;
     color: #C4008F;
     gap: 30px;
 }
 
-.home p.segundo {
+.casa p.segundo {
     padding-top: 20px;
     font-size: 17px;
     margin: auto;
     width: 410px;
 }
 
-.home button {
+.casa button {
     margin-top: 15px;
     background-color: #830060;
     color: #e6e6e6;
@@ -119,16 +163,7 @@ header span {
     border: none;
 }
 
-.home button:hover {
-    background-color: #C4008F;
-    transition: .4s;
-}
-
-header a.link-header {
-    color: #e6e6e6; background-color: #830060; padding: 10px; border-radius: 10px;
-}
-
-header a.link-header:hover {
+.casa button:hover {
     background-color: #C4008F;
     transition: .4s;
 }
