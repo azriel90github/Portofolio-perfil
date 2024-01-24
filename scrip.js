@@ -21,11 +21,11 @@ function formatTime(time) {
 
 
 function myMenuFunction() {
-  var i = document.getElementById("navMenu");
+  var i = document.getElementById("navMenu")
   if(i.className === "nav-menu") {
-    return i.className += " responsive";
+    return i.className += " responsive"
   }  else {
-      return i.className = "nav-menu";
+      return i.className = "nav-menu"
   }
  
 }

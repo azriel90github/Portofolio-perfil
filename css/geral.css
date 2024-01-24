@@ -67,7 +67,7 @@ nav a:hover {
 
 .port-nav {
     color: #e6e6e6;
-    background-color: #830060;
+    background-color: #5A0079;
     padding: 10px;
     border-radius: 10px;
 }
@@ -118,7 +118,6 @@ nav p {
 #home {
     background-image: url(../img/1152253.jpg);
     background-size: cover;
-    opacity: 100%;
 }
 
 .casa {
@@ -305,7 +304,7 @@ nav p {
     padding: 10px;
     text-align: center;
     border-radius: 8px;
-    background-color: #830060;
+    background-color: #5A0079;
     color: #e6e6e6;
 }
 
@@ -408,7 +407,7 @@ nav p {
     align-items: center;  
     justify-content: center;
     font-size: 17px;
-    background-color: #830060;
+    background-color: #5A0079;
     color: #e6e6e6;
     border: none;
     padding: 10px;
@@ -478,7 +477,7 @@ nav p {
     align-items: center;
     justify-content: center;
     margin: auto;
-    background-color: #830060;
+    background-color: #5A0079;
     color: #e6e6e6;
     font-weight: 600;
     font-size: 17px;
@@ -594,7 +593,7 @@ footer .social a i:hover {
 
 footer  button {
     margin-top: 15px;
-    background-color: #830060;
+    background-color: #5A0079;
     color: #e6e6e6;
     font-weight: 600;
     font-size: 17px;
