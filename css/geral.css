@@ -34,7 +34,7 @@
 }
 
 body {
-    background-color: #0C141A
+    background-color: #01111E;
 }
 
 
@@ -45,14 +45,14 @@ nav {
     width: 100%;
     padding: 12px;
     line-height: 50px;
-    background-color: #121F29;
+    background-color: #01111E;
     /*background: linear-gradient(rgba(39,39,39, 0.6), transparent);*/
     z-index: 100;
 }
 
 nav span {
     font-size: 35px;
-    color: #e6e6e6;
+    color: #4ba5e6;
 }
 
 nav a:hover {
@@ -85,10 +85,10 @@ nav a {
 
 nav p {
     font-size: 30px;
-    color: #8EC4E9;
+    color: #4ba5e6;
 }
 .nav-logo p{
-    color: white;
+    color: #efefef;
     font-size: 25px;
     font-weight: 600;
 }
@@ -101,6 +101,10 @@ nav p {
 .nav-menu ul li{
     list-style-type: none;
 }
+
+.nav-menu ul li a {
+    color: #e6e6e6;
+}
 .nav-menu ul li .link{
     text-decoration: none;
     font-weight: 650;
@@ -111,7 +115,11 @@ nav p {
 }
 
 
-
+#home {
+    background-image: url(../img/1152253.jpg);
+    background-size: cover;
+    opacity: 100%;
+}
 
 .casa {
     padding-top: 130px;
@@ -135,13 +143,18 @@ nav p {
 }
 
 .casa span {
-    font-size: 35px;
-    font-weight: 300;
-    color: #C4008F;
+    font-size: 40px;
+    font-weight: 400;
+    color: #4ba5e6;
     gap: 30px;
 }
 
+.casa span .animate {
+    font-size: 35px;
+}
+
 .casa p.segundo {
+    color: #e6e6e6;
     padding-top: 20px;
     font-size: 17px;
     margin: auto;
@@ -150,7 +163,8 @@ nav p {
 
 .casa button {
     margin-top: 15px;
-    background-color: #830060;
+    margin-bottom: 80px;
+    background-color: #5A0079;
     color: #e6e6e6;
     font-weight: 600;
     font-size: 17px;
@@ -180,7 +194,7 @@ nav p {
     padding-bottom: 25px;
     font-weight: 300;
     font-size: 30px;
-    color: #5A9ECC;
+    color: #4ba5e6;
     text-align: center;
 }
 
@@ -239,7 +253,7 @@ nav p {
 }
 
 #portofolio h2 {
-    color: #5A9ECC;
+    color: #4ba5e6;
     font-weight: 300;
     font-size: 30px;
     text-align: center;
@@ -314,7 +328,7 @@ nav p {
     padding-bottom: 70px;
     font-weight: 300;
     font-size: 30px;
-    color: #5a9ecc;
+    color: #4ba5e6;
 }
 
 #serviços {
@@ -356,14 +370,20 @@ nav p {
 }
 
 #suporte h4 {
-    color: #e6e6e6;
-    font-size: 20px;
+    color: #4ba5e6;
+    font-size: 23px;
     padding-bottom: 15px
 }
 
 #suporte p {
     line-height: 30px;
     padding-bottom: 45px;
+    color: #e6e6e6;
+}
+
+#suporte p span {
+    color: #4ba5e6;
+    margin-right: 5px;
 }
 
 
@@ -371,6 +391,7 @@ nav p {
     padding: 30px 0px 20px 0px;
     text-align: center;
     font-size: 30px;
+    color: #4ba5e6;
 }
 
 .serviços  .serv .content-img {
@@ -408,7 +429,6 @@ nav p {
 
 .contacto {
     margin: auto;
-    background-color: #0C141A;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -429,7 +449,7 @@ nav p {
     padding-bottom: 20px;
     font-weight: 300;
     font-size: 25px;
-    color: #5a9ecc;
+    color: #4ba5e6;
 }
 
 
@@ -488,7 +508,7 @@ nav p {
 /*rodape------------------------------------------*/
 
 footer {
-    background-color: #121F29;
+    background-color: #0E1820;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -501,7 +521,7 @@ footer .pages {
 footer .pages menu h3 {
     font-weight: 300;
     font-size: 25px;
-    color: #e6e6e6;
+    color: #4ba5e6;
     padding-bottom: 20px;
 }
 
@@ -523,7 +543,7 @@ footer .pages menu a:hover {
 footer .content-number h3 {
     font-weight: 300;
     font-size: 25px;
-    color: #e6e6e6;
+    color: #4ba5e6;
     padding-bottom: 25px;
 }
 
@@ -531,7 +551,7 @@ footer .content-number p {
     padding-bottom: 10px;
     margin-bottom: 5px;
     font-size: 17px;
-    color: #8dd1ff;
+    color: #e6e6e6;
 }
 
 footer .content-number {
@@ -542,7 +562,7 @@ footer .content-number {
 footer .social h3 {
     font-weight: 300;
     font-size: 25px;
-    color: #e6e6e6;
+    color: #4ba5e6;
     padding-bottom: 20px;
 }
 

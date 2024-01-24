@@ -23,11 +23,25 @@ function formatTime(time) {
 function myMenuFunction() {
   var i = document.getElementById("navMenu");
   if(i.className === "nav-menu") {
-      i.className += " responsive";
-  } else {
-      i.className = "nav-menu";
+    return i.className += " responsive";
+  }  else {
+      return i.className = "nav-menu";
   }
- }
+ 
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  new TypeIt(".animate", {
+    speed: 100,
+    loop: true
+  })
+  .type("Frontend Nativo", {delay: 250})
+  .delete(15)
+  .type("Backend Inicial", {delay: 250})
+  .delete(15)
+  .type("e Analista de Dados")
+  .go()
+} )
 
 
 

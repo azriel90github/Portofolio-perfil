@@ -11,17 +11,12 @@
         width: 100%;
     }
 
-    nav p {
-        font-size: 25px;
-        color: #8EC4E9;
-    }
-
     .nav-menu.responsive{
-        top: 80px;
+        top: 70px;
     }
     .nav-menu{
         position: absolute;
-        top: -600px;
+        top: -400px;
         display: flex;
         justify-content: center;
         width: 100%;
@@ -66,7 +61,12 @@
     }
     
     .casa span {
+        width: 100%;
         font-size: 35px;
+        color: #4ba5e6;
+    }
+    .casa span .animate {
+        font-size: 37px;
     }
     
     .casa p.segundo {
@@ -78,7 +78,7 @@
 
     .sobre h2 {
         width: 100%;
-        padding-top: 70px;
+        padding-top: 0px;
         font-size: 25px;
     }
 
