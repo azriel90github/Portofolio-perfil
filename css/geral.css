@@ -131,7 +131,16 @@ nav p {
     border-radius: 50%;
     margin-bottom: 20px;
     box-shadow: 1px 1px 20px #000F70;
+    border-radius: 50%;
+    position: relative;
+    animation: mymove 3s infinite;
 }
+@keyframes mymove {
+    0%   {top: 0px;}
+    25%  {top: 25px;}
+    100% {top: 0px;}
+}
+
 
 
 .casa p.primeiro {
@@ -210,6 +219,7 @@ nav p {
     color: #4ba5e6;
     text-align: center;
 }
+
 
 .trilha {
     display: grid;

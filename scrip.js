@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
     speed: 100,
     loop: true
   })
-  .type("Design web (UI/UX)", {delay: 500})
+  .type("Design Web (UI/UX)", {delay: 500})
   .delete(18)
   .type("Frontend Nativo", {delay: 250})
   .delete(15)
