@@ -46,6 +46,21 @@ document.addEventListener('DOMContentLoaded', () => {
 } )
 
 
+document.addEventListener('DOMContentLoaded', () => {
+  new TypeIt(".animacao", {
+    speed: 100,
+    loop: true
+  })
+  .type("Olá gostou da minha apresentação?", {delay: 500})
+  .delete(33)
+  .type("Espero que continue mantendo contacto ok!", {delay: 250})
+  .delete(41)
+  .type("Foi um prazer receber você viu?", {delay: 250})
+  .delete(31)
+  .type("Até mais! Se cuide viu...")
+  .go()
+} )
+
 
 
 

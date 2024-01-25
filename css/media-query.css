@@ -48,15 +48,12 @@
     }
     .nav-menu-btn i{
         font-size: 25px;
-        color: #fff;
+        color: #0148BA;
         padding: 10px;
-        background: rgba(255, 255, 255, 0.2);
+
         border-radius: 50%;
         cursor: pointer;
         transition: .3s;
-    }
-    .nav-menu-btn i:hover{
-        background: rgba(255, 255, 255, 0.15);
     }
 
     .casa {
@@ -133,9 +130,16 @@
     .contacto {
         padding-bottom: 100px;
     }
+
+    .animacao {
+        width: 85%;
+        font-size: 28px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
     
     .send-footer {
-        width: 300px;
+        width: 330px;
     }
 
     footer {
