@@ -4,6 +4,21 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
+    .hora-botao {
+        display: grid;
+        padding-bottom: 25px;
+    }
+
+    #home {
+        background-position: center left;
+    }
+
+    .hora-botao .hora {
+        padding-top: 30px;
+        text-align: left;
+        padding-left: 10px;
+    }
+
     header {
         width: 100%;
     }
@@ -47,7 +62,7 @@
     .casa {
   
         text-align: left;
-        margin-left: 30px;
+        padding-left: 35px;
         
     }
     .casa img {
@@ -68,6 +83,7 @@
     .casa span .animate {
         font-size: 37px;
     }
+
     
     .casa p.segundo {
         width: 100%;
@@ -78,13 +94,14 @@
 
     .sobre h2 {
         width: 100%;
-        padding-top: 0px;
+        padding-top: 50px;
         font-size: 25px;
     }
 
     .trilha {
         width: 80%;
     }
+
 
     .portofolio {
         width: 80%;

@@ -50,10 +50,7 @@ nav {
     z-index: 100;
 }
 
-nav span {
-    font-size: 35px;
-    color: #4ba5e6;
-}
+
 
 nav a:hover {
     color: #e6e6e6;
@@ -116,12 +113,14 @@ nav p {
 
 
 #home {
-    background-image: url(../img/1152253.jpg);
+    background-image: url(../img/1152253-gimp.jpg);
     background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 .casa {
-    padding-top: 130px;
+    padding-top: 115px;
     margin: auto;
     text-align: center;
 
@@ -131,7 +130,7 @@ nav p {
     width: 250px;
     border-radius: 50%;
     margin-bottom: 20px;
-    
+    box-shadow: 1px 1px 20px #000F70;
 }
 
 
@@ -160,9 +159,24 @@ nav p {
     width: 410px;
 }
 
-.casa button {
-    margin-top: 15px;
-    margin-bottom: 80px;
+.hora-botao {
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 80px;
+    padding-top: 30px;
+}
+
+.hora-botao .hora {
+    margin: auto;
+}
+
+
+
+.hora-botao button {
+    margin: auto;
     background-color: #5A0079;
     color: #e6e6e6;
     font-weight: 600;
@@ -206,6 +220,7 @@ nav p {
     background-color: #1D3241;
     width: 60%;
     padding: 7px;
+    box-shadow: 1px 1px 20px #000F70;
 }
 
 .trilha h3 {
@@ -248,7 +263,7 @@ nav p {
 
 #portofolio {
     padding-top: 10px;
-    gap: 20px;
+    gap: 30px;
 }
 
 #portofolio h2 {
@@ -261,6 +276,7 @@ nav p {
 }
 
 .portofolio {
+    box-shadow: 1px 1px 20px #000F70;
     border-radius: 30px;
     margin: auto;
     width: 60%;
@@ -340,6 +356,7 @@ nav p {
 }
 
 .serviços {
+    box-shadow: 1px 1px 20px #5A0079;
     border-radius: 30px;
     display: flex;
     background-color: #1D3241;
