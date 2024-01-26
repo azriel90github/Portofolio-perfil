@@ -45,18 +45,19 @@ nav {
     width: 100%;
     padding: 12px;
     line-height: 50px;
-    background-color: #01111E;
+    background-color: #01111ebb;
     /*background: linear-gradient(rgba(39,39,39, 0.6), transparent);*/
     z-index: 100;
+    box-shadow: 1px 1px 50px #000F70;
 }
 
 
 
 nav a:hover {
+    padding: 10px;
     color: #e6e6e6;
     background-color: #830060;
     box-shadow: 1px 1px 30px #830060;
-    padding: 10px;
     border-radius: 10px;
     transition: .2s;
 }
@@ -207,6 +208,10 @@ nav p {
     transition: .4s;
 }
 
+.casa button:active {
+    background: #C4008F;
+}
+
 
 /*Sobre------------------------*/
 
@@ -235,7 +240,7 @@ nav p {
     background-color: #1D3241;
     width: 60%;
     padding: 7px;
-    box-shadow: 1px 1px 20px #000F70;
+    box-shadow: 1px 1px 30px #5A0079;
 }
 
 .trilha h3 {
@@ -303,9 +308,16 @@ nav p {
     justify-content: space-between;
 }
 
-.port-img {
+.port-img-crud {
     border-radius: 20px;
-    background-image: url(../img/Captura\ de\ ecrã\ 2024-01-19\ 171939.png);
+    background-image: url(../img/crud.png);
+    background-size: cover;
+    width: 500px;
+}
+
+.port-img-blog {
+    border-radius: 20px;
+    background-image: url(../img/blog.png);
     background-size: cover;
     width: 500px;
 }
@@ -344,6 +356,7 @@ nav p {
     box-shadow: 1px 1px 30px #C4008F;
     transition-duration: .3s;
 }
+
 
 .port p a i {
     color: #e6e6e6;
@@ -563,6 +576,7 @@ nav p {
 /*rodape------------------------------------------*/
 
 footer {
+    box-shadow: 1px 1px 50px #000F70;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -642,9 +656,10 @@ footer .social a i    {
 }
 
 footer .social a i:hover {
-    border: 1px solid #e6e6e6;
-    color: #e6e6e6;
-    transition: .3s;
+    box-shadow: 1px 1px 30px #5A0079;
+    border: 1px solid #5A0079;
+    color: #5A0079;
+    transition: .1s;
 }
 
 footer  button {
@@ -660,6 +675,7 @@ footer  button {
     border-radius: 25px;
     border: none;
 }
+
 
 footer  button:hover {
     background-color: #C4008F;

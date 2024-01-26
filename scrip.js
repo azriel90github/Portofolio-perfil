@@ -26,6 +26,7 @@ function myMenuFunction() {
     return i.className += " responsive"
   }  else {
       return i.className = "nav-menu"
+
   }
  
 }

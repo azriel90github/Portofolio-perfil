@@ -45,6 +45,7 @@
     }
     .nav-menu-btn{
         display: block;
+        font-size: 30px;
     }
     .nav-menu-btn i{
         font-size: 25px;
@@ -173,7 +174,7 @@
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 360px) {
 }
 
 
