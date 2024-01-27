@@ -498,6 +498,10 @@ nav p {
     padding-bottom: 100px;
 }
 
+.contacto a {
+    text-decoration: none;
+}
+
 .contacto h1 {
     color: #60A4D1;
     padding-bottom: 15px;
@@ -681,6 +685,11 @@ footer  button {
     padding: 10px;
     border-radius: 25px;
     border: none;
+}
+
+footer  button a {
+    text-decoration: none;
+    color: #e6e6e6;
 }
 
 
