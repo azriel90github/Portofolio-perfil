@@ -111,6 +111,47 @@
         width: 85%;
     }
 
+    .port {
+        width: 100%;
+    }
+
+    .port-img-ui-ix {
+        display: none;
+    }
+
+    .port-img-front {
+        display: none;
+    }
+
+    .port-img-back {
+        display: none;
+    }
+
+    .port-img-dashboard {
+        display: none;
+    }
+
+    .ui-ux {
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .front {
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .back {
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .dashboard {
+        background-position: center center;
+        background-size: cover;
+    }
+
+
     #serviços {
         grid-template-columns: 350px;
     }

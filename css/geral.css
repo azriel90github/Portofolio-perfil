@@ -117,7 +117,7 @@ nav p {
 
 
 #home {
-    background-image: url(../img/1152253-gimp.jpg);
+    background-image: url(../img/banner-perfil.jpg);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -283,7 +283,6 @@ nav p {
 
 #portofolio {
     padding-top: 10px;
-    gap: 30px;
 }
 
 #portofolio h2 {
@@ -296,10 +295,12 @@ nav p {
 }
 
 .portofolio {
+    box-shadow: 1px 1px 20px #5A0079;
     border-radius: 30px;
+    padding: 8px;
     margin: auto;
     width: 60%;
-    padding: 8px;
+    margin-bottom: 20px;
     background-color: #121F29;
 }
 
@@ -308,16 +309,24 @@ nav p {
     justify-content: space-between;
 }
 
-.port-img-crud {
+.port-img-ux {
     border-radius: 20px;
-    background-image: url(../img/crud.png);
     background-size: cover;
     width: 500px;
 }
 
-.port-img-blog {
+.port-img-front {
     border-radius: 20px;
-    background-image: url(../img/blog.png);
+    background-size: cover;
+    width: 500px;
+}
+.port-img-back {
+    border-radius: 20px;
+    background-size: cover;
+    width: 500px;
+}
+.port-img-dashboard {
+    border-radius: 20px;
     background-size: cover;
     width: 500px;
 }
