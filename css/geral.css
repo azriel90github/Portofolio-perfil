@@ -274,11 +274,6 @@ nav p {
 }
 
 
-
-
-
-
-
 /*Portofolio------------------------*/
 
 #portofolio {
@@ -388,7 +383,6 @@ nav p {
     display: grid;
     justify-content: center;
     grid-template-columns: 350px 350px;
-    padding: 0px;
     gap: 20px;
     
 }
@@ -487,8 +481,6 @@ nav p {
     width: 60px;
 }
 
-
-/*Footer------------------------*/
 
 .contacto {
     margin: auto;

@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
   .delete(41)
   .type("Foi um prazer receber você viu?", {delay: 250})
   .delete(31)
-  .type("Até mais! Se cuide viu...")
+  .type("Até mais &#x1F596;! Se cuide viu...")
   .go()
 } )
 

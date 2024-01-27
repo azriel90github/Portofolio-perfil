@@ -156,6 +156,11 @@
         grid-template-columns: 350px;
     }
 
+    .serviços {
+        margin: auto;
+        width: 96%;
+    }
+
     
     
 
@@ -165,16 +170,19 @@
 
     .contacto {
         padding-top: 50px;
-        width: 100%;
-        
     }
+
 
     .contacto {
         padding-bottom: 100px;
     }
 
+    #contacto h2 {
+        font-size: 25px;
+    }
+
     .animacao {
-        width: 85%;
+        width: 80%;
         font-size: 28px;
         padding-left: 30px;
         padding-right: 30px;
@@ -215,7 +223,124 @@
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 360px) {
+@media only screen and (max-width: 360px) {
+
+    .nav-menu{
+        height: 42vh;
+    }
+    .casa p.segundo {
+        width: 97%;
+        font-size: 15px;
+    }
+
+    .casa {
+        padding-left: 25px;
+        
+    }
+
+    .casa span .animate {
+        font-size: 35px;
+    }
+
+    .sobre h2 {
+        font-size: 20px;
+    }
+
+    .portofolio {
+        width: 77%;
+    }
+
+    .serviços {
+        margin: auto;
+        width: 82%;
+    }
+
+    #contacto h2 {
+        font-size: 22px;
+    }
+
+    .send-footer {
+        width: 295px;
+    }
+
+    .animacao {
+        width: 88%;
+        font-size: 23px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+    footer .content-number p {
+        font-size: 15px;
+    }
+
+
+
+
+
+}
+
+@media only screen and (max-width: 414px) {
+    .nav-menu{
+        height: 37vh;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+
+    .nav-menu{
+        height: 42vh;
+    }
+
+    .casa p.segundo {
+        width: 97%;
+        font-size: 15px;
+    }
+
+    .casa {
+        padding-left: 25px;
+        
+    }
+
+    .casa span .animate {
+        font-size: 35px;
+    }
+
+    .sobre h2 {
+        font-size: 20px;
+    }
+
+    .portofolio {
+        width: 77%;
+    }
+
+    .serviços {
+        margin: auto;
+        width: 82%;
+    }
+
+    #contacto h2 {
+        font-size: 22px;
+    }
+
+    .send-footer {
+        width: 295px;
+    }
+
+    .animacao {
+        width: 88%;
+        font-size: 23px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    footer .content-number p {
+        font-size: 15px;
+    }
+
+
+
 }
 
 
