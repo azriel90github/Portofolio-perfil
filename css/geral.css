@@ -305,12 +305,16 @@ nav p {
 }
 
 .port-img-ux {
+    background-image: url(../img/fundo-design.png);
+    background-position: center top;
     border-radius: 20px;
     background-size: cover;
     width: 500px;
 }
 
 .port-img-front {
+    background-image: url(../img/fundo-port.png);
+    background-position: center top;
     border-radius: 20px;
     background-size: cover;
     width: 500px;
@@ -321,6 +325,8 @@ nav p {
     width: 500px;
 }
 .port-img-dashboard {
+    background-image: url(../img/fundo-dashboard.png);
+    background-position: center top;
     border-radius: 20px;
     background-size: cover;
     width: 500px;
