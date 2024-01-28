@@ -183,13 +183,14 @@ nav p {
 }
 
 .hora-botao .hora {
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     margin: auto;
 }
 
 
 
-.hora-botao button {
+.hora-botao a   {
+    text-decoration: none;
     margin: auto;
     background-color: #5A0079;
     box-shadow: 1px 1px 30px #5A0079;
@@ -203,7 +204,8 @@ nav p {
     border: none;
 }
 
-.casa button:hover {
+
+.casa a:hover {
     background-color: #C4008F;
     box-shadow: 1px 1px 30px #C4008F;
     transition: .4s;
