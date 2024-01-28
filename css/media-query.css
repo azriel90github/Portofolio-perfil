@@ -192,6 +192,10 @@
         width: 330px;
     }
 
+    .contacto .textarea {
+        width: 330px;
+    }
+
     footer {
         width: 100%;
         display: grid;
@@ -263,6 +267,10 @@
         width: 295px;
     }
 
+    .contacto .textarea {
+        width: 295px;
+    }
+
     .animacao {
         width: 88%;
         font-size: 23px;
@@ -325,6 +333,10 @@
     }
 
     .send-footer {
+        width: 295px;
+    }
+
+    .contacto .textarea {
         width: 295px;
     }
 

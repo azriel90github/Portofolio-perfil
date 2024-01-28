@@ -537,6 +537,20 @@ nav p {
     margin: 4px;
 }
 
+.contacto .textarea {
+    background-color: #0c141a;
+    border: 2px solid #1D3241;
+    color: #60A4D1;
+    height: 70px;
+    width: 500px;
+    padding: 5px;
+    font-size: 17px;
+    border-radius: 8px;
+    margin: 4px;
+    margin-bottom: 30px;
+}
+
+
 
 
 .send-botao {
