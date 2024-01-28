@@ -161,7 +161,7 @@ nav p {
 }
 
 .casa span .animate {
-    font-size: 30px;
+    font-size: 43px;
 }
 
 .casa p.segundo {
@@ -183,6 +183,7 @@ nav p {
 }
 
 .hora-botao .hora {
+    padding-bottom: 30px;
     margin: auto;
 }
 
