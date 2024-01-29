@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contrato Digital</title>
+    <link rel="stylesheet" href="css/geral.css">
+    <link rel="stylesheet" href="css/media-query.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+    <style>
+        .header {
+            display: flex;
+        }
+
+        .dados-pessoais {
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+        }
+        .coluna1 {
+            display: flex;
+        }
+
+        .coluna2 {
+            display: flex;
+        }
+    </style>
+<body>
+    <div class="header">
+        <h1>Contrato Digital</h1>
+        <a href="index.html">Voltar</a>
+    </div>
+    <div class="dados-pessoais">
+        <div class="coluna1">
+            <label for="name">Nome:</label><br>
+            <input type="text" name="name" id="name">
+            <label for="email">Email:</label><br>
+            <input type="email" name="email" id="email">
+        </div>
+
+        <div class="coluna2">
+            <label for="namber">Número:</label><br>
+            <input type="number" name="namber" id="namber">
+            <label for="endereco">Endereço</label><br>
+            <input type="text" name="endereco" id="endereco">
+        </div>
+    </div>
+</body>
+</html>
