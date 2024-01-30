@@ -120,33 +120,40 @@
     }
 
     .port-img-front {
+        
         display: none;
     }
 
     .port-img-back {
+        
         display: none;
     }
 
     .port-img-dashboard {
+        
         display: none;
     }
 
     .ui-ux {
+        background-image: url(../img/design-mobile.png);
         background-position: center center;
         background-size: cover;
     }
 
     .front {
+        background-image: url(../img/portofolio-mobile.png);
         background-position: center center;
         background-size: cover;
     }
 
     .back {
+        background-image: url(../img/formulario-mobile.png);
         background-position: center center;
         background-size: cover;
     }
 
     .dashboard {
+        background-image: url(../img/dashboard-mobile.png);
         background-position: center center;
         background-size: cover;
     }
