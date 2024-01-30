@@ -233,9 +233,9 @@
         <h2>Deixe sua mensagem</h2>
         <form action="https://api.staticforms.xyz/submit" method="post">
 
-            <input class="send-footer"  type="text" name="name" placeholder="Nome" autocomplete="off"><br>
-            <input class="send-footer" type="email" name="email"placeholder="Email" autocomplete="off"><br>
-            <textarea class="textarea" placeholder="Deixe sua mensagem" name="message" cols="30" rows="10"></textarea><br>
+            <input class="send-footer" required size="20" maxlength="30" type="text" name="name" placeholder="Nome" autocomplete="on"><br>
+            <input class="send-footer" required type="email" name="email"placeholder="Email" autocomplete="on"><br>
+            <textarea class="textarea" required placeholder="Deixe sua mensagem" name="message" cols="30" rows="10"></textarea><br>
             <button class="send-botao" type="submit">Enviar</button> 
             
             <input type="hidden" name="accessKey" value="b634a69c-0cd4-4aae-ae56-74be010a234b">
