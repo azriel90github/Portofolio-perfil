@@ -1,3 +1,8 @@
+
+* {
+    color: #0d98fc;
+}
+
 .header {
     position: fixed;
     width: 100%;
@@ -14,15 +19,27 @@
 .header h1 {
     color: #0d98fc;
 }
+
+.dados-pessoais h2 {
+    margin-left: 10px;
+    padding-bottom: 30px;
+}
  
 .dados-pessoais {
     width: 100%;
-    padding-top: 120px;
+    padding-top: 170px;
     padding-bottom: 30px;
     display: grid;
     justify-content: center;
     margin: auto;
 }
+
+label {
+    color: white;
+    margin-left: 15px;
+}
+
+
 .coluna1 {
     display: flex;
     align-items: center;
@@ -38,6 +55,43 @@
     justify-content: center;
     margin: auto;
 }
+.dados-demograficos h2 {
+    margin-left: 10px;
+    padding-bottom: 30px;
+}
+
+
+
+
+.dados-empresa {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: grid;
+    justify-content: center;
+    margin: auto;
+}
+.dados-empresa h2 {
+    margin-left: 10px;
+    padding-bottom: 30px;
+}
+
+
+
+
+.pacote-contrato {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: grid;
+    justify-content: center;
+    margin: auto;
+}
+.pacote-contrato h2 {
+    margin-left: 10px;
+    padding-bottom: 30px;
+}
+
 
 .coluna2 {
     display: flex;
@@ -93,3 +147,17 @@
     box-shadow: 1px 1px 30px #C4008F;
     transition: .4s;
 } 
+
+.send-footer {
+    border-radius: 13px;
+    height: 35px;
+    margin: 10px;
+}
+
+::-webkit-input-placeholder {
+    padding-left: 3px;
+    color: rgba(255, 255, 255, 0.452);
+}
+    
+
+    
