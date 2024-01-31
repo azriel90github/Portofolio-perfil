@@ -17,10 +17,12 @@
 }
 
 .header h1 {
+    font-weight: 300;
     color: #0d98fc;
 }
 
 .dados-pessoais h2 {
+    font-weight: 300;
     margin-left: 10px;
     padding-bottom: 30px;
 }
@@ -56,6 +58,7 @@ label {
     margin: auto;
 }
 .dados-demograficos h2 {
+    font-weight: 300;
     margin-left: 10px;
     padding-bottom: 30px;
 }
@@ -72,6 +75,7 @@ label {
     margin: auto;
 }
 .dados-empresa h2 {
+    font-weight: 300;
     margin-left: 10px;
     padding-bottom: 30px;
 }
@@ -88,6 +92,7 @@ label {
     margin: auto;
 }
 .pacote-contrato h2 {
+    font-weight: 300;
     margin-left: 10px;
     padding-bottom: 30px;
 }
