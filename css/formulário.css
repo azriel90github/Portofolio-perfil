@@ -1,0 +1,95 @@
+.header {
+    position: fixed;
+    width: 100%;
+    margin: auto;
+    padding: 7px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #01111E;
+    box-shadow: 1px 1px 50px #000F70;
+}
+
+.header h1 {
+    color: #0d98fc;
+}
+ 
+.dados-pessoais {
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 30px;
+    display: grid;
+    justify-content: center;
+    margin: auto;
+}
+.coluna1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.dados-demograficos {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: grid;
+    justify-content: center;
+    margin: auto;
+}
+
+.coluna2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.coluna3 {
+    display: flex;
+}
+
+.coluna4 {
+    display: flex;
+}
+
+.port-nav {
+    margin: 10px;
+    text-decoration: none;
+    width: 150px;
+}
+
+
+.botoes-form {
+    display: flex;
+    justify-content:space-evenly;
+    padding-bottom: 100px;
+}
+
+
+.botoes-form button {
+    box-shadow: 1px 1px 30px #5A0079;
+    margin: 15px;
+    background-color: #5A0079;
+    color: #e6e6e6;
+    font-weight: 600;
+    font-size: 17px;
+    width: 250px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+
+}
+
+.botoes-form button {
+    text-decoration: none;
+    color: #e6e6e6;
+}
+
+.botoes-form button:hover {
+    background-color: #C4008F;
+    box-shadow: 1px 1px 30px #C4008F;
+    transition: .4s;
+} 

@@ -86,7 +86,7 @@ nav a {
 
 nav p {
     font-size: 30px;
-    color: #4ba5e6;
+    color: #0d98fc;
 }
 .nav-logo p{
     color: #efefef;
@@ -104,7 +104,7 @@ nav p {
 }
 
 .nav-menu ul li a {
-    color: #e6e6e6;
+    color: #9ed1f3;
 }
 .nav-menu ul li .link{
     text-decoration: none;
@@ -117,7 +117,7 @@ nav p {
 
 
 #home {
-    background-image: url(../img/banner-perfil.jpg);
+    background-image: url(../img/banner-perfil02.jpg);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -149,14 +149,14 @@ nav p {
 
 .casa p.primeiro {
     font-size: 43px;
-    color: #e6e6e6;
+    color: white;
     /*text-shadow: 0px 0px 3px #D946EF, 0 0 0px #D946EF, 0 0 10px #D946EF;*/
 }
 
 .casa span {
     font-size: 40px;
     font-weight: 400;
-    color: #4ba5e6;
+    color: #0d98fc;
     gap: 30px;
 }
 
@@ -165,7 +165,7 @@ nav p {
 }
 
 .casa p.segundo {
-    color: #e6e6e6;
+    color: #9ed1f3;
     padding-top: 20px;
     font-size: 17px;
     margin: auto;
@@ -194,7 +194,7 @@ nav p {
     margin: auto;
     background-color: #5A0079;
     box-shadow: 1px 1px 30px #5A0079;
-    color: #e6e6e6;
+    color: white;
     font-weight: 600;
     font-size: 17px;
     width: 250px;
@@ -229,7 +229,7 @@ nav p {
     padding-bottom: 25px;
     font-weight: 300;
     font-size: 30px;
-    color: #4ba5e6;
+    color: #0d98fc;
     text-align: center;
 }
 
@@ -240,21 +240,21 @@ nav p {
     justify-content: center;
     border-radius: 20px;
     margin: auto;
-    background-color: #1D3241;
+    background-color: #11181d7c;
     width: 60%;
     padding: 7px;
     box-shadow: 1px 1px 30px #5A0079;
 }
 
 .trilha h3 {
-    color: #e6e6e6;
+    color: #0d98fc;
     border-radius: 15px 15px 0px 0px;
     padding: 10px 20px;
     background-color: #0E1820;
 }
 
 .trilha p {
-    background-color: #121F29;
+    background-color: #11181d7c;
     padding: 20px;
 }
 
@@ -265,7 +265,7 @@ nav p {
     display: flex;
     justify-content: space-between;
     padding: 10px 20px;
-    color: #e6e6e6;
+    color: #0d98fc;
     font-size: 15px;
 }
 
@@ -283,7 +283,7 @@ nav p {
 }
 
 #portofolio h2 {
-    color: #4ba5e6;
+    color: #0d98fc;
     font-weight: 300;
     font-size: 30px;
     text-align: center;
@@ -292,13 +292,13 @@ nav p {
 }
 
 .portofolio {
-    box-shadow: 1px 1px 20px #5A0079;
+    box-shadow: 1px 1px 30px #5A0079;
     border-radius: 30px;
     padding: 8px;
     margin: auto;
     width: 60%;
     margin-bottom: 20px;
-    background-color: #121F29;
+    background-color: #11181d7c;
 }
 
 .port {
@@ -339,8 +339,7 @@ nav p {
     border-radius: 20px;
     display: grid;
     width: 300px;
-    padding: 50px;
-    background-color: #0E1820;
+    padding: 60px;
 
 }
 
@@ -355,7 +354,7 @@ nav p {
 .port p a {
     display: flex;
     text-decoration: none;
-    justify-content: space-between;
+    justify-content: center;
     padding: 10px;
     text-align: center;
     border-radius: 8px;
@@ -385,7 +384,7 @@ nav p {
     padding-bottom: 70px;
     font-weight: 300;
     font-size: 30px;
-    color: #4ba5e6;
+    color: #0d98fc;
 }
 
 #serviços {
@@ -397,22 +396,22 @@ nav p {
 }
 
 .serviços {
-    box-shadow: 1px 1px 20px #5A0079;
+    box-shadow: 1px 1px 25px #5A0079;
     border-radius: 30px;
     display: flex;
-    background-color: #1D3241;
+    background-color: #11181d7c;
     padding: 8px;
 }
 
 .serviços  .serv {
     width: 500px;
     border-radius: 20px;
-    background-color: #121F29;
     padding: 8px;
 }
 
 .serviços .serv h3 {
-    background-color: #0E1820;
+    background-color: #5A0079;
+    box-shadow: 1px 1px 30px #5A0079;
     color: #e6e6e6;
     text-align: center;
     font-size: 25px;
@@ -427,7 +426,7 @@ nav p {
 }
 
 #suporte h4 {
-    color: #4ba5e6;
+    color: #0d98fc;
     font-size: 23px;
     padding-bottom: 15px
 }
@@ -435,27 +434,27 @@ nav p {
 #suporte p {
     line-height: 30px;
     padding-bottom: 45px;
-    color: #e6e6e6;
+    color: #9ed1f3;
 }
 
 #suporte p span {
-    color: #4ba5e6;
+    color: #0d98fc;
     margin-right: 5px;
 }
 
 #suporte p del {
-    color: #e6e6e6;
+    color: #9ed1f3;
 }
 
 .serviços  .serv .content-preço {
     padding: 30px 0px 20px 0px;
     text-align: center;
     font-size: 30px;
-    color: #4ba5e6;
+    color: #0d98fc;
 }
 
 .serviços  .serv .content-preço del {
-    color: #4ba5e6;
+    color: #0d98fc;
 }
 
 .serviços  .serv .content-img {
@@ -522,7 +521,7 @@ nav p {
     padding-bottom: 20px;
     font-weight: 300;
     font-size: 25px;
-    color: #4ba5e6;
+    color: #0d98fc;
 }
 
 
@@ -534,9 +533,9 @@ nav p {
 }
 
 .send-footer {
-    background-color: #0c141a;
-    border: 2px solid #1D3241;
-    color: #60A4D1;
+    background-color: #0c141a7c;
+    border: 2px solid #0c1f2c;
+    color: #0d98fc;
     height: 30px;
     width: 500px;
     padding: 5px;
@@ -545,9 +544,11 @@ nav p {
     margin: 4px;
 }
 
+
+
 .contacto .textarea {
-    background-color: #0c141a;
-    border: 2px solid #1D3241;
+    background-color: #0c141a7c;
+    border: 2px solid #0c1f2c;
     color: #60A4D1;
     height: 70px;
     width: 500px;
@@ -596,7 +597,7 @@ nav p {
     text-align: center;
     font-size: 40px;
     font-weight: 400;
-    color: #4ba5e6;
+    color: #0d98fc;
     gap: 30px;
     padding-bottom: 100px;
 }
@@ -622,7 +623,7 @@ footer .pages {
 footer .pages menu h3 {
     font-weight: 300;
     font-size: 25px;
-    color: #4ba5e6;
+    color: #0d98fc;
     padding-bottom: 20px;
 }
 
@@ -644,7 +645,7 @@ footer .pages menu a:hover {
 footer .content-number h3 {
     font-weight: 300;
     font-size: 25px;
-    color: #4ba5e6;
+    color: #0d98fc;
     padding-bottom: 25px;
 }
 
@@ -664,7 +665,7 @@ footer .content-number {
 footer .social h3 {
     font-weight: 300;
     font-size: 25px;
-    color: #4ba5e6;
+    color: #0d98fc;
     padding-bottom: 20px;
 }
 
