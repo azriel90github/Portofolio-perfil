@@ -7,7 +7,7 @@
     position: fixed;
     width: 100%;
     margin: auto;
-    padding: 7px;
+    padding: 10px;
     text-align: center;
     display: flex;
     align-items: center;
@@ -29,7 +29,7 @@
  
 .dados-pessoais {
     width: 100%;
-    padding-top: 170px;
+    padding-top: 160px;
     padding-bottom: 30px;
     display: grid;
     justify-content: center;
@@ -126,6 +126,21 @@ label {
     padding-bottom: 100px;
 }
 
+.botoes-form input {
+    box-shadow: 1px 1px 30px #5A0079;
+    margin: 15px;
+    background-color: #5A0079;
+    color: #e6e6e6;
+    font-weight: 600;
+    font-size: 17px;
+    width: 250px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+
+}
+
 
 .botoes-form button {
     box-shadow: 1px 1px 30px #5A0079;
@@ -153,6 +168,12 @@ label {
     transition: .4s;
 } 
 
+.botoes-form input:hover {
+    background-color: #C4008F;
+    box-shadow: 1px 1px 30px #C4008F;
+    transition: .4s;
+} 
+
 .send-footer {
     border-radius: 13px;
     height: 35px;
@@ -160,7 +181,8 @@ label {
 }
 
 ::-webkit-input-placeholder {
-    padding-left: 3px;
+    margin-left: 5px;
+    padding-left: 5px;
     color: rgba(255, 255, 255, 0.452);
 }
     

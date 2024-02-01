@@ -19,7 +19,7 @@
         <div class="coluna1">
             <div style="display: grid;">
                 <label for="name">Nome : </label>
-                <input class="send-footer" type="text" name="name" id="name" placeholder="Seu nome" autocomplete="off" required>
+                <input class="send-footer" type="text" name="name" id="name" placeholder="Seu nome" autocomplete="off" required minlength="30" maxlength="30">
             </div>
             <div>
                 <label for="email">Email : </label><br>
@@ -30,11 +30,11 @@
         <div class="coluna2">
             <div style="display: grid;">
                 <label for="namber">Número : </label>
-                <input class="send-footer" type="number" name="namber" id="namber" placeholder="Seu número" autocomplete="off" required>
+                <input class="send-footer" type="number" name="namber" id="namber" placeholder="Seu número" autocomplete="off" required minlength="9" maxlength="9">
             </div>
             <div>
                 <label for="endereco">Endereço : </label><br>
-                <input class="send-footer" type="text" name="endereco" id="endereco" placeholder="Sua morada atual">
+                <input class="send-footer" type="text" name="endereco" id="endereco" placeholder="Sua morada atual" required minlength="20" maxlength="20">
             </div>
         </div>
     </div>  
@@ -117,7 +117,7 @@
     </div>  
 
     <div class="botoes-form">
-        <button>Finalizar</button>
+        <input type="submit" value="Finalizar">
         <button>Download Contrato</button>
     </div>
 

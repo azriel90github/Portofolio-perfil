@@ -533,9 +533,10 @@ nav p {
 }
 
 .send-footer {
+    box-shadow: 1px 0px 15px #5A0079;
     background-color: #0c141a7c;
     border: 2px solid #0c1f2c;
-    color: #0d98fc;
+    color: #60A4D1;
     height: 30px;
     width: 500px;
     padding: 5px;
@@ -547,6 +548,7 @@ nav p {
 
 
 .contacto .textarea {
+    box-shadow: 1px 1px 20px #5A0079;
     background-color: #0c141a7c;
     border: 2px solid #0c1f2c;
     color: #60A4D1;
@@ -726,5 +728,11 @@ footer  button:hover {
     text-align: center;
     padding: 20px;
     color: #e6e6e6;
+}
+
+::-webkit-input-placeholder {
+    margin-left: 5px;
+    padding-left: 5px;
+    color: rgba(255, 255, 255, 0.452);
 }
 
