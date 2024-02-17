@@ -1,18 +1,25 @@
 @charset "UTF-8";
 @font-face {
-    font-family: Inter;
-    src: url(../font/Inter/Inter-VariableFont_slnt\,wght.ttf);
+    font-family: Mont;
+    src: url(../font/Rethink_Sans/RethinkSans-VariableFont_wght.ttf);
 }
 
 @font-face {
-    font-family: Rethink;
-    src: url(../font/Rethink_Sans/RethinkSans-VariableFont_wght.ttf);
+    font-family: Fredoka;
+    src: url(../font/Fredoka/Fredoka-VariableFont_wdth\,wght.ttf);
 }
+
+@font-face {
+    font-family: Anta;
+    src: url(../font/Anta/Anta-Regular.ttf);
+}
+
 
 * {
     margin: 0px;
     padding: 0px;
-    font-family: Rethink;
+    font-weight: 300;
+    font-family: Mont;
     color: #9ed1f3;
 }
 
@@ -43,7 +50,7 @@ nav {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    padding: 12px;
+    padding: 14px;
     line-height: 50px;
     background-color: #01111ebb;
     /*background: linear-gradient(rgba(39,39,39, 0.6), transparent);*/
@@ -55,10 +62,10 @@ nav {
 
 nav a:hover {
     padding: 10px;
-    color: #e6e6e6;
-    background-color: #830060;
-    box-shadow: 1px 1px 30px #830060;
-    border-radius: 10px;
+    color: white;
+    background-color: #0c97fac9;
+    box-shadow: 1px 1px 30px #0C96FA;
+    border-radius: 11px;
     transition: .2s;
 }
 
@@ -66,15 +73,16 @@ nav a:hover {
 
 .port-nav {
     color: #e6e6e6;
-    background-color: #5A0079;
-    box-shadow: 1px 1px 30px #5A0079;
+    background-color: #0c97fac9;
+    box-shadow: 1px 1px 15px #0c97fac9;
     padding: 10px;
     border-radius: 10px;
 }
 
 .port-nav:hover {
-    background-color: #C4008F;
-    box-shadow: 1px 1px 30px #C4008F;
+    background-color: #0c97fac9;
+    box-shadow: 1px 1px 35px #0c97fac9;
+    color: white;
     transition: .4s;
 }
 
@@ -85,7 +93,15 @@ nav a {
 }
 
 nav p {
+    display: flex;
+    align-items: center;
     font-size: 30px;
+    color: #0d98fc;
+}
+
+nav p i {
+    font-size: 35px;
+    padding-left: 10px;
     color: #0d98fc;
 }
 .nav-logo p{
@@ -104,8 +120,13 @@ nav p {
 }
 
 .nav-menu ul li a {
-    color: #9ed1f3;
+    color: #0D98FC;
 }
+
+.nav-menu ul li a:hover {
+    color: white;
+}
+
 .nav-menu ul li .link{
     text-decoration: none;
     font-weight: 650;
@@ -117,7 +138,7 @@ nav p {
 
 
 #home {
-    background-image: url(../img/banner-perfil02.jpg);
+    /*background-image: url(../img/banner-perfil02.jpg);*/
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -134,7 +155,7 @@ nav p {
     width: 250px;
     border-radius: 50%;
     margin-bottom: 20px;
-    box-shadow: 1px 1px 20px #000F70;
+    box-shadow: 1px 1px 20px #0c97fa96;
     border-radius: 50%;
     position: relative;
     animation: mymove 3s infinite;
@@ -149,19 +170,25 @@ nav p {
 
 .casa p.primeiro {
     font-size: 43px;
+    font-family: Fredoka;
     color: white;
     /*text-shadow: 0px 0px 3px #D946EF, 0 0 0px #D946EF, 0 0 10px #D946EF;*/
 }
 
+#home .dev {
+    font-family: Fredoka;
+}
+
 .casa span {
     font-size: 40px;
-    font-weight: 400;
+    font-weight: 300;
     color: #0d98fc;
     gap: 30px;
 }
 
 .casa span .animate {
     font-size: 40px;
+    font-family: Fredoka;
 }
 
 .casa p.segundo {
@@ -170,6 +197,12 @@ nav p {
     font-size: 17px;
     margin: auto;
     width: 410px;
+}
+
+
+.hora i {
+    font-size: 32px;
+    color: white;
 }
 
 .hora-botao {
@@ -192,23 +225,23 @@ nav p {
 .hora-botao a   {
     text-decoration: none;
     margin: auto;
-    background-color: #5A0079;
-    box-shadow: 1px 1px 30px #5A0079;
+    background-color: #0c97fac9;
+    box-shadow: 1px 1px 15px #0c97fac9;
     color: white;
-    font-weight: 600;
+    font-weight: 350;
     font-size: 17px;
     width: 250px;
     cursor: pointer;
     padding: 10px;
-    border-radius: 25px;
+    border-radius: 10px;
     border: none;
 }
 
 
 .casa a:hover {
-    background-color: #C4008F;
-    box-shadow: 1px 1px 30px #C4008F;
-    transition: .4s;
+    background-color: #0c97fac9;
+    box-shadow: 1px 1px 30px #0c97fac9;
+    transition: .3s;
 }
 
 .casa button:active {
@@ -221,7 +254,7 @@ nav p {
 
 .sobre {
     display: grid;
-    gap: 20px;
+    gap: 25px;
     justify-content: center;
 }
 .sobre h2 {
@@ -233,8 +266,14 @@ nav p {
     text-align: center;
 }
 
+.sobre h2 i {
+    color: #0d98fc;
+    padding-right: 10px;
+}
+
 
 .trilha {
+    gap: 8px;
     display: grid;
     align-items: center;
     justify-content: center;
@@ -243,7 +282,7 @@ nav p {
     background-color: #11181d7c;
     width: 60%;
     padding: 7px;
-    box-shadow: 1px 1px 30px #5A0079;
+    box-shadow: 1px 1px 15px #0c97fa96;
 }
 
 .trilha h3 {
@@ -391,12 +430,12 @@ nav p {
     display: grid;
     justify-content: center;
     grid-template-columns: 350px 350px;
-    gap: 20px;
+    gap: 30px;
     
 }
 
 .serviços {
-    box-shadow: 1px 1px 25px #5A0079;
+    box-shadow: 1px 1px 15px #0c97fa96;
     border-radius: 30px;
     display: flex;
     background-color: #11181d7c;
@@ -410,8 +449,8 @@ nav p {
 }
 
 .serviços .serv h3 {
-    background-color: #5A0079;
-    box-shadow: 1px 1px 30px #5A0079;
+    background-color: #0c97fa96;
+    box-shadow: 1px 1px 10px #0c97fa96;
     color: #e6e6e6;
     text-align: center;
     font-size: 25px;
@@ -472,8 +511,8 @@ nav p {
     align-items: center;  
     justify-content: center;
     font-size: 17px;
-    background-color: #5A0079;
-    box-shadow: 1px 1px 30px #5A0079;
+    background-color: #0c97fa96;
+    box-shadow: 1px 1px 10px #0c97fa96;
     color: #e6e6e6;
     border: none;
     padding: 10px;
@@ -485,8 +524,8 @@ nav p {
 }
 
 .serviços  .serv button:hover {
-    background-color: #C4008F;
-    box-shadow: 1px 1px 30px #C4008F;
+    background-color: #0c97fa96;
+    box-shadow: 1px 1px 30px #0c97fa96;
     transition-duration: .2s;
 }
 
@@ -533,9 +572,9 @@ nav p {
 }
 
 .send-footer {
-    box-shadow: 1px 0px 15px #5A0079;
+    box-shadow: 1px 0px 10px #0c97fa96;
     background-color: #0c141a7c;
-    border: 2px solid #0c1f2c;
+    border: none;
     color: #60A4D1;
     height: 30px;
     width: 500px;
@@ -548,9 +587,9 @@ nav p {
 
 
 .contacto .textarea {
-    box-shadow: 1px 1px 20px #5A0079;
+    box-shadow: 1px 1px 15px #0c97fa96;
     background-color: #0c141a7c;
-    border: 2px solid #0c1f2c;
+    border: none;
     color: #60A4D1;
     height: 70px;
     width: 500px;
@@ -569,21 +608,21 @@ nav p {
     align-items: center;
     justify-content: center;
     margin: auto;
-    background-color: #5A0079;
-    box-shadow: 1px 1px 30px #5A0079;
+    background-color: #0c97fa96;
+    box-shadow: 1px 1px 15px #0c97fa96;
     color: #e6e6e6;
-    font-weight: 600;
+    font-weight: 350;
     font-size: 17px;
     width: 250px;
     cursor: pointer;
     padding: 10px;
-    border-radius: 25px;
+    border-radius: 11px;
     border: none;
 }
 
 .send-botao:hover {
-    background-color: #C4008F;
-    box-shadow: 1px 1px 30px #C4008F;
+    background-color: #0c97fa96;
+    box-shadow: 1px 1px 30px #0c97fa96;
     transition: .4s;
 }
 
@@ -598,7 +637,7 @@ nav p {
     width: 100%;
     text-align: center;
     font-size: 40px;
-    font-weight: 400;
+    font-weight: 300;
     color: #0d98fc;
     gap: 30px;
     padding-bottom: 100px;
@@ -629,13 +668,24 @@ footer .pages menu h3 {
     padding-bottom: 20px;
 }
 
+footer .pages menu h3 i {
+    color: #0d98fc;
+    padding-right: 5px;
+    font-size: 30px;
+}
+
 footer .pages menu a {
     display: flex;
     width: 100%;
     text-decoration: none;
     margin-bottom: 10px;
     color: #8dd1ff;
+}
 
+footer .pages menu a i {
+    padding-right: 8px;
+    font-size: 20px;
+    color: #0d98fc;
 }
 
 footer .pages menu a:hover {
@@ -648,7 +698,13 @@ footer .content-number h3 {
     font-weight: 300;
     font-size: 25px;
     color: #0d98fc;
-    padding-bottom: 25px;
+    padding-bottom: 10px;
+}
+
+footer .content-number h3 i {
+    color: #0d98fc;
+    padding-right: 5px;
+    font-size: 30px;
 }
 
 footer .content-number p {
@@ -668,7 +724,13 @@ footer .social h3 {
     font-weight: 300;
     font-size: 25px;
     color: #0d98fc;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
+}
+
+footer .social h3 i {
+    color: #0d98fc;
+    padding-right: 5px;
+    font-size: 30px;
 }
 
 footer .social  {
@@ -697,18 +759,17 @@ footer .social a i:hover {
     color: #5A0079;
     transition: .1s;
 }
-
 footer  button {
     box-shadow: 1px 1px 30px #5A0079;
     margin-top: 15px;
     background-color: #5A0079;
     color: #e6e6e6;
-    font-weight: 600;
+    font-weight: 350;
     font-size: 17px;
     width: 250px;
     cursor: pointer;
-    padding: 10px;
-    border-radius: 25px;
+    padding: 11px;
+    border-radius: 10px;
     border: none;
 }
 
