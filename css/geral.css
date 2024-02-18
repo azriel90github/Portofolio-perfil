@@ -271,7 +271,7 @@ nav p i {
 
 .sobre h2 i {
     color: #0d98fc;
-    padding-right: 10px;
+    padding-right: 7px;
 }
 
 
@@ -319,17 +319,12 @@ nav p i {
 
 .trilha button i {
     font-size: 20px;
-    color: #e6e6e6;
+    color: #0C96FA;
 }
 
 
 /*Portofolio------------------------*/
 
-
-
-.container-portofolio {
-    
-}
 
 #portofolio h2 {
     color: #0d98fc;
@@ -340,87 +335,100 @@ nav p i {
     padding-bottom: 35px;
 }
 
-.portofolio {
-    box-shadow: 1px 1px 30px #5A0079;
-    border-radius: 30px;
-    padding: 8px;
-    margin: auto;
-    width: 60%;
-    margin-bottom: 20px;
-    background-color: #11181d7c;
+#portofolio h2 i {
+    padding-right: 7px;
+    color: #0C96FA;
 }
 
-.port {
+.portofolio-caixas {
+    gap: 30px;
+    display: grid;
+    justify-content: center;
+
+}
+
+.container-portofolio {
+    width: 840px;
+    display: flex;
+    border-radius: 20px;
+    
+    padding: 8px;
+    justify-content: center;
+    border: 2px solid #0c97fa96;
+    box-shadow: 1px 1px 10px #0c97fa96;
+
+}
+
+.container-portofolio:hover {
+    box-shadow: 1px 1px 35px #0c97fa96;
+    transition-duration: .3s;
+}
+
+.port-img {
+    border-radius: 15px;
+    width: 420px;
+    background-image: url(../img/formulario-mobile.png);
+    background-size: cover;
+    background-color: #0E1820;
+    padding: 30px;
+}
+
+.port-content {
+    border-radius: 15px;
+    width: 420px;
+    background-color: #08131D;
+    padding: 15px 15px 15px 35px;
+}
+
+.port-content h3 {
+    color: #0C96FA;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.port-content h3 i {
+    color: #0C96FA;
+}
+
+.port-content aside {
     display: flex;
     justify-content: space-between;
 }
 
-.port-img-ux {
-    background-image: url(../img/fundo-design.png);
-    background-position: center top;
-    border-radius: 20px;
-    background-size: cover;
-    width: 500px;
+aside {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
 }
 
-.port-img-front {
-    background-image: url(../img/fundo-port.png);
-    background-position: center top;
-    border-radius: 20px;
-    background-size: cover;
-    width: 500px;
-}
-.port-img-back {
-    background-image: url(../img/fundo-formulário.png);
-    border-radius: 20px;
-    background-size: cover;
-    width: 500px;
-}
-.port-img-dashboard {
-    background-image: url(../img/fundo-dashboard.png);
-    background-position: center top;
-    border-radius: 20px;
-    background-size: cover;
-    width: 500px;
+aside .botao {
+    border: 2px solid #0c97fa96;
+    border-radius: 13px;
 }
 
-.port p {
-    border-radius: 20px;
-    display: grid;
-    width: 300px;
-    padding: 60px;
-
-}
-
-.port p span {
-    color: #e6e6e6;
-    text-align: center;
-    width: 100%;
-    font-size: 25px;
-    padding-bottom: 30px;
-}
-
-.port p a {
-
+aside .botao button {
+    width: 200px;
+    color: white;
+    background-color: #0c97fa96;
+    box-shadow: 1px 1px 15px #0c97fa96;
     padding: 10px;
-    text-align: center;
-    border-radius: 8px;
-    background-color: #5A0079;
-    box-shadow: 1px 1px 30px #5A0079;
-    color: #e6e6e6;
+    cursor: pointer;
+    border: none;
+    border-radius: 11px;
 }
 
-.port p a:hover {
-    background-color: #c4008f;
-    box-shadow: 1px 1px 30px #C4008F;
-    transition-duration: .3s;
+aside .botao button:hover {
+    box-shadow: 1px 1px 30px #0c97fa96;
+    transition-duration: .2s;
+}
+
+aside .data {
+    color: #0C96FA;
 }
 
 
-.port p a i {
-    color: #e6e6e6;
-    font-size: 20px;
-}
+
 
 
 /*Serviços--------------------*/
@@ -432,6 +440,11 @@ nav p i {
     font-weight: 300;
     font-size: 30px;
     color: #0d98fc;
+}
+
+.services-title i {
+    padding-right: 7px;
+    color: #0C96FA;
 }
 
 #serviços {
@@ -570,10 +583,16 @@ nav p i {
 
 
 .contacto h2 {
-    padding-bottom: 20px;
+    padding-top: 150px;
+    padding-bottom: 35px;
     font-weight: 300;
     font-size: 25px;
     color: #0d98fc;
+}
+
+.contacto h2 i {
+    color: #0d98fc;
+    padding-right: 7px;
 }
 
 

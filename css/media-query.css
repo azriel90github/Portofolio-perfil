@@ -101,63 +101,47 @@
         width: 80%;
     }
 
+    .portofolio-caixas {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+        grid-template-columns: 50%;
+    }
+
+    .port-content aside {
+        display: grid;
+    }
+
+    .port-img {
+        width: 50%;
+    }
+    
+    
+    aside .botao button {
+        width: 300px;
+    }
+        .port-content {
+
+        width: 83%;
+    }
+
+    aside .data {
+        padding-bottom: 15px;
+    }
+
+    .container-portofolio {
+        width: 85%;
+        display: grid;
+    }
+
 
     .services-title {
         padding-top: 100px;
         padding-bottom: 50px;
     }
 
-    .portofolio {
-        width: 85%;
-    }
-
-    .port {
-        width: 100%;
-    }
-
-    .port-img-ux {
-        display: none;
-    }
-
-    .port-img-front {
-        
-        display: none;
-    }
-
-    .port-img-back {
-        
-        display: none;
-    }
-
-    .port-img-dashboard {
-        
-        display: none;
-    }
-
-    .ui-ux {
-        background-image: url(../img/design-mobile.png);
-        background-position: center center;
-        background-size: cover;
-    }
-
-    .front {
-        background-image: url(../img/portofolio-mobile.png);
-        background-position: center center;
-        background-size: cover;
-    }
-
-    .back {
-        background-image: url(../img/formulario-mobile.png);
-        background-position: center center;
-        background-size: cover;
-    }
-
-    .dashboard {
-        background-image: url(../img/dashboard-mobile.png);
-        background-position: center center;
-        background-size: cover;
-    }
-
+    
 
     #serviços {
         grid-template-columns: 350px;
