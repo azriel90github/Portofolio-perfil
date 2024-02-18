@@ -49,8 +49,8 @@
     }
     .nav-menu-btn i{
         font-size: 25px;
-        color: #0148BA;
-        padding: 10px;
+        color: #0C95F8;
+        
 
         border-radius: 50%;
         cursor: pointer;
@@ -64,6 +64,7 @@
         
     }
     .casa img {
+        box-shadow: 1px 1px 30px #0c97fa96;
         width: 200px;
         border-radius: 10%;
         margin-bottom: 50px;
@@ -168,7 +169,9 @@
     }
 
     
-    
+    nav p {
+        padding-right: 50px;
+    }
 
     nav span {
         display: none;

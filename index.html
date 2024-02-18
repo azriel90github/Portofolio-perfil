@@ -12,19 +12,19 @@
 <body>
     <header>
         <nav>
+            <div class="nav-menu-btn">
+                <i class="bx bx-menu" class="toggle-menu" onclick="myMenuFunction()"></i>
+            </div>
             <div class="nav-menu" id="navMenu">
                 <ul>
                     <li><a href="#home" >Home</a></li>
                     <li><a href="#jornada" >Jornada</a></li>
-                    <li><a href="#servicos" >Serviços</a></li>
                     <li><a class="port-nav" style="color: white;" href="#portofolio" >Portofolio</a></li>
+                    <li><a href="#servicos" >Serviços</a></li>
                     <li><a href="#contacto" >Contactos</a></li>
                 </ul>
             </div>  
             <p>Workspace.Suélio<i class='bx bx-user' ></i></p>
-            <div class="nav-menu-btn">
-                <i class="bx bx-menu" onclick="myMenuFunction()"></i>
-            </div>
         </nav>
     </header>
     <main>
@@ -82,55 +82,21 @@
         </div>
     </main>
     
-    <div id="portofolio">
+    <div id="portofolio" class="portofolio-main">
         <h2><i class='bx bxs-user-account'></i>Portofólio</h2>
-        <div class="portofolio">
-            <div class="port">
-                <div class="port-img-ux">
-                        
+        <div class="container-portofolio">
+            <div class="portofolio">
+                <div class="port">
+                    <div class="port-img-ux">
+            
+                    </div>
+                    <p class="ui-ux">
+                        <span>Design Portofólio</span>
+                        <a href="#portofolio">Saber mais</a>
+                    </p>
                 </div>
-                <p class="ui-ux">
-                    <span>Design Portofólio</span>
-                    <a href="#portofolio">Saber mais</a>
-                </p>
             </div>
-        </div>
-        <div id="portofolio">
-            <div class="portofolio">
-                <div class="port">
-                    <div class="port-img-front">
-                        
-                    </div>
-                    <p class="front">
-                        <span>Frontend Portofólio</span>
-                        <a href="#portofolio">Saber mais</a>
-                    </p>
-                </div>
-        </div>
-        <div id="portofolio">
-            <div class="portofolio">
-                <div class="port">
-                    <div class="port-img-back">
-                        
-                    </div>
-                    <p class="back">
-                        <span>Formulário Digital</span>
-                        <a href="#portofolio">Saber mais</a>
-                    </p>
-                </div>
-        </div>
-        <div id="portofolio">
-            <div class="portofolio">
-                <div class="port">
-                    <div class="port-img-dashboard">
 
-                    </div>
-                    <p class="dashboard">
-                        <span>Dashboard Vendas</span>
-                        <a href="#portofolio">Saber mais</a>
-                    </p>
-                </div>
-        </div>
     </div>
     <h3 class="services-title" id="servicos"><i class='bx bxs-user-account'></i>Serviços</h3>
     <div id="serviços">
@@ -138,21 +104,23 @@
         <div class="serviços">
             <div class="serv">
                 <h3>Design (UI/UX)</h3>
-                <p class="content-preço">225.000 Kz</p>
+                <p class="content-preço">235.000 Kz</p>
                 <p class="content-img">
                     <img src="img/xd.png" alt="adobe-xd">
                     <img src="img/figma.png" alt="figma">
-                    <img src="img/photoshop.png" alt="">
+                    <img src="img/photoshop.png" alt="photoshop">
+                    <img src="img/illustrator.png" alt="iluustrador">
                 </p>
                 <div id="suporte">
                     <h4>Suporte</h4>
                     <p>
-                        <span>&#x2714;</span> Contrato de 3 meses <br>
+                        <span>&#x2714;</span> Contrato inicial de 3 meses <br>
                         <span>&#x2714;</span> Partilha do Projecto <br>
                         <span>&#x2714;</span> Versão Mobile <br>
                         <span>&#x2714;</span> Fóruns de Discussão <br>
                         <span>&#x2714;</span> Prototipação <br>
-                        <span>&#x2714;</span>Freelancer
+                        <span>&#x2714;</span>Freelancer <br>
+                        <span>&#x2714;</span> Contratação Permanente
                     </p>
                 </div>
                 <a href="#contacto"><button>Contratar</button></a>
@@ -161,8 +129,9 @@
         <div class="serviços">
             <div class="serv">
                 <h3>Front-end</h3>
-                <p class="content-preço">330.000 Kz</p>
+                <p class="content-preço">340.000 Kz</p>
                 <p class="content-img">
+                    <img src="img/browser.png" alt="api">
                     <img src="img/html.png" alt="html5">
                     <img src="img/social.png" alt="css3">
                     <img src="img/js.png" alt="js">
@@ -170,12 +139,13 @@
                 <div id="suporte">
                     <h4>Suporte</h4>
                     <p>
-                        <span>&#x2714;</span> Contrato de 3 meses <br>
+                        <span>&#x2714;</span> Contrato inicial de 3 meses <br>
                         <span>&#x2714;</span> HTML5 e CSS3 Nativo <br>
                         <span>&#x2714;</span> JS Intermédio e API <br>
                         <span>&#x2714;</span> Mo JS, jQuery, Typelt JS <br>
                         <span>&#x2714;</span> Design Responsivo  <br>
-                        <span>&#x2714;</span> Freelancer
+                        <span>&#x2714;</span> Freelancer <br>
+                        <span>&#x2714;</span> Contratação Permanente
                     </p>
                 </div>
                 <a href="#contacto"><button>Contratar</button></a>
@@ -183,45 +153,50 @@
         </div>
         <div class="serviços">
             <div class="serv">
-                <h3>Back-end</h3>
-                <p class="content-preço"><del>450.000 Kz</del></p>
+                <h3>Framework</h3>
+                <p class="content-preço">460.000 Kz</p>
                 <p class="content-img">
-                    <img src="img/php.png" alt="php7">
-                    <img src="img/database.png" alt="database">
-                    <img src="img/python.png" alt="python">
+                    <img src="img/react.png" alt="react">
+                    <img src="img/typescript.png" alt="typescript">
+                    <img src="img/node-js.png" alt="nodejs">
+                    <img src="img/bootstrap.png" alt="nodejs">
+                    
                 </p>
                 <div id="suporte">
                     <h4>Suporte</h4>
                     <p>
-                        <span>&#x2714;</span> Contrato de 3 meses <br>
-                        <span>&#x2714;</span> <del>PHP e Python Nativo</del> <br>
-                        <span>&#x2714;</span> <del>SQL Nativo</del> <br>
-                        <span>&#x2714;</span> <del>Criação de BD do Zero</del> <br>
-                        <span>&#x2714;</span> <del>Conexão DCI e PDO</del> <br>
-                        <span>&#x2714;</span> Freelancer
+                        <span>&#x2714;</span> Contrato inicial de 3 meses <br>
+                        <span>&#x2714;</span> PHP e Python Nativo <br>
+                        <span>&#x2714;</span> SQL Nativo <br>
+                        <span>&#x2714;</span> Criação de BD do Zero <br>
+                        <span>&#x2714;</span> Conexão DCI e PDO <br>
+                        <span>&#x2714;</span> Freelancer <br>
+                        <span>&#x2714;</span> Contratação Permanente
                     </p>
                 </div>
-                <a href="#serviços"><button>Em Avaliação...</button></a>
+                <a href="#contacto"><button>Contratar</button></a>
             </div>
         </div>
         <div class="serviços">
             <div class="serv">
-                <h3>Análise de Dados</h3>
-                <p class="content-preço">240.000 Kz</p>
+                <h3>Extras</h3>
+                <p class="content-preço">250.000 Kz</p>
                 <p class="content-img">
-                    <img src="img/chart.png" alt="chart">
-                    <img src="img/excel.png" alt="excel">
-                    <img src="img/powerpoint.png" alt="chart">
+                    <img src="img/docker.png" alt="docker">
+                    <img src="img/github.png" alt="github">
+                    <img src="img/git.png" alt="git">
+                    <img src="img/bitbucket.png" alt="bitbucket">
                 </p>
                 <div id="suporte">
                     <h4>Suporte</h4>
                     <p>
-                        <span>&#x2714;</span> Contrato de 3 meses <br>
+                        <span>&#x2714;</span> Contrato inicial de 3 meses <br>
                         <span>&#x2714;</span> Excel, Point, Query <br>
                         <span>&#x2714;</span> Criação Nativa <br>
                         <span>&#x2714;</span> Partilha do Dashboard <br>
                         <span>&#x2714;</span> Versão Mobile <br>
-                        <span>&#x2714;</span> Freelancer
+                        <span>&#x2714;</span> Freelancer <br>
+                        <span>&#x2714;</span> Contratação Permanente
                     </p>
                 </div>
                 <a href="#contacto"><button>Contratar</button></a>
@@ -234,6 +209,7 @@
         <form action="https://api.staticforms.xyz/submit" method="post">
 
             <input class="send-footer" required size="20" maxlength="30" type="text" name="name" placeholder="Nome" autocomplete="on"><br>
+            <input class="send-footer" required size="9" maxlength="9" type="text" name="name" placeholder="+244 (número)" autocomplete="on"><br>
             <input class="send-footer" required type="email" name="email"placeholder="Email" autocomplete="on"><br>
             <textarea class="textarea" required placeholder="Deixe sua mensagem" name="message" cols="30" rows="10"></textarea><br>
             <button class="send-botao" type="submit">Enviar</button> 
@@ -263,7 +239,8 @@
                     <a href="https://roadmap.sh/" target="_blank"><i class='bx bx-link-alt' ></i>Roadmap.sh</a>
                     <a href="https://www.w3schools.com/" target="_blank"><i class='bx bx-link-alt' ></i>W3C Schools</a>
                     <a href="https://techguide.sh/" target="_blank"><i class='bx bx-link-alt' ></i>TechGuide</a>
-                    <a href="https://www.youtube.com/watch?v=M5QY2_8704o&t=8s" target="_blank"><i class='bx bx-link-alt' ></i>Music - Code</a>
+                    <a href="https://www.youtube.com/watch?v=mr8HEsZQL9c" target="_blank"><i class='bx bx-link-alt' ></i>Music - Code</a>
+                    <a href="https://github.com/free-educa/free-livros" target="_blank"><i class='bx bx-link-alt' ></i>Livros - Code</a>
                 </menu>
         </div>
 

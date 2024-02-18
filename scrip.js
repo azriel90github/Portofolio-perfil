@@ -20,16 +20,32 @@ function formatTime(time) {
 }
 
 
+
 function myMenuFunction() {
   var i = document.getElementById("navMenu")
   if(i.className === "nav-menu") {
     return i.className += " responsive"
   }  else {
-      return i.className = "nav-menu"
-
-  }
- 
+      return i.className = "nav-menu" 
+    }
 }
+
+
+
+/*
+function myMenuFunction() {
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', '/toggle-menu?class=' + encodeURIComponent(document.getElementById('navMenu').className));
+    xhr.onload = function() {
+        if (xhr.status === 200) {
+            document.getElementById('navMenu').className = JSON.parse(xhr.responseText).class;
+        }
+    };
+    xhr.send();
+}
+*/
+
+
 
 document.addEventListener('DOMContentLoaded', () => {
   new TypeIt(".animate", {
@@ -38,11 +54,9 @@ document.addEventListener('DOMContentLoaded', () => {
   })
   .type("Design Web (UI/UX)", {delay: 500})
   .delete(18)
-  .type("Frontend Nativo", {delay: 250})
+  .type("Frontend Nativo", {delay: 300})
   .delete(15)
-  .type("Backend Inicial", {delay: 250})
-  .delete(15)
-  .type("e Analista de Dados")
+  .type("e Backend Inicial")
   .go()
 } )
 
