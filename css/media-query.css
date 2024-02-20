@@ -101,30 +101,46 @@
         width: 80%;
     }
 
+    .container-portofolio {
+        width: 100%;
+        height: 100%;
+    }
+
     .portofolio-caixas {
+        height: 100%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         margin: auto;
         align-items: center;
-        grid-template-columns: 50%;
+        width: 100%;
+    }
+
+    .port-content {
+        width: 91%;
+        padding: 15px 15px 15px 15px;
     }
 
     .port-content aside {
         display: grid;
     }
 
-    .port-img {
-        width: 50%;
+    .port-img  {
+        margin: auto;
+        height: 20vh;
+        width: 100%;
+        
     }
-    
-    
-    aside .botao button {
-        width: 300px;
-    }
-        .port-content {
 
-        width: 83%;
+
+    
+    
+    aside button  {
+        margin: auto;
+        padding-bottom: 10px;
+        width: 220%;
     }
+
 
     aside .data {
         padding-bottom: 15px;
@@ -144,7 +160,7 @@
     
 
     #serviços {
-        grid-template-columns: 100%;
+        grid-template-columns: 350px;
     }
 
     .serviços {
@@ -245,11 +261,6 @@
 
     .portofolio {
         width: 77%;
-    }
-
-    .port-img .imagem {
-        width: 10%;
-
     }
 
     .serviços {
