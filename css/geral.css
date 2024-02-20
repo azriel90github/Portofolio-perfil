@@ -348,10 +348,9 @@ nav p i {
 }
 
 .container-portofolio {
-    width: 840px;
+    width: 100%;
     display: flex;
     border-radius: 20px;
-    
     padding: 8px;
     justify-content: center;
     border: 2px solid #0c97fa96;
@@ -365,8 +364,8 @@ nav p i {
 }
 
 .port-img {
-    border-radius: 15px;
-    width: 420px;
+    border-radius: 15px 0px 0px 15px;
+    width: 430px;
     background-image: url(../img/formulario-mobile.png);
     background-size: cover;
     background-color: #0E1820;
@@ -374,7 +373,7 @@ nav p i {
 }
 
 .port-content {
-    border-radius: 15px;
+    border-radius: 0px 15px 15px 0px;
     width: 420px;
     background-color: #08131D;
     padding: 15px 15px 15px 35px;

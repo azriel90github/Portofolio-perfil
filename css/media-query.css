@@ -144,7 +144,7 @@
     
 
     #serviços {
-        grid-template-columns: 350px;
+        grid-template-columns: 100%;
     }
 
     .serviços {
@@ -245,6 +245,11 @@
 
     .portofolio {
         width: 77%;
+    }
+
+    .port-img .imagem {
+        width: 10%;
+
     }
 
     .serviços {
