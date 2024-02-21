@@ -132,13 +132,11 @@
         
     }
 
-
-    
     
     aside button  {
         margin: auto;
         padding-bottom: 10px;
-        width: 220%;
+        width: 150%;
     }
 
 
@@ -147,7 +145,7 @@
     }
 
     .container-portofolio {
-        width: 85%;
+        width: 77%;
         display: grid;
     }
 
