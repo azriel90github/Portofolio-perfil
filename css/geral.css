@@ -141,6 +141,7 @@ nav p i {
 
 
 #home {
+    height: 100vh;
     /*background-image: url(../img/banner-perfil02.jpg);*/
     background-size: cover;
     background-position: center center;
@@ -148,14 +149,14 @@ nav p i {
 }
 
 .casa {
-    padding-top: 100px;
+    padding-top: 130px;
     margin: auto;
     text-align: center;
     box-shadow: 1px 1px 50px #000F70;
 }
 
 .casa img {
-    width: 250px;
+    width: 230px;
     border-radius: 50%;
     margin-bottom: 20px;
     box-shadow: 1px 1px 20px #0c97fa96;
