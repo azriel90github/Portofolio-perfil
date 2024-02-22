@@ -13,12 +13,17 @@
     align-items: center;
     justify-content: space-around;
     background-color: #01111E;
-    box-shadow: 1px 1px 50px #000F70;
+    box-shadow: 1px 1px 40px #0c97fa63;
 }
 
 .header h1 {
     font-weight: 300;
     color: #0d98fc;
+}
+
+.header h1 i {
+    font-size: 35px;
+    color: #7CD260;
 }
 
 .dados-pessoais h2 {
