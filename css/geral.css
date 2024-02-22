@@ -95,6 +95,7 @@ nav a {
 }
 
 nav p {
+    font-family: Anta;
     display: flex;
     align-items: center;
     font-size: 30px;
@@ -152,7 +153,7 @@ nav p i {
     padding-top: 130px;
     margin: auto;
     text-align: center;
-    box-shadow: 1px 1px 50px #000F70;
+    box-shadow: 1px 1px 50px #0c97fa96;
 }
 
 .casa img {
@@ -196,11 +197,12 @@ nav p i {
 }
 
 .casa p.segundo {
+    line-height: 25px;
     color: #9ed1f3;
     padding-top: 20px;
     font-size: 17px;
     margin: auto;
-    width: 410px;
+    width: 400px;
 }
 
 
@@ -284,7 +286,7 @@ nav p i {
     border-radius: 20px;
     margin: auto;
     background-color: #11181d7c;
-    width: 60%;
+    width: 70%;
     padding: 7px;
     border: 2px solid #0c97fa96;
 }
@@ -302,6 +304,7 @@ nav p i {
 }
 
 .trilha p {
+    line-height: 25px;
     background-color: #11181d7c;
     padding: 20px;
 }
@@ -342,9 +345,10 @@ nav p i {
 }
 
 .portofolio-caixas {
-    gap: 30px;
+    gap: 50px;
     display: grid;
     justify-content: center;
+    grid-template-columns: 40% 40%;
 
 }
 
@@ -377,6 +381,11 @@ nav p i {
     width: 100%;
     background-color: #08131D;
     padding: 10px 10px 10px 25px;
+}
+
+.port-content p {
+    line-height: 25px;
+    padding: 10px 10px 10px 0px;
 }
 
 .port-content h3 {
@@ -448,7 +457,7 @@ aside .data {
 #serviços {
     display: grid;
     justify-content: center;
-    grid-template-columns: 350px 350px;
+    grid-template-columns: 350px 350px 350px;
     gap: 30px;
     
 }
@@ -503,7 +512,7 @@ aside .data {
 }
 
 #suporte p span {
-    color: #0d98fc;
+    color: #7CD260;
     margin-right: 5px;
 }
 
