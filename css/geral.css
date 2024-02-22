@@ -55,7 +55,6 @@ nav {
     background-color: #01111ebb;
     /*background: linear-gradient(rgba(39,39,39, 0.6), transparent);*/
     z-index: 100;
-    box-shadow: 1px 1px 50px #000F70;
 }
 
 
@@ -100,13 +99,15 @@ nav p {
     align-items: center;
     font-size: 30px;
     color: #0d98fc;
+    text-shadow: 1px 1px 3px #0d98fc;
 }
 
 
 nav p i {
     font-size: 35px;
-    padding-left: 10px;
-    color: #0d98fc;
+    padding-left: 5px;
+    color: #7CD260;
+    text-shadow: 1px 1px 25px #7CD260;
 }
 .nav-logo p{
     color: #efefef;
@@ -142,7 +143,6 @@ nav p i {
 
 
 #home {
-    height: 100vh;
     /*background-image: url(../img/banner-perfil02.jpg);*/
     background-size: cover;
     background-position: center center;
@@ -150,10 +150,10 @@ nav p i {
 }
 
 .casa {
-    padding-top: 130px;
+    padding-top: 110px;
     margin: auto;
     text-align: center;
-    box-shadow: 1px 1px 50px #0c97fa96;
+    box-shadow: 1px 1px 40px #0c97fa63;
 }
 
 .casa img {
@@ -323,7 +323,7 @@ nav p i {
 
 .trilha button i {
     font-size: 20px;
-    color: #0C96FA;
+    color: #7CD260;
 }
 
 
@@ -396,7 +396,7 @@ nav p i {
 }
 
 .port-content h3 i {
-    color: #0C96FA;
+    color: #7CD260;
 }
 
 .port-content aside {
@@ -460,6 +460,10 @@ aside .data {
     grid-template-columns: 350px 350px 350px;
     gap: 30px;
     
+}
+
+.serv {
+    width: 100%;
 }
 
 .serviços {
@@ -699,7 +703,7 @@ aside .data {
 /*rodape------------------------------------------*/
 
 footer {
-    box-shadow: 1px 1px 50px #000F70;
+    box-shadow: 1px 1px 40px #0c97fa63;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -733,7 +737,7 @@ footer .pages menu a {
 footer .pages menu a i {
     padding-right: 8px;
     font-size: 20px;
-    color: #0d98fc;
+    color: #7CD260;
 }
 
 footer .pages menu a:hover {
