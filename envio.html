@@ -10,11 +10,6 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <style>
-
-    .header {
-
-    }
-
     .header p {
     font-family: Anta;
     display: flex;
@@ -86,20 +81,35 @@
         transition: .4s;
     }
 
+    .envio .port-nav {
+        display: none;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .header a {
+            display: none;
+        }
+
+        .envio .port-nav {
+            display: hidden;
+    }
+
+    }
+
 
 </style>
 <body>
     
     <div class="header">
-        <a class="port-nav" href="index.html">Voltar</a>
         <p>Workspace.Suélio<i class='bx bx-user' ></i></p>
-        
+        <a class="port-nav" href="index.html">Voltar</a>
     </div>
     
     <div class="envio">
         <i class='bx bxs-user'></i>
-        <h1>Mensagem Enviada com Sucesso!</h1>
+        <h1>Sua mensagem enviada com sucesso!</h1>
         <p>Entrerei em contacto em breve!</p>
+        <a class="port-nav" href="index.html">Voltar</a>
     </div>
     <footer>
         <div class="content-number">   
