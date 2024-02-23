@@ -55,6 +55,7 @@ nav {
     background-color: #01111ebb;
     /*background: linear-gradient(rgba(39,39,39, 0.6), transparent);*/
     z-index: 100;
+    
 }
 
 
@@ -64,7 +65,6 @@ nav a:hover {
     color: white;
     background-color: #0c97fac9;
     box-shadow: 1px 1px 30px #0C96FA;
-    border: 2px solid #0c97fa96;
     border-radius: 11px;
     transition: .2s;
 }
@@ -73,7 +73,6 @@ nav a:hover {
 
 .port-nav {
     color: #e6e6e6;
-    border: 2px solid #0c97fa96;
     background-color: #0c97fac9;
     box-shadow: 1px 1px 20px #0c97fac9;
     padding: 10px;
@@ -106,7 +105,7 @@ nav p i {
     font-size: 35px;
     padding-left: 5px;
     color: #7CD260;
-    text-shadow: 1px 1px 25px #7CD260;
+    /*text-shadow: 1px 1px 10px #7CD260;*/
 }
 .nav-logo p{
     color: #efefef;
@@ -228,7 +227,6 @@ nav p i {
 
 
 .hora-botao a   {
-    border: 2px solid #0c97fa96;
     text-decoration: none;
     margin: auto;
     background-color: #0c97fac9;
@@ -344,10 +342,10 @@ nav p i {
 }
 
 .portofolio-caixas {
-    gap: 50px;
+    gap: 30px;
     display: grid;
     justify-content: center;
-    grid-template-columns: 40% 40%;
+    grid-template-columns: 70%;
 
 }
 
@@ -414,7 +412,7 @@ aside {
 aside button {
     border: 2px solid #0c97fa96;
     border-radius: 13px;
-    width: 150px;
+    width: 50%;
     color: white;
     background-color: #0c97fa96;
     box-shadow: 1px 1px 15px #0c97fa96;
@@ -454,6 +452,7 @@ aside .data {
 }
 
 #serviços {
+    width: 100%;
     display: grid;
     justify-content: center;
     grid-template-columns: 350px 350px 350px;
@@ -486,7 +485,6 @@ aside .data {
 }
 
 .serviços .serv h3 {
-    border: 2px solid #0c97fa96;
     background-color: #0c97fa96;
     box-shadow: 1px 1px 10px #0c97fa96;
     color: #e6e6e6;
@@ -499,7 +497,6 @@ aside .data {
 
 #suporte {
     margin-left: 30px;
-    gap: 10px;
 }
 
 #suporte h4 {
@@ -540,7 +537,7 @@ aside .data {
 }
 
 .serviços  .serv button  {
-    border: 2px solid #0c97fa96;
+    border: none;
     cursor: pointer;
     font-size: 15px;
     width: 100%;
@@ -654,7 +651,7 @@ aside .data {
 
 
 .send-botao {
-    border: 2px solid #0c97fa96;
+    border: none;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -792,11 +789,6 @@ footer .social  {
 footer .social a {
     padding-bottom: 30px;
 }
-
-footer .social a button {
-    border: 2px solid #0c97fa96;
-}
-
 
 
 footer .social a i    {

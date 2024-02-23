@@ -52,11 +52,13 @@ document.addEventListener('DOMContentLoaded', () => {
     speed: 100,
     loop: true
   })
-  .type("Design Web (UI/UX)", {delay: 500})
+  .type("full stack pleno", {delay: 500})
+  .delete(16)
+  .type("design web (ui/ux)", {delay: 500})
   .delete(18)
-  .type("Frontend Nativo", {delay: 300})
+  .type("frontend nativo", {delay: 300})
   .delete(15)
-  .type("e Backend Inicial")
+  .type("e backend inicial")
   .go()
 } )
 

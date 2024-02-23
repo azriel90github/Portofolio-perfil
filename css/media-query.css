@@ -24,6 +24,7 @@
     }
     nav {
         width: 100%;
+        border-bottom: 2px solid #0c97fa96;
     }
 
     .nav-menu.responsive{
@@ -98,11 +99,13 @@
     }
 
     .trilha {
-        width: 80%;
+        width: 85%;
     }
 
     .container-portofolio {
-        width: 100%;
+        display: grid;
+        margin: auto;
+        width: 85%;
         height: 100%;
     }
 
@@ -113,7 +116,6 @@
         flex-direction: column;
         margin: auto;
         align-items: center;
-        width: 100%;
     }
 
     .port-content {
@@ -121,9 +123,7 @@
         padding: 15px 15px 15px 15px;
     }
 
-    .port-content aside {
-        display: grid;
-    }
+
 
     .port-img  {
         margin: auto;
@@ -134,19 +134,8 @@
 
     
     aside button  {
-        margin: auto;
         padding-bottom: 10px;
-        width: 150%;
-    }
-
-
-    aside .data {
-        padding-bottom: 15px;
-    }
-
-    .container-portofolio {
-        width: 77%;
-        display: grid;
+        width: 50%;
     }
 
 
@@ -155,10 +144,22 @@
         padding-bottom: 50px;
     }
 
-    
+    .content-img {
+        width: 100%;
+    }
+
+    #suporte {
+        margin-left: 20px;
+    }
 
     #serviços {
-        grid-template-columns: 350px;
+        width: 100%;
+        grid-template-columns: 87%;
+    }    
+
+    .serviços {
+        width: 100%;
+        grid-template-columns: 87%;
     }
 
     .serviços {
@@ -261,9 +262,14 @@
         width: 77%;
     }
 
+    #serviços {
+        width: 100%;
+        grid-template-columns: 87%;
+    }    
+
     .serviços {
-        margin: auto;
-        width: 82%;
+        width: 100%;
+        grid-template-columns: 87%;
     }
 
     #contacto h2 {
@@ -364,14 +370,11 @@
 
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-}
+
 
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    
-}
+
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
