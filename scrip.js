@@ -52,8 +52,8 @@ document.addEventListener('DOMContentLoaded', () => {
     speed: 100,
     loop: true
   })
-  .type("full stack pleno", {delay: 500})
-  .delete(16)
+  .type("full stack júnior", {delay: 500})
+  .delete(17)
   .type("design web (ui/ux)", {delay: 500})
   .delete(18)
   .type("frontend nativo", {delay: 300})

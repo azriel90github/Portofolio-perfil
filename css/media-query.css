@@ -64,11 +64,10 @@
         padding-left: 35px;
         
     }
-    .casa img {
-        box-shadow: 1px 1px 30px #0c97fa96;
-        width: 200px;
-        border-radius: 10%;
-        margin-bottom: 50px;
+    .casa i {
+        font-size: 200px;
+        margin-bottom: 30px;
+        color: #7CD260;
 
     }
     .casa p.primeiro {
@@ -197,11 +196,11 @@
     }
     
     .send-footer {
-        width: 330px;
+        width: 350px;
     }
 
     .contacto .textarea {
-        width: 330px;
+        width: 350px;
     }
 
     footer {

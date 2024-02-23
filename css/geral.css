@@ -154,12 +154,10 @@ nav p i {
     box-shadow: 1px 1px 40px #0c97fa63;
 }
 
-.casa img {
-    width: 230px;
-    border-radius: 50%;
+.casa i {
+    color: #7CD260;
+    font-size: 240px;
     margin-bottom: 20px;
-    box-shadow: 1px 1px 20px #0c97fa96;
-    border-radius: 50%;
     position: relative;
     animation: mymove 3s infinite;
 }
