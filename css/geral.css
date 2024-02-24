@@ -98,6 +98,7 @@ nav p {
     align-items: center;
     font-size: 30px;
     color: #0d98fc;
+    text-shadow: 1px 1px 20px #0c97fac9;
 }
 
 
@@ -105,7 +106,7 @@ nav p i {
     font-size: 35px;
     padding-left: 5px;
     color: #7CD260;
-    /*text-shadow: 1px 1px 10px #7CD260;*/
+    text-shadow: 1px 1px 10px #7CD260;
 }
 .nav-logo p{
     color: #efefef;
@@ -155,12 +156,12 @@ nav p i {
 }
 
 .casa i {
-    color: #7CD260;
+    color: #0c97fac9;
     font-size: 240px;
     margin-bottom: 20px;
     position: relative;
     animation: mymove 3s infinite;
-    text-shadow: 1px 1px 20px #7CD260;
+    text-shadow: 1px 1px 20px #0c97fac9;
 }
 @keyframes mymove {
     0%   {top: 0px;}
@@ -178,6 +179,7 @@ nav p i {
 }
 
 #home .dev {
+    padding-top: 10px;
     font-family: Fredoka;
 }
 
@@ -189,6 +191,7 @@ nav p i {
 }
 
 .casa span .animate {
+    width: 50%;
     font-size: 45px;
     font-family: Fredoka;
 }

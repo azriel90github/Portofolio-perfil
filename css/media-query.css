@@ -9,6 +9,10 @@
         padding-bottom: 25px;
     }
 
+    .hora-botao a {
+        margin-left: 6px;
+    }
+
     #home {
         background-position: center left;
     }
@@ -24,7 +28,6 @@
     }
     nav {
         width: 100%;
-        border-bottom: 2px solid #0c97fa96;
     }
 
     .nav-menu.responsive{
@@ -59,20 +62,20 @@
     }
 
     .casa {
-        padding-top: 130px;
+        padding-top: 110px;
         text-align: left;
-        padding-left: 35px;
+        padding-left: 28px;
         
     }
     .casa i {
         font-size: 200px;
         margin-bottom: 30px;
-        color: #7CD260;
 
     }
     .casa p.primeiro {
         font-size: 35px;
         text-align: left;
+        padding-bottom: 5px;
     }
     
     .casa span {
@@ -85,8 +88,8 @@
 
     
     .casa p.segundo {
-        width: 100%;
-        padding-top: 20px;
+        width: 98%;
+        padding-top: 35px;
         padding-bottom: 15px;
         font-size: 17px;
     }
@@ -168,6 +171,7 @@
 
     
     nav p {
+        text-shadow: 1px 1px 20px #0c97fac9;
         padding-right: 50px;
     }
 
