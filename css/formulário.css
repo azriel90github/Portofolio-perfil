@@ -27,6 +27,7 @@ body {
     font-family: Anta;
     font-weight: 300;
     color: #0d98fc;
+    text-shadow: 1px 1px 15px #0c97fac9;
 }
 
 h2 {
@@ -38,6 +39,7 @@ h2 {
     font-size: 36px;
     margin-left: 5px;
     color: #7CD260;
+    text-shadow: 1px 1px 15px #7CD260;
 }
 
 .container-formulario {
@@ -201,8 +203,12 @@ label {
         padding: 15px;
         display: grid;
         border-bottom: 2px solid #0c97fa96;
-    }
 
+    }
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
     .header .port-nav {
         margin: auto;
 
