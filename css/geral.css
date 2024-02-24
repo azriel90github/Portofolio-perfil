@@ -451,7 +451,7 @@ aside .data {
 }
 
 #serviços {
-    width: 100%;
+
     display: grid;
     justify-content: center;
     grid-template-columns: 350px 350px 350px;
