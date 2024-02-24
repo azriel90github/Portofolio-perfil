@@ -160,6 +160,7 @@ nav p i {
     margin-bottom: 20px;
     position: relative;
     animation: mymove 3s infinite;
+    text-shadow: 1px 1px 20px #7CD260;
 }
 @keyframes mymove {
     0%   {top: 0px;}
