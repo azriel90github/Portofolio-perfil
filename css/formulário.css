@@ -3,6 +3,10 @@
     color: #0d98fc;
 }
 
+body {
+    font-family: Fredoka;
+}
+
 .header {
     position: fixed;
     width: 100%;
@@ -12,60 +16,88 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #01111E;
+    background-color: #01111ebb;
 
 }
 
+
+
 .header h1 {
+    display: flex;
+    font-family: Anta;
     font-weight: 300;
     color: #0d98fc;
 }
 
+h2 {
+    font-size: 28px;
+    font-family: Fredoka;
+}
+
 .header h1 i {
-    font-size: 35px;
+    font-size: 36px;
+    margin-left: 5px;
     color: #7CD260;
+}
+
+.container-formulario {
+    padding-left: 100px;
 }
 
 .dados-pessoais h2 {
     font-weight: 300;
     margin-left: 10px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
  
 .dados-pessoais {
     width: 100%;
-    padding-top: 160px;
+    padding-top: 130px;
     padding-bottom: 30px;
-    display: grid;
-    justify-content: center;
-    margin: auto;
 }
 
 label {
-    color: white;
-    margin-left: 15px;
+    color: #e6e6e6;
+    margin-left: 12px;
 }
 
 
 .coluna1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    gap: 30px;
+    display: grid;
+    grid-template-columns: 40% 40%;
+}
+
+.coluna2 {
+    gap: 30px;
+    display: grid;
+    grid-template-columns: 40% 40%;
 }
 
 
-.dados-demograficos {
-    width: 100%;
-    padding-top: 30px;
-    padding-bottom: 30px;
+.coluna3 {
+    gap: 30px;
     display: grid;
-    justify-content: center;
-    margin: auto;
+    grid-template-columns: 40% 40%;
+}
+
+.coluna4 {
+    gap: 30px;
+    display: grid;
+    grid-template-columns: 40% 40%;
+}
+
+
+
+.dados-demograficos {
+
+    padding-bottom: 30px;
+
 }
 .dados-demograficos h2 {
     font-weight: 300;
     margin-left: 10px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 
@@ -73,16 +105,13 @@ label {
 
 .dados-empresa {
     width: 100%;
-    padding-top: 30px;
     padding-bottom: 30px;
-    display: grid;
-    justify-content: center;
-    margin: auto;
+
 }
 .dados-empresa h2 {
     font-weight: 300;
     margin-left: 10px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 
@@ -90,33 +119,17 @@ label {
 
 .pacote-contrato {
     width: 100%;
-    padding-top: 30px;
     padding-bottom: 30px;
-    display: grid;
-    justify-content: center;
-    margin: auto;
 }
+
+
 .pacote-contrato h2 {
     font-weight: 300;
     margin-left: 10px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 
-.coluna2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-.coluna3 {
-    display: flex;
-}
-
-.coluna4 {
-    display: flex;
-}
 
 .port-nav {
     margin: 10px;
@@ -132,34 +145,38 @@ label {
 }
 
 .botoes-form input {
-    box-shadow: 1px 1px 30px #5A0079;
+    background-color: #0c97fac9;
+    box-shadow: 1px 1px 15px #0c97fac9;
     margin: 15px;
-    background-color: #5A0079;
     color: #e6e6e6;
     font-weight: 600;
     font-size: 17px;
     width: 250px;
     cursor: pointer;
     padding: 10px;
-    border-radius: 25px;
+    border-radius: 11px;
     border: none;
 
 }
 
 
 .botoes-form button {
-    box-shadow: 1px 1px 30px #5A0079;
+    background-color: #0c97fac9;
+    box-shadow: 1px 1px 15px #0c97fac9;
     margin: 15px;
-    background-color: #5A0079;
     color: #e6e6e6;
     font-weight: 600;
     font-size: 17px;
     width: 250px;
     cursor: pointer;
     padding: 10px;
-    border-radius: 25px;
+    border-radius: 11px;
     border: none;
 
+}
+
+.botoes-form .port-nav {
+    display: none;
 }
 
 .botoes-form button {
@@ -168,28 +185,93 @@ label {
 }
 
 .botoes-form button:hover {
-    background-color: #C4008F;
-    box-shadow: 1px 1px 30px #C4008F;
+    box-shadow: 1px 1px 40px #0c97fac9;
     transition: .4s;
 } 
 
 .botoes-form input:hover {
-    background-color: #C4008F;
-    box-shadow: 1px 1px 30px #C4008F;
+    box-shadow: 1px 1px 40px #0c97fac9;
     transition: .4s;
 } 
 
 .send-footer {
-    border-radius: 13px;
+    width: 100%;
+    border-radius: 11px;
     height: 35px;
     margin: 10px;
 }
 
-::-webkit-input-placeholder {
-    margin-left: 5px;
-    padding-left: 5px;
-    color: rgba(255, 255, 255, 0.452);
+@media only screen and (max-width: 600px) {
+
+    .header {
+        position: fixed;
+        width: 100%;
+        padding: 15px;
+        display: grid;
+        border-bottom: 2px solid #0c97fa96;
+    }
+
+    .header .port-nav {
+        margin: auto;
+
+        display: none;
+    }
+
+    .container-formulario {
+        padding-left: 5px;
+    }
+
+    .coluna1 {
+        gap: 30px;
+        display: grid;
+        grid-template-columns: 90%;
+    }
+    
+    .coluna2 {
+        gap: 30px;
+        display: grid;
+        grid-template-columns: 90%;
+    }
+    
+    
+    .coluna3 {
+        gap: 30px;
+        display: grid;
+        grid-template-columns: 90%;
+    }
+    
+    .coluna4 {
+        gap: 30px;
+        display: grid;
+        grid-template-columns: 90%;
+    }
+
+    .dados-pessoais {
+        width: 100%;
+        padding-top: 100px;
+
+    }
+
+    .botoes-form {
+        display: grid;
+        padding-bottom: 90px;
+    }
+
+    .botoes-form  .port-nav {
+        padding-top: 10px;
+        display: block;
+        text-align: center;
+        margin: auto;
+        width: 233px;
+    }
+    h2 {
+        margin-left: 20px;
+    }
+
 }
+
+
+
     
 
     

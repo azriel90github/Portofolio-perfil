@@ -62,7 +62,7 @@ nav {
 
 nav a:hover {
     padding: 10px;
-    color: white;
+    color: #e6e6e6;
     background-color: #0c97fac9;
     box-shadow: 1px 1px 30px #0C96FA;
     border-radius: 11px;
@@ -82,7 +82,7 @@ nav a:hover {
 .port-nav:hover {
     background-color: #0c97fac9;
     box-shadow: 1px 1px 50px #0c97fac9;
-    color: white;
+    color: #e6e6e6;
     transition: .4s;
 }
 
@@ -127,7 +127,7 @@ nav p i {
 }
 
 .nav-menu ul li a:hover {
-    color: white;
+    color: #e6e6e6;
 }
 
 .nav-menu ul li .link{
@@ -205,7 +205,7 @@ nav p i {
 
 .hora i {
     font-size: 32px;
-    color: white;
+    color: #e6e6e6;
 }
 
 .hora-botao {
@@ -230,7 +230,7 @@ nav p i {
     margin: auto;
     background-color: #0c97fac9;
     box-shadow: 1px 1px 15px #0c97fac9;
-    color: white;
+    color: #e6e6e6;
     font-weight: 350;
     font-size: 17px;
     width: 250px;
@@ -412,7 +412,7 @@ aside button {
     border: 2px solid #0c97fa96;
     border-radius: 13px;
     width: 50%;
-    color: white;
+    color: #e6e6e6;
     background-color: #0c97fa96;
     box-shadow: 1px 1px 15px #0c97fa96;
     padding: 10px;
@@ -800,7 +800,7 @@ footer .social a i    {
 }
 
 footer .social a i:hover {
-    color: white;
+    color: #e6e6e6;
     background-color: #0c97fa96;
     box-shadow: 1px 1px 40px #0c97fa96;
     transition: .2s;
@@ -840,6 +840,6 @@ footer  button:hover {
 ::-webkit-input-placeholder {
     margin-left: 3px;
     padding-left: 3px;
-    color: #40abf8a4;
+    color: #1c73b1a4;
 }
 
