@@ -1,4 +1,8 @@
-//Relógio Digital
+
+
+
+
+// Programa para o Relógio Digital
 const hour = document.querySelector('#hour')
 const min = document.querySelector('#min')
 const sec = document.querySelector('#sec')
@@ -21,6 +25,8 @@ function formatTime(time) {
 
 
 
+
+// Funcão para o menu hamburguer
 function myMenuFunction() {
   var i = document.getElementById("navMenu")
   if(i.className === "nav-menu") {
@@ -32,23 +38,9 @@ function myMenuFunction() {
 
 
 
-/*
-function myMenuFunction() {
-    var xhr = new XMLHttpRequest();
-    xhr.open('GET', '/toggle-menu?class=' + encodeURIComponent(document.getElementById('navMenu').className));
-    xhr.onload = function() {
-        if (xhr.status === 200) {
-            document.getElementById('navMenu').className = JSON.parse(xhr.responseText).class;
-        }
-    };
-    xhr.send();
-}
-*/
-
-
-
+// Eventos typelt para a digitação automática
 document.addEventListener('DOMContentLoaded', () => {
-  new TypeIt(".animate", {
+  new TypeIt(".animate", { //Obejcto TypeIt adicionado na classeName animate
     speed: 100,
     loop: true
   })
@@ -63,8 +55,9 @@ document.addEventListener('DOMContentLoaded', () => {
 } )
 
 
+// Eventos typelt para a digitação automática
 document.addEventListener('DOMContentLoaded', () => {
-  new TypeIt(".animacao", {
+  new TypeIt(".animacao", { //Obejcto TypeIt adicionado na classeName animacao
     speed: 100,
     loop: true
   })

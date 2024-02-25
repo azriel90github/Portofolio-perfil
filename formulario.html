@@ -11,7 +11,7 @@
 </head>
 <body>
     <div class="header">
-        <h1>Contratação Digital<i class='bx bx-user' ></i></h1>
+        <h1>Contratato Digital<i class='bx bx-user' ></i></h1>
         <a class="port-nav" href="index.html">Home</a>
     </div>
     <div class="container-formulario">
@@ -80,6 +80,7 @@
                     <input class="send-footer" type="number" name="namber" id="namber" placeholder="Contacto da empresa" autocomplete="off" required>
                 </div>
                 <div>
+
                     <label for="endereco">CEO da Empresa : </label><br>
                     <input class="send-footer" type="text" name="endereco" id="endereco" placeholder="Nome do CEO">
                 </div>
@@ -91,11 +92,18 @@
             <div class="coluna1">
                 <div>
                     <label for="name">Tipo : </label> <br>
-                    <input class="send-footer" type="text" name="name" id="name" placeholder="Tipo de contrato" autocomplete="off" required>
+                    <input list="tipo" class="send-footer" type="text" name="name" id="name" placeholder="Tipo de contrato" autocomplete="off" required>
+                    <datalist id="tipo">
+                        <option value="Digital">Contrato Digital</option>
+                        <option value="Físico">Contrato Fisico</option>
+                    </datalist>
                 </div>
                 <div>
                     <label for="email">Pacote : </label><br>
-                    <input class="send-footer" type="email" name="email" id="email" placeholder="Serviço a solicitar" autocomplete="off" required>
+                    <input list="pacote" class="send-footer" type="email" name="email" id="email" placeholder="Serviço a solicitar" autocomplete="off" required>
+                    <datalist>
+                        <option value="Design"></option>
+                    </datalist>
                 </div>
             </div>
             <div class="coluna2">

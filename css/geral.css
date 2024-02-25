@@ -50,6 +50,7 @@ nav {
     display: flex;
     justify-content: space-around;
     width: 100%;
+    margin-right: 25px;
     padding: 14px;
     line-height: 50px;
     background-color: #01111ebb;
@@ -57,18 +58,6 @@ nav {
     z-index: 100;
     
 }
-
-
-
-nav a:hover {
-    padding: 10px;
-    color: #e6e6e6;
-    background-color: #0c97fac9;
-    box-shadow: 1px 1px 30px #0C96FA;
-    border-radius: 11px;
-    transition: .2s;
-}
-
 
 
 .port-nav {
@@ -87,7 +76,7 @@ nav a:hover {
 }
 
 nav a {
-    margin: 10px;
+    margin: 15px;
     font-size: 17px;
     text-decoration: none;
 }
@@ -129,6 +118,7 @@ nav p i {
 
 .nav-menu ul li a:hover {
     color: #e6e6e6;
+    transition-duration: .3s;
 }
 
 .nav-menu ul li .link{
@@ -613,9 +603,9 @@ aside .data {
 }
 
 .send-footer {
-    border: 2px solid #0c97fa96;
+    border: 1px solid #0c97fa96;
     background-color: #0c141a7c;
-    color: #60A4D1;
+    color: #e6e6e6;
     height: 30px;
     width: 500px;
     padding: 5px;
@@ -632,9 +622,9 @@ aside .data {
 
 
 .contacto .textarea {
-    border: 2px solid #0c97fa96;
+    border: 1px solid #0c97fa96;
     background-color: #0c141a7c;
-    color: #60A4D1;
+    color: #e6e6e6;
     height: 70px;
     width: 500px;
     padding: 5px;
@@ -846,3 +836,37 @@ footer  button:hover {
     color: #1c73b1a4;
 }
 
+::-webkit-inner-spin-button { /*Desabilitar kit de ferramentas do input*/
+   display: none;
+}
+
+/*Personalizar todos os inputs*/
+
+input[type="text"] {
+    border: 1px solid #0c97fa96;
+}
+
+
+input[type="text"]:focus {
+    box-shadow: 1px 1px 30px #0c97fa96;
+    border-color: #0c97fa96;
+    outline: none;
+}
+
+input[type="number"]:focus {
+    box-shadow: 1px 1px 30px #0c97fa96;
+    border-color: #0c97fa96;
+    outline: none;
+}
+
+input[type="email"]:focus {
+    box-shadow: 1px 1px 30px #0c97fa96;
+    border-color: #0c97fa96;
+    outline: none;
+}
+
+textarea:focus {
+    outline: none;
+    box-shadow: 1px 1px 30px #0c97fa96;
+    border-color: #0c97fa96;
+}
