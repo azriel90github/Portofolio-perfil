@@ -836,7 +836,9 @@ footer  button:hover {
     color: #1c73b1a4;
 }
 
-::-webkit-inner-spin-button { /*Desabilitar kit de ferramentas do input*/
+/*Desabilitar kit de ferramentas do input*/
+
+::-webkit-inner-spin-button { 
    display: none;
 }
 
