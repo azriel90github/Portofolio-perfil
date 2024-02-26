@@ -191,7 +191,7 @@
                         <span>&#x2714;</span> Contratação Permanente
                     </p>
                 </div>
-                <a href="#contacto"><button>Contratar</button></a>
+                <a href="formulario.php" target="_blank"><button>Contratar</button></a>
             </div>
         </div>
         <div class="serviços">
