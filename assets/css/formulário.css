@@ -131,6 +131,21 @@ label {
     padding-bottom: 20px;
 }
 
+select {
+    outline: none;
+}
+
+select option {
+    background-color: #05111B;
+    padding: 20px;
+    width: 100%;
+}
+
+select option:checked {
+    background-color: #05111B;
+    padding: 20px;
+}
+
 
 
 .port-nav {
