@@ -209,6 +209,8 @@
     }
 
     footer {
+        background-image: url(../img/banner-perfil.jpg);
+        background-attachment: fixed;
         width: 100%;
         display: grid;
     }
