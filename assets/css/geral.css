@@ -144,6 +144,7 @@ nav p i {
 }
 
 .casa {
+
     padding-top: 80px;
     margin: auto;
     text-align: center;
@@ -438,7 +439,7 @@ aside .data {
 
 .services-title {
     text-align: center;
-    padding-top: 250px;
+    padding-top: 130px;
     padding-bottom: 70px;
     font-weight: 300;
     font-size: 30px;
@@ -453,9 +454,8 @@ aside .data {
 #serviços {
     display: grid;
     justify-content: center;
-    grid-template-columns: 350px 350px 350px;
+    grid-template-columns: 350px 350px;
     gap: 30px;
-    
 }
 
 .serv {
