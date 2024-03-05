@@ -135,6 +135,13 @@
         
     }
 
+    .port-img-crud {
+        border-radius: 15px 15px 0px 0px;
+        margin: auto;
+        width: 100%;
+        height: 20vh;
+    }
+
     
     aside button  {
         padding-bottom: 10px;

@@ -363,12 +363,21 @@ nav p i {
 }
 
 .port-img  {
+    background-position: center;
     border-radius: 15px 0px 0px 15px;
     width: 100%;
     height: 100%;
     background-image: url(../img/formulario-mobile.png);
     background-size: cover;
     background-color: #0E1820;
+}
+
+.port-img-crud {
+    background-position: center;
+    border-radius: 15px 0px 0px 15px;
+    width: 100%;
+    background-image: url(../img/fundo-crud.jpeg);
+    background-size: cover;
 }
 
 .port-content {
