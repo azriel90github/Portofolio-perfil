@@ -6,7 +6,6 @@
 
     .hora-botao {
         display: grid;
-        padding-bottom: 25px;
     }
 
     .hora-botao a {
@@ -40,6 +39,7 @@
         justify-content: center;
         width: 100%;
         height: 30vh;
+        background-color: #01111ec5;
         backdrop-filter: blur(20px);
         transition: .3s;
     }
@@ -64,8 +64,11 @@
     .casa {
         background-image: url(../img/banner-perfil.jpg);
         padding-top: 110px;
+        display: block;
+        align-items: center;
         text-align: left;
         padding-left: 28px;
+        box-shadow: 1px 1px 40px #0c97fa63;
         
     }
     .casa i {
@@ -385,7 +388,7 @@
 
     footer {
         width: 100%;
-        display: grid;
+
     }
 }
 
