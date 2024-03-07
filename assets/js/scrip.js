@@ -44,15 +44,16 @@ document.addEventListener('DOMContentLoaded', () => {
     speed: 100,
     loop: true
   })
-  .type("Full Stack Júnior", {delay: 500})
-  .delete(17)
-  .type("Design Web (ui/ux)", {delay: 500})
-  .delete(18)
-  .type("Frontend Nativo", {delay: 300})
-  .delete(15)
-  .type("e Backend Inicial")
+  .type("Full Stack<br>Júnior", {delay: 500})
+  .delete(21)
+  .type("Design Web<br>(ui/ux)", {delay: 500})
+  .delete(22)
+  .type("Frontend<br>Nativo", {delay: 300})
+  .delete(19)
+  .type("e Backend<br>Inicial")
   .go()
 } )
+
 
 
 // Eventos typelt para a digitação automática
