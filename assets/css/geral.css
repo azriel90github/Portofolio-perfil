@@ -46,7 +46,7 @@ body {
 
 
 nav {
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(20px);
     position: fixed;
     display: flex;
     justify-content: space-around;
@@ -54,7 +54,6 @@ nav {
     margin-right: 25px;
     padding: 14px;
     line-height: 50px;
-    background-color: #01111e75;
     /*background: linear-gradient(rgba(39,39,39, 0.6), transparent);*/
     z-index: 100;
     
@@ -146,7 +145,7 @@ nav p i {
 
 .casa {
     padding-bottom: 90px;
-    padding-top: 80px;
+    padding-top: 90px;
     margin: auto;
     text-align: center;
 }
@@ -175,7 +174,7 @@ nav p i {
 }
 
 #home .dev {
-    font-family: Anta;
+    font-family: Fredoka;
     color: #7CD260;
 }
 
@@ -189,7 +188,7 @@ nav p i {
 .casa span .animate {
     width: 50%;
     font-size: 45px;
-    font-family: Anta;
+    font-family: Fredoka;
 }
 
 .casa p.segundo {
@@ -219,7 +218,6 @@ nav p i {
 .hora-botao .hora {
     margin: auto;
 }
-
 
 
 .hora-botao a   {
@@ -253,10 +251,11 @@ nav p i {
 
 .sobre {
     display: grid;
-    gap: 25px;
+    gap: 30px;
     justify-content: center;
 }
 .sobre h2 {
+    font-family: Fredoka;
     padding-top: 150px;
     padding-bottom: 25px;
     font-weight: 300;
@@ -324,6 +323,7 @@ nav p i {
 
 
 #portofolio h2 {
+    font-family: Fredoka;
     color: #0d98fc;
     font-weight: 300;
     font-size: 30px;
@@ -444,6 +444,7 @@ aside .data {
 /*Serviços--------------------*/
 
 .services-title {
+    font-family: Fredoka;
     text-align: center;
     padding-top: 130px;
     padding-bottom: 70px;
@@ -599,6 +600,7 @@ aside .data {
 
 
 .contacto h2 {
+    font-family: Fredoka;
     padding-top: 150px;
     padding-bottom: 35px;
     font-weight: 300;
@@ -690,7 +692,7 @@ aside .data {
 }
 
 .animacao {
-    font-family: Anta;
+    font-family: Fredoka;
     width: 100%;
     text-align: center;
     font-size: 40px;
@@ -719,6 +721,7 @@ footer .pages {
 }
 
 footer .pages menu h3 {
+    font-family: Fredoka;
     font-weight: 300;
     font-size: 25px;
     color: #0d98fc;
@@ -751,6 +754,7 @@ footer .pages menu a:hover {
 }
 
 footer .content-number h3 {
+    font-family: Fredoka;
     font-weight: 300;
     font-size: 25px;
     color: #0d98fc;
@@ -777,6 +781,7 @@ footer .content-number {
 }
 
 footer .social h3 {
+    font-family: Fredoka;
     font-weight: 300;
     font-size: 25px;
     color: #0d98fc;

@@ -34,13 +34,12 @@
     }
     .nav-menu{
         position: absolute;
-        top: -400px;
+        top: -1000px;
         display: flex;
         justify-content: center;
         width: 100%;
-        height: 30vh;
-        background-color: #01111ec5;
-        backdrop-filter: blur(20px);
+        height: 40vh;
+        background-color: #01111ee3;
         transition: .3s;
     }
     .nav-menu ul{
@@ -132,6 +131,7 @@
 
 
     .port-img  {
+        border-radius: 15px 15px 0px 0px;
         margin: auto;
         height: 20vh;
         width: 100%;
