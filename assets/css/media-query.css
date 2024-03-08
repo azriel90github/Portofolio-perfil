@@ -73,6 +73,33 @@
         
     }
 
+    .img-list .react {
+
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    
+    .img-list .node {
+    
+        position: relative;
+        top: 0px;
+        left: 20px;
+    }
+    
+    
+    .img-list .python {
+    
+        position: relative;
+        top: 0px;
+        left: 10px;
+    }
+    
+
+    .casa-segunda h2 {
+        padding-top: 25px;
+    }
+
     .casa-home {
         display: grid;
     }

@@ -148,7 +148,7 @@ nav p i {
 
 .casa {
     padding-bottom: 90px;
-    padding-top: 100px;
+    padding-top: 70px;
 }
 
 .casa-home {
@@ -158,6 +158,28 @@ nav p i {
 
 .casa-primeira {
     margin: auto;
+}
+
+
+.img-list .react {
+    position: relative;
+    top: 185px;
+    left: 260px;
+}
+
+.img-list .node {
+
+    position: relative;
+    top: 100px;
+    left: 170px;
+}
+
+
+.img-list .python {
+
+    position: relative;
+    top: 185px;
+    left: 290px;
 }
 
 .casa-segunda {
@@ -171,13 +193,11 @@ nav p i {
 }
 
 .casa i {
-    display: flex;
-    justify-content: center;
     color: #0c97fac9;
     font-size: 240px;
     margin-bottom: 20px;
     position: relative;
-    /*animation: mymove 3s infinite;*/
+    animation: mymove 3s infinite;
     text-shadow: 1px 1px 20px #0c97fac9;
 }
 @keyframes mymove {
@@ -218,7 +238,7 @@ nav p i {
 .casa p.segundo {
     line-height: 25px;
     color: #9ed1f3;
-    padding-top: 20px;
+    padding-top: 0px;
     font-size: 17px;
     width: 400px;
 }
