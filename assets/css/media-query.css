@@ -73,28 +73,9 @@
         
     }
 
-    .img-list .react {
-
-        position: relative;
-        top: 0px;
-        left: 0px;
-    }
-    
-    .img-list .node {
-    
-        position: relative;
-        top: 0px;
-        left: 20px;
-    }
-    
-    
-    .img-list .python {
-    
-        position: relative;
-        top: 0px;
-        left: 10px;
-    }
-    
+    .img-list  {
+        display: none;
+    } 
 
     .casa-segunda h2 {
         padding-top: 25px;
@@ -126,7 +107,7 @@
     
     .casa p.segundo {
         width: 98%;
-        padding-top: 35px;
+        padding-top: 10px;
         padding-bottom: 15px;
         font-size: 17px;
     }
@@ -139,6 +120,12 @@
 
     .trilha {
         width: 85%;
+    }
+
+    .react-trilha {
+        position: relative;
+        left: 170px;
+        top: 40px;
     }
 
     .container-portofolio {

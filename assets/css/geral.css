@@ -148,7 +148,8 @@ nav p i {
 
 .casa {
     padding-bottom: 90px;
-    padding-top: 70px;
+    padding-top: 0px;
+
 }
 
 .casa-home {
@@ -161,25 +162,11 @@ nav p i {
 }
 
 
-.img-list .react {
-    position: relative;
-    top: 185px;
-    left: 260px;
-}
-
-.img-list .node {
-
-    position: relative;
-    top: 100px;
-    left: 170px;
-}
-
-
 .img-list .python {
 
     position: relative;
-    top: 185px;
-    left: 290px;
+    top: 155px;
+    left: 220px;
 }
 
 .casa-segunda {
@@ -197,7 +184,7 @@ nav p i {
     font-size: 240px;
     margin-bottom: 20px;
     position: relative;
-    animation: mymove 3s infinite;
+    /*animation: mymove 3s infinite;*/
     text-shadow: 1px 1px 20px #0c97fac9;
 }
 @keyframes mymove {
@@ -252,9 +239,10 @@ nav p i {
 .hora-botao {
     text-align: center;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 90px;
+    justify-content: space-evenly;
+
+
+    padding-top: 30px;
 }
 
 .hora-botao .hora {
@@ -304,6 +292,12 @@ nav p i {
     font-size: 30px;
     color: #0d98fc;
     text-align: center;
+}
+
+.react-trilha {
+    position: relative;
+    left: 760px;
+    top: 130px;
 }
 
 .sobre h2 i {
@@ -628,6 +622,11 @@ aside .data {
     flex-direction: column;
     color: #60A4D1;
     padding-bottom: 100px;
+}
+
+.contacto-react {
+    position: relative;
+    top: 120px;
 }
 
 .contacto a {
