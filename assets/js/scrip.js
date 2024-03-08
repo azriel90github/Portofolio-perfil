@@ -44,13 +44,13 @@ document.addEventListener('DOMContentLoaded', () => {
     speed: 100,
     loop: true
   })
-  .type("Full Stack", {delay: 500})
-  .delete(10)
-  .type("Design Web", {delay: 500})
-  .delete(10)
-  .type("Frontend", {delay: 300})
-  .delete(8)
-  .type("e Backend")
+  .type("Full Stack Júnior", {delay: 500})
+  .delete(17)
+  .type("Design UI UX", {delay: 500})
+  .delete(12)
+  .type("Frontend Nativo", {delay: 300})
+  .delete(15)
+  .type("Backend Inicial")
   .go()
 } )
 
