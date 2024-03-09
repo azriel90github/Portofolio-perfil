@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
   .delete(12)
   .type("Frontend Nativo", {delay: 300})
   .delete(15)
-  .type("Backend Inicial")
+  .type("e Backend Inicial")
   .go()
 } )
 
