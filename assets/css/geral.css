@@ -163,14 +163,30 @@ nav p i {
 
 
 .img-list .python {
-
     position: relative;
-
     right: -250px;
     bottom: -150px;
 }
 
+@media (prefers-reduced-motion: no-preference) {
+    .img-list .python {
+      animation: App-logo-spin infinite 10s linear;
+    }
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+
 .img-list .react {
+
 
     position: relative;
     left: -240px;
@@ -298,7 +314,7 @@ nav p i {
 }
 .sobre h2 {
     font-family: Fredoka;
-    padding-top: 150px;
+    padding-top: 0px;
     padding-bottom: 25px;
     font-weight: 300;
     font-size: 30px;
@@ -306,10 +322,16 @@ nav p i {
     text-align: center;
 }
 
-.react-trilha {
+.trilha-react {
     position: relative;
-    left: 760px;
-    top: 130px;
+    bottom: -190px;
+    right: -1250px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .trilha-react {
+      animation: App-logo-spin infinite 20s linear;
+    }
 }
 
 .sobre h2 i {
@@ -381,9 +403,14 @@ nav p i {
 
 .port-react {
     position: relative;
+    bottom: -160px;
+    right: -210px;
+}
 
-    bottom: -170px;
-    right: -190px;
+@media (prefers-reduced-motion: no-preference) {
+    .port-react  {
+      animation: App-logo-spin infinite 20s linear;
+    }
 }
 
 #portofolio h2 i {
@@ -497,10 +524,23 @@ aside .data {
 
 /*Serviços--------------------*/
 
+
+.serv-react {
+    position: relative;
+    bottom: -210px;
+    right: -1070px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .serv-react  {
+      animation: App-logo-spin infinite 20s linear;
+    }
+}
+
 .services-title {
     font-family: Fredoka;
     text-align: center;
-    padding-top: 130px;
+    padding-top: 20px;
     padding-bottom: 70px;
     font-weight: 300;
     font-size: 30px;
@@ -646,6 +686,13 @@ aside .data {
     position: relative;
     top: 120px;
 }
+
+@media (prefers-reduced-motion: no-preference) {
+    .contacto-react  {
+      animation: App-logo-spin infinite 20s linear;
+    }
+}
+
 
 .contacto a {
     text-decoration: none;
