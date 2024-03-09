@@ -61,9 +61,9 @@
     }
 
     .casa {
-        background-image: url(../img/banner-perfil.jpg);
+        /*background-image: url(../img/banner-perfil.jpg);
         background-size: cover;
-        background-attachment: fixed;
+        background-attachment: fixed;*/
         padding-top: 110px;
         display: block;
         align-items: center;
@@ -73,18 +73,29 @@
         
     }
 
-    .img-list  {
+    .img-list .python  {
         display: none;
     } 
 
+    .img-list .react  {
+        position: relative;
+        display: none;
+
+
+    }     
+
     .casa-segunda h2 {
+        display: block;
+        text-align: left;
         padding-top: 25px;
     }
 
     .casa-home {
+        text-align: left;
         display: grid;
     }
     .casa i {
+        text-align: left;
         justify-content: left;
         font-size: 200px;
         margin-bottom: 30px;
@@ -95,6 +106,11 @@
         text-align: left;
         padding-bottom: 5px;
     }
+
+    #home .dev {
+        text-align: left;
+
+    }    
     
     .casa span {
         width: 100%;
@@ -106,6 +122,7 @@
 
     
     .casa p.segundo {
+        text-align: left;
         width: 98%;
         padding-top: 10px;
         padding-bottom: 15px;
