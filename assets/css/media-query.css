@@ -245,7 +245,7 @@
     
     nav p {
         text-shadow: 1px 1px 20px #0c97fac9;
-        margin-right: 25px;
+        padding-right: 0px;
     }
 
     nav span {
