@@ -39,7 +39,7 @@
         display: flex;
         justify-content: center;
         width: 100%;
-        height: 40vh;
+        height: 30vh;
         background-color: #01111ee3;
         transition: .3s;
     }
@@ -54,8 +54,6 @@
     .nav-menu-btn i{
         font-size: 25px;
         color: #0C95F8;
-        
-
         border-radius: 50%;
         cursor: pointer;
         transition: .3s;
@@ -70,7 +68,6 @@
         padding-top: 110px;
         display: block;
         align-items: center;
-        text-align: left;
         padding-left: 28px;
         box-shadow: 1px 1px 40px #0c97fa63;
         
@@ -93,8 +90,8 @@
 
     .serv-react {
         position: relative;
-        bottom: -10px;
-        right: -10px;
+        top: -85px;
+        left: -65px;
     }
 
     .casa-segunda h2 {
@@ -105,7 +102,7 @@
 
     .casa-home {
         text-align: left;
-        display: grid;
+
     }
     .casa i {
         text-align: left;
@@ -171,8 +168,8 @@
 
     .port-react {
         position: relative;
-        top: -170px;
-        right: -30px;
+        top: -70px;
+        left: -65px;
     }
 
     .portofolio-caixas {
@@ -215,7 +212,7 @@
 
     .services-title {
         position: relative;
-        top: -100px;
+        top: -140px;
         padding-top: 0px;
         padding-bottom: 50px;
     }
@@ -230,7 +227,7 @@
 
     #serviços {
         position: relative;
-        top: -100px;
+        top: -140px;
         width: 100%;
         grid-template-columns: 87%;
     }    
@@ -248,7 +245,7 @@
     
     nav p {
         text-shadow: 1px 1px 20px #0c97fac9;
-        padding-right: 50px;
+        margin-right: 25px;
     }
 
     nav span {
@@ -256,13 +253,11 @@
     }
 
     .contacto {
-        padding-top: 50px;
+        position: relative;
+        top: -100px;
     }
 
 
-    .contacto {
-        padding-bottom: 100px;
-    }
 
     #contacto h2 {
         font-size: 25px;
@@ -272,7 +267,6 @@
         width: 80%;
         font-size: 28px;
         padding-left: 30px;
-        padding-right: 30px;
     }
     
     .send-footer {
@@ -283,9 +277,9 @@
         width: 350px;
     }
 
-    footer {
+    footer {/*
         background-image: url(../img/banner-perfil.jpg);
-        background-attachment: fixed;
+        background-attachment: fixed;*/
         width: 100%;
         display: grid;
     }
@@ -369,7 +363,6 @@
         width: 88%;
         font-size: 23px;
         padding-left: 20px;
-        padding-right: 20px;
     }
 
 
@@ -438,7 +431,6 @@
         width: 88%;
         font-size: 23px;
         padding-left: 20px;
-        padding-right: 20px;
     }
 
     footer .content-number p {
