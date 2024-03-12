@@ -1,26 +1,21 @@
 @charset "UTF-8";
-@font-face {
-    font-family: Mont;
-    src: url(../font/Rethink_Sans/RethinkSans-VariableFont_wght.ttf);
-}
+
 
 @font-face {
     font-family: Fredoka;
     src: url(../font/Fredoka/Fredoka-VariableFont_wdth\,wght.ttf);
 }
 
-@font-face {
-    font-family: Anta;
-    src: url(../font/Anta/Anta-Regular.ttf);
-}
+
 
 
 * {
     margin: 0px;
     padding: 0px;
     font-weight: 300;
-    font-family: Mont;
+    font-family: Fredoka;
     color: #9ed1f3;
+    box-sizing: border-box;
 }
 
 
@@ -45,20 +40,6 @@ body {
 }
 
 
-:root {
-    --primary: #000000;
-    --background: #FAFAFA;
-    --secondary-background: #F2F2F2;
-    --gray: #847F90;
-    --gray-hover: #171717;
-    --primary-hover: #555555;
-    --link-gray: #666666;
-    --link-gray-hover: #171717;
-    --gray: #E1E1E1;
-    --gray-border: #E6E6E6;
-    --white: #FCFCFC;
-    --navbar-height: 64px;
-}
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -72,30 +53,31 @@ body {
 }
 
 .menu__wrapper {
+    padding: 1rem;
     backdrop-filter: blur(20px);
     display: flex;
+    justify-content: space-around;
     position: fixed;
-    justify-content: space-between;
     width: 100vw;
     z-index: 2;
     gap: 1.5rem;
     height: var(--navbar-height);
-    padding: 0px 1rem;
     align-items: center;
     box-shadow: 0 1px 0 0 rgba(0, 0, 0, .1);
 }
 
 .menu__bar {
     display: flex;
-    justify-content: space-around;
+    justify-content:space-evenly;
 }
 
-.menu__bar p {
+.menu__wrapper  p {
+    font-family: Fredoka;
     color: #0C96FA;
-    font-size: 33px;
+    font-size: 30px;
     display: flex;
     align-items: center;
-    margin: auto;
+
 }
 
 .logo {
@@ -105,11 +87,11 @@ body {
     align-items: center;
 }
 
-.logo svg {
-    fill: var(--primary);
-}
 
 .navigation {
+
+    font-size: large;
+    font-size: 20px;
     margin-left: 1rem;
     display: flex;
     flex-direction: row;
@@ -128,8 +110,7 @@ body {
 }
 
 .navigation>li>a {
-    color: white;
-    font-size: 14px;
+    font-size: 20px;
     text-decoration: none;
 }
 
@@ -137,38 +118,17 @@ body {
     color: white;
 }
 
-.navigation>li>button {
-    color: var(--link-gray);
-    transition: all 0.3s ease;
-    text-decoration: none;
-    border: none;
-    cursor: pointer;
-    z-index: 1;
-    margin-right: -0.25rem;
-    align-items: center;
-    min-height: 2.25rem;
-    font-size: 14px;
-    gap: 0.25rem;
-    font-family: 'Open Sans', sans-serif;
-    flex-wrap: nowrap;
-    border-radius: 10rem;
-    padding: 0.25rem 0.6125rem;
-    white-space: nowrap;
-    background: none;
-    display: flex;
-    position: relative;
-    transition: all 0.2s ease-in-out;
-}
+
 
 .navigation>li>button>svg {
     margin-top: 2px;
-    fill: var(--link-gray);
+    fill: #0C96FA;
     transition: all 0.2s ease-in-out;
 }
 
 
 .navigation>li:hover>button svg {
-    fill: var(--link-gray-hover);
+    fill: #0C96FA;
     rotate: 180deg;
 }
 
@@ -179,6 +139,8 @@ body {
 
 .navigation>li:hover .dropdown, 
 .navigation>li:focus-within .dropdown {
+    box-shadow: 1px 1px 10px #0c97fa96;
+    border: 2px solid #0c97fa96;
     display: block;
 }
 
@@ -204,7 +166,7 @@ body {
 
 .dropdown {
     border-radius: 0.5rem;
-    background: var(--white);
+    background: #0C151D;
     display: none;
     padding: 0.5rem;
     width: 100%;
@@ -246,12 +208,12 @@ body {
 
 .item-title h3 {
     font-weight: 500;
-    font-size: 0.875rem;
-    color: var(--link-gray-hover);
+    font-size: 17px;
+    color: #0C96FA;
 }
 
 .item-title p {
-    font-size: 0.7rem;
+    font-size: 15px;
     white-space: nowrap;
     color: var(--link-gray);
 }
@@ -318,15 +280,12 @@ body {
         min-width: 2rem;
         min-height: 2rem;
         pointer-events: all;
-        gap: 0.25rem;
+
         flex-direction: column;
-        border: 1px solid #0C96FA;
+        border: 2px solid #0C96FA;
     }
 
-    .menu__bar p {
-        padding: 10px;
-        margin-left: 20px;
-    }
+
 
     .burger-menu svg {
         height: 1.25rem;
@@ -541,6 +500,7 @@ body {
 
 .trilha {
     box-shadow: 1px 1px 10px #0c97fa96;
+    border: 2px solid #0c97fa96;
     display: grid;
     align-items: center;
     justify-content: center;
@@ -549,7 +509,7 @@ body {
     background-color: #11181d7c;
     width: 70%;
     padding: 7px;
-    border: 2px solid #0c97fa96;
+    
 }
 
 .trilha:hover {
