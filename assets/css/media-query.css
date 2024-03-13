@@ -150,7 +150,7 @@
     }
 
     .trilha {
-        width: 85%;
+        width: 90%;
     }
 
     #portofolio {
@@ -162,7 +162,7 @@
     .container-portofolio {
         display: grid;
         margin: auto;
-        width: 85%;
+        width: 90%;
         height: 100%;
     }
 
@@ -182,7 +182,7 @@
     }
 
     .port-content {
-        width: 91%;
+        width: 100%;
         padding: 15px 15px 15px 15px;
     }
 
@@ -228,8 +228,7 @@
     #serviços {
         position: relative;
         top: -140px;
-        width: 100%;
-        grid-template-columns: 87%;
+        grid-template-columns: 92%;
     }    
 
     .serviços {

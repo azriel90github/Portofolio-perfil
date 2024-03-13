@@ -2,8 +2,8 @@
 
 
 @font-face {
-    font-family: Fredoka;
-    src: url(../font/Fredoka/Fredoka-VariableFont_wdth\,wght.ttf);
+    font-family: Mont;
+    src: url(../font/Rethink_Sans/RethinkSans-VariableFont_wght.ttf);
 }
 
 
@@ -13,7 +13,7 @@
     margin: 0px;
     padding: 0px;
     font-weight: 300;
-    font-family: Fredoka;
+    font-family: Mont;
     color: #9ed1f3;
     box-sizing: border-box;
 }
@@ -72,7 +72,6 @@ body {
 }
 
 .menu__wrapper  p {
-    font-family: Fredoka;
     color: #0C96FA;
     font-size: 30px;
     display: flex;
@@ -358,7 +357,6 @@ body {
 
 .casa-segunda h2 {
     display: none;
-    font-family: Fredoka;
     color: #0C96FA;
     font-size: 30px;
 }
@@ -381,7 +379,7 @@ body {
 
 .casa p.primeiro {
     font-size: 40px;
-    font-family: Fredoka;
+
     color: #60A4D1;
     /*text-shadow: 0px 0px 3px #D946EF, 0 0 0px #D946EF, 0 0 10px #D946EF;*/
 }
@@ -390,7 +388,7 @@ body {
 #home .dev {
     text-align: left;
     font-size: 40px;
-    font-family: Fredoka;
+
     color: #7CD260;
 }
 
@@ -404,7 +402,7 @@ body {
 .casa span .animate {
     width: 20px;
     font-size: 40px;
-    font-family: Fredoka;
+
 }
 
 .casa p.segundo {
@@ -471,7 +469,6 @@ body {
     justify-content: center;
 }
 .sobre h2 {
-    font-family: Fredoka;
     padding-top: 0px;
     padding-bottom: 25px;
     font-weight: 300;
@@ -492,10 +489,7 @@ body {
     }
 }
 
-.sobre h2 i {
-    color: #0d98fc;
-    padding-right: 7px;
-}
+
 
 
 .trilha {
@@ -552,7 +546,6 @@ body {
 
 
 #portofolio h2 {
-    font-family: Fredoka;
     color: #0d98fc;
     font-weight: 300;
     font-size: 30px;
@@ -572,10 +565,6 @@ body {
     }
 }
 
-#portofolio h2 i {
-    padding-right: 7px;
-    color: #0C96FA;
-}
 
 .portofolio-caixas {
     gap: 30px;
@@ -697,7 +686,7 @@ aside .data {
 }
 
 .services-title {
-    font-family: Fredoka;
+
     text-align: center;
     padding-top: 20px;
     padding-bottom: 70px;
@@ -782,7 +771,14 @@ aside .data {
     padding: 30px 0px 20px 0px;
     text-align: center;
     font-size: 30px;
-    color: #0d98fc;
+    color: #7CD260;
+}
+
+.serviços  .serv .negativo {
+    padding: 30px 0px 20px 0px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 59, 59);
 }
 
 .serviços  .serv .content-preço del {
@@ -865,7 +861,7 @@ aside .data {
 
 
 .contacto h2 {
-    font-family: Fredoka;
+
     padding-top: 150px;
     padding-bottom: 35px;
     font-weight: 300;
@@ -957,7 +953,6 @@ aside .data {
 }
 
 .animacao {
-    font-family: Fredoka;
     width: 100%;
     text-align: center;
     font-size: 40px;
@@ -986,7 +981,6 @@ footer .pages {
 }
 
 footer .pages menu h3 {
-    font-family: Fredoka;
     font-weight: 300;
     font-size: 25px;
     color: #0d98fc;
@@ -1019,7 +1013,6 @@ footer .pages menu a:hover {
 }
 
 footer .content-number h3 {
-    font-family: Fredoka;
     font-weight: 300;
     font-size: 25px;
     color: #0d98fc;
@@ -1046,7 +1039,6 @@ footer .content-number {
 }
 
 footer .social h3 {
-    font-family: Fredoka;
     font-weight: 300;
     font-size: 25px;
     color: #0d98fc;
