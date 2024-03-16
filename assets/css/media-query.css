@@ -74,7 +74,10 @@
     }
 
     .img-list .react {
-        display: none;
+        display: block;
+        position: relative;
+        left: 1px;
+        top: -10px;
     }   
 
     .img-list .python {
@@ -83,6 +86,7 @@
         left: 200px;
         bottom: -80px;
     }
+
 
     .trilha-react {
         display: none;
@@ -98,6 +102,7 @@
         display: block;
         text-align: left;
         padding-top: 25px;
+        font-weight: 100;
     }
 
     .casa-home {
@@ -108,7 +113,7 @@
         text-align: left;
         justify-content: left;
         font-size: 200px;
-        margin-bottom: 30px;
+        margin-bottom: 5px;
 
     }
     .casa p.primeiro {   
@@ -119,6 +124,8 @@
 
     #home .dev {
         text-align: left;
+        font-weight: 100;
+        font-size: 38px;
 
     }    
     

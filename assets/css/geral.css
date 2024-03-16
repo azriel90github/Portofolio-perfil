@@ -1,18 +1,15 @@
 @charset "UTF-8";
 
-
 @font-face {
     font-family: Mont;
     src: url(../font/Rethink_Sans/RethinkSans-VariableFont_wght.ttf);
 }
 
 
-
-
 * {
+    font-weight: 100;
     margin: 0px;
     padding: 0px;
-    font-weight: 300;
     font-family: Mont;
     color: #9ed1f3;
     box-sizing: border-box;
@@ -71,12 +68,11 @@ body {
     justify-content:space-evenly;
 }
 
-.menu__wrapper  p {
+.menu__wrapper p {
     color: #0C96FA;
     font-size: 30px;
     display: flex;
     align-items: center;
-
 }
 
 .logo {
@@ -90,13 +86,12 @@ body {
 .navigation {
 
     font-size: large;
-    font-size: 20px;
     margin-left: 1rem;
     display: flex;
     flex-direction: row;
     list-style-type: none;
     align-items: center;
-    gap: 1rem;
+    gap: 1.5rem;
 
 }
 
@@ -109,7 +104,7 @@ body {
 }
 
 .navigation>li>a {
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
 }
 
@@ -270,21 +265,23 @@ body {
     }
 
     .burger-menu {
+        position: relative;
+        left: -45px;
         display: flex;
         align-items: center;
         justify-content: center;
         border-radius: 50%;
         height: 2rem;
         width: 2rem;
-        min-width: 2rem;
-        min-height: 2rem;
         pointer-events: all;
 
-        flex-direction: column;
         border: 2px solid #0C96FA;
     }
 
-
+    .menu__wrapper p {
+        position: relative;
+        left: -5px;
+    }
 
     .burger-menu svg {
         height: 1.25rem;
@@ -311,6 +308,7 @@ body {
 
 }
 
+
 .casa-home {
     text-align: center;
     margin: auto;
@@ -318,15 +316,14 @@ body {
 
 
 
-
 .img-list .python {
     position: relative;
-    right: -250px;
+    right: -220px;
     bottom: -150px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-    .img-list .python {
+    .img-list .react {
       animation: App-logo-spin infinite 10s linear;
     }
 }
@@ -343,10 +340,8 @@ body {
 
 
 .img-list .react {
-
-
     position: relative;
-    left: -240px;
+    left: -210px;
     bottom: -150px;
 }
 
@@ -364,7 +359,6 @@ body {
 .casa i {
     color: #0c97fac9;
     font-size: 250px;
-    margin-bottom: 20px;
     position: relative;
     /*animation: mymove 3s infinite;*/
     text-shadow: 1px 1px 20px #0c97fac9;
@@ -379,22 +373,22 @@ body {
 
 .casa p.primeiro {
     font-size: 40px;
-
+    font-weight: 100;
     color: #60A4D1;
     /*text-shadow: 0px 0px 3px #D946EF, 0 0 0px #D946EF, 0 0 10px #D946EF;*/
 }
 
 
 #home .dev {
+    font-weight: 100;
     text-align: left;
     font-size: 40px;
-
     color: #7CD260;
 }
 
 .casa span {
     font-size: 45px;
-    font-weight: 300;
+    font-weight: 100;
     color: #0d98fc;
     gap: 30px;
 }
@@ -407,6 +401,8 @@ body {
 
 .casa p.segundo {
     padding-top: 20px;
+    font-family: Mont;
+    font-weight: 100;
     margin: auto;
     text-align: center;
     line-height: 25px;
@@ -888,9 +884,9 @@ aside .data {
     color: #e6e6e6;
     height: 30px;
     width: 500px;
-    padding: 5px;
+    padding: 20px;
     font-size: 17px;
-    border-radius: 8px;
+    border-radius: 11px;
     margin: 4px;
 }
 
@@ -1019,11 +1015,6 @@ footer .content-number h3 {
     padding-bottom: 10px;
 }
 
-footer .content-number h3 i {
-    color: #0d98fc;
-    padding-right: 5px;
-    font-size: 30px;
-}
 
 footer .content-number p {
     line-height: 25px;
@@ -1114,6 +1105,8 @@ footer  button:hover {
     color: #1c73b1a4;
 }
 
+
+
 /*Desabilitar kit de ferramentas do input*/
 
 ::-webkit-inner-spin-button { 
@@ -1146,6 +1139,7 @@ input[type="email"]:focus {
 }
 
 textarea:focus {
+    margin-left: 3px;
     outline: none;
     box-shadow: 1px 1px 30px #0c97fa96;
     border-color: #0c97fa96;
