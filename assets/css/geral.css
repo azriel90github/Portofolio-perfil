@@ -476,7 +476,7 @@ body {
 .trilha-react {
     position: relative;
     bottom: -195px;
-    right: -175px;
+    right: -180px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -672,7 +672,7 @@ aside .data {
 .serv-react {
     position: relative;
     bottom: -212px;
-    right: -375px;
+    right: -184px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -699,7 +699,7 @@ aside .data {
 #serviços {
     display: grid;
     justify-content: center;
-    grid-template-columns: 350px 350px;
+    grid-template-columns: 350px 350px 350px;
     gap: 30px;
 }
 
