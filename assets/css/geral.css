@@ -374,7 +374,7 @@ body {
 .casa p.primeiro {
     font-size: 40px;
     font-weight: 100;
-    color: #60A4D1;
+    color: white;
     /*text-shadow: 0px 0px 3px #D946EF, 0 0 0px #D946EF, 0 0 10px #D946EF;*/
 }
 
@@ -770,12 +770,7 @@ aside .data {
     color: #7CD260;
 }
 
-.serviços  .serv .negativo {
-    padding: 30px 0px 20px 0px;
-    text-align: center;
-    font-size: 30px;
-    color: rgb(255, 59, 59);
-}
+
 
 .serviços  .serv .content-preço del {
     color: #0d98fc;
