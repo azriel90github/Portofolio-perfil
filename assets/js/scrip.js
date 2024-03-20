@@ -26,18 +26,6 @@ function formatTime(time) {
 
 
 
-// Funcão para o menu hamburguer
-function myMenuFunction() {
-  var i = document.getElementById("navMenu")
-  if(i.className === "nav-menu") {
-    return i.className += " responsive"
-  }  else {
-      return i.className = "nav-menu" 
-    }
-}
-
-
-
 // Eventos typelt para a digitação automática
 document.addEventListener('DOMContentLoaded', () => {
   new TypeIt(".animate", { //Obejcto TypeIt adicionado na classeName animate
