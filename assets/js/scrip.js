@@ -1,7 +1,4 @@
 
-
-
-
 // Programa para o Relógio Digital
 const hour = document.querySelector('#hour')
 const min = document.querySelector('#min')
@@ -22,7 +19,6 @@ setInterval(() => {
 function formatTime(time) {
   return time < 10 ? '0' + time : time
 }
-
 
 
 
