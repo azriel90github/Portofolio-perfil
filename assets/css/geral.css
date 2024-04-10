@@ -5,6 +5,17 @@
     src: url(../font/Rethink_Sans/RethinkSans-VariableFont_wght.ttf);
 }
 
+header,
+main,
+footer {
+  font-family: 'DM Sans';
+}
+#mobileNav a p {
+  transition: all ease-in-out 0.2s;
+}
+#nav a p {
+  transition: all ease-in-out 0.2s;
+}
 
 * {
     font-weight: 100;
