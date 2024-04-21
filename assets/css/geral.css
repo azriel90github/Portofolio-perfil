@@ -20,6 +20,14 @@
     overflow-x: none;
 }
 
+.shadow-sm span {
+    color: #9ed1f3;
+}
+
+.shadow-sm nav a {
+    color: #097BCB;
+    cursor: pointer;
+}
 
 :root {
     --cor01:#60A4D1;
@@ -301,7 +309,7 @@ body {
 
 .casa {
     position: relative;
-    top: -40px;
+    top: -200px;
     text-align: center;
     padding-bottom: 10px;
 
