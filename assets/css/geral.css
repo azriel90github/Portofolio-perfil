@@ -454,11 +454,7 @@ aside .data {
 /*Serviços--------------------*/
 
 
-.serv-react {
-    position: relative;
-    bottom: -212px;
-    right: -184px;
-}
+
 
 @media (prefers-reduced-motion: no-preference) {
     .serv-react  {
@@ -467,9 +463,8 @@ aside .data {
 }
 
 .services-title {
-
     text-align: center;
-    padding-top: 20px;
+    padding-top: 70px;
     padding-bottom: 70px;
     font-weight: 300;
     font-size: 30px;
@@ -484,7 +479,7 @@ aside .data {
 #serviços {
     display: grid;
     justify-content: center;
-    grid-template-columns: 350px 350px 350px;
+    grid-template-columns: 350px 350px;
     gap: 30px;
 }
 
