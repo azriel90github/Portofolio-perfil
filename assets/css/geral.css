@@ -14,17 +14,6 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 
 #corpo {
     background-color: #0C141A;
@@ -63,13 +52,23 @@ body {
 }
 
 
-header {
+:root {
+    --background: #4285f4;
+    --icon-color: #344955;
+    --width: 50px;
+    --height: 50px;
+    --border-radius: 100%;
+  }
+  
+  header {
     font: "Lexend Deca", sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    margin: 0;
+    padding: 0;
   }
   
   .wrapper {
@@ -80,6 +79,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 15rem;
   }
   .wrapper .fab {
     background: var(--background);
@@ -125,7 +125,19 @@ header {
     justify-content: space-around;
     align-items: center;
     transition: opacity 0.2s ease-in, top 0.2s ease-in, width 0.1s ease-in;
-
+    /*&::after {
+      content: "";
+      width: 20px;
+      height: 20px;
+      background: #fff;
+      border-radius: 3px;
+      position: absolute;
+      left: 50%;
+      margin-left: -10px;
+      bottom: -8px;
+      transform: rotate(45deg);
+      z-index: 0;
+    }*/
   }
   .wrapper .fac a {
     color: var(--icon-color);
@@ -204,6 +216,19 @@ header {
       transform: scale(1, 1);
     }
   }
+
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 /*
 
