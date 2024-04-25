@@ -66,17 +66,36 @@
         left: -65px;
     }
 
+    .casa-segunda {
+        position: relative;
+        left: 5px;
+    }
+
     .casa-segunda h2 {
         display: block;
         text-align: left;
-        padding-top: 25px;
         font-weight: 100;
     }
 
-    .casa-home {
-        text-align: left;
-
+    .home-email {
+        display: none;
     }
+
+    .home-email input {
+        width: 80%;
+    }
+    
+    .home-email button {
+        width: 80%;
+    }
+
+    .casa-home {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        text-align: left;
+    }
+
     .casa i {
         text-align: left;
         justify-content: left;

@@ -14,20 +14,10 @@
     box-sizing: border-box;
 }
 
-
-#corpo {
-    background-color: #0C141A;
-    overflow-x: none;
+html {
+    scroll-behavior: smooth;
 }
 
-.shadow-sm span {
-    color: #9ed1f3;
-}
-
-.shadow-sm nav a {
-    color: #097BCB;
-    cursor: pointer;
-}
 
 :root {
     --cor01:#60A4D1;
@@ -39,26 +29,13 @@
     --cor07:#0C141A;
 }
 
-:root {
-    --background: #4285f4;
-    --icon-color: #344955;
-    --width: 50px;
-    --height: 50px;
-    --border-radius: 100%;
-  }
 
 body {
     background-color: #01111E;
 }
 
 
-:root {
-    --background: #4285f4;
-    --icon-color: #344955;
-    --width: 50px;
-    --height: 50px;
-    --border-radius: 100%;
-  }
+
   
   
 
@@ -74,6 +51,48 @@ body {
     box-sizing: border-box;
 }
 
+header {
+    top: 0;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    background: #0B619F;
+}
+
+
+header .menu {
+    padding: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .menu p {
+    text-align: left;
+    color: #9ED1F3;
+    font-size: 27px;
+}
+
+header .menu {
+    margin-left: 20px;
+}
+
+header .menu .social  {
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+header .menu nav a {
+    color: #f0f0f0;
+    text-decoration: none;
+    margin: 3px;
+    font-size: 17px;
+}
+
+header .menu nav a:hover {
+    color: white;
+}
+
 /*
 
 #home {
@@ -86,8 +105,6 @@ body {
 */
 
 .casa {
-    position: relative;
-    top: -50px;
     text-align: center;
     padding-bottom: 10px;
 
@@ -95,8 +112,15 @@ body {
 
 
 .casa-home {
-    text-align: center;
-    margin: auto;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 50% 50%;
+}
+
+
+
+.casa-primeira {
+
 }
 
 
@@ -131,12 +155,13 @@ body {
 }
 
 .casa-segunda {
-    text-align: center;
+    position: relative;
+    left: -100px;
     margin: auto;
 }
 
 .casa-segunda h2 {
-    display: none;
+    text-align: left;
     color: #0C96FA;
     font-size: 30px;
 }
@@ -144,7 +169,7 @@ body {
 .casa i {
     color: #0c97fac9;
     font-size: 250px;
-    position: relative;
+
     /*animation: mymove 3s infinite;*/
     text-shadow: 1px 1px 20px #0c97fac9;
 }
@@ -157,9 +182,10 @@ body {
 
 
 .casa p.primeiro {
-    font-size: 40px;
+    text-align: left;
+    font-size: 45px;
     font-weight: 100;
-    color: white;
+    color: #f0f0f0;
     /*text-shadow: 0px 0px 3px #D946EF, 0 0 0px #D946EF, 0 0 10px #D946EF;*/
 }
 
@@ -172,6 +198,7 @@ body {
 }
 
 .casa span {
+
     font-size: 45px;
     font-weight: 100;
     color: #0d98fc;
@@ -181,19 +208,47 @@ body {
 .casa span .animate {
     width: 20px;
     font-size: 40px;
-
+    text-align: left;
 }
 
 .casa p.segundo {
     padding-top: 20px;
     font-family: Mont;
     font-weight: 100;
-    margin: auto;
-    text-align: center;
+
+    text-align: left;
     line-height: 25px;
     color: #9ed1f3;
     font-size: 17px;
     width: 400px;
+}
+
+.home-email {
+    text-align: left;
+    padding-top: 40px;
+}
+
+.home-email input {
+    font-size: 17px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    width: 400px;
+    border: 1px solid #0c97fa96;
+    background: #05111B;
+    color: white;
+}
+
+.home-email button {
+    margin-top: 15px;
+    color: white;
+    font-size: 17px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 400px;
+    cursor: pointer;
+    background-color: #0c97fac9;
 }
 
 
@@ -275,13 +330,14 @@ body {
 
 .trilha {
     box-shadow: 1px 1px 10px #0c97fa96;
-    border: 2px solid #0c97fa96;
+
     display: grid;
     align-items: center;
     justify-content: center;
     border-radius: 20px;
     margin: auto;
     background-color: #11181d7c;
+    
     width: 70%;
     padding: 7px;
     
@@ -360,7 +416,7 @@ body {
     display: flex;
     border-radius: 20px;
     padding: 8px;
-    border: 2px solid #0c97fa96;
+
     box-shadow: 1px 1px 10px #0c97fa96;
 
 }
@@ -488,8 +544,7 @@ aside .data {
 }
 
 .serviços {
-    box-shadow: 1px 1px 10px #0c97fa96;
-    border: 2px solid #0c97fa96;
+    box-shadow: 1px 1px 20px #0c97fa96;
     border-radius: 30px;
     display: flex;
     background-color: #11181d7c;
@@ -877,7 +932,7 @@ footer  button:hover {
 ::-webkit-input-placeholder {
     margin-left: 3px;
     padding-left: 3px;
-    color: #1c73b1a4;
+    color: #1584d4a4;
 }
 
 

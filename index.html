@@ -19,7 +19,25 @@
 
         <!--Cabeçalho do site-->
 
-
+        <header>
+            <div class="menu">
+                <p>Port.azriel</p>
+                <nav>
+                    <a href="#home">Home</a>
+                    <a href="#jornada">Trilha</a>
+                    <a href="#portofolio">Portofólio</a>
+                    <a href="#servicos">Serviços</a>
+                    <a href="#contacto">Contactos</a>
+                </nav>
+                <div class="social">  
+                    <a href="https://www.youtube.com/channel/UCOInYR7X_3GHUuEoJ3utspg" rel="external" target="_blank"><i class='bx bxl-youtube' ></i></i></a>
+                    <a href="https://github.com/azriel90github" rel="external" target="_blank"><i class='bx bxl-github'></i></a>
+                    <a href="https://wa.me/244948057334" rel="external" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+                    <a href="https://www.instagram.com/_azriel90_/?hl=en" rel="external" target="_blank"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://www.linkedin.com/in/azriel-armando-su%C3%A9lio-14a058260/" rel="external" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+                </div>
+            </div>
+        </header>
 
             <!--menu de navegação-->
             <!--final menu de navegação-->
@@ -33,6 +51,7 @@
         <main>
             <div class="casa" id="home">
                 <div class="casa-home">
+
                     <div class="casa-primeira">
 
                         <div>
@@ -41,16 +60,25 @@
                                 <img class="react" src="assets/img/react.png" alt="">
                             </div>
                             <i class='bx bx-user'></i>
-
+                            
                         </div>
-                        <p class="primeiro">Olá, Sou o Suélio Armando &#x1FAF3;</p> 
-                        <span class="dev">Programador <span class="animate"></span></span><br>
+                        <span class="dev">Programador <span class="animate"></span></span>
+
                     </div>
                     
+                    
                     <div class="casa-segunda">
+                        <p class="primeiro">Olá, Sou o <br> Suélio Armando &#x1FAF3;</p> 
+                        <br>
                         <h2>Sobre mim</h2>
                         <p class="segundo">Sou amante de Tecnologia,  trabalho com programação a cerca de 2 anos,  vivo em Luanda e pretendo no futuro ser um Desenvolvedor Full Stack Master e Analista de Dados.</p>
+                        
+                        <div class="home-email">
+                            <input type="email" autocomplete="off" placeholder="Digite seu email"><br>
+                            <button>Enviar</button>
+                        </div>
                     </div>
+
                 </div>
                 <div class="hora-botao">
                     <a href="assets/pdf/01-azriel-CV.pdf" download="01-azriel-CV.pdf" type="application/pdf" target="_blank">Download CV</a>
@@ -340,10 +368,12 @@
                     <h3>Infraestrutura</h3>
                     <p class="content-preço negativo">Em Avaliação</p>
                     <p class="content-img">
+                        <img src="assets/img/cloud.png" alt="azure">
                         <img src="assets/img/docker.png" alt="docker">
-                        <img src="assets/img/cloud-storage.png" alt="azure">
+                        
                         <img src="assets/img/terraform.png" alt="bitbucket">
                         <img src="assets/img/server.png" alt="github">
+                        
                         
                     </p>
                     <div id="suporte">
@@ -369,9 +399,9 @@
             <h2><i class='bx bx-chat'></i>Deixe sua mensagem</h2>
             <form action="https://api.staticforms.xyz/submit" method="post">
 
-                <input class="send-footer" required size="20" maxlength="30" type="text" name="name" placeholder="Nome" autocomplete="on"><br>
-                <input class="send-footer" required size="9" maxlength="9" type="text" name="name" placeholder="+244 (número)" autocomplete="on"><br>
-                <input class="send-footer" required type="email" name="email"placeholder="Email" autocomplete="on"><br>
+                <input class="send-footer" required size="20" maxlength="30" type="text" name="name" placeholder="Nome" autocomplete="off"><br>
+                <input class="send-footer" required size="9" maxlength="9" type="text" name="name" placeholder="+244 (número)" autocomplete="off"><br>
+                <input class="send-footer" required type="email" name="email"placeholder="Email" autocomplete="off"><br>
                 <textarea class="textarea" required placeholder="Deixe sua mensagem" name="message" cols="30" rows="10"></textarea><br>
                 <button class="send-botao" type="submit">Enviar</button> 
                 
