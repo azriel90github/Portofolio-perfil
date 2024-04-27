@@ -25,18 +25,11 @@ function formatTime(time) {
 
 // Eventos typelt para a digitação automática
 document.addEventListener('DOMContentLoaded', () => {
-  new TypeIt(".animate", { //Obejcto TypeIt adicionado na classeName animate
-    speed: 100,
-    loop: true
-  })
-  .type("Full Stack Júnior", {delay: 500})
-  .delete(17)
-  .type("Design UI UX", {delay: 500})
-  .delete(12)
-  .type("Frontend Nativo", {delay: 300})
-  .delete(15)
-  .type("e Backend Inicial")
-  .go()
+  new TypeIt("#multipleStrings", {
+    strings: ["Olá sou o <br> Suélio Armando.", "Dev full stack júnior."],
+    speed: 70,
+    waitUntilVisible: true,
+  }).go();
 } )
 
 

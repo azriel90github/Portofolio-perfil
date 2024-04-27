@@ -10,7 +10,7 @@
     margin: 0px;
     padding: 0px;
     font-family: Mont;
-    color: #9ed1f3;
+    color: #00BAE5;
     box-sizing: border-box;
 }
 
@@ -69,7 +69,7 @@ header .menu {
 
 header .menu p {
     text-align: left;
-    color: #9ED1F3;
+    color: #00BAE5;
     font-size: 27px;
 }
 
@@ -118,13 +118,6 @@ header .menu nav a:hover {
 }
 
 
-
-.casa-primeira {
-
-}
-
-
-
 .img-list .python {
     position: relative;
     right: -220px;
@@ -154,11 +147,11 @@ header .menu nav a:hover {
     bottom: -150px;
 }
 
+
 .casa-segunda {
-    position: relative;
-    left: -100px;
     margin: auto;
 }
+
 
 .casa-segunda h2 {
     text-align: left;
@@ -166,36 +159,37 @@ header .menu nav a:hover {
     font-size: 30px;
 }
 
-.casa i {
-    color: #0c97fac9;
-    font-size: 250px;
-
-    /*animation: mymove 3s infinite;*/
-    text-shadow: 1px 1px 20px #0c97fac9;
+.casa svg {
+    position: relative;
+    bottom: -150px;
+    left: -100px;
 }
-@keyframes mymove {
-    0%   {top: 0px;}
-    25%  {top: 25px;}
-    100% {top: 0px;}
+
+.casa-02 {
+    display: none;
 }
 
 
 
 .casa p.primeiro {
+    color: white;
     text-align: left;
-    font-size: 45px;
+    font-size: 43px;
     font-weight: 100;
-    color: #f0f0f0;
     /*text-shadow: 0px 0px 3px #D946EF, 0 0 0px #D946EF, 0 0 10px #D946EF;*/
 }
 
+@keyframes animacao-texto {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
 
-#home .dev {
-    font-weight: 100;
-    text-align: left;
-    font-size: 40px;
-    color: #7CD260;
-}
+
+
 
 .casa span {
 
@@ -206,16 +200,24 @@ header .menu nav a:hover {
 }
 
 .casa span .animate {
+    background-image: linear-gradient(to right, #f00, #0f0, rgb(0, 153, 255));
+    background-clip: text;
+    -webkit-background-clip: text; /* Para navegadores antigos */
+    color: transparent; /* Remover cor do texto padrão */
+    animation: animacao-texto 30s infinite linear;
     width: 20px;
     font-size: 40px;
     text-align: left;
 }
 
+#multipleStrings {
+    color: #00BAE5;
+}
+
 .casa p.segundo {
-    padding-top: 20px;
+    padding-top: 10px;
     font-family: Mont;
     font-weight: 100;
-
     text-align: left;
     line-height: 25px;
     color: #9ed1f3;
@@ -305,18 +307,12 @@ header .menu nav a:hover {
     justify-content: center;
 }
 .sobre h2 {
-    padding-top: 0px;
+    padding-top: 130px;
     padding-bottom: 25px;
     font-weight: 300;
     font-size: 30px;
     color: #0d98fc;
     text-align: center;
-}
-
-.trilha-react {
-    position: relative;
-    bottom: -195px;
-    right: -180px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -375,11 +371,15 @@ header .menu nav a:hover {
 
 .trilha button i {
     font-size: 20px;
-    color: #7CD260;
+    color: #00BAE5;
 }
 
 
 /*Portofolio------------------------*/
+
+.portofolio-main {
+    padding-top: 120px;
+}
 
 
 #portofolio h2 {
@@ -390,11 +390,7 @@ header .menu nav a:hover {
     padding-bottom: 50px;
 }
 
-.port-react {
-    position: relative;
-    bottom: -165px;
-    right: -185px;
-}
+
 
 @media (prefers-reduced-motion: no-preference) {
     .port-react  {
@@ -463,7 +459,7 @@ header .menu nav a:hover {
 }
 
 .port-content h3 i {
-    color: #7CD260;
+    color: #00BAE5;
 }
 
 .port-content aside {
@@ -520,8 +516,8 @@ aside .data {
 
 .services-title {
     text-align: center;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 120px;
+    padding-bottom: 50px;
     font-weight: 300;
     font-size: 30px;
     color: #0d98fc;
@@ -590,7 +586,7 @@ aside .data {
 }
 
 #suporte p span {
-    color: #7CD260;
+    color: #00BAE5;
     margin-right: 5px;
 }
 
@@ -599,10 +595,10 @@ aside .data {
 }
 
 .serviços  .serv .content-preço {
-    padding: 30px 0px 20px 0px;
+    padding: 0px 0px 20px 0px;
     text-align: center;
     font-size: 30px;
-    color: #7CD260;
+    color: #00BAE5;
 }
 
 
@@ -613,8 +609,15 @@ aside .data {
 
 .serviços  .serv .content-img {
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
+    padding-top: 40px;
 }
+
+.serviços  .serv .content-img .logo-laravel {
+    width: 70px;
+    height: 70px;
+}
+
 
 .serviços  .serv button  {
     border: none;
@@ -783,7 +786,7 @@ aside .data {
     text-align: center;
     font-size: 40px;
     font-weight: 300;
-    color: #0d98fc;
+    color: #00BAE5;
     gap: 30px;
     padding-bottom: 100px;
 }
@@ -830,7 +833,7 @@ footer .pages menu a {
 footer .pages menu a i {
     padding-right: 8px;
     font-size: 20px;
-    color: #7CD260;
+    color: #00BAE5;
 }
 
 footer .pages menu a:hover {
@@ -851,7 +854,7 @@ footer .content-number p {
     padding-bottom: 10px;
     margin-bottom: 5px;
     font-size: 17px;
-    color: #8dd1ff;
+    color: #00BAE5;
 }
 
 footer .content-number {
@@ -926,7 +929,7 @@ footer  button:hover {
 .final {
     text-align: center;
     padding: 20px;
-    color: #60A4D1;
+    color: #00BAE5;
 }
 
 ::-webkit-input-placeholder {
