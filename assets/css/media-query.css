@@ -5,11 +5,26 @@
 @media only screen and (max-width: 600px) {
 
     header {
+        position: absolute;
+        width: 100%;
+        background: #0B619F;
+    }
+
+    header .menu {
+        padding: 17px;
+    }
+
+    header .menu .social  {
+        display: none;
+    }
+    
+    header .menu nav  {
         display: none;
     }
 
     .hora-botao {
-        display: grid;
+        display: none;
+
     }
 
     .hora-botao a {
@@ -28,47 +43,35 @@
     }
 
     .casa {
-        position: relative;
-        top: -185px;
+        height: 100vh;
         /*background-image: url(../img/banner-perfil.jpg);
         background-size: cover;
         background-attachment: fixed;*/
-        padding-top: 110px;
+        padding-top: 95px;
         display: block;
         align-items: center;
         padding-left: 28px;
-        box-shadow: 1px 1px 40px #0c97fa63;
+
+        box-shadow: right 0 1px 40px #0c97fa63;
         
     }
 
-    .img-list .react {
-        display: block;
-        position: relative;
-        left: 1px;
-        top: -20px;
-    }   
-
-    .img-list .python {
-        display: block;
-        position: relative;
-        left: 200px;
-        bottom: -130px;
-    }
-
-
-    .trilha-react {
+    .casa-primeira {
         display: none;
     }
 
-    .serv-react {
-        position: relative;
-        top: -85px;
-        left: -65px;
+    .casa-primeira-01 {
+        display: block;
     }
 
     .casa-segunda {
         position: relative;
+        top: -75px;
         left: 5px;
+    }
+
+    #multipleStrings {
+        width: 375px;
     }
 
     .casa-segunda h2 {
@@ -78,31 +81,24 @@
     }
 
     .home-email {
-        display: none;
+        
     }
 
     .home-email input {
-        width: 80%;
+        width: 82%;
     }
     
     .home-email button {
-        width: 80%;
+        width: 82%;
     }
 
     .casa-home {
         display: flex;
         flex-direction: column;
-        position: relative;
+
         text-align: left;
     }
 
-    .casa i {
-        text-align: left;
-        justify-content: left;
-        font-size: 200px;
-        margin-bottom: 5px;
-
-    }
     .casa p.primeiro {   
         font-size: 35px;
         text-align: left;
@@ -127,7 +123,7 @@
     
     .casa p.segundo {
         text-align: left;
-        width: 98%;
+        width: 90%;
         padding-top: 10px;
         padding-bottom: 15px;
         font-size: 17px;

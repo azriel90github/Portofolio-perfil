@@ -26,7 +26,7 @@ function formatTime(time) {
 // Eventos typelt para a digitação automática
 document.addEventListener('DOMContentLoaded', () => {
   new TypeIt("#multipleStrings", {
-    strings: ["Olá sou o <br> Suélio Armando.", "Dev full stack júnior."],
+    strings: ["Olá sou o <br> Suélio Armando", "Programador Full stack."],
     speed: 70,
     waitUntilVisible: true,
   }).go();
