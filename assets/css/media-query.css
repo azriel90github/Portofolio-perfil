@@ -5,8 +5,8 @@
 @media only screen and (max-width: 600px) {
 
     header {
-        position: absolute;
-        width: 105%;
+        position: relative;
+        width: 100%;
         background: #0B619F;
     }
 
