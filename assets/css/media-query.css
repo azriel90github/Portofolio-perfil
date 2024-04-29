@@ -24,7 +24,8 @@
 
     .hora-botao {
         display: none;
-
+        position: relative;
+        top: -100px;
     }
 
     .hora-botao a {
@@ -47,12 +48,11 @@
         /*background-image: url(../img/banner-perfil.jpg);
         background-size: cover;
         background-attachment: fixed;*/
-        padding-top: 95px;
+        padding-top: 30px;
         display: block;
         align-items: center;
         padding-left: 28px;
-
-        box-shadow: right 0 1px 40px #0c97fa63;
+        box-shadow: 1px 1px 40px #0c97fa63;
         
     }
 
@@ -66,8 +66,7 @@
 
     .casa-segunda {
         position: relative;
-        top: -75px;
-        left: 5px;
+        top: -85px;
     }
 
     #multipleStrings {
@@ -127,7 +126,7 @@
 
     .sobre {
         position: relative;
-        top: -100px;
+        top: -80px;
     }
 
     .sobre h2 {
