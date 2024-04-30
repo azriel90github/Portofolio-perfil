@@ -92,6 +92,11 @@ header .menu nav a:hover {
     color: white;
 }
 
+header .linkedin-mobile i {
+    display: none;
+    color: white;
+}
+
 /*
 
 #home {
@@ -167,7 +172,8 @@ header .menu nav a:hover {
 
 
 #multipleStrings {
-    color: #00BAE5;
+    line-height: 50px;
+    color: white;
 }
 
 .casa p.segundo {
@@ -282,7 +288,6 @@ header .menu nav a:hover {
 
 .trilha {
     box-shadow: 1px 1px 10px #0c97fa96;
-
     display: grid;
     align-items: center;
     justify-content: center;
