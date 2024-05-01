@@ -304,65 +304,28 @@
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 360px) {
 
-    .nav-menu{
-        height: 42vh;
-    }
-    .casa p.segundo {
-        width: 97%;
-        font-size: 15px;
+        
+    .casa-primeira-01 {
+        padding-bottom: 85px;
     }
 
+
+    #multipleStrings {
+        width: 250px;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+
     .casa {
-        padding-left: 25px;
-        height: 100vh;
+        height: 130vh;
         
     }
 
-    .casa span .animate {
-        font-size: 35px;
-    }
-
-    .sobre h2 {
-        font-size: 20px;
-    }
-
-    .portofolio {
-        width: 77%;
-    }
-
-    #serviços {
-        width: 100%;
-        grid-template-columns: 87%;
-    }    
-
-    .serviços {
-        width: 100%;
-        grid-template-columns: 87%;
-    }
-
-    #contacto h2 {
-        font-size: 22px;
-    }
-
-    .send-footer {
-        width: 295px;
-    }
-
-    .contacto .textarea {
-        width: 295px;
-    }
-
-    .animacao {
-        width: 88%;
-        font-size: 23px;
-        padding-left: 20px;
-    }
-
-
-    footer .content-number p {
+    .casa p.segundo {
+        width: 200px;
         font-size: 15px;
     }
-
 
 
 
