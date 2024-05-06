@@ -400,6 +400,13 @@ header .linkedin-mobile i {
     background-size: cover;
 }
 
+.port-img-gelado {
+    border-radius: 15px 0px 0px 15px;
+    width: 100%;
+    background-image: url(../img/gelado-01.png);
+    background-size: cover;
+}
+
 .port-content {
     border-radius: 0px 15px 15px 0px;
     width: 100%;
