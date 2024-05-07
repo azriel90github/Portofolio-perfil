@@ -196,6 +196,15 @@
         height: 25vh;
     }
 
+    .port-img-gelado  {
+        background-position: center center;
+        border-radius: 15px 15px 0px 0px;
+        margin: auto;
+        height: 20vh;
+        width: 100%;
+        
+    }
+
     
     aside button  {
         padding-bottom: 10px;

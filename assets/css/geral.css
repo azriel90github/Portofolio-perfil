@@ -401,6 +401,7 @@ header .linkedin-mobile i {
 }
 
 .port-img-gelado {
+    background-position: center center;
     border-radius: 15px 0px 0px 15px;
     width: 100%;
     background-image: url(../img/gelado-01.png);
@@ -467,13 +468,7 @@ aside .data {
     color: #0C96FA;
 }
 
-
-
-
-
 /*Serviços--------------------*/
-
-
 
 
 @media (prefers-reduced-motion: no-preference) {
@@ -654,7 +649,6 @@ aside .data {
     color: #60A4D1;
     padding-bottom: 15px;
 }
-
 
 
 .contacto h2 {
