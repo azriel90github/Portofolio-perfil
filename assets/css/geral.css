@@ -203,7 +203,7 @@ header .linkedin-mobile i {
     color: white;
 }
 
-.home-email button {
+.home-email input#botao {
     margin-top: 15px;
     color: white;
     font-size: 17px;
