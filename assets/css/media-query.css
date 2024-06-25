@@ -19,6 +19,10 @@
         padding: 17px;
     }
 
+    menu .social-menu>a>i {
+        display: none;
+      }
+
     header menu nav a {
         display: none;
     }

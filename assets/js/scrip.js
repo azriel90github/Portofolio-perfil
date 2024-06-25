@@ -26,27 +26,11 @@ function formatTime(time) {
 // Eventos typelt para a digitação automática
 document.addEventListener('DOMContentLoaded', () => {
   new TypeIt("#multipleStrings", {
-    strings: ["Olá sou o <br> Suélio Armando", "Software Devoloper."],
-    speed: 70,
-    waitUntilVisible: true,
   }).go();
 } )
 
 
 
-// Eventos typelt para a digitação automática
-document.addEventListener('DOMContentLoaded', () => {
-  new TypeIt(".animacao", { //Obejcto TypeIt adicionado na classeName animacao
-    speed: 100,
-    loop: true
-  })
-  .type("Olá gostou da minha apresentação?", {delay: 500})
-  .delete(33)
-  .type("Espero que tenha deixado sua mensagem!", {delay: 250})
-  .delete(41)
-  .type("Até mais &#x1F596;! Se cuide viu...")
-  .go()
-} )
 
 
 
