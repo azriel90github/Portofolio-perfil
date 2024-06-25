@@ -50,10 +50,8 @@ body {
 }
 
 header {
-    padding-top: 18px;
+    padding-top: 19px;
     z-index: 100;
-    align-items: center;
-    justify-content: center;
     position: fixed;
     width: 100%;
     background: #0B619F;
@@ -79,7 +77,7 @@ header menu nav a:hover {
 .casa {
     text-align: center;
     padding-bottom: 10px;
-
+    padding-top: 50px;
 }
 .casa-home {
     margin: auto;
@@ -110,7 +108,7 @@ header menu nav a:hover {
 
 .casa-primeira {
     position: relative;
-    bottom: -190px;
+    bottom: -160px;
 }
 
 .casa-primeira-01 {
@@ -336,11 +334,11 @@ header menu nav a:hover {
     background-image: url(../img/formulario-mobile.png);
     background-size: cover;
     background-color: #0E1820;
-    opacity: 80%;
+    opacity: 70%;
 }
 
 .port-img-dashboard {
-    opacity: 40%;
+    opacity: 70%;
     border-radius: 15px 0px 0px 15px;
     background-image: url(../img/fundo-dashboard.png);
     background-size: cover;
@@ -348,7 +346,7 @@ header menu nav a:hover {
 }
 
 .port-img-crud {
-    opacity: 40%;
+    opacity: 70%;
     border-radius: 15px 0px 0px 15px;
     width: 50%;
     background-image: url(../img/fundo-crud.jpeg);
@@ -356,11 +354,20 @@ header menu nav a:hover {
 }
 
 .port-img-gelado {
-    opacity: 40%;
-    background-position: center left;
+    opacity: 70%;
+    background-position: center top;
     border-radius: 15px 0px 0px 15px;
     width: 50%;
-    background-image: url(../img/gelado-01.png);
+    background-image: url(../img/ui-ux-geladaria.png);
+    background-size: cover;
+}
+
+.port-img-portfolio {
+    opacity: 70%;
+    background-position: center top;
+    border-radius: 15px 0px 0px 15px;
+    width: 50%;
+    background-image: url(../img/ui-ux.png);
     background-size: cover;
 }
 

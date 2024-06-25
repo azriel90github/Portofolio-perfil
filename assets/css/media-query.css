@@ -209,6 +209,14 @@
         
     }
 
+    .port-img-portfolio {
+        background-position: center center;
+        border-radius: 15px 15px 0px 0px;
+        margin: auto;
+        height: 20vh;
+        width: 100%;
+    }
+
     .port-img-dashboard {
         background-position: center center;
         border-radius: 15px 15px 0px 0px;
