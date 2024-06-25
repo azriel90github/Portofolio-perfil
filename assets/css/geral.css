@@ -29,16 +29,14 @@ html {
     --cor07:#0C141A;
 }
 
+.apps__button {
+    display: none;
+}
+
 
 body {
     background-color: #01111E;
 }
-
-
-
-  
-  
-
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -52,94 +50,56 @@ body {
 }
 
 header {
+    padding-top: 18px;
     z-index: 100;
+    align-items: center;
+    justify-content: center;
     position: fixed;
     width: 100%;
     background: #0B619F;
 }
 
-
-header .menu {
-    padding: 22px;
+header menu {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
-header .menu p {
-    text-align: left;
-    color: #00BAE5;
-    font-size: 27px;
-}
-
-header .menu {
-    margin-left: 20px;
-}
-
-header .menu .social  {
-    font-size: 25px;
-    margin-right: 20px;
-}
-
-header .menu nav a {
-    color: #9ed1f3;
-    text-decoration: none;
+header menu nav a {
     margin: 5px;
-    font-size: 17px;
+    text-decoration: none;
 }
 
-header .menu nav a:hover {
+header menu nav a:hover {
     color: white;
+    transition-duration: .5s;
 }
 
-header .linkedin-mobile i {
-    display: none;
-    color: white;
-}
-
-/*
-
-#home {
-    background-image: url(../img/banner-perfil02.jpg);
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-}
-
-*/
 
 .casa {
     text-align: center;
     padding-bottom: 10px;
 
 }
-
-
 .casa-home {
+    margin: auto;
     display: grid;
     width: 100%;
     height: 100vh;
     grid-template-columns: 50% 50%;
 }
 
-
-
-
-
-
-
 .casa-segunda {
+    position: relative;
+    top: -30px;
+    right: -100px;
     margin: auto;
 }
-
-
 .casa-segunda h2 {
     text-align: left;
     color: #0C96FA;
     font-size: 30px;
 }
-
-
 .casa p.primeiro {
     color: white;
     text-align: left;
@@ -148,33 +108,22 @@ header .linkedin-mobile i {
     /*text-shadow: 0px 0px 3px #D946EF, 0 0 0px #D946EF, 0 0 10px #D946EF;*/
 }
 
-
 .casa-primeira {
     position: relative;
-    bottom: -160px;
-    left: -100px;
+    bottom: -190px;
 }
- 
-
 
 .casa-primeira-01 {
     display: none;
 }
 
-
 .casa span {
-
     font-size: 45px;
     font-weight: 100;
     color: #0d98fc;
     gap: 30px;
 }
 
-
-#multipleStrings {
-    line-height: 50px;
-    color: white;
-}
 
 .casa p.segundo {
     padding-top: 10px;
@@ -215,6 +164,12 @@ header .linkedin-mobile i {
     background-color: #0c97fac9;
 }
 
+.home-email input#botao:hover {
+    background-color: #0c97fac9;
+    box-shadow: 1px 1px 30px #0c97fac9;
+    transition: .3s;
+}
+
 
 .hora i {
     font-size: 32px;
@@ -224,13 +179,12 @@ header .linkedin-mobile i {
 .hora-botao {
     text-align: center;
     display: flex;
-
-
     padding-top: 30px;
 }
 
 .hora-botao .hora {
     margin: auto;
+    text-align: right;
 }
 
 
@@ -238,7 +192,6 @@ header .linkedin-mobile i {
     text-decoration: none;
     margin: auto;
     background-color: #0c97fac9;
-    box-shadow: 1px 1px 15px #0c97fac9;
     color: #e6e6e6;
     font-weight: 350;
     font-size: 17px;
@@ -253,10 +206,6 @@ header .linkedin-mobile i {
     background-color: #0c97fac9;
     box-shadow: 1px 1px 30px #0c97fac9;
     transition: .3s;
-}
-
-.casa button:active {
-    background: #C4008F;
 }
 
 
@@ -277,6 +226,11 @@ header .linkedin-mobile i {
     text-align: center;
 }
 
+.trilha-react {
+    background-image: url(../img/react.png);
+    position: relative;
+}
+
 @media (prefers-reduced-motion: no-preference) {
     .trilha-react {
       animation: App-logo-spin infinite 20s linear;
@@ -294,8 +248,7 @@ header .linkedin-mobile i {
     border-radius: 20px;
     margin: auto;
     background-color: #11181d7c;
-    
-    width: 70%;
+    width: 80%;
     padding: 7px;
     
 }
@@ -330,12 +283,6 @@ header .linkedin-mobile i {
 }
 
 
-.trilha button i {
-    font-size: 20px;
-    color: #00BAE5;
-}
-
-
 /*Portofolio------------------------*/
 
 .portofolio-main {
@@ -364,7 +311,7 @@ header .linkedin-mobile i {
     gap: 30px;
     display: grid;
     justify-content: center;
-    grid-template-columns: 70%;
+    grid-template-columns: 75%;
 
 }
 
@@ -373,7 +320,6 @@ header .linkedin-mobile i {
     display: flex;
     border-radius: 20px;
     padding: 8px;
-
     box-shadow: 1px 1px 10px #0c97fa96;
 
 }
@@ -384,33 +330,43 @@ header .linkedin-mobile i {
 }
 
 .port-img  {
-    background-position: center;
+    background-position: left;
     border-radius: 15px 0px 0px 15px;
-    width: 100%;
-    height: 100%;
+    width: 50%;
     background-image: url(../img/formulario-mobile.png);
     background-size: cover;
     background-color: #0E1820;
+    opacity: 80%;
+}
+
+.port-img-dashboard {
+    opacity: 40%;
+    border-radius: 15px 0px 0px 15px;
+    background-image: url(../img/fundo-dashboard.png);
+    background-size: cover;
+    width: 50%;
 }
 
 .port-img-crud {
+    opacity: 40%;
     border-radius: 15px 0px 0px 15px;
-    width: 100%;
+    width: 50%;
     background-image: url(../img/fundo-crud.jpeg);
     background-size: cover;
 }
 
 .port-img-gelado {
-    background-position: center center;
+    opacity: 40%;
+    background-position: center left;
     border-radius: 15px 0px 0px 15px;
-    width: 100%;
+    width: 50%;
     background-image: url(../img/gelado-01.png);
     background-size: cover;
 }
 
 .port-content {
-    border-radius: 0px 15px 15px 0px;
-    width: 100%;
+    border-radius: 0px 17px 17px 0px;
+    width: 50%;
     background-color: #08131D;
     padding: 10px 10px 10px 25px;
 }
@@ -441,8 +397,6 @@ aside {
     align-items: center;
     padding-top: 20px;
 }
-
-
 
 aside a  {
     text-decoration: none;
@@ -581,7 +535,6 @@ aside .data {
     height: 70px;
 }
 
-
 .serviços  .serv button  {
     border: none;
     cursor: pointer;
@@ -664,10 +617,6 @@ aside .data {
     color: #0d98fc;
     padding-right: 7px;
 }
-
-
-
-
 
 .social a i:hover {
     color: #71C0F5;
@@ -789,7 +738,7 @@ footer .pages menu a {
     width: 100%;
     text-decoration: none;
     margin-bottom: 10px;
-    color: #8dd1ff;
+    color: #00BAE5;
 }
 
 footer .pages menu a i {
