@@ -54,7 +54,10 @@ header {
     z-index: 100;
     position: fixed;
     width: 100%;
-    background: #0B619F;
+    background:  #0b619f7c;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.37);
 }
 
 header menu {
@@ -159,7 +162,7 @@ header menu nav a:hover {
     border: none;
     width: 400px;
     cursor: pointer;
-    background-color: #0c97fac9;
+    background-color: #0b619f7c;
 }
 
 .home-email input#botao:hover {
@@ -189,7 +192,7 @@ header menu nav a:hover {
 .hora-botao a   {
     text-decoration: none;
     margin: auto;
-    background-color: #0c97fac9;
+    background-color: #0b619f7c;
     color: #e6e6e6;
     font-weight: 350;
     font-size: 17px;
@@ -252,7 +255,7 @@ header menu nav a:hover {
 }
 
 .trilha:hover {
-    box-shadow: 1px 1px 35px #0c97fa96;
+    box-shadow: 1px 1px 20px #0c97fa96;
     transition-duration: .3s;
 }
 
@@ -323,7 +326,7 @@ header menu nav a:hover {
 }
 
 .container-portofolio:hover {
-    box-shadow: 1px 1px 35px #0c97fa96;
+    box-shadow: 1px 1px 20px #0c97fa96;
     transition-duration: .3s;
 }
 
@@ -412,18 +415,18 @@ aside a  {
     text-align: center;
     width: 40%;
     color: #e6e6e6;
-    background-color: #0c97fa96;
-    box-shadow: 1px 1px 15px #0c97fa96;
+    background-color: #0b619f7c;
     padding: 8px;
     cursor: pointer;
     border: none;
     border-radius: 11px;
 }
-
+/*
 aside a:hover {
-    box-shadow: 1px 1px 30px #0c97fa96;
+    box-shadow: 1px 1px 15px #0c97fa4d;
     transition-duration: .2s;
 }
+*/
 
 aside .data {
     color: #0C96FA;
@@ -464,17 +467,21 @@ aside .data {
 }
 
 .serviços {
-    box-shadow: 1px 1px 20px #0c97fa96;
+    box-shadow: 1px 1px 15px #0c97fa96;
     border-radius: 30px;
     display: flex;
     background-color: #11181d7c;
     padding: 8px;
 }
 
+/*
+
 .serviços:hover {
-    box-shadow: 1px 1px 35px #0c97fa96;
+    box-shadow: 1px 1px 30px #0c97fa96;
     transition-duration: .3s;
 }
+
+*/
 
 .serviços  .serv {
     width: 500px;
@@ -483,8 +490,7 @@ aside .data {
 }
 
 .serviços .serv h3 {
-    background-color: #0c97fa96;
-    box-shadow: 1px 1px 10px #0c97fa96;
+    background-color: #0b619f7c;
     color: #e6e6e6;
     text-align: center;
     font-size: 25px;
@@ -553,8 +559,7 @@ aside .data {
     align-items: center;  
     justify-content: center;
     font-size: 17px;
-    background-color: #0c97fa96;
-    box-shadow: 1px 1px 10px #0c97fa96;
+    background-color: #0b619f7c;
     color: #e6e6e6;
     padding: 10px;
     
@@ -675,8 +680,7 @@ aside .data {
     align-items: center;
     justify-content: center;
     margin: auto;
-    background-color: #0c97fa96;
-    box-shadow: 1px 1px 15px #0c97fa96;
+    background-color: #0b619f7c;
     color: #e6e6e6;
     font-weight: 350;
     font-size: 17px;
@@ -685,6 +689,7 @@ aside .data {
     padding: 10px;
     border-radius: 11px;
 }
+
 
 .send-botao:hover {
     background-color: #0c97fa96;
@@ -819,8 +824,7 @@ footer .social a i:hover {
     transition: .2s;
 }
 footer  button {
-    background-color: #0c97fa96;
-    box-shadow: 1px 1px 15px #0c97fa96;
+    background-color: #0b619f7c;
     margin-top: 15px;
     color: #e6e6e6;
     font-weight: 350;

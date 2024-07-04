@@ -16,10 +16,8 @@ button {
 
 button:focus { outline: revert } 
 
-header {
-  background-color: var(--white);
-  width: 100%;
-}
+
+
 
 menu .social-menu>a>i {
   color: #0C96FA;
