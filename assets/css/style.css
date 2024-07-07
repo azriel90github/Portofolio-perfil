@@ -331,9 +331,9 @@ main {
   gap: 15px;
 }
 
-.avatar-box {
+.avatar-box img {
   background: var(--bg-gradient-onyx);
-  border-radius: 20px;
+  border-radius: 50%;
 }
 
 .info-content .name {
@@ -1869,7 +1869,10 @@ textarea.form-input::-webkit-resizer { display: none; }
     opacity: 0;
   }
 
-  .social-list { justify-content: center; }
+  .social-list { 
+    justify-content: center; 
+    padding-bottom: 4px;
+  }
 
 
 
