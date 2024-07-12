@@ -7,6 +7,9 @@
  * copyright 2022 @codewithsadee
  */
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 
 
@@ -535,7 +538,7 @@ main {
   content: "";
   position: absolute;
   inset: 1px;
-  background: var(--bg-gradient-jet);
+  background: #022c22;
   border-radius: inherit;
   z-index: -1;
 }
