@@ -11,9 +11,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-
 /*-----------------------------------*\
   #CUSTOM PROPERTY
 \*-----------------------------------*/
@@ -1838,7 +1835,9 @@ textarea.form-input::-webkit-resizer { display: none; }
     text-align: center;
   }
 
-  .info-content .title { margin: auto; }
+  .info-content .title { 
+    margin: auto; 
+  }
 
   .info_more-btn { display: none; }
 
@@ -1866,7 +1865,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .social-list { 
-    justify-content: center; 
+    justify-content: center;
     padding-bottom: 4px;
   }
 
