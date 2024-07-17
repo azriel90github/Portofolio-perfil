@@ -1,0 +1,116 @@
+:root {
+  --gray-dark: #3e3e3e;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.button-menu {
+  all: unset;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:focus { outline: revert } 
+
+header {
+  background-color: var(--white);
+  width: 100%;
+}
+
+header menu p.logo {
+  font-size: 30px;
+}
+
+.apps__button--wrapper .button-menu svg {
+  margin-top: 7px;
+  position: relative;
+  right: -10px;
+
+}
+
+.dropdown__wrapper {
+  min-width: 10.875rem;
+  padding: 0.75rem;
+  top: 4rem;
+  right: -3rem;
+  position: absolute;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #0B619F;
+  gap: 0.25rem;
+  animation: fadeOutAnimation ease-in-out 
+      0.2s forwards;
+  box-shadow: rgba(100, 100, 111, 0.2)
+      0px 7px 29px 0px;
+}
+
+
+.apps__button--wrapper {
+  position: relative;
+}
+
+.apps-container {
+  display: grid;
+  text-align: center;
+  flex-direction: row;
+  padding: 10px;
+  gap: 10px;
+  text-decoration: none;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  max-height: 12rem;
+}
+
+.apps-container a {
+  font-size: 17px;
+  text-decoration: none;
+}
+
+
+.dropdown__wrapper--fade-in {
+  animation: fadeInAnimation ease-in-out
+      0.2s forwards;
+}
+
+.none {
+  display: none;
+}
+
+.hide {
+  opacity: 0;
+  visibility: hidden;
+  animation: fadeOutAnimation ease-in-out
+      0.2s forwards;
+}
+
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+      visibility: hidden;
+      height: 7.5rem;
+  }
+  100% {
+      opacity: 1;
+      visibility: visible;
+      height: 12.5rem;
+  }
+}
+
+@keyframes fadeOutAnimation {
+  0% {
+      opacity: 1;
+      height: 12.5rem;
+      visibility: visible;
+  }
+  100% {
+      opacity: 0;
+      height: 7.5rem;
+      visibility: hidden;
+  }
+}
