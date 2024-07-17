@@ -29,9 +29,7 @@ html {
     --cor07:#0C141A;
 }
 
-.apps__button {
-    display: none;
-}
+
 
 
 body {
@@ -49,31 +47,6 @@ body {
     box-sizing: border-box;
 }
 
-header {
-    padding-top: 18px;
-    z-index: 100;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    width: 100%;
-    background: #0B619F;
-}
-
-header menu {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-header menu nav a {
-    margin: 5px;
-    text-decoration: none;
-}
-
-header menu nav a:hover {
-    color: white;
-    transition-duration: .5s;
-}
 
 
 .casa {
