@@ -52,18 +52,15 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 2rem 7%;
-    background: transparent;
+    padding: 1rem 7%;
+
     display: flex;
     align-items: center;
     z-index: 100;
     transition: .5s;
 }
 
-.header.sticky {
-    background: var(--bg-color);
-    box-shadow: 0 .1rem 1rem var(--shadow-color);
-}
+
 
 .logo {
     font-size: 2.5rem;
