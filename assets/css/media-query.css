@@ -5,37 +5,6 @@
     .apps__button {
         display: block;
     }
-    header {
-        padding: 15px;
-        position: fixed;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        width: 100%;
-        background: #0B619F;
-    }
-
-    header .menu {
-        padding: 17px;
-    }
-
-    header menu nav a {
-        display: none;
-    }
-
-    header .menu .social  {
-        display: none;
-    }
-    
-    header .menu nav  {
-        display: none;
-    }
-
-    header .linkedin-mobile i {
-        display: block;
-        font-size: 40px;
-        margin: 12px 20px 0px 0px;
-    }
 
     .hora-botao {
         margin: auto;
@@ -348,23 +317,25 @@
         display: block;
     }
 
-    #darkMode-icon {
-        position: absolute;
-        right: 7rem;
-        font-size: 2.6rem;
-        color: var(--text-color);
-        margin-bottom: .1rem;
+    .header {
+        padding: 20px;
+    }
+
+    .header .logo {
+        font-size: 30px;
+    }
+    .header .social {
+        display: none;
     }
 
     .navbar {
+        background-color: #097BCB;
         position: absolute;
         top: 100%;
         left: 0;
         width: 100%;
-        padding: 1rem 3%;
-        background: var(--bg-color);
-        border-top: .1rem solid rgba(0, 0, 0, .2);
-        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+        padding-bottom: 20px;
+
         display: none;
     }
 
@@ -373,10 +344,10 @@
     }
 
     .navbar a {
+        margin-left: 20px;
+        padding: 5px;
         display: block;
-        font-size: 2rem;
-        margin: 3rem 0;
-        color: var(--text-color);
+        font-size: 20px;
     }
 
     .navbar a:nth-child(1),

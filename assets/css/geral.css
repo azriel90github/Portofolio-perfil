@@ -59,9 +59,9 @@ body {
 
 .header .social a i {
     margin-top: 7px;
+    margin: auto;
     font-size: 25px;
 }
-
 
 
 .logo {
@@ -100,7 +100,6 @@ body {
 
 .casa-segunda {
     position: relative;
-    top: -30px;
     right: -100px;
     margin: auto;
 }
