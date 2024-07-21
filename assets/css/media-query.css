@@ -6,34 +6,28 @@
         display: block;
     }
 
-    .hora-botao {
-        margin: auto;
-        align-items: center;
-        display: grid;
-        position: relative;
-        bottom: 80px;
+    .hora {
+        display: none;
     }
+
 
     .hora-botao a {
-        width: 92%;
-        margin-left: 1px;
+        width: 70%;
     }
 
-    .hora-botao .hora {
-        padding-top: 25px;
-        text-align: left;
-        padding-left: 10px;
+    .vindas {
+        text-align: center;
     }
+
 
     .casa {
-        width: 100%;
-        height: 117vh;
+
+
         /*background-image: url(../img/banner-perfil.jpg);
         background-size: cover;
         background-attachment: fixed;*/
-        padding-top: 50px;
-        display: block;
-        padding-left: 9%;
+
+
         box-shadow: 1px 1px 40px #0c97fa63;
         
     }
@@ -42,13 +36,6 @@
         display: none;
     }
 
-    .casa-segunda {
-        position: relative;
-        right: -0px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
 
     .casa-segunda h2 {
         position: relative;
@@ -58,36 +45,18 @@
         font-weight: 100;
     }
 
-    .home-email input {
-        position: relative;
-        width: 92%;
-    }
-    
-    .home-email input#botao {
-        width: 92%;
-    }
-
-    .casa-home {
+    .casa {
         display: flex;
-        flex-direction: column;
         align-items: center;
         justify-content: center;
-        text-align: left;
     }
-
     .casa p.primeiro {   
         font-size: 35px;
         width: 365px;
         text-align: center;
         padding-bottom: 5px;
     }
-
-    #home .dev {
-        text-align: left;
-        font-weight: 100;
-        font-size: 38px;
-
-    }    
+  
     
     .casa span {
         width: 100%;

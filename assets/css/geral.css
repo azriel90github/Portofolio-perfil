@@ -75,12 +75,18 @@ body {
     display: none;
 }
 
+.idiomas {
+    display: flex;
+    align-items: center;
+}
+
 .idiomas i {
     font-size: 30px;
     cursor: pointer;
 }
 
 .casa {
+    padding-top: 50px;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -96,8 +102,8 @@ body {
 }
 
 .casa-segunda .vindas {
-    font-size: 20px;
-
+    font-size: 22px;
+    padding-bottom: 8px;
 }
 
 .casa-segunda .social{
@@ -111,7 +117,8 @@ body {
     font-size: 30px;
 }
 .casa p.primeiro {
-
+    text-align: center;
+    width: 50%;
     color: white;
     font-size: 43px;
     font-weight: 100;
@@ -133,9 +140,9 @@ body {
 
 .casa p.segundo {
     padding-top: 10px;
-    font-family: Mont;
+
     font-weight: 100;
-    text-align: left;
+    text-align: center;
     line-height: 25px;
     color: #9ed1f3;
     font-size: 17px;
@@ -165,9 +172,9 @@ body {
     padding-top: 30px;
 }
 
-.hora-botao .hora {
-    margin: auto;
-    text-align: right;
+ .hora {
+    font-size: 27px;
+    margin-right: 20px;
 }
 
 
@@ -181,7 +188,8 @@ body {
     width: 250px;
     cursor: pointer;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 70px;
+    box-shadow: 1px 1px 20px #0c97fac9;
 }
 
 
@@ -502,7 +510,7 @@ aside .data {
 }
 
 .serviços  .serv .separador {
-    border-bottom: 2px solid #097BCB;
+    border-bottom: 1px solid #097BCB;
     margin: auto;
     width: 90%;
     color: #00BAE5;
@@ -536,11 +544,7 @@ aside .data {
     box-shadow: 1px 1px 10px #0c97fa96;
     color: #e6e6e6;
     padding: 10px;
-    
 }
-
-
-
 
 .serviços  .serv a {
     text-decoration: none;
