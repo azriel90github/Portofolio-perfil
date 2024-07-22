@@ -46,7 +46,8 @@ body {
 }
 
 .header {
-    background-color: #097BCB;
+    background-color: #097acbd2;
+    backdrop-filter: blur(10px);
     position: fixed;
     padding: 20px;
     width: 100%;
@@ -108,14 +109,14 @@ body {
 
 .casa-segunda .social{
     padding-top: 20px;
-
 }
 
 .casa-segunda h2 {
-
+    text-align: center;
     color: #0C96FA;
     font-size: 30px;
 }
+
 .casa p.primeiro {
     text-align: center;
     width: 50%;
@@ -149,23 +150,6 @@ body {
     width: 400px;
 }
 
-.home-email {
-    text-align: left;
-    padding-top: 40px;
-}
-
-.home-email input {
-    font-size: 17px;
-    border: none;
-    border-radius: 10px;
-    padding: 10px;
-    width: 400px;
-    border: 1px solid #0c97fa96;
-    background: #05111B;
-    color: white;
-}
-
-
 .hora-botao {
     text-align: center;
     display: flex;
@@ -179,24 +163,23 @@ body {
 
 
 .hora-botao a   {
+    background: -webkit-linear-gradient(right,#00dbde,#fc00ff);
+    border-radius: 70px;
     text-decoration: none;
     margin: auto;
-    background-color: #0c97fac9;
     color: #e6e6e6;
     font-weight: 350;
     font-size: 17px;
     width: 250px;
     cursor: pointer;
     padding: 10px;
-    border-radius: 70px;
     box-shadow: 1px 1px 20px #0c97fac9;
 }
 
 
 .casa a:hover {
-    background-color: #0c97fac9;
-    box-shadow: 1px 1px 30px #0c97fac9;
     transition: .3s;
+    transform: scale(1.03);
 }
 
 
@@ -316,7 +299,6 @@ body {
 }
 
 .container-portofolio:hover {
-    box-shadow: 1px 1px 35px #0c97fa96;
     transition-duration: .3s;
 }
 
@@ -390,6 +372,7 @@ aside {
 }
 
 aside a  {
+    background: -webkit-linear-gradient(right,#00dbde,#fc00ff);
     text-decoration: none;
     border: 2px solid #0c97fa96;
     border-radius: 13px;
@@ -405,7 +388,7 @@ aside a  {
 }
 
 aside a:hover {
-    box-shadow: 1px 1px 30px #0c97fa96;
+    box-shadow: 1px 1px 35px #0c97fa96;
     transition-duration: .2s;
 }
 
@@ -456,7 +439,6 @@ aside .data {
 }
 
 .serviços:hover {
-    box-shadow: 1px 1px 35px #0c97fa96;
     transition-duration: .3s;
 }
 
@@ -540,7 +522,7 @@ aside .data {
     align-items: center;  
     justify-content: center;
     font-size: 17px;
-    background-color: #0c97fa96;
+    background: -webkit-linear-gradient(right,#00dbde,#fc00ff);
     box-shadow: 1px 1px 10px #0c97fa96;
     color: #e6e6e6;
     padding: 10px;
@@ -552,7 +534,7 @@ aside .data {
 
 .serviços  .serv a button:hover {
     background-color: #0c97fa96;
-    box-shadow: 1px 1px 30px #0c97fa96;
+    box-shadow: 1px 1px 35px #0c97fa96;
     transition-duration: .2s;
 }
 
@@ -658,7 +640,7 @@ aside .data {
     align-items: center;
     justify-content: center;
     margin: auto;
-    background-color: #0c97fa96;
+    background: -webkit-linear-gradient(right,#00dbde,#fc00ff);
     box-shadow: 1px 1px 15px #0c97fa96;
     color: #e6e6e6;
     font-weight: 350;
@@ -802,7 +784,7 @@ footer .social  {
     transition: .2s;
 }
 footer  button {
-    background-color: #0c97fa96;
+    background: -webkit-linear-gradient(right,#00dbde,#fc00ff);
     box-shadow: 1px 1px 15px #0c97fa96;
     margin-top: 15px;
     color: #e6e6e6;

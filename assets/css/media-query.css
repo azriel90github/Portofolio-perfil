@@ -21,25 +21,17 @@
 
 
     .casa {
-
-
         /*background-image: url(../img/banner-perfil.jpg);
         background-size: cover;
         background-attachment: fixed;*/
-
-
         box-shadow: 1px 1px 40px #0c97fa63;
-        
     }
 
     .casa-primeira {
         display: none;
     }
 
-
     .casa-segunda h2 {
-        position: relative;
-        left: -25px;
         display: block;
         text-align: center;
         font-weight: 100;
@@ -286,6 +278,7 @@
 @media (max-width: 768px) {
     #menu-icon {
         display: block;
+        font-size: 30px;
     }
 
     .header {
@@ -321,17 +314,9 @@
         font-size: 20px;
     }
 
-    .navbar a:nth-child(1),
-    .navbar a:nth-child(2) {
-        color: var(--text-color);
-    }
-
-    .navbar a.active {
-        color: var(--main-color);
-    }
-
-    .navbar a::before {
-        display: none;
+    .idiomas i {
+        position: relative;
+        right: -50px;
     }
 
     .home {
