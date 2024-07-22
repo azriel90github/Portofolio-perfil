@@ -1,4 +1,6 @@
 
+
+
 // Programa para o Relógio Digital
 const hour = document.querySelector('#hour')
 const min = document.querySelector('#min')
@@ -45,7 +47,7 @@ window.onscroll = () => {
                 document.querySelector('header nav a[href*=' + id + ']').classList.add('active');
             });
         };
-    });
+});
 
 
 /*========== sticky navbar ==========*/
@@ -65,9 +67,9 @@ new TypeIt("#hero", {
     speed: 50,
     startDelay: 900,
   })
-    .type("Sou o Azrie rmando", { delay: 100 })
+    .type("Sou o Suélio rmando", { delay: 100 })
     .move(-8, { delay: 100 })
-    .type("l", { delay: 400 })
+    .type("e", { delay: 400 })
     .move(null, { to: "START", instant: true, delay: 300 })
     .move(1, { delay: 200 })
     .delete(1)
@@ -83,7 +85,7 @@ new TypeIt("#hero", {
     .move(-4, { delay: 150 })
     .type("i")
     .move(null, { to: "END" })
-    .type(' on the <span class="place">internet</span>', { delay: 400 })
+    .type(' Desenvolvedor <span class="place">internet</span>', { delay: 400 })
     .delete(".place", { delay: 800, instant: true })
     .type('<em><strong class="font-semibold">planet.</strong></em>', {
       speed: 100,

@@ -30,8 +30,6 @@ html {
 }
 
 
-
-
 body {
     font-family: Mont;
     background-color: #01111E;
@@ -85,6 +83,7 @@ body {
     font-size: 30px;
     cursor: pointer;
 }
+
 
 .casa {
     padding-top: 50px;
@@ -648,10 +647,11 @@ aside .data {
     width: 250px;
     cursor: pointer;
     padding: 10px;
-    border-radius: 11px;
+    border-radius: 70px;
 }
 
 .send-botao:hover {
+    transform: scale(1.03);
     background-color: #0c97fa96;
     box-shadow: 1px 1px 30px #0c97fa96;
     transition: .4s;
@@ -793,7 +793,7 @@ footer  button {
     width: 250px;
     cursor: pointer;
     padding: 11px;
-    border-radius: 10px;
+    border-radius: 70px;
     border: none;
 }
 
@@ -804,6 +804,7 @@ footer  button a {
 
 
 footer  button:hover {
+    transform: scale(1.03);
     background-color: #0c97fa96;
     box-shadow: 1px 1px 30px #0c97fa96;
     transition: .4s;
