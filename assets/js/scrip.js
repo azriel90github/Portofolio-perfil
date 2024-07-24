@@ -85,7 +85,6 @@ new TypeIt("#hero", {
   .type(" and")
   .move(null, { to: "END" })
   .type(' Devoloper<span class="place"> Software</span>', { delay: 400 })
-  .delete(".place", { delay: 900, instant: true })
   .type('<em><strong class="font-semibold"> Extreme.</strong></em>', {
     speed: 100,
   })
