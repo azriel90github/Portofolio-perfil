@@ -1,6 +1,3 @@
-
-
-
 // Programa para o Relógio Digital
 const hour = document.querySelector('#hour')
 const min = document.querySelector('#min')
@@ -21,6 +18,9 @@ setInterval(() => {
 function formatTime(time) {
   return time < 10 ? '0' + time : time
 }
+
+
+
 
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
@@ -50,6 +50,8 @@ window.onscroll = () => {
 });
 
 
+
+
 /*========== sticky navbar ==========*/
 let header = document.querySelector('.header');
 
@@ -61,6 +63,8 @@ menuIcon.classList.remove('bx-x');
 navbar.classList.remove('active');
 
 };
+
+
 
 new TypeIt("#hero", {
   speed: 50,
