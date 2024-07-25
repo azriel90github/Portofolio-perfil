@@ -61,12 +61,11 @@ body {
     margin: 7px;
     font-size: 17px;
     text-decoration: none;
-
+    color: #00B2E0;
 }
 
 #menu-icon {
     font-size: 2.6rem;
-    color: var(--text-color);
     display: none;
 }
 
@@ -447,7 +446,7 @@ aside .data {
 .serviços .serv h3 {
     background-color: #0c97fa96;
     box-shadow: 1px 1px 10px #0c97fa96;
-    color: #e6e6e6;
+    color: #00BAE5;
     text-align: center;
     font-size: 25px;
     font-weight: 300;
@@ -462,17 +461,18 @@ aside .data {
 #suporte h4 {
     color: #0d98fc;
     font-size: 23px;
-    padding-bottom: 15px
+    padding-bottom: 15px;
+    margin-top: 30px;
 }
 
 #suporte p {
     line-height: 30px;
-    padding-bottom: 45px;
-    color: #9ed1f3;
+    padding-bottom: 20px;
+    color: #00BAE5;
 }
 
 #suporte p span {
-    color: #00BAE5;
+    color: #0d98fc;
     margin-right: 5px;
 }
 
@@ -484,15 +484,13 @@ aside .data {
     padding: 0px 0px 20px 0px;
     text-align: center;
     font-size: 30px;
-    color: #00BAE5;
+    color: #0d98fc;
 }
 
 .serviços  .serv .separador {
-    border-bottom: 1px solid #097BCB;
+    border-bottom: 1px solid #00BAE5;
     margin: auto;
-    width: 90%;
-    color: #00BAE5;
-    margin-bottom: 20px;
+    width: 88%;
 }
 
 
@@ -522,6 +520,7 @@ aside .data {
     box-shadow: 1px 1px 10px #0c97fa96;
     color: #e6e6e6;
     padding: 10px;
+    margin-top: 50px;
 }
 
 .serviços  .serv a {
