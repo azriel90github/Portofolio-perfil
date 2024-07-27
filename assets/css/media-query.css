@@ -82,6 +82,32 @@
 
     .container-certificado {
         display: grid;
+        margin: auto;
+        width: 90%;
+        height: 100%;
+
+    }
+
+    .certificado-caixas {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+    }
+
+    .cert-content {
+        width: 100%;
+        padding: 15px 15px 25px 15px;
+    }
+
+    .cert-img-full {
+        background-position: center center;
+        border-radius: 0px 0px 15px 15px;
+        margin: auto;
+        height: 30vh;
+        width: 100%;
     }
 
     #portofolio {

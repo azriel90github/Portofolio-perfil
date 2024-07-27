@@ -267,7 +267,6 @@ body {
     display: grid;
     justify-content: center;
     grid-template-columns: 80%;
-
 }
 
 .container-certificado {
@@ -303,7 +302,7 @@ body {
 .cert-img-full {
     opacity: 40%;
     border-radius: 0px 15px 15px 0px;
-    width: 50%;
+    width: 60%;
     background-image: url(../img/cert-full-stack.png);
     background-size: cover;
     background-position: top;
@@ -321,7 +320,7 @@ body {
 
 .cert-content .cert-listas  {
     margin-left: 25px;
-    line-height: 1.8rem;
+    line-height: 2rem;
 }
 
 .cert-content h4 {
