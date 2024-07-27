@@ -80,6 +80,10 @@
         width: 90%;
     }
 
+    .container-certificado {
+        display: grid;
+    }
+
     #portofolio {
         position: relative;
         top: -130px;

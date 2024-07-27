@@ -254,11 +254,19 @@ body {
 
 /*certificaçõs----------------------*/
 
+#certificacoes h2 {
+    color: #0d98fc;
+    font-weight: 300;
+    font-size: 30px;
+    text-align: center;
+    padding: 50px;
+}
+
 .certificado-caixas {
     gap: 30px;
     display: grid;
     justify-content: center;
-    grid-template-columns: 75%;
+    grid-template-columns: 80%;
 
 }
 
@@ -268,7 +276,6 @@ body {
     border-radius: 20px;
     padding: 8px;
     box-shadow: 1px 1px 10px #0c97fa96;
-
 }
 
 .container-certificado:hover {
@@ -299,32 +306,27 @@ body {
     width: 50%;
     background-image: url(../img/cert-full-stack.png);
     background-size: cover;
-    background-position: center;
+    background-position: top;
 }
 
-.cert-img-gelado {
-    opacity: 40%;
-    background-position: center left;
-    border-radius: 15px 0px 0px 15px;
-    width: 50%;
-    background-image: url(../img/gelado-01.png);
-    background-size: cover;
-}
 
-.cert-img-planner {
-    opacity: 90%;
-    background-position: center left;
-    border-radius: 15px 0px 0px 15px;
-    width: 50%;
-    background-image: url(../img/plano_readme.jpeg);
-    background-size: cover;
-}
+
 
 .cert-content {
     border-radius: 17px 17px 17px 17px;
     width: 50%;
     background-color: #08131D;
-    padding: 10px 10px 10px 25px;
+    padding: 10px 25px 15px 25px;
+}
+
+.cert-content .cert-listas  {
+    margin-left: 25px;
+    line-height: 1.8rem;
+}
+
+.cert-content h4 {
+    color: #0C96FA;
+    padding-bottom: 15px;
 }
 
 .cert-content .separador {
@@ -336,7 +338,7 @@ body {
 
 .cert-content p {
     line-height: 25px;
-    padding: 10px 10px 10px 0px;
+    padding: 10px 10px 5px 0px;
 }
 
 .cert-content h3 {
@@ -367,7 +369,6 @@ aside a  {
     border: 2px solid #0c97fa96;
     border-radius: 13px;
     text-align: center;
-    width: 40%;
     color: #e6e6e6;
     background-color: #0c97fa96;
     box-shadow: 1px 1px 15px #0c97fa96;
@@ -466,7 +467,7 @@ aside .data {
     background-position: center left;
     border-radius: 15px 0px 0px 15px;
     width: 50%;
-    background-image: url(../img/gelado-01.png);
+    background-image: url(../img/fundo-gelado.jpeg);
     background-size: cover;
 }
 
