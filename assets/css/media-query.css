@@ -232,6 +232,11 @@
         top: -100px;
     }
 
+    #contacto {
+        padding-bottom: 4rem;
+        padding-top: 4rem;
+    }
+
     #contacto h2 {
         font-size: 25px;
     }
@@ -242,12 +247,8 @@
         padding-left: 30px;
     }
     
-    .send-footer {
-        width: 350px;
-    }
-
-    .contacto .textarea {
-        width: 350px;
+    .inputs-form {
+        grid-template-columns: 145%;
     }
 
     footer {
