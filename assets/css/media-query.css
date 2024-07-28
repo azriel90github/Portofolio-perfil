@@ -66,11 +66,6 @@
         font-size: 17px;
     }
 
-    .sobre {
-        position: relative;
-        top: -90px;
-    }
-
     .sobre h2 {
         width: 100%;
         font-size: 25px;
@@ -78,6 +73,10 @@
 
     .trilha {
         width: 90%;
+    }
+
+    #certificacoes h2 {
+        padding: 8rem 0 2.5rem 0;
     }
 
     .container-certificado {
@@ -110,11 +109,13 @@
         width: 100%;
     }
 
-    #portofolio {
-        position: relative;
-        top: -130px;
+    .cert-img-react {
+        background-position: center center;
+        border-radius: 0px 0px 15px 15px;
+        margin: auto;
+        height: 30vh;
+        width: 100%;
     }
-
 
     .container-portofolio {
         display: grid;
@@ -123,11 +124,6 @@
         height: 100%;
     }
 
-    .port-react {
-        position: relative;
-        top: -70px;
-        left: -65px;
-    }
 
     .portofolio-caixas {
         height: 100%;
@@ -143,22 +139,11 @@
         padding: 15px 15px 15px 15px;
     }
 
-    .port-img  {
-        border-radius: 15px 15px 0px 0px;
-        margin: auto;
-        height: 20vh;
-        width: 100%;
-        
-    }
 
-    .port-img-crud {
-        border-radius: 15px 15px 0px 0px;
-        margin: auto;
-        width: 100%;
-        height: 25vh;
-    }
-
-    .port-img-gelado  {
+    .port-img-gelado,
+    .port-img-dashboard,
+    .port-img-crud,
+    .port-img-planner {
         background-position: center center;
         border-radius: 15px 15px 0px 0px;
         margin: auto;
@@ -166,27 +151,10 @@
         width: 100%;
         
     }
-
-    .port-img-dashboard {
-        background-position: center center;
-        border-radius: 15px 15px 0px 0px;
-        margin: auto;
-        height: 20vh;
-        width: 100%;
-    }
-
     
     aside button  {
         padding-bottom: 10px;
         width: 50%;
-    }
-
-
-    .services-title {
-        position: relative;
-        top: -140px;
-        padding-top: 100px;
-        padding-bottom: 50px;
     }
 
     .content-img {
@@ -198,13 +166,10 @@
     }
 
     #serviços {
-        position: relative;
-        top: -140px;
         grid-template-columns: 92%;
     }    
 
     .serviços {
-
         grid-template-columns: 87%;
     }
 
@@ -227,14 +192,12 @@
         display: none;
     }
 
-    .contacto {
-        position: relative;
-        top: -100px;
+    #contacto {
+        padding-bottom: 8rem;
     }
 
-    #contacto {
-        padding-bottom: 4rem;
-        padding-top: 4rem;
+    .contacto {
+        padding-top: 0;
     }
 
     #contacto h2 {
@@ -249,6 +212,11 @@
     
     .inputs-form {
         grid-template-columns: 145%;
+    }
+
+    .inputs-form button {
+        margin-top: 20px;
+        width: 70%;
     }
 
     footer {

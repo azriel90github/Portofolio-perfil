@@ -182,7 +182,7 @@ body {
     justify-content: center;
 }
 .sobre h2 {
-    padding-top: 130px;
+    padding-top: 4rem;
     padding-bottom: 25px;
     font-weight: 300;
     font-size: 30px;
@@ -255,7 +255,7 @@ body {
     font-weight: 300;
     font-size: 30px;
     text-align: center;
-    padding: 50px;
+    padding: 7rem 0 3rem 0;
 }
 
 .certificado-caixas {
@@ -284,22 +284,20 @@ body {
 .cert-img-full {
     opacity: 40%;
     border-radius: 0px 15px 15px 0px;
-    width: 60%;
+    width: 50%;
     background-image: url(../img/cert-full-stack.png);
     background-size: cover;
-    background-position: top;
+    background-position: right top;
 }
 
 .cert-img-react {
     opacity: 40%;
     border-radius: 0px 15px 15px 0px;
-    width: 60%;
+    width: 50%;
     background-image: url(../img/cert-react.png);
     background-size: cover;
-    background-position: top;
+    background-position: right top;
 }
-
-
 
 
 .cert-content {
@@ -382,10 +380,6 @@ aside .data {
 
 
 /*Portofolio------------------------*/
-
-.portofolio-main {
-    padding-top: 120px;
-}
 
 
 #portofolio h2 {
@@ -591,7 +585,7 @@ aside .data {
 .serviços .serv h3 {
     background-color: #0c97fa96;
     box-shadow: 1px 1px 10px #0c97fa96;
-    color: #0d98fc;
+    color: #00B2E0;
     text-align: center;
     font-size: 25px;
     font-weight: 300;
@@ -690,12 +684,13 @@ aside .data {
     justify-content: center;
     flex-direction: column;
     padding-bottom: 15rem;
-    padding-top: 5rem;
+    padding-top: 30px;
+
 }
 
 .contacto-react {
     position: relative;
-    bottom: -35px;
+    bottom: -100px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -756,8 +751,9 @@ input:-moz-placeholder {
 
 .inputs-form button {
     background: -webkit-linear-gradient(right,#00dbde,#fc00ff);
-    margin: 5px;
     outline: none;
+    width: 98%;
+    margin: auto;
     padding: 15px;
     border-radius: 10px;
     color: #e6e6e6;
