@@ -6,6 +6,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portofólio Pessoal</title>
+        <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+        <script src="assets/js/email.js"></script>
         <link rel="stylesheet" href="assets/css/menu.css">
         <link rel="stylesheet" href="assets/css/geral.css">
         <link rel="stylesheet" href="assets/css/media-query.css">
@@ -498,17 +500,17 @@
         <div class="contacto" id="contacto">
             <img class="contacto-react" src="assets/img/react.png" alt="">
             <h2>Contratação Rápida</h2>
-            <form action"https://formsubmit.co/azrielgithub@gmail.com" method="post">
+            <form id="contact-form" method="post">
                 <div class="inputs-form">
-                    <input  required size="20" maxlength="30" type="text" name="name" placeholder="Nome" autocomplete="off">
-                    <input  required size="9" maxlength="9" type="number" name="number" placeholder="+244 (número)" autocomplete="off">
-                    <input  required type="email" name="email"placeholder="Email" autocomplete="off">
-                    <input type="text" name="morada" id="" placeholder="Morada">
-                    <input type="text" name="empresa" id="" placeholder="Empresa">
-                    <input type="text" name="empresa" id="" placeholder="GPS Empresa">
-                    <input type="text" name="servico" id="" placeholder="Pacote Serviço">
-                    <input type="text" name="servico" id="" placeholder="Duração Contrato">
-                    <input type="text" name="textarea" id="" placeholder="Deixe sua mensagem">
+                    <input id="name" required size="20" maxlength="30" type="text" name="name" placeholder="Nome" autocomplete="off">
+                    <input id="number" required size="9" maxlength="9" type="number" name="number" placeholder="+244 (número)" autocomplete="off">
+                    <input id="email" required type="email" name="email"placeholder="Email" autocomplete="off">
+                    <input type="text" name="morada" id="morada" placeholder="Morada">
+                    <input type="text" name="empresa" id="empresa" placeholder="Empresa">
+                    <input type="text" name="empresaGPS" id="empresaGPS" placeholder="GPS Empresa">
+                    <input type="text" name="servico" id="servico" placeholder="Pacote Serviço">
+                    <input type="text" name="servico" id="duracaoContrato" placeholder="Duração Contrato">
+                    <input type="text" name="textarea" id="message" placeholder="Deixe sua mensagem">
                     <button  type="submit">Enviar</button>
                 </div>
             </form>
