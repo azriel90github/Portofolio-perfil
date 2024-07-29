@@ -66,6 +66,10 @@
         font-size: 17px;
     }
 
+    .sobre {
+        padding-top: 1rem;
+    }
+
     .sobre h2 {
         width: 100%;
         font-size: 25px;
@@ -211,7 +215,7 @@
     }
     
     .inputs-form {
-        grid-template-columns: 145%;
+        grid-template-columns: 130%;
     }
 
     .inputs-form button {

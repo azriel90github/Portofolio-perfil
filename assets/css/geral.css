@@ -177,6 +177,7 @@ body {
 
 
 .sobre {
+    padding-top: 3rem;
     display: grid;
     gap: 30px;
     justify-content: center;
@@ -250,6 +251,10 @@ body {
 
 /*certificaçõs----------------------*/
 
+#certificacoes {
+    padding-top: 1.5rem;
+}
+
 #certificacoes h2 {
     color: #0d98fc;
     font-weight: 300;
@@ -262,7 +267,7 @@ body {
     gap: 50px;
     display: grid;
     justify-content: center;
-    grid-template-columns: 80%;
+    grid-template-columns: 70%;
 }
 
 .container-certificado {
@@ -381,6 +386,9 @@ aside .data {
 
 /*Portofolio------------------------*/
 
+#portofolio {
+    padding-top: 1rem;
+}
 
 #portofolio h2 {
     color: #0d98fc;
@@ -539,10 +547,9 @@ aside .data {
     }
 }
 
+
 .services-title {
     text-align: center;
-    padding-top: 120px;
-    padding-bottom: 50px;
     font-weight: 300;
     font-size: 30px;
     color: #0d98fc;
@@ -690,7 +697,7 @@ aside .data {
 
 .contacto-react {
     position: relative;
-    bottom: -100px;
+    bottom: -90px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -729,14 +736,14 @@ aside .data {
     background-color: #0c141a7c;
     margin: 5px;
     outline: none;
-    padding: 15px;
+    padding: 16px;
     border-radius: 10px;
     color: #0C92F3;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .inputs-form input::placeholder {
-    color: #0C92F3;
+    color: #0c93f38c;
 }
 
 /* Para o Firefox */
