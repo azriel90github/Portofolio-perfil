@@ -267,7 +267,7 @@ body {
     gap: 50px;
     display: grid;
     justify-content: center;
-    grid-template-columns: 70%;
+    grid-template-columns: 75%;
 }
 
 .container-certificado {
