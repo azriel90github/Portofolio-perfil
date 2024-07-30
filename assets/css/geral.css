@@ -279,6 +279,7 @@ body {
 }
 
 .container-certificado:hover {
+    box-shadow: 1px 1px 35px #0c97fa96;
     transition-duration: .3s;
 }
 
@@ -390,6 +391,11 @@ aside .data {
     padding-top: 1rem;
 }
 
+.container-portofolio:hover {
+    box-shadow: 1px 1px 35px #0c97fa96;
+    transition-duration: .3s;
+}
+
 #portofolio h2 {
     color: #0d98fc;
     font-weight: 300;
@@ -422,10 +428,6 @@ aside .data {
     padding: 8px;
     box-shadow: 1px 1px 10px #0c97fa96;
 
-}
-
-.container-portofolio:hover {
-    transition-duration: .3s;
 }
 
 .port-img  {
@@ -569,6 +571,11 @@ aside .data {
 
 .serv {
     width: 100%;
+}
+
+.serviços:hover {
+    box-shadow: 1px 1px 50px #0c97fa96;
+    transition-duration: .3s;
 }
 
 .serviços {
