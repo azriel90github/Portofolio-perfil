@@ -574,6 +574,7 @@ aside .data {
 }
 
 .serviços:hover {
+    cursor: pointer;
     box-shadow: 1px 1px 50px #0c97fa96;
     transition-duration: .3s;
 }
