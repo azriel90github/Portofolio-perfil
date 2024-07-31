@@ -136,7 +136,7 @@ body {
     text-align: center;
     line-height: 25px;
     font-size: 17px;
-    width: 400px;
+    width: 500px;
 }
 
 .hora-botao {
@@ -219,6 +219,7 @@ body {
 }
 
 .trilha:hover {
+    cursor: pointer;
     box-shadow: 1px 1px 35px #0c97fa96;
     transition-duration: .3s;
 }
@@ -279,6 +280,7 @@ body {
 }
 
 .container-certificado:hover {
+    cursor: pointer;
     box-shadow: 1px 1px 35px #0c97fa96;
     transition-duration: .3s;
 }
@@ -392,6 +394,7 @@ aside .data {
 }
 
 .container-portofolio:hover {
+    cursor: pointer;
     box-shadow: 1px 1px 35px #0c97fa96;
     transition-duration: .3s;
 }
