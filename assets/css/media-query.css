@@ -80,6 +80,7 @@
     }
 
     #certificacoes h2 {
+
         padding: 8rem 0 2.5rem 0;
     }
 
@@ -253,6 +254,7 @@
 
 @media only screen and (max-width: 360px) {
     .casa {
+        background-position: top;
         height: 120vh;
         padding-left: 0px;
     }

@@ -82,6 +82,10 @@ body {
 
 
 .casa {
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     padding-top: 50px;
     height: 100vh;
     width: 100%;
