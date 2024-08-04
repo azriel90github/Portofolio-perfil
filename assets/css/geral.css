@@ -200,14 +200,12 @@ body {
     position: relative;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-    .trilha-react {
-      animation: App-logo-spin infinite 20s linear;
-    }
+
+.trilha-fundo-h2 {
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
-
-
-
 
 .trilha {
     box-shadow: 1px 1px 10px #0c97fa96;
@@ -258,6 +256,12 @@ body {
 
 #certificacoes {
     padding-top: 1.5rem;
+}
+
+.cert-fundo-h2 {
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #certificacoes h2 {
@@ -411,12 +415,10 @@ aside .data {
     padding-bottom: 50px;
 }
 
-
-
-@media (prefers-reduced-motion: no-preference) {
-    .port-react  {
-      animation: App-logo-spin infinite 20s linear;
-    }
+.port-fundo-h2 {
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 
@@ -549,16 +551,14 @@ aside .data {
 
 /*Serviços--------------------*/
 
-
-@media (prefers-reduced-motion: no-preference) {
-    .serv-react  {
-      animation: App-logo-spin infinite 20s linear;
-    }
+.serv-fundo-h2 {
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 
 .services-title {
-    text-align: center;
     font-weight: 300;
     font-size: 30px;
     color: #0d98fc;
@@ -699,6 +699,10 @@ aside .data {
     width: 60px;
 }
 
+.contact-form {
+    background-image: url(../);
+}
+
 
 .contacto {
     display: flex;
@@ -713,12 +717,6 @@ aside .data {
 .contacto-react {
     position: relative;
     bottom: -90px;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-    .contacto-react  {
-      animation: App-logo-spin infinite 20s linear;
-    }
 }
 
 

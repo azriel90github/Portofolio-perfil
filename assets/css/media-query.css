@@ -21,9 +21,6 @@
 
 
     .casa {
-        /*background-image: url(../img/banner-perfil.jpg);
-        background-size: cover;
-        background-attachment: fixed;*/
         box-shadow: 1px 1px 40px #0c97fa63;
     }
 
@@ -80,7 +77,6 @@
     }
 
     #certificacoes h2 {
-
         padding: 8rem 0 2.5rem 0;
     }
 
@@ -254,7 +250,6 @@
 
 @media only screen and (max-width: 360px) {
     .casa {
-        background-position: top;
         height: 120vh;
         padding-left: 0px;
     }
