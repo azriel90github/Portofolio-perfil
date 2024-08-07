@@ -212,7 +212,7 @@
     }
     
     .inputs-form {
-        grid-template-columns: 130%;
+        grid-template-columns: 140%;
     }
 
     .inputs-form button {
@@ -288,18 +288,16 @@
     .header .logo {
         font-size: 30px;
     }
-    .header .social {
-        display: none;
-    }
 
     .navbar {
         background-color: #097BCB;
         position: absolute;
+        text-align: center;
         top: 100%;
         left: 0;
         width: 100%;
-        padding-bottom: 20px;
-
+        height: 100vh;
+        padding: 20px;
         display: none;
     }
 
@@ -308,6 +306,7 @@
     }
 
     .navbar a {
+        border-bottom: 1px solid #097BCB;
         margin-left: 20px;
         padding: 5px;
         display: block;

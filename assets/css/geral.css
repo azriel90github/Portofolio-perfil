@@ -573,7 +573,7 @@ aside .data {
 #serviços {
     display: grid;
     justify-content: center;
-    grid-template-columns: 350px 350px;
+    grid-template-columns: 353px 353px 353px;
     gap: 30px;
 }
 
@@ -627,6 +627,8 @@ aside .data {
     margin-top: 30px;
 }
 
+
+
 #suporte p {
     line-height: 30px;
     padding-bottom: 20px;
@@ -654,8 +656,6 @@ aside .data {
     margin: auto;
     width: 88%;
 }
-
-
 
 .serviços  .serv .content-preço del {
     color: #0d98fc;
@@ -698,10 +698,6 @@ aside .data {
 
 .content-img-dados img {
     width: 60px;
-}
-
-.contact-form {
-    background-image: url(../);
 }
 
 
