@@ -157,7 +157,7 @@ body {
 
 
 .hora-botao a   {
-    background: -webkit-linear-gradient(right,#00fbff,#fc00ff);
+    background-color: #007D9C;
     border-radius: 15px;
     text-decoration: none;
     margin: auto;
@@ -167,12 +167,11 @@ body {
     width: 250px;
     cursor: pointer;
     padding: 10px;
-    box-shadow: 1px 1px 20px #0c97fac9;
 }
 
 
 .casa .hora-botao a:hover {
-    box-shadow: 1px 1px 40px #0c97fac9;
+    background-color: #014b5e;
     transition: .3s;
     transform: scale(1.05);
 }
@@ -734,7 +733,7 @@ aside .data {
 
 .inputs-form {
     display: grid;
-    grid-template-columns: 90% 90%;
+    grid-template-columns: 95% 95%;
     align-items: center;
     justify-content: center;
 }
@@ -742,10 +741,10 @@ aside .data {
 .inputs-form input {
     border: 1px solid #0c97fa96;
     background-color: #0c141a7c;
-    margin: 5px;
+    margin: 6px;
     outline: none;
-    padding: 16px;
-    border-radius: 10px;
+    padding: 14px;
+    border-radius: 7px;
     color: #0C92F3;
     font-size: 16px;
 }
@@ -767,10 +766,11 @@ input:-moz-placeholder {
 .inputs-form button {
     background-color: #007D9C;
     outline: none;
-    width: 98%;
+    width: 80%;
     margin: auto;
-    padding: 15px;
-    border-radius: 12px;
+    margin-top: 10px;
+    padding: 12px;
+    border-radius: 10px;
     color: #e6e6e6;
     font-size: 17px;
     border: none;

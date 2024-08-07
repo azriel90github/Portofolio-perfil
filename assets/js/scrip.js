@@ -81,7 +81,7 @@ new TypeIt("#hero", {
   .type(" DevOps,")
   .move(null, { to: "END" })
   .type(' Devoloper<span class="place"> Software</span>', { delay: 400 })
-  .type('<em><strong class="font-semibold"> Extreme</strong> JS and Go.</em>', {
+  .type('<em><strong class="font-semibold"> eXtreme</strong> JS and Go.</em>', {
     speed: 100,
   })
   .go();
