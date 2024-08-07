@@ -144,7 +144,8 @@
     .port-img-gelado,
     .port-img-dashboard,
     .port-img-crud,
-    .port-img-planner {
+    .port-img-planner,
+    .port-img-sala {
         background-position: center center;
         border-radius: 15px 15px 0px 0px;
         margin: auto;

@@ -248,7 +248,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 10px 20px;
-    color: #0d98fc;
+    color: #00B2E0;
     font-size: 15px;
 }
 
@@ -330,7 +330,7 @@ body {
 }
 
 .cert-content h4 {
-    color: #0C96FA;
+    color: #00B2E0;
     padding-bottom: 15px;
 }
 
@@ -347,7 +347,7 @@ body {
 }
 
 .cert-content h3 {
-    color: #0C96FA;
+    color: #00B2E0;
     display: flex;
     justify-content: space-between;
     padding-bottom: 10px;
@@ -369,14 +369,12 @@ aside {
 }
 
 aside a  {
-    background: -webkit-linear-gradient(right,#00dbde,#fc00ff);
+    background-color: #007D9C;
     text-decoration: none;
     border: 2px solid #0c97fa96;
     border-radius: 13px;
     text-align: center;
     color: #e6e6e6;
-    background-color: #0c97fa96;
-    box-shadow: 1px 1px 15px #0c97fa96;
     padding: 8px;
     cursor: pointer;
     border: none;
@@ -384,12 +382,12 @@ aside a  {
 }
 
 aside a:hover {
-    box-shadow: 1px 1px 35px #0c97fa96;
+    background-color: #014b5e;
     transition-duration: .2s;
 }
 
-aside .data {
-    color: #0C96FA;
+.port-content aside .data {
+    color: #00B2E0;
 }
 
 
@@ -484,6 +482,15 @@ aside .data {
     background-size: cover;
 }
 
+.port-img-sala {
+    opacity: 90%;
+    background-position: center;
+    border-radius: 15px 0px 0px 15px;
+    width: 50%;
+    background-image: url(../img/sala-02.png);
+    background-size: cover;
+}
+
 .port-content {
     border-radius: 0px 17px 17px 0px;
     width: 50%;
@@ -526,15 +533,13 @@ aside {
 }
 
 aside a  {
-    background: -webkit-linear-gradient(right,#00dbde,#fc00ff);
+    background-color: #007D9C;
     text-decoration: none;
     border: 2px solid #0c97fa96;
     border-radius: 13px;
     text-align: center;
     width: 40%;
     color: #e6e6e6;
-    background-color: #0c97fa96;
-    box-shadow: 1px 1px 15px #0c97fa96;
     padding: 8px;
     cursor: pointer;
     border: none;
@@ -542,12 +547,12 @@ aside a  {
 }
 
 aside a:hover {
-    box-shadow: 1px 1px 35px #0c97fa96;
+    background-color: #014b5e;
     transition-duration: .2s;
 }
 
 aside .data {
-    color: #0C96FA;
+    color: #00B2E0;
 }
 
 /*Serviços--------------------*/
@@ -583,7 +588,6 @@ aside .data {
 
 .serviços:hover {
     cursor: pointer;
-    box-shadow: 1px 1px 50px #0c97fa96;
     transition-duration: .3s;
 }
 
@@ -628,21 +632,17 @@ aside .data {
 }
 
 
-
 #suporte p {
     line-height: 30px;
     padding-bottom: 20px;
     color: #0d98fc;
 }
-
+ 
 #suporte p span {
-    color: #0d98fc;
+    color: #00B2E0;
     margin-right: 5px;
 }
 
-#suporte p del {
-    color: #9ed1f3;
-}
 
 .serviços  .serv .content-preço {
     padding: 0px 0px 20px 0px;
@@ -678,8 +678,7 @@ aside .data {
     align-items: center;  
     justify-content: center;
     font-size: 17px;
-    background: -webkit-linear-gradient(right,#00dbde,#fc00ff);
-    box-shadow: 1px 1px 10px #0c97fa96;
+    background-color: #007D9C;
     color: #e6e6e6;
     padding: 10px;
     margin-top: 50px;
@@ -690,8 +689,7 @@ aside .data {
 }
 
 .serviços  .serv a button:hover {
-    background-color: #0c97fa96;
-    box-shadow: 1px 1px 35px #0c97fa96;
+    background-color: #014b5e;
     transition-duration: .2s;
 }
 
@@ -767,21 +765,20 @@ input:-moz-placeholder {
   }
 
 .inputs-form button {
-    background: -webkit-linear-gradient(right,#00dbde,#fc00ff);
+    background-color: #007D9C;
     outline: none;
     width: 98%;
     margin: auto;
     padding: 15px;
     border-radius: 12px;
     color: #e6e6e6;
-    font-size: 15px;
+    font-size: 17px;
     border: none;
     cursor: pointer;
-    box-shadow: 1px 1px 15px #0c97fa96;
 }
 
 .inputs-form button:hover {
-    box-shadow: 1px 1px 30px #0c97fa96;
+    background-color: #014b5e;
     transition: .4s;
 }
 
@@ -811,11 +808,6 @@ footer .pages menu h3 {
     padding-bottom: 20px;
 }
 
-footer .pages menu h3 i {
-    color: #0d98fc;
-    padding-right: 5px;
-    font-size: 30px;
-}
 
 footer .pages menu a {
     display: flex;
@@ -828,7 +820,7 @@ footer .pages menu a {
 footer .pages menu a i {
     padding-right: 8px;
     font-size: 20px;
-    color: #0d98fc;
+    color: #00B2E0;
 }
 
 footer .pages menu a:hover {
@@ -896,8 +888,7 @@ footer .social  {
     transition: .2s;
 }
 footer  button {
-    background: -webkit-linear-gradient(right,#00dbde,#fc00ff);
-    box-shadow: 1px 1px 15px #0c97fa96;
+    background-color: #007D9C;
     margin-top: 15px;
     color: #e6e6e6;
     font-weight: 350;
@@ -917,8 +908,7 @@ footer  button a {
 
 footer  button:hover {
     transform: scale(1.05);
-    background-color: #0c97fa96;
-    box-shadow: 1px 1px 30px #0c97fa96;
+    background-color: #014b5e;
     transition: .4s;
 }
 

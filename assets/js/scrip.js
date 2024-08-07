@@ -76,12 +76,12 @@ new TypeIt("#hero", {
   .move(5, { delay: 200 })
   .type("D", { delay: 350 })
   .move(null, { to: "END" })
-  .type("esign UI/UX ")
+  .type("esign UI/UX, ")
   .move(-5, { delay: 150 })
-  .type(" and")
+  .type(" DevOps,")
   .move(null, { to: "END" })
   .type(' Devoloper<span class="place"> Software</span>', { delay: 400 })
-  .type('<em><strong class="font-semibold"> Extreme</strong> JavaScript and Go.</em>', {
+  .type('<em><strong class="font-semibold"> Extreme</strong> JS and Go.</em>', {
     speed: 100,
   })
   .go();
