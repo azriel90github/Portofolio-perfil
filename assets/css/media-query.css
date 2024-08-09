@@ -145,7 +145,8 @@
     .port-img-dashboard,
     .port-img-crud,
     .port-img-planner,
-    .port-img-sala {
+    .port-img-sala,
+    .port-img-stack {
         background-position: center center;
         border-radius: 15px 15px 0px 0px;
         margin: auto;

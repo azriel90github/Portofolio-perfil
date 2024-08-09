@@ -452,6 +452,14 @@ aside a:hover {
     opacity: 80%;
 }
 
+.port-img-stack {
+    border-radius: 15px 0px 0px 15px;
+    width: 50%;
+    background-image: url(../img/planner-stack.png);
+    background-size: cover;
+    background-position: top;
+}
+
 .port-img-dashboard {
     opacity: 40%;
     border-radius: 15px 0px 0px 15px;
