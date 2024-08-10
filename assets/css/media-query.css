@@ -227,7 +227,7 @@
     }
     
     .inputs-form {
-        grid-template-columns: 145%;
+        grid-template-columns: 130%;
     }
 
     .inputs-form button {

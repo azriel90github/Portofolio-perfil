@@ -750,7 +750,7 @@ aside .data {
 
 .inputs-form {
     display: grid;
-    grid-template-columns: 95% 95%;
+    grid-template-columns: 100% 100%;
     align-items: center;
     justify-content: center;
 }
