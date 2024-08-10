@@ -31,11 +31,11 @@
     .casa-segunda .foto-perfil {
         background-image: url(../img/wadi-wilson.jpg);
         background-size: cover;
-        display: block;
         background-color: #0767AC;
-        padding: 20%;
+        display: block;
+        padding: 25%;
         margin-bottom: 30px;
-        border-radius: 50%;
+        border-radius: 12%;
     }
     
 
@@ -46,7 +46,7 @@
     }
 
     .casa {
-        height: 117vh;
+        height: 125vh;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -74,6 +74,7 @@
         padding-bottom: 15px;
         font-size: 17px;
     }
+    
 
     .sobre {
         padding-top: 1rem;
