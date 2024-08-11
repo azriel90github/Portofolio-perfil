@@ -29,13 +29,14 @@
     }
 
     .casa-segunda .foto-perfil {
-        background-image: url(../img/wadi-wilson.jpg);
+        /*background-image: url(../img/wadi-wilson.jpg);*/
         background-size: cover;
         background-color: #0767AC;
+        opacity: 70%;
         display: block;
         padding: 25%;
         margin-bottom: 30px;
-        border-radius: 12%;
+        border-radius: 50%;
     }
     
 
@@ -242,7 +243,7 @@
     }
 
     footer .social button {
-        padding: 15px;
+        padding: 12px;
     }
 
 

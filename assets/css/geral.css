@@ -167,6 +167,7 @@ body {
 
 .hora-botao a   {
     background-color: #007D9C;
+    box-shadow: 1px 1px 20px #007D9C;
     border-radius: 15px;
     text-decoration: none;
     margin: auto;
@@ -181,6 +182,7 @@ body {
 
 .casa .hora-botao a:hover {
     background-color: #014b5e;
+    box-shadow: 1px 1px 20px #014b5e;
     transition: .3s;
     transform: scale(1.05);
 }
@@ -378,6 +380,7 @@ aside {
 
 aside a  {
     background-color: #007D9C;
+    box-shadow: 1px 1px 20px #007D9C;
     text-decoration: none;
     border: 2px solid #0c97fa96;
     border-radius: 13px;
@@ -391,6 +394,7 @@ aside a  {
 
 aside a:hover {
     background-color: #014b5e;
+    box-shadow: 1px 1px 20px #014b5e;
     transition-duration: .2s;
 }
 
@@ -791,8 +795,9 @@ input:-moz-placeholder {
 
 .inputs-form button {
     background-color: #007D9C;
+    box-shadow: 1px 1px 15px #007D9C;
     outline: none;
-    width: 80%;
+    width: 70%;
     margin: auto;
     margin-top: 10px;
     padding: 12px;
@@ -805,6 +810,7 @@ input:-moz-placeholder {
 
 .inputs-form button:hover {
     background-color: #014b5e;
+    box-shadow: 1px 1px 15px #014b5e;
     transition: .4s;
 }
 
@@ -915,6 +921,7 @@ footer .social  {
 }
 footer  button {
     background-color: #007D9C;
+    box-shadow: 1px 1px 15px #007D9C;
     margin-top: 15px;
     color: #e6e6e6;
     font-weight: 350;
@@ -935,6 +942,7 @@ footer  button a {
 footer  button:hover {
     transform: scale(1.05);
     background-color: #014b5e;
+    box-shadow: 1px 1px 15px #014b5e;
     transition: .4s;
 }
 
