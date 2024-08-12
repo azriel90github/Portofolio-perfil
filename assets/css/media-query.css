@@ -160,7 +160,8 @@
     .port-img-planner,
     .port-img-sala,
     .port-img-stack,
-    .port-img-clone {
+    .port-img-clone,
+    .port-img-geladaria {
         background-position: center center;
         border-radius: 15px 15px 0px 0px;
         margin: auto;
