@@ -1,2 +1,2 @@
-<img src="assets/img/portofolio.jpeg">
-<img src="assets/img/formulario.jpeg">
+<img src="assets/img/foto-port.png">
+<img src="assets/img/foto-port-01.png">
