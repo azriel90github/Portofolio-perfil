@@ -220,10 +220,24 @@
 
     #contacto h2 {
         font-size: 25px;
+        padding-bottom: 0;
+    }
+
+    .contacto button {
+        margin: auto;
+        margin-top: 15px;
+        width: 70%;
+    }
+
+    form {
+        background-color: #01111E;
+        padding: 0;
+        margin: 0;
+        box-shadow: none;
     }
 
     form input {
-        width: 340px;
+        width: 370px;
     }
 
     .animacao {
