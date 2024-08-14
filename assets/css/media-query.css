@@ -210,6 +210,11 @@
         display: none;
     }
 
+    .contacto-react {
+        position: relative;
+        bottom: -150px;
+    }
+
     #contacto {
         padding-bottom: 8rem;
     }
@@ -219,14 +224,15 @@
     }
 
     #contacto h2 {
-        font-size: 25px;
-        padding-bottom: 0;
+        position: relative;
+        bottom: -40px;
+        font-size: 2rem;
     }
 
     .contacto button {
         margin: auto;
-        margin-top: 15px;
-        width: 70%;
+        margin-top: 20px;
+        width: 60%;
     }
 
     form#contact-form {
