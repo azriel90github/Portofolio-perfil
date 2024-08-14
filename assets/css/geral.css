@@ -783,6 +783,19 @@ form input {
     font-size: 16px;
 }
 
+form label {
+    margin-left: 5px;
+    color: #0D98FC;
+    padding-top: 20px;
+}
+
+form input:focus {
+    border: 2px solid #0C92F3;
+    color: #00B2E0;
+}
+
+
+
 form input::placeholder {
     color: #0c93f38c;
 }
