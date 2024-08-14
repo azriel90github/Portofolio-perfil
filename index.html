@@ -580,21 +580,23 @@
             <img class="contacto-react" src="assets/img/react.png" alt="logo-react">
             <h2>Contratação Rápida</h2>
             <form id="contact-form" method="post">
-                <div class="inputs-form">
-                    <input id="name" required size="20" maxlength="30" type="text" name="name" placeholder="Nome" autocomplete="off">
-                    <input id="number" required size="9" maxlength="9" type="number" name="number" placeholder="+244 (número)" autocomplete="off">
-                    <input id="email" required type="email" name="email"placeholder="Email" autocomplete="off">
-                    <input type="text" name="morada" id="morada" placeholder="Morada (Opcional)">
-                    <input type="text" required name="empresa" id="empresa" placeholder="Empresa">
-                    <input type="text" name="empresaGPS" id="empresaGPS" placeholder="GPS Empresa (Opcional)">
-                    <input type="text" required name="servico" id="servico" placeholder="Pacote Serviço">
-                    <input type="text" required name="servico" id="duracaoContrato" placeholder="Duração Contrato">
-                    <input type="text" name="textarea" id="message" placeholder="Deixe sua mensagem (Opcional)">
-                    <input type="text" name="textarea" id="message" placeholder="Informação Adicional (Opcional)">
-                    <button>Termos do Contrato</button>
-                    <button type="submit">Submeter</button>
-                </div>
-                
+                <label for="name">Nome:</label>
+                <input id="name" required size="20" maxlength="30" type="text" name="name" placeholder="Nome Completo" autocomplete="off">
+                <label for="number">Número:</label>
+                <input id="number" required size="9" maxlength="9" type="number" name="number" placeholder="+244 (número)" autocomplete="off">
+                <label for="number">Email:</label>
+                <input id="email" required type="email" name="email"placeholder="Email" autocomplete="off">
+                <label for="morada">Morada:</label>
+                <input type="text" name="morada" id="morada" placeholder="Morada (Opcional)">
+                <label for="empresa">Empresa:</label>
+                <input type="text" required name="empresa" id="empresa" placeholder="Nome da Empresa">
+                <input type="text" name="empresaGPS" id="empresaGPS" placeholder="GPS Empresa (Opcional)">
+                <input type="text" required name="servico" id="servico" placeholder="Pacote Serviço">
+                <input type="text" required name="servico" id="duracaoContrato" placeholder="Duração Contrato">
+                <input type="text" name="textarea" id="message" placeholder="Deixe sua mensagem (Opcional)">
+                <input type="text" name="textarea" id="message" placeholder="Informação Adicional (Opcional)">
+                <button>Termos do Contrato</button>
+                <button type="submit">Submeter</button>
             </form>
         </div>
         <footer>

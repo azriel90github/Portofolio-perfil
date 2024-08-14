@@ -770,14 +770,9 @@ aside .data {
     color: #0d98fc;
 }
 
-.inputs-form {
-    display: grid;
-    grid-template-columns: 100% 100%;
-    align-items: center;
-    justify-content: center;
-}
 
-.inputs-form input {
+form input {
+    width: 700px;
     border: 1px solid #0c97fa96;
     background-color: #0c141a7c;
     margin: 6px;
@@ -788,7 +783,7 @@ aside .data {
     font-size: 16px;
 }
 
-.inputs-form input::placeholder {
+form input::placeholder {
     color: #0c93f38c;
 }
 
@@ -800,13 +795,18 @@ input:-moz-placeholder {
   /* Para o Internet Explorer 10-11 */
   input::-ms-input-placeholder {
     color: #0C92F3;
-  }
+}
 
-.inputs-form button {
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto button {
     background-color: #007D9C;
     box-shadow: 1px 1px 15px #007D9C;
     outline: none;
-    width: 70%;
+    width: 100%;
     margin: auto;
     margin-top: 10px;
     padding: 12px;
@@ -817,7 +817,7 @@ input:-moz-placeholder {
     cursor: pointer;
 }
 
-.inputs-form button:hover {
+.contacto button:hover {
     background-color: #014b5e;
     box-shadow: 1px 1px 15px #014b5e;
     transition: .4s;

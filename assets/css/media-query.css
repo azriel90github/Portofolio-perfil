@@ -222,20 +222,16 @@
         font-size: 25px;
     }
 
+    form input {
+        width: 340px;
+    }
+
     .animacao {
         width: 80%;
         font-size: 28px;
         padding-left: 30px;
     }
     
-    .inputs-form {
-        grid-template-columns: 130%;
-    }
-
-    .inputs-form button {
-        margin-top: 20px;
-        width: 70%;
-    }
 
     footer {
         width: 100%;
