@@ -770,21 +770,29 @@ aside .data {
     color: #0d98fc;
 }
 
-form {
+
+
+form#contact-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     box-shadow: 1px 1px 20px #0c97fa96;
     background-color: #09141D;
     padding: 20px;
     border-radius: 20px;
 }
 
+form div {
+    display: grid;
+}
+
 form input {
-    width: 700px;
+    width: 500px;
     border: 1px solid #0c97fa96;
     background-color: #0c141a7c;
     margin: 6px;
     outline: none;
     padding: 14px;
-    border-radius: 7px;
+    border-radius: 10px;
     font-size: 16px;
 }
 
@@ -796,11 +804,9 @@ form label {
 }
 
 form input:focus {
-    border: 2px solid #0C92F3;
+    border: 1px solid #00B1DF;
     color: #00B2E0;
 }
-
-
 
 form input::placeholder {
     color: #0c93f38c;

@@ -229,8 +229,10 @@
         width: 70%;
     }
 
-    form {
+    form#contact-form {
         background-color: #01111E;
+        display: grid;
+        grid-template-columns: 1fr;
         padding: 0;
         margin: 0;
         box-shadow: none;

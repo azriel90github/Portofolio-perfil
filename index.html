@@ -580,27 +580,34 @@
             <img class="contacto-react" src="assets/img/react.png" alt="logo-react">
             <h2>Contratação Rápida</h2>
             <form id="contact-form" method="post">
-                <label for="name">Nome:</label>
-                <input id="name" required size="20" maxlength="30" type="text" name="name" placeholder="Nome Completo" autocomplete="off">
-                <label for="number">Telefone:</label>
-                <input id="number" required size="9" maxlength="9" type="number" name="number" placeholder="+244 (número)" autocomplete="off">
-                <label for="number">Email:</label>
-                <input id="email" required type="email" name="email"placeholder="Email" autocomplete="off">
-                <label for="morada">Morada:</label>
-                <input type="text" name="morada" id="morada" placeholder="Morada (Opcional)">
-                <label for="empresa">Empresa:</label>
-                <input type="text" required name="empresa" id="empresa" placeholder="Empresa (Nome)">
-                <label for="empresaGPS">Localização da Empresa</label>
-                <input type="text" name="empresaGPS" id="empresaGPS" placeholder="GPS Empresa (Opcional)">
-                <label for="servico">Pacote Contrato:</label>
-                <input type="text" required name="servico" id="servico" placeholder="Selecionar (Pacote)">
-                <label for="servico">Duração Contrato:</label>
-                <input type="text" required name="servico" id="duracaoContrato" placeholder="Duração Contrato">
-                <label for="textarea">Mensagem Adicional:</label>
-                <input type="text" name="textarea" id="message" placeholder="Deixe sua mensagem (Opcional)">
-                <label for="textarea">Informação Adicional:</label>
-                <input type="text" name="textarea" id="message" placeholder="Informação Adicional (Opcional)">
-                <button type="submit">Submeter</button>
+                <div>
+                    <h5>Dados Pessoais</h5>
+                    <label for="name">Nome:</label>
+                    <input id="name" required size="20" maxlength="30" type="text" name="name" placeholder="Nome Completo" autocomplete="off">
+                    <label for="number">Telefone:</label>
+                    <input id="number" required size="9" maxlength="9" type="number" name="number" placeholder="+244 (número)" autocomplete="off">
+                    <label for="number">Email:</label>
+                    <input id="email" required type="email" name="email"placeholder="Email" autocomplete="off">
+                    <label for="morada">Morada:</label>
+                    <input type="text" name="morada" id="morada" placeholder="Morada (Opcional)">
+                    <label for="textarea">Mensagem Adicional:</label>
+                    <input type="text" name="textarea" id="message" placeholder="Deixe sua mensagem (Opcional)">
+                </div>
+                <div>
+                    <h5>Dados da Empresa</h5>
+                    <label for="empresa">Empresa:</label>
+                    <input type="text" required name="empresa" id="empresa" placeholder="Empresa (Nome)">
+                    <label for="empresaGPS">Localização da Empresa</label>
+                    <input type="text" name="empresaGPS" id="empresaGPS" placeholder="GPS Empresa (Opcional)">
+                    <label for="servico">Pacote Contrato:</label>
+                    <input type="text" required name="servico" id="servico" placeholder="Selecionar (Pacote)">
+                    <label for="servico">Duração Contrato:</label>
+                    <input type="text" required name="servico" id="duracaoContrato" placeholder="Duração Contrato">
+                    <label for="textarea">Informação Adicional:</label>
+                    <input type="text" name="textarea" id="message" placeholder="Informação Adicional (Opcional)">
+                </div>
+                <button type="reset">Limpar</button>
+                <button type="submit">Enviar</button>
             </form>
         </div>
         <footer>
