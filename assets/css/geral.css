@@ -118,11 +118,12 @@ section {
 .home-content p {
     font-size: 18px;
     margin-bottom: 1.5rem;
+
 }
 
 .home-content a {
-    background-color: #01A4D7;
-    box-shadow: 1px 1px 10px #01A4D7;
+    background-color: #007D9C;
+    box-shadow: 1px 1px 20px #007D9C;
     color: white;
     text-decoration: none;
     padding: 13px;
@@ -130,7 +131,7 @@ section {
 }
 
 .home-content a:hover {
-    box-shadow: 1px 1px 20px #01A4D7;
+    box-shadow: 1px 1px 20px #007D9C;
     transition-duration: .2s;
 }
 
