@@ -46,6 +46,21 @@
   display: none;
 }
 
+.home {
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    padding: 10rem 7% 2rem;
+}
+
+.home .foto-perfil {
+    padding: 45%;
+    margin-top: 4rem;
+    border-radius: 30px;
+}
+
 
 
 
@@ -58,23 +73,7 @@
   text-align: center;
 }
 
-.about-img img {
-  width: 70vw;
-  margin-top: -2rem;
-}
 
-.testimonial-container .testimonial-wrapper {
-  padding: 5rem 0;
-}
-
-.testimonial-content .testimonial-slide {
-  padding: 3rem 2rem;
-}
-
-.testimonial-box .swiper-button-next,
-.testimonial-box .swiper-button-prev {
-  display: none;
-}
 
 
   .apps__button {

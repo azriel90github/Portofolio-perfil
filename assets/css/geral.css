@@ -86,7 +86,7 @@ body {
 
 section {
     min-height: 100vh;
-    padding: 10rem 7% 2rem;
+    padding: 5rem 7% 2rem;
 }
 
 .home {
@@ -101,6 +101,7 @@ section {
 .home-content h3 {
     font-size: 1.5rem;
     margin-bottom: .3rem;
+    color: #01A4D7;
 }
 
 .home-content h1 {
@@ -111,55 +112,45 @@ section {
 .home-content h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
+    color: #01A4D7;
 }
 
 .home-content p {
     font-size: 18px;
+    margin-bottom: 1.5rem;
 }
 
-.home-content .social-media a {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 4rem;
-    height: 4rem;
-    background: transparent;
-    border: .2rem solid var(--main-color);
-    border-radius: 50%;
-    box-shadow: 0 .2rem .5rem var(--shadow-color);
-    font-size: 2rem;
-    color: var(--main-color);
-    margin: 2.5rem 1.5rem 3rem 0;
-    transition: .5s ease;
+.home-content a {
+    background-color: #01A4D7;
+    box-shadow: 1px 1px 10px #01A4D7;
+    color: white;
+    text-decoration: none;
+    padding: 13px;
+    border-radius: 10px;
 }
 
-.home-content .social-media a:hover {
-    background: var(--main-color);
-    color: var(--white-color);
+.home-content a:hover {
+    box-shadow: 1px 1px 20px #01A4D7;
+    transition-duration: .2s;
 }
 
-.btn {
-    display: inline-block;
-    padding: 1.2rem 2.8rem;
-    background: var(--main-color);
-    border-radius: .6rem;
-    box-shadow: 0 .2rem .5rem var(--shadow-color);
-    font-size: 1.6rem;
-    color: var(--white-color);
-    letter-spacing: .1rem;
-    font-weight: 600;
-    border: .2rem solid transparent;
-    transition: .5s ease;
-}
-
-.btn:hover {
-    background: transparent;
-    color: var(--main-color);
-    border-color: var(--main-color);
+.home-content a i {
+    color: white;
+    font-size: 30px;
+    position: relative;
+    bottom: -7px;
+    margin-left: 5px;
 }
 
 
-
+.home .foto-perfil {
+    margin: auto;
+    background-color: #0767AC;
+    /*background-image: url(../img/07.jpg);*/
+    background-size: cover;
+    border-radius: 20%;
+    padding: 15%;
+}
 
 
 /*Sobre------------------------*/
@@ -679,6 +670,10 @@ aside .data {
     padding-top: 40px;
 }
 
+.serviços  .serv .content-img .logo-go {
+    width: 140px;
+}
+
 .serviços  .serv button  {
     border: none;
     cursor: pointer;
@@ -758,7 +753,7 @@ form div {
 
 form h5 {
     font-size: 1.5rem;
-    margin-left: 10px;
+    margin-left: 5px;
     padding-top: 30px;
 }
 
@@ -775,7 +770,7 @@ form input {
 
 form label {
     margin-bottom: 5px;
-    margin-left: 10px;
+    margin-left: 5px;
     color: #0D98FC;
     padding-top: 15px;
 }
