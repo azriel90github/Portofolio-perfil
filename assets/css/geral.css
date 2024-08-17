@@ -79,113 +79,87 @@ body {
     cursor: pointer;
 }
 
-
-.casa {
-    background-image: url(../img/bg.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding-top: 50px;
-    height: 105vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-.casa-segunda {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.casa-segunda .foto-perfil {
-    display: none;
-}
-
-.casa-segunda .separador {
-    border-bottom: 1px solid #0d98fc;
-    margin: auto;
-    width: 300px;
-}
-
-.casa-segunda .vindas {
-    font-size: 22px;
-    padding-bottom: 8px;
-}
-
-.casa-segunda .social{
-    padding-top: 20px;
-}
-
-.casa-segunda h2 {
-    text-align: center;
-    color: #0C96FA;
-    font-size: 30px;
-}
-
-.casa p.primeiro {
-    text-align: center;
-    width: 50%;
-    color: #e6e6e6;
-    font-size: 43px;
-    font-weight: 100;
-}
-
-
-.casa span {
-    font-size: 45px;
-    font-weight: 100;
-    color: #0d98fc;
-    gap: 30px;
-}
-
-
-.casa p.segundo {
-    padding-top: 10px;
-    font-weight: 100;
-    text-align: center;
-    line-height: 25px;
-    font-size: 17px;
-    width: 500px;
-    color: #00B2E0;
-}
-
-.hora-botao {
-    text-align: center;
-    display: flex;
-    padding-top: 30px;
-}
-
  .hora {
     font-size: 27px;
     margin-right: 20px;
 }
 
+section {
+    min-height: 100vh;
+    padding: 10rem 7% 2rem;
+}
 
-.hora-botao a   {
-    background-color: #007D9C;
-    box-shadow: 1px 1px 20px #007D9C;
-    border-radius: 15px;
-    text-decoration: none;
-    margin: auto;
-    color: #e6e6e6;
-    font-weight: 350;
-    font-size: 17px;
-    width: 250px;
-    cursor: pointer;
-    padding: 10px;
+.home {
+    display: flex;
+    align-items: center;
+}
+
+.home .home-content {
+    max-width: 44rem;
+}
+
+.home-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: .3rem;
+}
+
+.home-content h1 {
+    font-size: 4rem;
+    line-height: 5rem;
+}
+
+.home-content h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.home-content p {
+    font-size: 18px;
+}
+
+.home-content .social-media a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background: transparent;
+    border: .2rem solid var(--main-color);
+    border-radius: 50%;
+    box-shadow: 0 .2rem .5rem var(--shadow-color);
+    font-size: 2rem;
+    color: var(--main-color);
+    margin: 2.5rem 1.5rem 3rem 0;
+    transition: .5s ease;
+}
+
+.home-content .social-media a:hover {
+    background: var(--main-color);
+    color: var(--white-color);
+}
+
+.btn {
+    display: inline-block;
+    padding: 1.2rem 2.8rem;
+    background: var(--main-color);
+    border-radius: .6rem;
+    box-shadow: 0 .2rem .5rem var(--shadow-color);
+    font-size: 1.6rem;
+    color: var(--white-color);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    border: .2rem solid transparent;
+    transition: .5s ease;
+}
+
+.btn:hover {
+    background: transparent;
+    color: var(--main-color);
+    border-color: var(--main-color);
 }
 
 
-.casa .hora-botao a:hover {
-    background-color: #014b5e;
-    box-shadow: 1px 1px 20px #014b5e;
-    transition: .3s;
-    transform: scale(1.05);
-}
+
 
 
 /*Sobre------------------------*/
@@ -795,7 +769,7 @@ form input {
     margin: 6px;
     outline: none;
     padding: 14px;
-    border-radius: 10px;
+    border-radius: 5px;
     font-size: 16px;
 }
 
@@ -843,7 +817,6 @@ form {
 
 .contacto button {
     background-color: #007D9C;
-    box-shadow: 1px 1px 15px #007D9C;
     outline: none;
     width: 50%;
     margin: auto;
@@ -859,7 +832,6 @@ form {
 
 .contacto button:hover {
     background-color: #014b5e;
-    box-shadow: 1px 1px 15px #014b5e;
     transition: .4s;
 }
 
@@ -968,7 +940,7 @@ footer .social  {
     box-shadow: 1px 1px 40px #0c97fa96;
     transition: .2s;
 }
-footer  button {
+footer button {
     background-color: #007D9C;
     box-shadow: 1px 1px 15px #007D9C;
     margin-top: 15px;

@@ -1,0 +1,383 @@
+/* BREAKPOINTS */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+@media (max-width: 768px) {
+  #menu-icon {
+    display: block;
+    font-size: 2rem;
+}
+
+.header {
+    padding: 15px;
+}
+
+.header .logo {
+    font-size: 30px;
+}
+
+.navbar {
+    background-color: #097BCB;
+    position: absolute;
+    text-align: center;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    display: none;
+}
+
+.navbar.active {
+    display: block;
+}
+
+.navbar a {
+    border-bottom: 1px solid #097BCB;
+    margin-left: 20px;
+    padding: 5px;
+    display: block;
+    font-size: 20px;
+}
+.hora {
+  display: none;
+}
+
+
+
+
+.about {
+  flex-direction: column-reverse;
+
+}
+
+.about-content h2 {
+  text-align: center;
+}
+
+.about-img img {
+  width: 70vw;
+  margin-top: -2rem;
+}
+
+.testimonial-container .testimonial-wrapper {
+  padding: 5rem 0;
+}
+
+.testimonial-content .testimonial-slide {
+  padding: 3rem 2rem;
+}
+
+.testimonial-box .swiper-button-next,
+.testimonial-box .swiper-button-prev {
+  display: none;
+}
+
+
+  .apps__button {
+    display: block;
+}
+
+
+
+.hora-botao a {
+    width: 70%;
+}
+
+.vindas {
+    text-align: center;
+}
+
+
+.casa {
+    box-shadow: 1px 1px 40px #0c97fa63;
+}
+
+.casa-segunda {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.casa-primeira {
+    display: none;
+}
+
+.casa-segunda .foto-perfil {
+    /*background-image: url(../img/wadi-wilson.jpg);*/
+    background-size: cover;
+
+    width: 50%;
+}
+
+
+.casa-segunda h2 {
+    display: block;
+    text-align: center;
+    font-weight: 100;
+}
+
+.casa {
+    height: 125vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.casa p.primeiro {   
+    font-size: 35px;
+    width: 365px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+
+.casa span {
+    width: 100%;
+    font-size: 35px;
+}
+.casa span .animate {
+    font-size: 35px;
+}
+
+.casa-segunda p.segundo {
+    text-align: center;
+    width: 88%;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-size: 17px;
+}
+
+
+.sobre {
+    padding-top: 1rem;
+}
+
+.sobre h2 {
+    width: 100%;
+    font-size: 30px;
+}
+
+.trilha {
+    width: 90%;
+}
+
+#certificacoes h2 {
+    padding: 8rem 0 2.5rem 0;
+}
+
+.container-certificado {
+    display: grid;
+    margin: auto;
+    width: 90%;
+    height: 100%;
+
+}
+
+.certificado-caixas {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+}
+
+.cert-content {
+    width: 100%;
+    padding: 15px 15px 25px 15px;
+}
+
+.cert-img-full {
+    background-position: center center;
+    border-radius: 0px 0px 15px 15px;
+    margin: auto;
+    height: 30vh;
+    width: 100%;
+}
+
+.cert-img-react {
+    background-position: center center;
+    border-radius: 0px 0px 15px 15px;
+    margin: auto;
+    height: 30vh;
+    width: 100%;
+}
+
+.container-portofolio {
+    display: grid;
+    margin: auto;
+    width: 90%;
+    height: 100%;
+}
+
+
+.portofolio-caixas {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+}
+
+.port-content {
+    width: 100%;
+    padding: 15px 15px 15px 15px;
+}
+
+
+.port-img-gelado,
+.port-img-dashboard,
+.port-img-crud,
+.port-img-planner,
+.port-img-sala,
+.port-img-stack,
+.port-img-clone,
+.port-img-geladaria {
+    background-position: center center;
+    border-radius: 15px 15px 0px 0px;
+    margin: auto;
+    height: 20vh;
+    width: 100%;
+    
+}
+
+aside button  {
+    padding-bottom: 10px;
+    width: 50%;
+}
+
+.content-img {
+    width: 100%;
+}
+
+#suporte {
+    margin-left: 20px;
+}
+
+#serviços {
+    grid-template-columns: 92%;
+}    
+
+.serviços {
+    grid-template-columns: 87%;
+}
+
+.serviços {
+    margin: auto;
+    width: 96%;
+}
+
+.serviços a button {
+    margin: auto;
+    width: 90%;
+}
+
+nav p {
+    text-shadow: 1px 1px 20px #0c97fac9;
+    padding-right: 0px;
+}
+
+nav span {
+    display: none;
+}
+
+.contacto-react {
+    position: relative;
+    bottom: -150px;
+}
+
+#contacto {
+    padding-bottom: 8rem;
+}
+
+.contacto {
+    padding-top: 0;
+}
+
+#contacto h2 {
+    position: relative;
+    bottom: -40px;
+    font-size: 2rem;
+}
+
+.contacto button {
+    margin: auto;
+    margin-top: 20px;
+    width: 60%;
+}
+
+form#contact-form {
+    background-color: #01111E;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+}
+
+form input {
+    width: 350px;
+}
+
+.animacao {
+    width: 80%;
+    font-size: 28px;
+    padding-left: 30px;
+}
+
+
+footer {
+    width: 100%;
+    display: grid;
+}
+
+footer .social button {
+    padding: 12px;
+}
+
+
+footer .social h3 {
+    padding-bottom: 10px;
+}
+
+footer .content-number h3 {
+    padding-bottom: 10px;
+}
+
+
+footer .pages menu h3 {
+    padding-bottom: 20px;
+}
+
+footer .pages {
+    padding-top: 0px;
+}   
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
+
+@media (max-width: 580px) {
+
+
+}
+
+@media (max-width: 450px) {
+    
+}
+
+@media (max-width: 365px) {
+
+}
+
+@media (max-width: 315px) {
+
+}
