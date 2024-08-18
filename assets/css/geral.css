@@ -113,22 +113,26 @@ section {
 }
 
 .text-degrade{
-    background-image: linear-gradient(to right, #0767AC, #00BAE5);
+    background-image: linear-gradient(to right, #0767AC, #18d3fd);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
 }
 
-.home-content h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    color: #01A4D7;
+.home-content h2 span {
+    color: yellow;
 }
+
+.home-content h2 small {
+    color: #08667E;
+    font-size: 2rem;
+}
+
 
 .home-content h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
-    color: #01A4D7;
+    color: #0767AC;
 }
 
 .home-content h4 {
@@ -140,6 +144,7 @@ section {
 .home-content p {
     font-size: 18px;
     margin-bottom: .8rem;
+    color: #0C96F9;
 }
 
 .btn {
@@ -176,11 +181,7 @@ section {
     border-radius: 20%;
     padding: 15%;
 }
-
-
 /*Sobre------------------------*/
-
-
 .sobre {
     padding-top: 3rem;
     display: grid;
@@ -188,11 +189,14 @@ section {
     justify-content: center;
 }
 .sobre h2 {
+    background-image: linear-gradient(to right, #054472, #18d3fd);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
     padding-top: 4rem;
     padding-bottom: 25px;
     font-weight: 300;
-    font-size: 35px;
-    color: #0d98fc;
+    font-size: 3rem;
     text-align: center;
 }
 
@@ -207,6 +211,7 @@ section {
     background-repeat: no-repeat;
     background-position: center;
 }
+
 
 .trilha {
     box-shadow: 1px 1px 10px #0c97fa96;
@@ -228,6 +233,7 @@ section {
 }
 
 .trilha h3 {
+    font-size: 1.3rem;
     color: #0d98fc;
     border-radius: 15px 15px 0px 0px;
     padding: 10px 20px;
@@ -249,7 +255,7 @@ section {
     justify-content: space-between;
     padding: 10px 20px;
     color: #00B2E0;
-    font-size: 15px;
+    font-size: 1.2rem;
 }
 
 
@@ -266,9 +272,12 @@ section {
 }
 
 #certificacoes h2 {
-    color: #0d98fc;
+    background-image: linear-gradient(to right, #054472, #18d3fd);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
     font-weight: 300;
-    font-size: 35px;
+    font-size: 3rem;
     text-align: center;
     padding: 7rem 0 3rem 0;
 }
@@ -277,7 +286,7 @@ section {
     gap: 50px;
     display: grid;
     justify-content: center;
-    grid-template-columns: 75%;
+    grid-template-columns: 77%;
 }
 
 .container-certificado {
@@ -317,6 +326,16 @@ section {
 }
 
 
+.cert-img-go {
+    opacity: 40%;
+    border-radius: 0px 15px 15px 0px;
+    width: 50%;
+    background-image: url(../img/cert-go.png);
+    background-size: cover;
+    background-position: right top;
+}
+
+
 .cert-content {
     border-radius: 17px 17px 17px 17px;
     width: 50%;
@@ -332,10 +351,11 @@ section {
 .cert-content h4 {
     color: #00B2E0;
     padding-bottom: 15px;
+    font-size: 1.2rem;
 }
 
 .cert-content .separador {
-    border-bottom: 1px solid #0d98fc;
+    border-bottom: 1px solid #00B2E0;
     width: 15%;
     margin-bottom: 10px;
     margin-top: 5px;
@@ -348,6 +368,7 @@ section {
 
 .cert-content h3 {
     color: #00B2E0;
+    font-size: 1.4rem;
     display: flex;
     justify-content: space-between;
     padding-bottom: 10px;
@@ -409,9 +430,12 @@ aside a:hover {
 }
 
 #portofolio h2 {
-    color: #0d98fc;
+    background-image: linear-gradient(to right, #054472, #18d3fd);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
     font-weight: 300;
-    font-size: 35px;
+    font-size: 3rem;
     text-align: center;
     padding-bottom: 50px;
 }
@@ -527,7 +551,7 @@ aside a:hover {
 }
 
 .port-content .separador {
-    border-bottom: 1px solid #0d98fc;
+    border-bottom: 1px solid #00B2E0;
     width: 15%;
     margin-bottom: 10px;
     margin-top: 5px;
@@ -539,7 +563,8 @@ aside a:hover {
 }
 
 .port-content h3 {
-    color: #0C96FA;
+    color: #00B2E0;
+    font-size: 1.2rem;
     display: flex;
     justify-content: space-between;
     padding-bottom: 10px;
@@ -593,9 +618,13 @@ aside .data {
 
 
 .services-title {
+    background-image: linear-gradient(to right, #054472, #18d3fd);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
     font-weight: 300;
     font-size: 30px;
-    color: #0d98fc;
+
 }
 
 .services-title i {
@@ -777,7 +806,7 @@ form div {
 }
 
 form h5 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     margin-left: 5px;
     padding-top: 30px;
 }
@@ -798,6 +827,7 @@ form label {
     margin-left: 5px;
     color: #0D98FC;
     padding-top: 15px;
+    font-size: 1rem;
 }
 
 form label {
@@ -863,8 +893,8 @@ footer .pages {
 
 footer .pages menu h3 {
     font-weight: 300;
-    font-size: 25px;
-    color: #0d98fc;
+    color: #00B2E0;
+    font-size: 1.5rem;
     padding-bottom: 20px;
 }
 
@@ -890,8 +920,8 @@ footer .pages menu a:hover {
 
 footer .content-number h3 {
     font-weight: 300;
-    font-size: 25px;
-    color: #0d98fc;
+    color: #00B2E0;
+    font-size: 1.5rem;
     padding-bottom: 10px;
 }
 
@@ -911,8 +941,8 @@ footer .content-number {
 
 footer .social h3 {
     font-weight: 300;
-    font-size: 25px;
-    color: #0d98fc;
+    color: #00B2E0;
+    font-size: 1.5rem;
     padding-bottom: 15px;
 }
 
