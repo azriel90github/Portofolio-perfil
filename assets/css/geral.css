@@ -106,6 +106,7 @@ section {
 
 .home-content h1 {
     font-size: 4rem;
+    font-weight: 450;
     line-height: 5rem;
 }
 
@@ -773,7 +774,7 @@ form h5 {
 }
 
 form input {
-    width: 500px;
+    width: 550px;
     border: 1px solid #0c97fa96;
     background-color: #0c141a7c;
     margin: 6px;

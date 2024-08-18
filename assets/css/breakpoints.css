@@ -51,6 +51,10 @@
     flex-direction: column;
 }
 
+.home-content h1 {
+    line-height: 4.5rem;
+}
+
 section {
     padding: 10rem 7% 2rem;
 }
