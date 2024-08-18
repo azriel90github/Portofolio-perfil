@@ -91,7 +91,7 @@ section {
 
 .home {
     background-image: url(../img/bg.png);
-    background-repeat: no-repeat;
+    
     display: flex;
     align-items: center;
 }
@@ -761,6 +761,7 @@ aside .data {
 
 
 .contacto {
+    background-image: url(../img/bg.png);
     display: flex;
     align-items: center;
     justify-content: center;
