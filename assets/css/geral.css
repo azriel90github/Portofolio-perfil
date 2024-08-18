@@ -135,24 +135,26 @@ section {
 .btn {
     display: inline-block;
     text-decoration: none;
-    padding: 1rem 2rem;
+    padding: 10px 10px;
     background: #007D9C;
     border-radius: .6rem;
     font-size: 1rem;
     letter-spacing: .1rem;
     border: .2rem solid transparent;
     transition: .5s ease;
-    color: white;
+    color: #01111E;
     font-weight: 700;
     margin-right: .7rem;
-    width: 30%;
+    width: 25%;
     text-align: center;
     margin-top: 1rem;
+    margin-left: .3rem;
 }
 
 .btn:hover {
     background: transparent;
     border-color: #007D9C;
+    color: #007D9C;
 }
 
 
@@ -824,23 +826,10 @@ form {
 }
 
 .contacto button {
-    background-color: #007D9C;
-    outline: none;
-    width: 50%;
+    cursor: pointer;
     margin: auto;
     margin-top: 20px;
-    margin-bottom: 10px;
-    padding: 10px;
-    border-radius: 10px;
-    color: #e6e6e6;
-    font-size: 17px;
-    border: none;
-    cursor: pointer;
-}
-
-.contacto button:hover {
-    background-color: #014b5e;
-    transition: .4s;
+    width: 40%;
 }
 
 
