@@ -90,6 +90,8 @@ section {
 }
 
 .home {
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
 }
@@ -108,6 +110,13 @@ section {
     font-size: 4rem;
     font-weight: 450;
     line-height: 5rem;
+}
+
+.text-degrade{
+    background-image: linear-gradient(to right, #0767AC, #00BAE5);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 .home-content h2 {
