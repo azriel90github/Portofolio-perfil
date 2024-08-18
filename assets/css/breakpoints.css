@@ -1,9 +1,15 @@
 /* BREAKPOINTS */
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 600px) {
+
+
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 600px) {
+
+
+}
 
 @media (max-width: 768px) {
   #menu-icon {
@@ -79,13 +85,9 @@ section {
   text-align: center;
 }
 
-
-
-
-  .apps__button {
+.apps__button {
     display: block;
 }
-
 
 
 .hora-botao a {
@@ -311,7 +313,7 @@ nav span {
 .contacto button {
     margin: auto;
     margin-top: 10px;
-    width: 99%;
+    width: 98%;
 }
 
 form#contact-form {
@@ -324,7 +326,7 @@ form#contact-form {
 }
 
 form input {
-    width: 350px;
+    width: 340px;
 }
 
 .animacao {
@@ -377,6 +379,10 @@ footer .pages {
 
 @media (max-width: 450px) {
     
+}
+
+@media (max-width: 365px) {
+
 }
 
 @media (max-width: 365px) {
