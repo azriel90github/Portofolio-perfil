@@ -242,7 +242,8 @@ section {
 .port-img-sala,
 .port-img-stack,
 .port-img-clone,
-.port-img-geladaria {
+.port-img-geladaria
+{
     background-position: center center;
     border-radius: 15px 15px 0px 0px;
     margin: auto;
@@ -251,6 +252,7 @@ section {
     
 }
 
+.cert-img-go
 aside button  {
     padding-bottom: 10px;
     width: 50%;
