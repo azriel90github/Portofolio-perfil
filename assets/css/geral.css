@@ -173,15 +173,16 @@ section {
 
 
 .home .foto-perfil {
+    box-shadow: 1px 1px 5px #007D9C;
     margin: auto;
     background-color: #0767AC;
-    background-image: url(../img/04.jpeg);
+    background-image: url(../img/01.jpeg);
     background-size: cover;
-    background-position: center;
-    opacity: 80%;
-    border-radius: 20%;
+    background-position: top;
+    border-radius: 15%;
     padding: 15%;
 }
+
 /*Sobre------------------------*/
 .sobre {
     padding-top: 3rem;
