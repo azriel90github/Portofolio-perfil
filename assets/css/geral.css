@@ -180,7 +180,7 @@ section {
     background-size: cover;
     background-position: top;
     border-radius: 15%;
-    padding: 15%;
+    padding: 12%;
 }
 
 /*Sobre------------------------*/
@@ -332,6 +332,15 @@ section {
     border-radius: 0px 15px 15px 0px;
     width: 50%;
     background-image: url(../img/cert-go.png);
+    background-size: cover;
+    background-position: right top;
+}
+
+.cert-img-devops {
+    opacity: 40%;
+    border-radius: 0px 15px 15px 0px;
+    width: 50%;
+    background-image: url(../img/cert-devops.png);
     background-size: cover;
     background-position: right top;
 }
