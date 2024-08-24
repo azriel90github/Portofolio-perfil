@@ -175,6 +175,7 @@ section {
 .home .foto-perfil {
     border: 3px solid #0767AC;
     margin: auto;
+    opacity: 80%;
     background-color: #0767AC;
     background-image: url(../img/01.jpeg);
     background-size: cover;
