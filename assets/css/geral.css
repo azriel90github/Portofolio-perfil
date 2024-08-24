@@ -208,15 +208,15 @@ section {
     justify-content: center;
 }
 .sobre h2 {
-    background-image: linear-gradient(to right, #054472, #18d3fd);
+    background-image: linear-gradient(to right, #18d3fd ,#054472);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
     padding-top: 4rem;
     padding-bottom: 25px;
     font-weight: 300;
-    font-size: 3rem;
-    text-align: center;
+    font-size: 3.5rem;
+    margin-left: 11%;
 }
 
 .trilha-react {
@@ -228,7 +228,7 @@ section {
 .trilha-fundo-h2 {
     background-image: url(../img/bg.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left;
 }
 
 
@@ -253,7 +253,7 @@ section {
 
 .trilha h3 {
     font-size: 1.3rem;
-    color: #0d98fc;
+    color: #00B2E0;
     border-radius: 15px 15px 0px 0px;
     padding: 10px 20px;
     background-color: #0E1820;
@@ -264,7 +264,6 @@ section {
     background-color: #11181d7c;
     padding: 20px;
     color: #0d98fc;
-    font-size: 18px;
 }
 
 .trilha button {

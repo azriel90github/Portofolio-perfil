@@ -169,10 +169,16 @@ section {
 .sobre h2 {
     width: 100%;
     font-size: 30px;
+    text-align: center;
+    margin-left: 0;
 }
 
 .trilha {
     width: 90%;
+}
+
+.trilha-fundo-h2 {
+    background-position: center;
 }
 
 #certificacoes h2 {
