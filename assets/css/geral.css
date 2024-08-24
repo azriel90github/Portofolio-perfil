@@ -173,14 +173,31 @@ section {
 
 
 .home .foto-perfil {
-    box-shadow: 1px 1px 5px #007D9C;
+    border: 3px solid #0767AC;
     margin: auto;
     background-color: #0767AC;
     background-image: url(../img/01.jpeg);
     background-size: cover;
     background-position: top;
     border-radius: 50%;
-    padding: 15%;
+    padding: 14%;
+}
+
+.sobre-content {
+    display: none;
+}
+
+.sobre-content h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 2.7rem;
+    color: #01A4D7;
+}
+
+.sobre-content p {
+    font-size: 18px;
+    margin-bottom: .8rem;
+    color: #0C96F9;
 }
 
 /*Sobre------------------------*/
@@ -247,6 +264,7 @@ section {
     background-color: #11181d7c;
     padding: 20px;
     color: #0d98fc;
+    font-size: 18px;
 }
 
 .trilha button {
