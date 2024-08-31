@@ -143,6 +143,7 @@ section {
     font-size: 18px;
     margin-bottom: .8rem;
     color: #0C96F9;
+    line-height: 30px;
 }
 
 .btn {
@@ -202,6 +203,7 @@ section {
 .sobre-content p {
     font-size: 18px;
     margin-bottom: .8rem;
+    line-height: 30px;
     color: #0C96F9;
 }
 
@@ -283,6 +285,7 @@ section {
     /*background-color: #11181d7c;*/
     padding: 20px;
     color: #0d98fc;
+    font-size: 17px;
 }
 
 .trilha button {
@@ -383,7 +386,7 @@ section {
     border-radius: 17px 17px 17px 17px;
     width: 50%;
     background-color: #08131D;
-    padding: 22px 27px 15px 25px;
+    padding: 27px 32px 25px 35px;
 }
 
 .cert-content .cert-listas  {
@@ -452,9 +455,6 @@ aside a:hover {
     transition-duration: .2s;
 }
 
-.port-content aside .data {
-    color: #00B2E0;
-}
 
 
 /*final certificaçõs----------------*/
@@ -590,7 +590,7 @@ aside a:hover {
     border-radius: 0px 17px 17px 0px;
     width: 50%;
     background-color: #08131D;
-    padding: 10px 10px 10px 25px;
+    padding: 20px 10px 10px 25px;
 }
 
 .port-content .separador {
@@ -601,7 +601,7 @@ aside a:hover {
 }
 
 .port-content p {
-    line-height: 25px;
+    line-height: 30px;
     padding: 10px 10px 10px 0px;
 }
 
@@ -620,6 +620,10 @@ aside a:hover {
 .port-content aside {
     display: flex;
     justify-content: space-between;
+}
+
+.port-content aside .data {
+    color: #00B2E0;
 }
 
 aside {
