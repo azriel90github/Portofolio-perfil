@@ -183,6 +183,11 @@ section {
     padding: 14%;
 }
 
+.tech-rotate {
+    padding: 55px;
+    background-color: #05558F;
+}
+
 .sobre-content {
     display: none;
 }
@@ -202,7 +207,10 @@ section {
 
 /*Sobre------------------------*/
 .sobre {
-    padding-top: 3rem;
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-top: 3rem;  
     display: grid;
     gap: 30px;
     justify-content: center;
