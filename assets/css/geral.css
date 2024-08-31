@@ -236,7 +236,7 @@ section {
 
 
 .trilha-fundo-h2 {
-    /*background-image: url(../img/bg.png);*/
+    background-image: url(../img/bg.png);
     background-repeat: no-repeat;
     background-position: left;
 }
@@ -582,7 +582,7 @@ aside a:hover {
     background-position: top;
     border-radius: 15px 0px 0px 15px;
     width: 50%;
-    background-image: url(../img/ui-ux-geladaria.png);
+    background-image: url(../img/gelado.png);
     background-size: cover;
 }
 
