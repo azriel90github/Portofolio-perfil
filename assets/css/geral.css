@@ -90,8 +90,7 @@ section {
 }
 
 .home {
-    background-image: url(../img/bg.png);
-    
+    /*background-image: url(../img/bg.png);*/
     display: flex;
     align-items: center;
 }
@@ -177,7 +176,7 @@ section {
     margin: auto;
     opacity: 80%;
     background-color: #0767AC;
-    background-image: url(../img/01.jpeg);
+    /*ackground-image: url(../img/01.jpeg);*/   
     background-size: cover;
     background-position: top;
     border-radius: 50%;
@@ -217,7 +216,7 @@ section {
     padding-bottom: 25px;
     font-weight: 300;
     font-size: 3.5rem;
-    margin-left: 11%;
+    margin-left: 7.5%;
 }
 
 .trilha-react {
@@ -227,24 +226,25 @@ section {
 
 
 .trilha-fundo-h2 {
-    background-image: url(../img/bg.png);
+    /*background-image: url(../img/bg.png);*/
     background-repeat: no-repeat;
     background-position: left;
 }
 
 
 .trilha {
-    box-shadow: 1px 1px 10px #0c97fa96;
+    /*box-shadow: 1px 1px 10px #0c97fa96;*/
     display: grid;
     align-items: center;
     justify-content: center;
     border-radius: 20px;
-    margin: auto;
-    background-color: #11181d7c;
-    width: 80%;
+    /*background-color: #11181d7c;*/
+    width: 45%;
     padding: 7px;
-    
+    margin-left: 5.5%;
 }
+
+/*
 
 .trilha:hover {
     cursor: pointer;
@@ -252,23 +252,33 @@ section {
     transition-duration: .3s;
 }
 
+*/
+
 .trilha h3 {
     font-size: 1.3rem;
     color: #00B2E0;
     border-radius: 15px 15px 0px 0px;
-    padding: 10px 20px;
-    background-color: #0E1820;
+    padding: 5px 20px;
+    /*background-color: #0E1820;*/
+}
+
+.trilha .pri {
+    font-size: 1.5rem;
+}
+
+.trilha .sec {
+    font-size: 1.5rem;
 }
 
 .trilha p {
-    line-height: 25px;
-    background-color: #11181d7c;
+    line-height: 30px;
+    /*background-color: #11181d7c;*/
     padding: 20px;
     color: #0d98fc;
 }
 
 .trilha button {
-    background-color: #0E1820;
+    background-color: #01111E;
     border-radius: 0px 0px 15px 15px;
     border: none;
     display: flex;
@@ -324,9 +334,6 @@ section {
 }
 
 
-
-
-
 .cert-img-full {
     opacity: 40%;
     border-radius: 0px 15px 15px 0px;
@@ -368,12 +375,12 @@ section {
     border-radius: 17px 17px 17px 17px;
     width: 50%;
     background-color: #08131D;
-    padding: 10px 25px 15px 25px;
+    padding: 22px 27px 15px 25px;
 }
 
 .cert-content .cert-listas  {
     margin-left: 25px;
-    line-height: 2rem;
+    line-height: 30px;
 }
 
 .cert-content h4 {
@@ -383,14 +390,14 @@ section {
 }
 
 .cert-content .separador {
-    border-bottom: 1px solid #00B2E0;
+    /*border-bottom: 1px solid #00B2E0;*/
     width: 15%;
     margin-bottom: 10px;
     margin-top: 5px;
 }
 
 .cert-content p {
-    line-height: 25px;
+    line-height: 30px;
     padding: 10px 10px 5px 0px;
 }
 
