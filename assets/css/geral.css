@@ -534,30 +534,8 @@ aside a:hover {
     background-position: top;
 }
 
-.port-img-dashboard {
-    opacity: 40%;
-    border-radius: 15px 0px 0px 15px;
-    background-image: url(../img/fundo-dashboard.png);
-    background-size: cover;
-    width: 50%;
-}
 
-.port-img-crud {
-    opacity: 40%;
-    border-radius: 15px 0px 0px 15px;
-    width: 50%;
-    background-image: url(../img/fundo-crud.jpeg);
-    background-size: cover;
-}
 
-.port-img-gelado {
-    opacity: 40%;
-    background-position: center left;
-    border-radius: 15px 0px 0px 15px;
-    width: 50%;
-    background-image: url(../img/fundo-gelado.jpeg);
-    background-size: cover;
-}
 
 .port-img-planner {
     opacity: 90%;
