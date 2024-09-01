@@ -29,6 +29,10 @@ html {
     --cor08:#0d98fc;
 }
 
+svg {
+    color: #3CEA30;
+}
+
 body {
     font-family: Mont;
     background-color: #01111E;
@@ -56,6 +60,7 @@ body {
 .logo {
     font-size: 35px;
     text-decoration: none;
+    color: #3CEA30;
 }
 
 .navbar a {
@@ -67,6 +72,7 @@ body {
 
 #menu-icon {
     display: none;
+    color: #3CEA30;
 }
 
 .idiomas {
@@ -77,11 +83,16 @@ body {
 .idiomas i {
     font-size: 30px;
     cursor: pointer;
+    color: #3CEA30;
 }
 
  .hora {
     font-size: 27px;
     margin-right: 20px;
+}
+
+.hora span {
+    color: #3CEA30;
 }
 
 section {
@@ -266,17 +277,20 @@ section {
 
 .trilha h3 {
     font-size: 1.3rem;
-    color: #00B2E0;
+    /*color: #00B2E0;*/
+    color: #3CEA30;
     border-radius: 15px 15px 0px 0px;
     padding: 5px 20px;
     /*background-color: #0E1820;*/
 }
 
 .trilha .pri {
+    color: #00B2E0;
     font-size: 1.5rem;
 }
 
 .trilha .sec {
+    color: #00B2E0;
     font-size: 1.5rem;
 }
 
@@ -392,6 +406,10 @@ section {
 .cert-content .cert-listas  {
     margin-left: 25px;
     line-height: 30px;
+}
+
+.cert-content .cert-listas ul li {
+    color: #3CEA30;
 }
 
 .cert-content h4 {
@@ -710,7 +728,8 @@ aside .data {
 }
  
 #suporte p span {
-    color: #00B2E0;
+    /*color: #00B2E0;*/
+    color: #3CEA30;
     margin-right: 5px;
 }
 
@@ -857,7 +876,7 @@ form label i {
 }
 
 form input:focus {
-    border: 1px solid #00B1DF;
+    border: 1px solid #3CEA30;
     color: #00B2E0;
 }
 
@@ -925,7 +944,7 @@ footer .pages menu a {
 footer .pages menu a i {
     padding-right: 8px;
     font-size: 20px;
-    color: #00B2E0;
+    color: #3CEA30;
 }
 
 footer .pages menu a:hover {
@@ -1022,7 +1041,7 @@ footer  button:hover {
 .final {
     text-align: center;
     padding: 20px;
-    color: #0d98fc;
+    color: #3CEA30;
 }
 
 
