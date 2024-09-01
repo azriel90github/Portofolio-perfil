@@ -537,10 +537,10 @@ aside a:hover {
 
 .port-img-sala {
     opacity: 90%;
-    background-position: center;
+    background-position: top;
     border-radius: 15px 0px 0px 15px;
     width: 50%;
-    background-image: url(../img/sala-02.png);
+    background-image: url(../img/fundo-sala.png);
     background-size: cover;
 }
 
