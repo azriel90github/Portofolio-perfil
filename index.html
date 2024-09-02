@@ -8,12 +8,38 @@
         <title>Portofólio Pessoal</title>
         <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="assets/css/geral.css">
-        <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.6.4/email.min.js"></script>
         <link rel="stylesheet" href="assets/sass/geral.scss">
         <link rel="stylesheet" href="assets/css/breakpoints.css">
         <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
         <link rel='stylesheet' href='https://pro.fontawesome.com/releases/v5.2.0/css/all.css'>
+        <script
+            type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+        </script>
+        <script type="text/javascript">
+            (function() {
+                // https://dashboard.emailjs.com/admin/account
+                emailjs.init({
+                  publicKey: "cIfVxjtg8rCNgYV7J",
+                });
+            })();
+        </script>
+        <script type="text/javascript">
+            window.onload = function() {
+                document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // these IDs from the previous steps
+                emailjs.sendForm('contact_service', 'contact_form', this)
+                    .then(() => {
+                        alert('SUCCESS!');
+                    }, (error) => {
+                        console.log('FAILED...', error);
+                    });
+                });
+            }
+        </script>
+
     </head>
     <!--Final Cabeça do Site-->
     <!--Corpo do Site-->
@@ -665,31 +691,7 @@
                 </div>
             </div>
         </div>
-
-        <script
-            type="text/javascript"
-            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-        </script>
-        <script>
-            emailjs.init('YOUR_USER_ID');
-
-            document.querySelector('form').addEventListener('submit', (event) => {
-            event.preventDefault();
-
-            const email = document.getElementById('email').value;
-            const message = document.getElementById('message').value;
-
-
-            emailjs.sendForm('service_id', 'template_id', event.target, 'user_id')
-                .then((result) => {
-                    alert('Mensagem enviada com sucesso! :)')
-                }, (error) => {
-                    alert(error.message) 
-
-                });
-            });
-        </script>
-
+        
         <div class="contacto" id="contacto">
             <h2>Contratação Rápida</h2>
             <form id="contact-form" method="post">
