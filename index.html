@@ -8,6 +8,7 @@
         <title>Portofólio Pessoal</title>
         <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="assets/css/geral.css">
+        <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.6.4/email.min.js"></script>
         <link rel="stylesheet" href="assets/sass/geral.scss">
         <link rel="stylesheet" href="assets/css/breakpoints.css">
         <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
@@ -485,7 +486,7 @@
                         <img src="assets/img/figma.png" alt="figma">
                         <img src="assets/img/xd.png" alt="adobe-xd">
                     </p>
-                    <p class="content-preço">225.000 AOA</p>
+                    <p class="content-preço">225.000 <spanKz</span></p>
                     <div class="separador">
                         
                     </div>
@@ -517,7 +518,7 @@
                         <img src="assets/img/html.png" alt="html5">
                         <!--<img src="assets/img/browser.png" alt="api">-->
                     </p>
-                    <p class="content-preço">360.000 AOA</p>
+                    <p class="content-preço">360.000 <span>Kz</span></p>
                     <div class="separador">
                         
                     </div>
@@ -547,7 +548,7 @@
                         <img class="logo-go" src="assets/img/logo-go.png" alt="golang">
                         <img src="assets/img/postgre.png" alt="postgres">
                     </p>
-                    <p class="content-preço negativo">490.000 AOA</p>
+                    <p class="content-preço negativo">490.000 <span>Kz</span></p>
                     <div class="separador">
                         
                     </div>
@@ -578,7 +579,7 @@
                         <img src="assets/img/git.png" alt="git">
                         <img src="assets/img/docker.png" alt="docker">
                     </p>
-                    <p class="content-preço negativo">250.000 AOA</p>
+                    <p class="content-preço negativo">250.000 <span>Kz</span></p>
                     <div class="separador">
                         
                     </div>
@@ -609,7 +610,7 @@
                         <img src="assets/img/node-js.png" alt="nodejs">
                         <img src="assets/img/postgre.png" alt="postgres">
                     </p>
-                    <p class="content-preço">680.000 AOA</p>
+                    <p class="content-preço">680.000 <span>Kz</span></p>
                     <div class="separador">
                         
                     </div>
@@ -640,7 +641,7 @@
                         <img src="assets/img/app-store.png" alt="git">
                         <img src="assets/img/android.png" alt="githulab">
                     </p>
-                    <p class="content-preço">670.000 AOA</p>
+                    <p class="content-preço">670.000 <span>Kz</span></p>
                     <div class="separador">
                         
                     </div>
@@ -664,6 +665,30 @@
                 </div>
             </div>
         </div>
+
+        <script
+            type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+        </script>
+        <script>
+            emailjs.init('YOUR_USER_ID');
+
+            document.querySelector('form').addEventListener('submit', (event) => {
+            event.preventDefault();
+
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+
+
+            emailjs.sendForm('service_id', 'template_id', event.target, 'user_id')
+                .then((result) => {
+                    alert('Mensagem enviada com sucesso! :)')
+                }, (error) => {
+                    alert(error.message) 
+
+                });
+            });
+        </script>
 
         <div class="contacto" id="contacto">
             <h2>Contratação Rápida</h2>
@@ -690,9 +715,9 @@
                     <label for="servico">Pacote Contrato:</label>
                     <input type="text" required name="servico" id="servico" placeholder="Selecionar (Pacote)">
                     <label for="servico">Duração Contrato:</label>
-                    <input type="text" required name="servico" id="duracaoContrato" placeholder="Duração Contrato">
+                    <input type="text" required name="servico_dur" id="duracaoContrato" placeholder="Duração Contrato">
                     <label for="textarea">Informação Adicional:</label>
-                    <input type="text" name="textarea" id="message" placeholder="Informação Adicional (Opcional)">
+                    <input type="text" name="textarea_serv" id="message" placeholder="Informação Adicional (Opcional)">
                 </div>
                 <button class="btn" type="reset">Limpar</button>
                 <button class="btn" type="submit">Enviar</button>
@@ -736,6 +761,6 @@
         </div>
     </body>
     <!--Final Corpo do Site-->
-    <script src="assets/js/menu.js"></script>
+    <script src="assets/js/email.js"></script>
     <script src="assets/js/scrip.js"></script>
 </html>

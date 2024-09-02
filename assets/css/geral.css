@@ -608,7 +608,7 @@ aside a:hover {
 }
 
 .port-content aside .data {
-    color: #00B2E0;
+    color: #3CEA30;
 }
 
 aside {
@@ -637,7 +637,7 @@ aside a:hover {
 }
 
 aside .data {
-    color: #00B2E0;
+    color: #3CEA30;
 }
 
 /*Serviços--------------------*/
@@ -733,12 +733,15 @@ aside .data {
     margin-right: 5px;
 }
 
-
 .serviços  .serv .content-preço {
     padding: 0px 0px 20px 0px;
     text-align: center;
     font-size: 30px;
     color: #0d98fc;
+}
+
+.serviços  .serv .content-preço span {
+    color: #3CEA30;
 }
 
 .serviços  .serv .separador {
@@ -862,6 +865,10 @@ form label {
     display: flex;
     align-items: center;
 }
+
+#message {
+    height: 5rem;
+} 
 
 form label i {
     font-size: 2rem;
