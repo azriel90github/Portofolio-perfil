@@ -196,8 +196,14 @@ section {
 }
 
 .tech-rotate {
+    display: flex;
     padding: 55px;
-    background-color: #05558F;
+    border-top: 1px solid #05558F;
+    border-bottom: 1px solid #05558F;
+}
+
+.tech-rotate i {
+    font-size: 3rem;
 }
 
 .sobre-content {
@@ -736,6 +742,7 @@ aside .data {
 .serviços  .serv .content-preço {
     padding: 0px 0px 20px 0px;
     text-align: center;
+    font-weight: 700;
     font-size: 30px;
     color: #0d98fc;
 }
