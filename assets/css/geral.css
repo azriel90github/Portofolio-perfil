@@ -804,11 +804,6 @@ aside .data {
 
 }
 
-.contacto-react {
-    position: relative;
-    bottom: -90px;
-}
-
 
 .contacto a {
     text-decoration: none;
@@ -824,7 +819,6 @@ aside .data {
     padding-bottom: 30px;
     font-weight: 300;
     font-size: 25px;
-    color: #0d98fc;
 }
 
 
