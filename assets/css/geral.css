@@ -196,10 +196,8 @@ section {
 }
 
 .tech-rotate {
-    display: flex;
-    padding: 55px;
-    border-top: 1px solid #05558F;
-    border-bottom: 1px solid #05558F;
+    margin: auto;
+
 }
 
 .tech-rotate i {
