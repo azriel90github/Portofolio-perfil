@@ -63,6 +63,22 @@ body {
     color: #3CEA30;
 }
 
+.piscando {
+    animation: piscar 1s infinite;
+}
+
+@keyframes piscar {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: .5; /* Ajuste a opacidade para controlar a intensidade do piscar */
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
 .navbar a {
     margin: 8px;
     font-size: 17px;
