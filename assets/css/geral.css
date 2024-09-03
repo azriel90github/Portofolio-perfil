@@ -197,12 +197,12 @@ section {
 
 .tech-rotate {
     margin: auto;
-
 }
 
 .tech-rotate i {
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
+
 
 .sobre-content {
     display: none;
@@ -676,6 +676,9 @@ aside .data {
 }
 
 .serv {
+    background-image: url(../img/image.png);
+    background-repeat: no-repeat;
+    background-position: top;
     width: 100%;
 }
 
