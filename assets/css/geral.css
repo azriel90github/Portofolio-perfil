@@ -60,7 +60,7 @@ body {
 .logo {
     font-size: 35px;
     text-decoration: none;
-    color: #3CEA30;
+    color: #0d98fc;
 }
 
 .piscando {
@@ -203,6 +203,7 @@ section {
     width: 75%;
     position: relative;
     right: -15%;
+    top: -30px;
     border-bottom: 2px solid #007D9C;
 }
 
@@ -700,7 +701,7 @@ aside .data {
 
 .serviços {
     box-shadow: 1px 1px 20px #0c97fa96;
-    border-radius: 30px;
+    border-radius: 20px;
     display: flex;
     background-color: #11181d7c;
     padding: 8px;
@@ -712,7 +713,7 @@ aside .data {
 
 .serviços  .serv {
     width: 500px;
-    border-radius: 20px;
+    border-radius: 15px;
     padding: 8px;
 }
 
@@ -788,7 +789,7 @@ aside .data {
     cursor: pointer;
     font-size: 15px;
     width: 100%;
-    border-radius: 11px;
+    border-radius: 10px;
     display: flex;
     margin: auto;
     align-items: center;  
