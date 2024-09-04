@@ -10,7 +10,6 @@
     margin: 0px;
     padding: 0px;
     font-family: Mont;
-    color: #0d98fc;
     box-sizing: border-box;
 }
 
@@ -213,6 +212,7 @@ section {
 
 .tech-rotate i {
     font-size: 3.5rem;
+    color: #3CEA30;
 }
 
 
@@ -422,6 +422,11 @@ section {
 .cert-content .cert-listas  {
     margin-left: 25px;
     line-height: 30px;
+    color: #0d98fc;
+}
+
+.cert-content .cert-listas span {
+    color: #0C96F9;
 }
 
 .cert-content .cert-listas ul li {
@@ -442,6 +447,7 @@ section {
 }
 
 .cert-content p {
+    color: #0d98fc;
     line-height: 30px;
     padding: 10px 10px 5px 0px;
 }
@@ -604,6 +610,7 @@ aside a:hover {
 .port-content p {
     line-height: 30px;
     padding: 10px 10px 10px 0px;
+    color: #0C96F9;
 }
 
 .port-content h3 {
@@ -701,7 +708,7 @@ aside .data {
 
 .serviços {
     box-shadow: 1px 1px 20px #0c97fa96;
-    border-radius: 20px;
+    border-radius: 30px;
     display: flex;
     background-color: #11181d7c;
     padding: 8px;
@@ -755,15 +762,15 @@ aside .data {
 .serviços  .serv .content-preço {
     padding: 0px 0px 20px 0px;
     text-align: center;
-    font-weight: 700;
-    font-size: 30px;
+    font-weight: 400;
+    font-size: 32px;
     color: #0d98fc;
 }
-
+/*
 .serviços  .serv .content-preço span {
     color: #3CEA30;
 }
-
+*/
 .serviços  .serv .separador {
     border-bottom: 1px solid #0d98fc;
     margin: auto;
@@ -789,7 +796,7 @@ aside .data {
     cursor: pointer;
     font-size: 15px;
     width: 100%;
-    border-radius: 10px;
+    border-radius: 13px;
     display: flex;
     margin: auto;
     align-items: center;  
@@ -860,6 +867,7 @@ form h5 {
     font-size: 1.7rem;
     margin-left: 5px;
     padding-top: 30px;
+    color: #0C96F9;
 }
 
 form input {
@@ -1062,6 +1070,7 @@ footer  button:hover {
 .final {
     text-align: center;
     padding: 20px;
+    color: #0C96F9;
 }
 
 
