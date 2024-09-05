@@ -294,7 +294,7 @@ section {
 .trilha h3 {
     font-size: 1.3rem;
     /*color: #00B2E0;*/
-    color: #3CEA30;
+    color: #0A7CCE;
     border-radius: 15px 15px 0px 0px;
     padding: 5px 20px;
     /*background-color: #0E1820;*/
@@ -695,9 +695,6 @@ aside .data {
 }
 
 .serv {
-    background-image: url(../img/image.png);
-    background-repeat: no-repeat;
-    background-position: top;
     width: 100%;
 }
 
