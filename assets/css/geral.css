@@ -87,7 +87,7 @@ body {
 
 #menu-icon {
     display: none;
-    color: #3CEA30;
+    color: #0d98fc;
 }
 
 .idiomas {
@@ -98,7 +98,7 @@ body {
 .idiomas i {
     font-size: 30px;
     cursor: pointer;
-    color: #3CEA30;
+    color: #0d98fc;
 }
 
  .hora {
@@ -107,7 +107,7 @@ body {
 }
 
 .hora span {
-    color: #3CEA30;
+    color: #0d98fc;
 }
 
 section {
