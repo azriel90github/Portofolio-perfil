@@ -753,6 +753,7 @@ aside .data {
     line-height: 30px;
     padding-bottom: 20px;
     color: #0d98fc;
+    font-size: 1rem;
 }
  
 #suporte p span {
@@ -765,7 +766,7 @@ aside .data {
     padding: 0px 0px 20px 0px;
     text-align: center;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.2rem;
     color: #0d98fc;
 }
 
