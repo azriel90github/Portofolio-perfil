@@ -769,8 +769,11 @@ aside .data {
     color: #0d98fc;
 }
 
-.serviços  .serv .content-preço {
-    
+.separador-sec {
+    position: relative;
+    top: -13px;
+    text-align: center;
+    color: #00B2E0;
 }
 
 
