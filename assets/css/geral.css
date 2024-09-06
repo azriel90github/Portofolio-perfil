@@ -469,6 +469,11 @@ section {
     justify-content: space-between;
 }
 
+
+.cert-content aside .data {
+    color: #0d98fc;
+}
+
 aside {
     display: flex;
     align-items: center;
