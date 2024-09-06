@@ -765,14 +765,15 @@ aside .data {
     padding: 0px 0px 20px 0px;
     text-align: center;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 20px;
     color: #0d98fc;
 }
-/*
-.serviços  .serv .content-preço span {
-    color: #3CEA30;
+
+.serviços  .serv .content-preço {
+    
 }
-*/
+
+
 .serviços  .serv .separador {
     border-bottom: 1px solid #0d98fc;
     margin: auto;
