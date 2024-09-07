@@ -636,7 +636,7 @@ aside a:hover {
 }
 
 .port-content aside .data {
-    color: #3CEA30;
+    color: #19BF9B;
 }
 
 aside {
@@ -827,6 +827,16 @@ aside .data {
 
 .content-img-dados img {
     width: 60px;
+}
+
+.final-serv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #00BAE5;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    gap: 6px;
 }
 
 
