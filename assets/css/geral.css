@@ -208,11 +208,24 @@ section {
 
 .tech-rotate {
     margin: auto;
+    border-bottom: 1px solid #007D9C;
+    border-top: 1px solid #007D9C;
 }
 
 .tech-rotate i {
     font-size: 3.5rem;
     margin: 0;
+}
+
+.itens-rotate {
+    display: flex;
+    justify-content: center;
+}
+
+.rotatw-itens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -294,7 +307,7 @@ section {
 .trilha h3 {
     font-size: 1.3rem;
     /*color: #00B2E0;*/
-    color: #0A7CCE;
+    color: #FFCD1E;
     border-radius: 15px 15px 0px 0px;
     padding: 5px 20px;
     /*background-color: #0E1820;*/
@@ -434,7 +447,7 @@ section {
 }
 
 .cert-content h4 {
-    color: #00B2E0;
+    color: #FFCD1E;
     padding-bottom: 15px;
     font-size: 1.2rem;
 }
@@ -471,7 +484,7 @@ section {
 
 
 .cert-content aside .data {
-    color: #0d98fc;
+    color: #19BF9B;
 }
 
 aside {
@@ -605,6 +618,10 @@ aside a:hover {
     padding: 20px 10px 10px 25px;
 }
 
+.port-content h4 {
+    color: #FFCD1E;
+    padding-bottom: 10px;
+}
 
 
 .port-content p {
