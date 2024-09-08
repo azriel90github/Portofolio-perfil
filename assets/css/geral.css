@@ -210,9 +210,8 @@ section {
     margin: auto;
 }
 
-.tech-rotate i {
-    font-size: 3.5rem;
-    margin: 0;
+.tech-rotate img {
+    width: 10%;
 }
 
 .itens-rotate {
