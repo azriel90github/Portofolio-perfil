@@ -210,8 +210,9 @@ section {
     margin: auto;
 }
 
-.tech-rotate img {
-    width: 10%;
+.tech-rotate i {
+    color: #00BAE5;
+    font-size: 4rem;
 }
 
 .itens-rotate {
@@ -909,7 +910,7 @@ form input {
 
 form label {
     margin-bottom: 5px;
-    margin-left: 5px;
+    margin-left: 8px;
     color: #0D98FC;
     padding-top: 15px;
     font-size: 1rem;

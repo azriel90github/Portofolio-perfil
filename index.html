@@ -137,8 +137,16 @@
             </section>
             <div class="tech-rotate scroller" data-speed="fast">
                 <div class="tag-list scroller__inner">
-                    <div>
-                    </div>
+                    <i class='bx bxl-figma'></i>
+                    <i class='bx bxl-visual-studio'></i>
+                    <i class='bx bxl-kubernetes' style='color:#ffffff' ></i>
+                    <i class='bx bxl-nodejs'></i>
+                    <i class='bx bxl-react'></i>
+                    <i class='bx bxl-typescript'></i>
+                    <i class='bx bxl-go-lang'></i>
+                    <i class='bx bxl-postgresql' style='color:#ffffff' ></i>
+                    <i class='bx bxl-docker'></i>
+                    <i class='bx bxl-heroku'></i>
                 </div>
             </div>
             <div class="sobre" id="jornada">
@@ -694,7 +702,7 @@
             </div>
             <div class="serviços">
                 <div class="serv">
-                    <h3>(Desktop/Developer)</h3>
+                    <h3 id="conteudo">(Desktop/Developer)</h3>
                     <p class="content-img">
                         <img src="assets/img/eletron.png" alt="bitbucket">
                         <img src="assets/img/node-js.png" alt="nodejs">
@@ -733,7 +741,7 @@
                     <div class="separador">
                         
                     </div>
-                    <a href="#contacto"><button>Contratar</button></a>
+                    <a href="#contacto"><button onclick="preencherFormulario()">Contratar</button></a>
                     <div class="final-serv">
                         <svg xmlns="http://www.w3.org/2000/svg" style="color: #19BF9B;" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg>
                         30 dias de garantia
@@ -803,8 +811,8 @@
                     <input id="email" required type="email" name="email"placeholder="Email" autocomplete="off">
                     <label for="morada">Morada:</label>
                     <input type="text" name="morada" id="morada" placeholder="Morada (Opcional)">
-                    <label for="textarea">Mensagem Adicional:</label>
-                    <input type="text" name="textarea" id="message" placeholder="Deixe sua mensagem (Opcional)">
+                    <label for="">Mensagem</label>
+                    <input type="text" name="text" id="text" placeholder="Mensagem (Opcional)">
                 </div>
                 <div>
                     <h5>Dados da Empresa</h5>
@@ -813,11 +821,11 @@
                     <label for="empresaGPS">Localização da Empresa</label>
                     <input type="text" name="empresaGPS" id="empresaGPS" placeholder="GPS Empresa (Opcional)">
                     <label for="servico">Pacote Contrato:</label>
-                    <input type="text" required name="servico" id="servico" placeholder="Selecionar (Pacote)">
+                    <input type="text" required name="servico" id="campoFormulario" readonly placeholder="Selecionar (Pacote)">
                     <label for="servico">Duração Contrato:</label>
                     <input type="text" required name="servico_dur" id="duracaoContrato" placeholder="Duração Contrato">
-                    <label for="textarea">Informação Adicional:</label>
-                    <input type="text" name="textarea_serv" id="message" placeholder="Informação Adicional (Opcional)">
+                    <label for="textarea">Valor a Pagar:</label>
+                    <input type="number" name="valor_pagamento" id="valor" placeholder="Informação Adicional (Opcional)">
                 </div>
                 <button class="btn" type="reset">Limpar</button>
                 <button class="btn" type="submit">Enviar</button>
@@ -862,6 +870,7 @@
     </body>
     <!--Final Corpo do Site-->
     <script src="assets/js/email.js"></script>
+    <script src="assets/js/form.js"></script>
     <script src="assets/js/scrip.js"></script>
     <script src="assets/js/scroller.js"></script>
 </html>
