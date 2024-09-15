@@ -198,10 +198,14 @@ section {
     padding: 8rem 0 2.5rem 0;
 }
 
-#certificacoes i {
+#certificacoes .container-seta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#certificacoes .container-seta i {
     display: block;
-    position: relative;
-    left: 10rem;
     font-size: 5rem;
 }
 

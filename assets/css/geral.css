@@ -407,8 +407,14 @@ section {
     padding: 7rem 0 3rem 0;
 }
 
-#certificacoes i {
-    display: none;
+#certificacoes .container-seta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#certificacoes .container-seta i {
+    font-size: 4rem;
 }
 
 .certificado-caixas {
