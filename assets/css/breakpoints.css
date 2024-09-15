@@ -174,8 +174,7 @@ section {
 .sobre h2 {
     width: 100%;
     font-size: 2rem;
-    text-align: center;
-    margin-left: 0;
+    text-align: left;
 }
 
 .trilha {

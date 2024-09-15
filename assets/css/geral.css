@@ -256,6 +256,8 @@ section {
     justify-content: center;
 }
 .sobre h2 {
+    display: flex;
+    justify-content: space-between;
     background-image: linear-gradient(to right, #18d3fd ,#054472);
     background-clip: text;
     -webkit-background-clip: text;
@@ -278,6 +280,25 @@ section {
     background-repeat: no-repeat;
     background-position: left;
 }
+
+
+.seta {
+    color: #00BAE5;
+    margin-right: 30%;
+    width: 0;
+    height: 0;
+    position: relative;
+    animation: moverSeta 2s infinite alternate;
+  }
+
+  @keyframes moverSeta {
+    0% {
+      left: 0px;
+    }
+    100% {
+      left: 100px;
+    }
+  }
 
 
 .trilha {
