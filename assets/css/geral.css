@@ -371,6 +371,13 @@ section {
     padding-top: 1.5rem;
 }
 
+.logo-react {
+    position: relative;
+    left: 7rem;
+    bottom: -19rem;
+    width: 10%;
+}
+
 .cert-fundo-h2 {
     background-image: url(../img/bg.png);
     background-repeat: no-repeat;
