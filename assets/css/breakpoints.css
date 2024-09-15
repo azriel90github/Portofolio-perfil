@@ -172,10 +172,12 @@ section {
 }
 
 .sobre h2 {
-    width: 100%;
+    width: 60%;
     font-size: 2rem;
     text-align: left;
+    flex-direction: column;
 }
+
 
 .trilha {
     width: 98%;

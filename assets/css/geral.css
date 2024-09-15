@@ -257,7 +257,6 @@ section {
 }
 .sobre h2 {
     display: flex;
-    justify-content: space-between;
     background-image: linear-gradient(to right, #18d3fd ,#054472);
     background-clip: text;
     -webkit-background-clip: text;
@@ -267,6 +266,10 @@ section {
     font-weight: 300;
     font-size: 3.5rem;
     margin-left: 7.5%;
+}
+
+.sobre h2 i {
+    margin: .8rem;
 }
 
 .trilha-react {
