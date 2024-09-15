@@ -172,20 +172,18 @@ section {
 }
 
 .sobre h2 {
-    width: 60%;
+    width: 65%;
     font-size: 2rem;
     text-align: left;
-    flex-direction: column;
 }
 
+.sobre h2 i {
+    font-size: 3rem;
+}
 
 .trilha {
     width: 98%;
     margin-left: .5rem;
-}
-
-.trilha-fundo-h2 {
-    background-position: center;
 }
 
 #certificacoes h2 {

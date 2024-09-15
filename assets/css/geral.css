@@ -262,14 +262,14 @@ section {
     -webkit-background-clip: text;
     color: transparent;
     padding-top: 4rem;
-    padding-bottom: 25px;
     font-weight: 300;
     font-size: 3.5rem;
     margin-left: 7.5%;
 }
 
 .sobre h2 i {
-    margin: .8rem;
+    margin-top: 6rem;
+    margin-left: 2rem;
 }
 
 .trilha-react {
@@ -291,15 +291,15 @@ section {
     width: 0;
     height: 0;
     position: relative;
-    animation: moverSeta 2s infinite alternate;
+    animation: moverSeta 1s infinite alternate;
   }
 
   @keyframes moverSeta {
     0% {
-      left: 0px;
+      bottom: 30px;
     }
     100% {
-      left: 100px;
+      bottom: 100px;
     }
   }
 
