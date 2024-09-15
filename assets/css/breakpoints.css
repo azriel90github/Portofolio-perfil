@@ -72,6 +72,11 @@ section {
     padding: 10rem 7% 2rem;
 }
 
+.home .foto-perfil {
+    margin-top: 4rem;
+    padding: 40%;
+}
+
 .home .foto-perfil img {
     width: 90%;
     position: relative;
@@ -245,6 +250,20 @@ section {
     margin: auto;
     height: 30vh;
     width: 100%;
+}
+
+#portofolio .postgre {
+    position: relative;
+    left: -4rem;
+    bottom: -5rem;
+    width: 10%;
+    font-size: 12rem;
+}
+
+.port-seta .seta {
+    font-size: 4rem;
+    position: relative;
+    top: 0rem;
 }
 
 .container-portofolio {

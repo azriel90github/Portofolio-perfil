@@ -197,7 +197,14 @@ section {
     color: #007D9C;
 }
 
+.home .foto-perfil {
+    padding: 15%;
+    margin: auto;
+    border-radius: 50%;
+    background-color: #0767AC;
+}
 
+/*
 .home .foto-perfil img {
     width: 75%;
     position: relative;
@@ -205,6 +212,7 @@ section {
     top: -30px;
     border-bottom: 2px solid #007D9C;
 }
+*/
 
 .tech-rotate {
     margin: auto;
@@ -261,7 +269,7 @@ section {
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-    padding-top: 4rem;
+    padding-top: 1rem;
     font-weight: 300;
     font-size: 3.5rem;
     margin-left: 7.5%;
@@ -571,10 +579,6 @@ aside a:hover {
 
 /*Portofolio------------------------*/
 
-#portofolio {
-    padding-top: 1rem;
-}
-
 .container-portofolio:hover {
     cursor: pointer;
     box-shadow: 1px 1px 35px #0c97fa96;
@@ -596,6 +600,26 @@ aside a:hover {
     background-image: url(../img/bg.png);
     background-repeat: no-repeat;
     background-position: center;
+}
+
+#portofolio .postgre {
+    position: relative;
+    left: 29rem;
+    bottom: -13rem;
+    width: 10%;
+    font-size: 9rem;
+}
+
+.port-seta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.port-seta .seta {
+    font-size: 4rem;
+    position: relative;
+    top: 10rem;
 }
 
 
@@ -739,6 +763,12 @@ aside .data {
     background-position: center;
 }
 
+.serv-fundo-h2 i {
+    font-size: 4rem;
+    position: relative;
+    top: 5rem;
+    right: -2rem;
+}
 
 .services-title {
     background-image: linear-gradient(to right, #054472, #18d3fd);
