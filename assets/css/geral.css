@@ -367,15 +367,27 @@ section {
 
 /*certificaçõs----------------------*/
 
-#certificacoes {
-    padding-top: 1.5rem;
-}
-
 .logo-react {
     position: relative;
-    left: 7rem;
-    bottom: -19rem;
+    pointer-events: none;
+    left: 5rem;
+    bottom: -17rem;
     width: 10%;
+}
+  
+@media (prefers-reduced-motion: no-preference) {
+    .logo-react {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 .cert-fundo-h2 {
@@ -393,6 +405,10 @@ section {
     font-size: 3rem;
     text-align: center;
     padding: 7rem 0 3rem 0;
+}
+
+#certificacoes i {
+    display: none;
 }
 
 .certificado-caixas {

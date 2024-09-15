@@ -186,8 +186,23 @@ section {
     margin-left: .5rem;
 }
 
+.logo-react {
+    position: relative;
+    pointer-events: none;
+    left: -3rem;
+    bottom: -4rem;
+    width: 40%;
+}
+
 #certificacoes h2 {
     padding: 8rem 0 2.5rem 0;
+}
+
+#certificacoes i {
+    display: block;
+    position: relative;
+    left: 10rem;
+    font-size: 5rem;
 }
 
 .container-certificado {
