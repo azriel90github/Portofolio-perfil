@@ -869,9 +869,13 @@ aside .data {
 .serviços  .serv .content-preço {
     padding: 0px 0px 20px 0px;
     text-align: center;
-    font-weight: 400;
+    font-weight:100;
     font-size: 1.2rem;
     color: #0d98fc;
+}
+
+.serviços  .serv .content-preço del {
+    color: #00B2E0;
 }
 
 .separador-sec {
