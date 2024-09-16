@@ -269,7 +269,7 @@ section {
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-    padding-top: 1rem;
+    padding-top: 3rem;
     font-weight: 300;
     font-size: 3.5rem;
     margin-left: 7.5%;
@@ -294,6 +294,7 @@ section {
 
 
 .seta {
+    font-size: 4rem;
     color: #00BAE5;
     margin-right: 30%;
     width: 0;
@@ -420,6 +421,15 @@ section {
     justify-content: space-between;
     align-items: center;
 }
+
+.seta-cert {
+    color: #00BAE5;
+    margin-right: 30%;
+    width: 0;
+    height: 0;
+    position: relative;
+    animation: moverSeta 1s infinite alternate;
+  }
 
 #certificacoes .container-seta i {
     font-size: 4rem;
@@ -595,6 +605,7 @@ aside a:hover {
     text-align: center;
     padding-bottom: 50px;
 }
+
 
 .port-fundo-h2 {
     background-image: url(../img/bg.png);
