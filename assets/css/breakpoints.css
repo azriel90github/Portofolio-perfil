@@ -191,6 +191,10 @@ section {
     margin-left: .5rem;
 }
 
+.trilha-fundo-h2 .seta {
+    font-size: 5rem;
+}
+
 .logo-react {
     position: relative;
     pointer-events: none;
