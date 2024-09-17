@@ -264,10 +264,14 @@ section {
     font-size: 12rem;
 }
 
-.port-seta .seta {
+.port-seta {
+    justify-content: space-around;
+}
+
+.port-seta .seta-port {
     font-size: 4rem;
     position: relative;
-    top: 0rem;
+    top: 2rem;
 }
 
 .container-portofolio {

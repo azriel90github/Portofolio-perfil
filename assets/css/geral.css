@@ -627,11 +627,26 @@ aside a:hover {
     align-items: center;
 }
 
-.port-seta .seta {
-    font-size: 4rem;
-    position: relative;
+
+.seta-port {
     top: 10rem;
-}
+    font-size: 4rem;
+    color: #00BAE5;
+    margin-right: 30%;
+    width: 0;
+    height: 0;
+    position: relative;
+    animation: setaDireita 1s infinite alternate;
+  }
+
+  @keyframes setaDireita {
+    0% {
+      left: 30px;
+    }
+    100% {
+      left: 80px;
+    }
+  }
 
 
 .portofolio-caixas {
