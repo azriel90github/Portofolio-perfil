@@ -202,6 +202,8 @@ section {
     margin: auto;
     border-radius: 50%;
     background-color: #0767AC;
+    background-image: url(../img/foto-02.jpg);
+    background-size: cover;
 }
 
 /*
@@ -793,8 +795,10 @@ aside .data {
 /*Serviços--------------------*/
 
 .serv-fundo-h2 {
+    text-align: center;
     background-image: url(../img/bg.png);
     background-repeat: no-repeat;
+    margin: auto;
     background-position: center;
 }
 
@@ -808,6 +812,7 @@ aside .data {
 .services-title {
     background-image: linear-gradient(to right, #054472, #18d3fd);
     background-clip: text;
+    text-align: center;
     -webkit-background-clip: text;
     color: transparent;
     font-weight: 300;
