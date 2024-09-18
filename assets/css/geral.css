@@ -310,7 +310,7 @@ section {
       bottom: 30px;
     }
     100% {
-      bottom: 100px;
+      bottom: 80px;
     }
   }
 
@@ -617,10 +617,10 @@ aside a:hover {
 
 #portofolio .postgre {
     position: relative;
-    left: 29rem;
+    left: 27rem;
     bottom: -13rem;
     width: 10%;
-    font-size: 9rem;
+    font-size: 11rem;
 }
 
 .port-seta {
@@ -802,15 +802,8 @@ aside .data {
 
 .serv-fundo-h2 .node {
     position: relative;
-    bottom: -13rem;
-    font-size: 8rem;
-}
-
-.serv-fundo-h2 i {
-    font-size: 4rem;
-    position: relative;
-    top: 8rem;
-    right: -2rem;
+    bottom: -5rem;
+    font-size: 10rem;
 }
 
 .services-title {
@@ -825,7 +818,6 @@ aside .data {
 }
 
 .services-title i {
-    padding-right: 7px;
     color: #0C96FA;
 }
 
@@ -866,7 +858,7 @@ aside .data {
 .serviços .serv h3 {
     background-color: #0c97fa96;
     box-shadow: 1px 1px 10px #0c97fa96;
-    color: #00B2E0;
+    color: white;
     text-align: center;
     font-size: 25px;
     font-weight: 300;
