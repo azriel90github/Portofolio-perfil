@@ -798,7 +798,6 @@ aside .data {
     text-align: center;
     background-image: url(../img/bg.png);
     background-repeat: no-repeat;
-    margin: auto;
     background-position: center;
 }
 
@@ -810,7 +809,7 @@ aside .data {
 }
 
 .services-title {
-    background-image: linear-gradient(to right, #054472, #18d3fd);
+    background-image: linear-gradient(to right, #18d3fd, #054472);
     background-clip: text;
     text-align: center;
     -webkit-background-clip: text;
