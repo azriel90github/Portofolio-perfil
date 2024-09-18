@@ -686,7 +686,6 @@ aside a:hover {
     background-position: top;
 }
 
-
 .port-img-planner {
     opacity: 90%;
     background-position: center left;
@@ -801,10 +800,16 @@ aside .data {
     background-position: center;
 }
 
+.serv-fundo-h2 .node {
+    position: relative;
+    bottom: -13rem;
+    font-size: 8rem;
+}
+
 .serv-fundo-h2 i {
     font-size: 4rem;
     position: relative;
-    top: 5rem;
+    top: 8rem;
     right: -2rem;
 }
 
