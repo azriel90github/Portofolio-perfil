@@ -296,8 +296,9 @@ section {
 
 
 .seta {
+    text-shadow: 1px 1px 10px #FFCD1E;
     font-size: 4rem;
-    color: #00BAE5;
+    color: #FFCD1E;
     margin-right: 30%;
     width: 0;
     height: 0;
@@ -310,7 +311,7 @@ section {
       bottom: 30px;
     }
     100% {
-      bottom: 80px;
+      bottom: 100px;
     }
   }
 
@@ -425,13 +426,14 @@ section {
 }
 
 .seta-cert {
-    color: #00BAE5;
+    text-shadow: 1px 1px 10px #00D8FF;
+    color: #00D8FF;
     margin-right: 30%;
     width: 0;
     height: 0;
     position: relative;
     animation: moverSeta 1s infinite alternate;
-  }
+}
 
 #certificacoes .container-seta i {
     font-size: 4rem;
@@ -591,6 +593,10 @@ aside a:hover {
 
 /*Portofolio------------------------*/
 
+.portofolio-main {
+    margin-bottom: 2rem;
+}
+
 .container-portofolio:hover {
     cursor: pointer;
     box-shadow: 1px 1px 35px #0c97fa96;
@@ -605,7 +611,6 @@ aside a:hover {
     font-weight: 300;
     font-size: 3rem;
     text-align: center;
-    padding-bottom: 50px;
 }
 
 
@@ -629,11 +634,11 @@ aside a:hover {
     align-items: center;
 }
 
-
 .seta-port {
+    text-shadow: 1px 1px 10px #336791;
     top: 10rem;
     font-size: 4rem;
-    color: #00BAE5;
+    color: #336791;
     margin-right: 30%;
     width: 0;
     height: 0;
@@ -665,7 +670,6 @@ aside a:hover {
     border-radius: 20px;
     padding: 8px;
     box-shadow: 1px 1px 10px #0c97fa96;
-
 }
 
 .port-img  {
@@ -800,10 +804,15 @@ aside .data {
     background-position: center;
 }
 
+
 .serv-fundo-h2 .node {
     position: relative;
-    bottom: -5rem;
+    bottom: -3rem;
     font-size: 10rem;
+}
+
+.serv-fundo-h2 .seta {
+    text-shadow: 1px 1px 8px #3E9638;
 }
 
 .services-title {
@@ -814,11 +823,6 @@ aside .data {
     color: transparent;
     font-weight: 300;
     font-size: 30px;
-
-}
-
-.services-title i {
-    color: #0C96FA;
 }
 
 #serviços {
@@ -838,7 +842,7 @@ aside .data {
 }
 
 .serviços {
-    box-shadow: 1px 1px 20px #0c97fa96;
+    box-shadow: 1px 1px 10px #0c97fa96;
     border-radius: 30px;
     display: flex;
     background-color: #11181d7c;
@@ -847,6 +851,7 @@ aside .data {
 
 .serviços:hover {
     transition-duration: .3s;
+    box-shadow: 1px 1px 30px #0c97fa96;
 }
 
 .serviços  .serv {
@@ -855,10 +860,11 @@ aside .data {
     padding: 8px;
 }
 
+
 .serviços .serv h3 {
     background-color: #0c97fa96;
     box-shadow: 1px 1px 10px #0c97fa96;
-    color: white;
+    color: rgba(255, 255, 255, 0.856);
     text-align: center;
     font-size: 25px;
     font-weight: 300;
@@ -981,7 +987,19 @@ aside .data {
     flex-direction: column;
     padding-bottom: 15rem;
     padding-top: 30px;
+}
 
+.react-cont {
+    position: relative;
+    pointer-events: none;
+    bottom: -6rem;
+    width: 6%;
+}
+  
+@media (prefers-reduced-motion: no-preference) {
+    .react-cont {
+        animation: App-logo-spin infinite 20s linear;
+    }
 }
 
 
@@ -998,7 +1016,7 @@ aside .data {
     padding-top: 150px;
     padding-bottom: 30px;
     font-weight: 300;
-    font-size: 25px;
+    font-size: 2rem;
 }
 
 
@@ -1014,7 +1032,7 @@ form div {
 }
 
 form h5 {
-    font-size: 1.7rem;
+    font-size: 2rem;
     margin-left: 5px;
     padding-top: 30px;
     color: #0C96F9;
@@ -1094,6 +1112,7 @@ form {
 /*rodape------------------------------------------*/
 
 footer {
+    padding-left: 1rem;
     box-shadow: 1px 1px 40px #0c97fa63;
     width: 100%;
     display: flex;
@@ -1117,7 +1136,7 @@ footer .pages menu a {
     width: 100%;
     text-decoration: none;
     margin-bottom: 10px;
-    color: #0d98fc;
+   color: #0d98fc;
 }
 
 footer .pages menu a i {
