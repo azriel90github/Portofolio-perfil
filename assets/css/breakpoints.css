@@ -300,10 +300,12 @@ section {
 .port-img-planner,
 .port-img-sala,
 .port-img-stack,
-.port-img-geladaria
+.port-img-geladaria,
+.port-img-metas
 {
     background-position: center center;
     border-radius: 15px 15px 0px 0px;
+    background-position: top;
     margin: auto;
     height: 20vh;
     width: 100%;

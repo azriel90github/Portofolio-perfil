@@ -712,6 +712,15 @@ aside a:hover {
     background-size: cover;
 }
 
+.port-img-metas {
+    opacity: 90%;
+    background-position: top;
+    border-radius: 15px 0px 0px 15px;
+    width: 50%;
+    background-image: url(../img/fundoMetas.png);
+    background-size: cover;
+}
+
 .port-content {
     border-radius: 0px 17px 17px 0px;
     width: 50%;
