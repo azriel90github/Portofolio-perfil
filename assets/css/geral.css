@@ -461,7 +461,9 @@ section {
 }
 
 
-.cert-img-full {
+.cert-img-full,
+.cert-img-ia,
+.cert-img-react {
     opacity: 40%;
     border-radius: 0px 15px 15px 0px;
     width: 50%;
@@ -470,13 +472,12 @@ section {
     background-position: right top;
 }
 
+.cert-img-ia {
+    background-image: url(../img/ia.png);
+}
+
 .cert-img-react {
-    opacity: 40%;
-    border-radius: 0px 15px 15px 0px;
-    width: 50%;
     background-image: url(../img/cert-react.png);
-    background-size: cover;
-    background-position: right top;
 }
 
 .cert-img-go {
