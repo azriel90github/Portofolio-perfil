@@ -242,7 +242,12 @@ section {
 
 .cert-img-full,
 .cert-img-react,
-.cert-img-ia {
+.cert-img-ia,
+.cert-img-native,
+.cert-img-node,
+.cert-img-python,
+.cert-img-go,
+.cert-img-devops {
     background-position: center center;
     border-radius: 0px 0px 15px 15px;
     margin: auto;

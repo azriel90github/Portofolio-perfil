@@ -460,16 +460,23 @@ section {
     transition-duration: .3s;
 }
 
-
 .cert-img-full,
 .cert-img-ia,
-.cert-img-react {
+.cert-img-react,
+.cert-img-native,
+.cert-img-go,
+.cert-img-devops,
+.cert-img-node,
+.cert-img-python {
     opacity: 40%;
     border-radius: 0px 15px 15px 0px;
     width: 50%;
-    background-image: url(../img/cert-full-stack.png);
     background-size: cover;
     background-position: right top;
+}
+
+.cert-img-full {
+    background-image: url(../img/cert-full-stack.png);
 }
 
 .cert-img-ia {
@@ -480,22 +487,24 @@ section {
     background-image: url(../img/cert-react.png);
 }
 
+.cert-img-native {
+    background-image: url(../img/native.png);
+}
+
+.cert-img-node {
+    background-image: url(../img/node.png);
+}
+
+.cert-img-python {
+    background-image: url(../img/python.png);
+}
+
 .cert-img-go {
-    opacity: 40%;
-    border-radius: 0px 15px 15px 0px;
-    width: 50%;
     background-image: url(../img/cert-go.png);
-    background-size: cover;
-    background-position: right top;
 }
 
 .cert-img-devops {
-    opacity: 40%;
-    border-radius: 0px 15px 15px 0px;
-    width: 50%;
     background-image: url(../img/cert-devops.png);
-    background-size: cover;
-    background-position: right top;
 }
 
 
