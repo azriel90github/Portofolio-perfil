@@ -874,7 +874,8 @@ aside .data {
 .serviços .serv h3 {
     background-color: #0c97fa96;
     box-shadow: 1px 1px 10px #0c97fa96;
-    color: rgba(255, 255, 255, 0.856);
+    /*color: rgba(255, 255, 255, 0.856);*/
+    color: #FFCD1E;
     text-align: center;
     font-size: 25px;
     font-weight: 300;
