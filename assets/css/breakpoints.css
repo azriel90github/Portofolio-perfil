@@ -246,7 +246,9 @@ section {
 .cert-img-node,
 .cert-img-python,
 .cert-img-go,
-.cert-img-devops {
+.cert-img-devops,
+.cert-img-iniciante,
+.cert-img-intermedio {
     background-position: center center;
     border-radius: 0px 0px 15px 15px;
     margin: auto;

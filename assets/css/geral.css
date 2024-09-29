@@ -467,7 +467,9 @@ section {
 .cert-img-go,
 .cert-img-devops,
 .cert-img-node,
-.cert-img-python {
+.cert-img-python,
+.cert-img-iniciante,
+.cert-img-intermedio {
     opacity: 40%;
     border-radius: 0px 15px 15px 0px;
     width: 50%;
@@ -477,6 +479,14 @@ section {
 
 .cert-img-full {
     background-image: url(../img/cert-full-stack.png);
+}
+
+.cert-img-iniciante {
+    background-image: url(../img/jsIniciante.png);
+}
+
+.cert-img-intermedio {
+    background-image: url(../img/jsIntermedio.png);
 }
 
 .cert-img-ia {
