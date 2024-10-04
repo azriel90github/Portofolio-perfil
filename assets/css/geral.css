@@ -9,6 +9,7 @@
     font-weight: 100;
     margin: 0px;
     padding: 0px;
+    /* biome-ignore lint/a11y/useGenericFontNames: <explanation> */
     font-family: Mont;
     box-sizing: border-box;
 }
@@ -33,6 +34,7 @@ svg {
 }
 
 body {
+    /* biome-ignore lint/a11y/useGenericFontNames: <explanation> */
     font-family: Mont;
     background-color: #01111E;
 }
