@@ -5,6 +5,11 @@
     src: url(../font/Rethink_Sans/RethinkSans-VariableFont_wght.ttf);
 }
 
+@font-face {
+    font-family: JetBrains;
+    src: url(../font/JetBrains_Mono/JetBrainsMono-VariableFont_wght.ttf);
+}
+
 * {
     font-weight: 100;
     margin: 0px;
@@ -204,7 +209,7 @@ section {
     margin: auto;
     border-radius: 50%;
     background-color: #0767AC;
-    background-image: url(../img/foto-02.jpg);
+    background-image: url(../img/foto.jpg);
     background-size: cover;
 }
 
@@ -739,6 +744,15 @@ aside a:hover {
     background-size: cover;
 }
 
+.port-img-geladariaDev {
+    opacity: 90%;
+    background-position: top;
+    border-radius: 15px 0px 0px 15px;
+    width: 50%;
+    background-image: url(../img/projecto-gelado-02.jpeg);
+    background-size: cover;
+}
+
 .port-img-metas {
     opacity: 90%;
     background-position: top;
@@ -922,6 +936,7 @@ aside .data {
 
 .serviços  .serv .content-preço {
     padding: 0px 0px 20px 0px;
+    line-height: 1.8rem;
     text-align: center;
     font-weight:100;
     font-size: 1.2rem;
@@ -935,7 +950,7 @@ aside .data {
 .separador-sec {
     display: flex;
     justify-content: center;
-    padding: 7px;
+    padding: 2px;
     color: #00B2E0;
 }
 
@@ -955,13 +970,9 @@ aside .data {
     padding-bottom: 20px;
     padding-top: 40px;
 }
-/*
 .serviços  .serv .content-img .logo-go {
     width: 140px;
 }
-*/
-
-
 .serviços  .serv button  {
     border: none;
     cursor: pointer;
