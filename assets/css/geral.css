@@ -755,7 +755,7 @@ aside a:hover {
 
 .port-img-metas {
     opacity: 90%;
-    background-position: top;
+    background-position: center;
     border-radius: 15px 0px 0px 15px;
     width: 50%;
     background-image: url(../img/fundoMetas.png);
