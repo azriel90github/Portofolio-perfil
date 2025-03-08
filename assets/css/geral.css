@@ -169,7 +169,8 @@ section {
 .home-content h4 {
     font-size: 1.7rem;
     margin-bottom: 1rem;
-    color: #FFCD1E;
+    color: #16CBF7;
+    font-weight: 700;
 }
 
 .home-content p {
@@ -303,9 +304,9 @@ section {
 
 
 .seta {
-    text-shadow: 1px 1px 10px #FFCD1E;
+    text-shadow: 1px 1px 10px #16CBF7;
     font-size: 4rem;
-    color: #FFCD1E;
+    color: #16CBF7;
     margin-right: 30%;
     width: 0;
     height: 0;
@@ -348,7 +349,8 @@ section {
 .trilha h3 {
     font-size: 1.3rem;
     /*color: #00B2E0;*/
-    color: #FFCD1E;
+    color: #17CAF6;
+    font-weight: 700;
     border-radius: 15px 15px 0px 0px;
     padding: 5px 20px;
     /*background-color: #0E1820;*/
@@ -357,11 +359,13 @@ section {
 .trilha .pri {
     color: #00B2E0;
     font-size: 1.5rem;
+    font-weight: 300;
 }
 
 .trilha .sec {
     color: #00B2E0;
     font-size: 1.5rem;
+    font-weight: 300;
 }
 
 .trilha p {
@@ -547,9 +551,10 @@ section {
 }
 
 .cert-content h4 {
-    color: #FFCD1E;
+    color: #16CBF7;
     padding-bottom: 15px;
     font-size: 1.2rem;
+    font-weight: 700;
 }
 
 .cert-content .separador {
@@ -584,7 +589,7 @@ section {
 
 
 .cert-content aside .data {
-    color: #19BF9B;
+    color: #17CAF6;
 }
 
 aside {
@@ -799,7 +804,7 @@ aside a:hover {
 }
 
 .port-content aside .data {
-    color: #19BF9B;
+    color: #17CAF6;
 }
 
 aside {
