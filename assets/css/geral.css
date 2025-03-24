@@ -244,6 +244,13 @@ section {
     align-items: center;
 }
 
+.dados-empresa  {
+    padding-bottom: 2rem;
+}
+
+.dados-pessoais {
+    padding-bottom: 2rem;
+}
 
 .sobre-content {
     display: none;
@@ -1083,6 +1090,7 @@ form input {
     width: 550px;
     border: 1px solid #0c97fa96;
     background-color: #0c141a7c;
+    color:#00D8FF;
     margin: 6px;
     outline: none;
     padding: 14px;

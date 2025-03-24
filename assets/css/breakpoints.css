@@ -367,6 +367,7 @@ nav span {
     width: 98%;
 }
 
+
 form#contact-form {
     background-color: #01111E;
     display: grid;
@@ -377,7 +378,7 @@ form#contact-form {
 }
 
 form input {
-    width: 340px;
+    width: 350px;
 }
 
 .animacao {
