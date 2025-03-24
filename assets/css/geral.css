@@ -206,7 +206,7 @@ section {
 }
 
 .home .foto-perfil {
-    padding: 15%;
+    padding: 17%;
     margin: auto;
     border-radius: 50%;
     background-color: #0767AC;
@@ -721,6 +721,24 @@ aside a:hover {
     opacity: 80%;
 }
 
+.port-img-gelado {
+    opacity: 90%;
+    background-position: top;
+    border-radius: 15px 0px 0px 15px;
+    width: 50%;
+    background-image: url(../img/gelado.jpeg);
+    background-size: cover;
+}
+
+.port-img-hamburguer {
+    opacity: 90%;
+    background-position: top;
+    border-radius: 15px 0px 0px 15px;
+    width: 50%;
+    background-image: url(../img/hamburgaria.jpeg);
+    background-size: cover;
+}
+
 .port-img-stack {
     border-radius: 15px 0px 0px 15px;
     width: 50%;
@@ -761,7 +779,25 @@ aside a:hover {
     background-position: top;
     border-radius: 15px 0px 0px 15px;
     width: 50%;
-    background-image: url(../img/projecto-gelado-02.jpeg);
+    background-image: url(../img/projecto-gelado-01.jpeg);
+    background-size: cover;
+}
+
+.port-img-metas {
+    opacity: 90%;
+    background-position: center;
+    border-radius: 15px 0px 0px 15px;
+    width: 50%;
+    background-image: url(../img/fundoMetas.png);
+    background-size: cover;
+}
+
+.port-img-metas {
+    opacity: 90%;
+    background-position: center;
+    border-radius: 15px 0px 0px 15px;
+    width: 50%;
+    background-image: url(../img/fundoMetas.png);
     background-size: cover;
 }
 

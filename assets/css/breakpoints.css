@@ -290,7 +290,9 @@ section {
 .port-img-stack,
 .port-img-geladaria,
 .port-img-metas,
-.port-img-geladariaDev
+.port-img-geladariaDev,
+.port-img-gelado,
+.port-img-hamburguer
 {
     background-position: center center;
     border-radius: 15px 15px 0px 0px;
