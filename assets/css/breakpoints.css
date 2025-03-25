@@ -187,18 +187,6 @@ section {
     font-size: 4rem;
 }
 
-
-.container-h3 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-right: 0;
-}
-
-.container-h3 h3 {
-    flex: 1;
-}
-
 .logo-react {
     position: relative;
     pointer-events: none;

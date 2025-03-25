@@ -180,6 +180,7 @@ section {
     margin-bottom: .8rem;
     color: #0C96F9;
     line-height: 30px;
+    font-weight: 450;
 }
 
 .btn {
@@ -270,6 +271,7 @@ section {
     margin-bottom: .8rem;
     line-height: 30px;
     color: #0C96F9;
+    font-weight: 450;
 }
 
 /*Sobre------------------------*/
@@ -352,16 +354,6 @@ section {
     transition-duration: .3s;
 }
 
-
-.container-h3 {
-    background-color: #0E1820;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 15px 15px 0px 0px;
-}
-
-
 .trilha h3 {
     display: flex;
     justify-content: space-between;
@@ -373,6 +365,7 @@ section {
     border-radius: 15px 15px 0px 0px;
     padding: 10px 20px;   
 }
+
 
 .trilha .pri {
     display: flex;
@@ -387,7 +380,12 @@ section {
 .trilha .sec {
     color: #00B2E0;
     font-size: 1.5rem;
-    font-weight: 300;
+    font-weight: 500;
+}
+
+.trilha .sec i {
+    color: #00B2E0;
+    font-size: 2rem;
 }
 
 .trilha p {
@@ -396,6 +394,7 @@ section {
     padding: 0px 20px 20px 20px;
     color: #0d98fc;
     font-size: 17px;
+    font-weight: 450;
 }
 
 .trilha button {
@@ -403,6 +402,7 @@ section {
     border-radius: 0px 0px 15px 15px;
     border: none;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
     color: #00B2E0;
@@ -842,11 +842,13 @@ aside a:hover {
 
 .port-content p {
     line-height: 30px;
+    font-weight: 450;
     padding: 10px 10px 10px 0px;
     color: #0C96F9;
 }
 
 .port-content h3 {
+    font-weight: 500;
     color: #00B2E0;
     font-size: 1.2rem;
     display: flex;
@@ -865,6 +867,7 @@ aside a:hover {
 
 .port-content aside .data {
     color: #17CAF6;
+    font-weight: 400;
 }
 
 aside {
@@ -987,10 +990,11 @@ aside .data {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: #0d98fc;
+    color: #00B2E0;
     font-size: 23px;
     padding: 0px 30px 15px 0px;
     margin-top: 30px;
+    font-weight: 500;
 }
 
 
@@ -999,12 +1003,13 @@ aside .data {
     padding-bottom: 20px;
     color: #0d98fc;
     font-size: 1rem;
+    font-weight: 450;
 }
  
 #suporte p span {
     /*color: #00B2E0;*/
     color: #3CEA30;
-    margin-right: 5px;
+    margin-right: 7px;
 }
 
 .serviços  .serv .content-preço {
@@ -1081,9 +1086,10 @@ aside .data {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: #0B92F3;
+    color: #00B2E0;
     padding: 20px 25px 8px 20px;
     gap: 6px;
+    font-weight: 500;
 }
 
 
