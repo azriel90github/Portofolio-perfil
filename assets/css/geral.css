@@ -567,6 +567,7 @@ section {
 
 .cert-content .cert-listas span {
     color: #0C96F9;
+    font-weight: 450;
 }
 
 .cert-content .cert-listas ul li {
@@ -577,7 +578,7 @@ section {
     color: #16CBF7;
     padding-bottom: 15px;
     font-size: 1.2rem;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .cert-content .separador {
@@ -589,6 +590,7 @@ section {
 
 .cert-content p {
     color: #0d98fc;
+    font-weight: 450;
     line-height: 30px;
     padding: 10px 10px 5px 0px;
 }
@@ -596,6 +598,7 @@ section {
 .cert-content h3 {
     color: #00B2E0;
     font-size: 1.4rem;
+    font-weight: 500;
     display: flex;
     justify-content: space-between;
     padding-bottom: 10px;
@@ -613,6 +616,7 @@ section {
 
 .cert-content aside .data {
     color: #17CAF6;
+    font-weight: 450;
 }
 
 aside {
@@ -1146,10 +1150,11 @@ form div {
 }
 
 form h5 {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    font-weight: 500;
     margin-left: 5px;
     padding-top: 30px;
-    color: #0C96F9;
+    color: #00B2E0;
 }
 
 form input {
@@ -1168,6 +1173,7 @@ form label {
     margin-bottom: 5px;
     margin-left: 8px;
     color: #0D98FC;
+    font-weight: 500;
     padding-top: 15px;
     font-size: 1rem;
 }
@@ -1190,10 +1196,12 @@ form label i {
 form input:focus {
     border: 1px solid #3CEA30;
     color: #00B2E0;
+    font-weight: 450;
 }
 
 form input::placeholder {
     color: #0c93f38c;
+    font-weight: 450;
 }
 
 /* Para o Firefox */
@@ -1241,6 +1249,7 @@ footer .pages {
 footer .pages menu h3 {
     font-weight: 300;
     color: #00B2E0;
+    font-weight: 500;
     font-size: 1.5rem;
     padding-bottom: 20px;
 }
@@ -1251,7 +1260,8 @@ footer .pages menu a {
     width: 100%;
     text-decoration: none;
     margin-bottom: 10px;
-   color: #0d98fc;
+    color: #0d98fc;
+    font-weight: 450;
 }
 
 footer .pages menu a i {
@@ -1266,7 +1276,7 @@ footer .pages menu a:hover {
 }
 
 footer .content-number h3 {
-    font-weight: 300;
+    font-weight: 500;
     color: #00B2E0;
     font-size: 1.5rem;
     padding-bottom: 10px;
@@ -1274,6 +1284,7 @@ footer .content-number h3 {
 
 
 footer .content-number p {
+    font-weight: 450;
     line-height: 25px;
     padding-bottom: 10px;
     margin-bottom: 5px;
@@ -1287,7 +1298,7 @@ footer .content-number {
 }
 
 footer .social h3 {
-    font-weight: 300;
+    font-weight: 500;
     color: #00B2E0;
     font-size: 1.5rem;
     padding-bottom: 15px;
@@ -1355,6 +1366,7 @@ footer  button:hover {
     text-align: center;
     padding: 20px;
     color: #0C96F9;
+    font-weight: 500;
 }
 
 /*Desabilitar kit de ferramentas do input*/
