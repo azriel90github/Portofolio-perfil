@@ -167,7 +167,7 @@ section {
 .sobre h2 {
     width: 65%;
     font-size: 2rem;
-    text-align: left;
+    
 }
 
 .sobre h2 i {
@@ -175,12 +175,28 @@ section {
 }
 
 .trilha {
-    width: 98%;
-    margin-left: .5rem;
+    width: 90%;
+    
+}
+
+.trilha h3 {
+    display: flex;
 }
 
 .trilha-fundo-h2 .seta {
-    font-size: 5rem;
+    font-size: 4rem;
+}
+
+
+.container-h3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 0;
+}
+
+.container-h3 h3 {
+    flex: 1;
 }
 
 .logo-react {
@@ -203,7 +219,7 @@ section {
 
 #certificacoes .container-seta i {
     display: block;
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 .container-certificado {
