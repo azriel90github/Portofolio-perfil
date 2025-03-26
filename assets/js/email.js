@@ -168,11 +168,12 @@ function showSuccessModal() {
     const modal = document.createElement('div');
     modal.className = 'success-modal';
     modal.innerHTML = `
-        <div class="modal-content">
-            <h3>Enviado com sucesso!</h3>
-            <p>Obrigado pelo seu contato. Responderemos em breve.</p>
-            <button class="close-modal">OK</button>
-        </div>
+      <div class="modal-content">
+          <h3>Enviado com sucesso</h3>
+          <p>Obrigado por entrar em contato. Responderei sua mensagem em breve.</p>
+          <p>Atenciosamente Suélio Armando/p>
+          <button class="close-modal">OK</button>
+      </div>
     `;
     document.body.appendChild(modal);
     

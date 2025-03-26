@@ -44,16 +44,30 @@
   justify-content: center;
   align-items: center;
   z-index: 1000;
+  padding: 1rem;
 }
 
 .success-modal .modal-content {
   background: #01111E;
   color: white;
-  padding: 2rem;
-  border-radius: 8px;
+  border-radius: 20px;
   max-width: 400px;
-  text-align: center;
+  text-align: left;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.success-modal .modal-content h3 {
+  color: #28a745;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin: 2rem;
+}
+
+.success-modal .modal-content p {
+  margin: 2rem;
+  line-height: 2rem;
+  color: #0d98fc;
+  font-weight: 450;
 }
 
 .success-modal button.close-modal {
@@ -61,9 +75,9 @@
   width: 100%;
   color: white;
   border: none;
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
-  margin-top: 1rem;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  margin-top: 2rem;
   cursor: pointer;
 }
 
