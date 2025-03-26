@@ -136,6 +136,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // Prepara os dados do formulário
         const templateParams = {
+          subject: `Novo contato de ${document.getElementById('name').value}`, // Assunto dinâmico
             name: document.getElementById('name').value,
             phone: document.getElementById('number').value,
             email: document.getElementById('email').value,
@@ -171,7 +172,7 @@ function showSuccessModal() {
       <div class="modal-content">
           <h3>Enviado com sucesso</h3>
           <p>Obrigado por entrar em contato. Responderei sua mensagem em breve.</p>
-          <p>Atenciosamente Suélio Armando/p>
+          <p>Atenciosamente Suélio Armando</p>
           <button class="close-modal">OK</button>
       </div>
     `;
