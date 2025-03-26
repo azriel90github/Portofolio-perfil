@@ -1096,6 +1096,11 @@ aside .data {
     font-weight: 500;
 }
 
+.final-serv i {
+    color: #00B2E0;
+    font-size: 2rem;
+}
+
 
 .contacto {
     background-image: url(../img/bg.png);
