@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="assets/sass/geral.scss">
         <link rel="stylesheet" href="assets/css/breakpoints.css">
         <link rel="stylesheet" href="assets/css/scroller.css">
+        <link rel="stylesheet" href="assets/css/form.css">
         <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
         <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -128,6 +129,7 @@
                 </div>
                 <div class="trilha-fundo-h2">
                     <h2>Trilha em Programação<i class='bx bx-chevrons-down seta'></i></h2>
+                    <p></p>
                 </div>
                 <div class="trilha">
                     <div>
@@ -1082,20 +1084,20 @@
                 <div class="dados-pessoais">
                     <h5>Dados Pessoais</h5>
                     <label for="name">Nome:</label>
-                    <input id="name" required size="20" maxlength="30" type="text" name="name" placeholder="Nome Completo" autocomplete="off">
+                    <input id="name" type="text" name="name" placeholder="Nome Completo" autocomplete="off">
                     <label for="number">Telefone:</label>
-                    <input id="number" required size="9" maxlength="9" type="number" name="number" placeholder="+244 (número)" autocomplete="off">
+                    <input id="number" type="number" name="number" placeholder="+244 (número)" autocomplete="off">
                     <label for="number">Email:</label>
-                    <input id="email" required type="email" name="email"placeholder="Email" autocomplete="off">
+                    <input id="email" type="email" name="email"placeholder="Email" autocomplete="off">
                 </div>
                 <div class="dados-empresa">
                     <h5>Dados da Empresa</h5>
                     <label for="empresa">Empresa:</label>
-                    <input type="text" required name="empresa" id="empresa" placeholder="Empresa (Nome)">
+                    <input type="text" name="empresa" id="empresa" placeholder="Empresa (Nome)">
                     <label for="empresaGPS">Localização da Empresa</label>
                     <input type="text" name="empresaGPS" id="empresaGPS" placeholder="GPS Empresa (Opcional)">
                     <label for="servico">Pacote Contrato:</label>
-                    <input type="text" required name="servico" id="campoFormulario" readonly placeholder="Selecionar (Pacote)">
+                    <input type="text" name="servico" id="campoFormulario" readonly placeholder="Selecionar (Pacote)">
                 </div>
                 <button class="btn" type="reset">Limpar</button>
                 <button class="btn" type="submit">Enviar</button>
@@ -1139,10 +1141,16 @@
         <div class="final">
             © Copyright2024. Todos os Direitos Reservados por Azriel Armando
         </div>
+
+        <div id="successModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Formulário enviado com sucesso!</p>
+            </div>
+        </div>
     </body>
     <!--Final Corpo do Site-->
     <script src="assets/js/email.js"></script>
-    <script src="assets/js/form.js"></script>
     <script src="assets/js/scrip.js"></script>
     <script src="assets/js/scroller.js"></script>
 </html>
