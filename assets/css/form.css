@@ -54,6 +54,7 @@
   max-width: 400px;
   text-align: left;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 1rem;
 }
 
 .success-modal .modal-content h3 {
@@ -61,13 +62,6 @@
   font-weight: 700;
   font-size: 1.5rem;
   margin: 2rem;
-}
-
-.success-modal .modal-content p {
-  margin: 2rem;
-  line-height: 2rem;
-  color: #0d98fc;
-  font-weight: 450;
 }
 
 .success-modal button.close-modal {
