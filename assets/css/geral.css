@@ -342,7 +342,7 @@ section {
     justify-content: center;
     border-radius: 20px;
     background-color: #11181d7c;
-    width: 70%;
+    width: 75%;
     padding: 7px;
     margin: auto;
 }
@@ -385,7 +385,7 @@ section {
 
 .trilha .sec i {
     color: #00B2E0;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .trilha p {
@@ -1166,8 +1166,9 @@ form input {
     width: 550px;
     border: 1px solid #0c97fa96;
     background-color: #0c141a7c;
-    color:#00D8FF;
+    color: #0D98FC;
     margin: 6px;
+    font-weight: 450;
     outline: none;
     padding: 14px;
     border-radius: 8px;
@@ -1199,8 +1200,7 @@ form label i {
 }
 
 form input:focus {
-    border: 1px solid #3CEA30;
-    color: #00B2E0;
+    color: #0D98FC;
     font-weight: 450;
 }
 
@@ -1325,13 +1325,13 @@ footer .social  {
 }
 
 
-.social a i    {
+.social a i {
     color: #0c97fa96;
     font-size: 25px;
     padding: 8px;
     border: 1px solid #0c97fa96;
-    border-radius: 50%;
-    margin: 5px;
+    border-radius: 50%; 
+    margin: 4px;
 }
 
 .social a i:hover {
