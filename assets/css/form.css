@@ -42,40 +42,145 @@
   .dados-empresa input {
     width: 350px;
   }
+
 }
 
 /* Estilo para o envio do formulário para o email */
 .success-modal {
+  position: fixed;
+  bottom: -100px; /* Começa fora da tela */
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
+  width: 100%;
   justify-content: center;
   padding: 1rem;
+  z-index: 9999; /* Garante que fique sobre outros elementos */
+  animation: slideUp 0.5s ease-out forwards;
+}
+
+
+/* Animação do modal subindo da parte inferior para cima */
+@keyframes slideUp {
+  from {
+    bottom: -100px;
+    opacity: 0;
+  }
+  to {
+    bottom: 3px; /* Posição final do modal */
+    opacity: 1;
+  }
 }
 
 .success-modal .modal-content {
-  background: #01111E;
+  background: #08131D;
   color: white;
-  border-radius: 20px;
-  max-width: 400px;
+  border-radius: 8px;
+  width: 100%;
   text-align: left;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  padding: 1rem;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  padding: 0.7rem;
+  border-left: 3px solid #3CEA30; /* Estilo de destaque lateral */
 }
 
+/* Título do modal */
 .success-modal .modal-content h3 {
-  color: #28a745;
-  font-weight: 700;
-  font-size: 1.5rem;
-  margin: 2rem;
+  color: #3CEA30;
+  font-weight: 450;
+  font-size: 1.2rem;
+  padding: 0.6rem 1rem 0.4rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
 }
 
+.success-modal .modal-content h3 i {
+  font-size: 2rem;
+  color: #3CEA30;
+}
+
+
+/* Botão do modal */
 .success-modal button.close-modal {
-  background: #28a745;
+  background: #007D9C;
   width: 100%;
   color: white;
   border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+/* Adiciona um efeito de fade-out antes de remover o modal */
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+
+
+/* Botão do modal */
+.success-modal button.close-modal {
+  width: 100%;
+  border: none;
   padding: 1rem 2rem;
   border-radius: 8px;
-  margin-top: 2rem;
+  margin-top: 1rem;
   cursor: pointer;
+  color: white;
+  font-weight: bold;
 }
+
+
+
+/* Ícones do Boxicons */
+.bx {
+  font-size: 2rem;
+  vertical-align: middle;
+  margin-left: 10px;
+} 
+
+.success-modal.success .modal-content {
+  border-left-color: #3CEA30; /* Verde para sucesso */
+}
+
+.success-modal.success .modal-content i {
+  color: #3CEA30; /* Verde para sucesso */
+}
+
+.success-modal.error .modal-content {
+  border-left-color: #dc3545; /* Vermelho para erro */
+}
+
+.success-modal.error .modal-content i {
+  color: #dc3545; /* Vermelho para erro */
+}
+
+.success-modal.success h3 {
+  color: #3CEA30; /* Verde para sucesso */
+}
+
+.success-modal.error h3 {
+  color: #dc3545; /* Vermelho para erro */
+}
+
+.success-modal button.close-modal {
+  width: 100%;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+
+
 

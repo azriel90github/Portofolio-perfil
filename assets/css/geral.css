@@ -360,7 +360,7 @@ section {
     align-items: center;
     font-size: 1.3rem;
     /*color: #00B2E0;*/
-    color: #17CAF6;
+    color: #0d98fc;
     font-weight: 700;
     border-radius: 15px 15px 0px 0px;
     padding: 10px 20px;   
@@ -906,7 +906,6 @@ aside .data {
 /*Serviços--------------------*/
 
 .serv-fundo-h2 {
-
     background-image: url(../img/bg.png);
     background-repeat: no-repeat;
     background-position: center;

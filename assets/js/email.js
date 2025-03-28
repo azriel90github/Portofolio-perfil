@@ -38,11 +38,20 @@ document.addEventListener('DOMContentLoaded', function() {
                 break;
 
             case 'number':
-                if (!/^[0-9]{9}$/.test(input.value)) {
-                    showError(input, 'O telefone deve ter 9 dígitos numéricos');
+                // Remove qualquer caractere que não seja número
+                input.value = input.value.replace(/\D/g, '');
+            
+                // Limita a 9 caracteres numéricos
+                if (input.value.length > 9) {
+                    input.value = input.value.slice(0, 9);
+                }
+            
+                // Validação do número com 9 dígitos exatos
+                if (!/^\d{9}$/.test(input.value)) {
+                    showError(input, 'O telefone deve ter exatamente 9 dígitos numéricos');
                     isValid = false;
                 }
-                break;
+            break;
 
             case 'email':
                 if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(input.value)) {
@@ -154,19 +163,24 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function showSuccessModal() {
-        showModal('✅ Enviado com sucesso!', 'OK');
+        showModal('Enviado com sucesso', 'OK', 'success');
     }
-
+    
     function showFailureModal() {
-        showModal('❌ Falha ao enviar. Tente novamente.', 'Fechar');
+        showModal('Falha ao enviar', 'Fechar', 'error');
     }
-
-    function showModal(message, buttonText) {
+    
+    function showModal(message, buttonText, type) {
         const modal = document.createElement('div');
-        modal.className = 'success-modal';
+        modal.className = `success-modal ${type}`;
         modal.innerHTML = `
             <div class="modal-content">
-                <h3>${message}</h3>
+                <h3>
+                    ${message}
+                    ${type === 'success' 
+                        ? "<i class='bx bx-mail-send bx-tada'></i>" 
+                        : "<i class='bx bx-mail-send bx-tada'></i>"}
+                </h3>
                 <button class="close-modal">${buttonText}</button>
             </div>
         `;
@@ -176,7 +190,7 @@ document.addEventListener('DOMContentLoaded', function() {
             document.body.removeChild(modal);
         });
     }
-
+    
     function resetFieldStyles() {
         inputs.forEach(input => {
             input.classList.remove('input-success', 'input-error');
