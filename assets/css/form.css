@@ -22,7 +22,7 @@
 }
 
 .input-success {
-  border: 1px solid green !important;
+  border: 1px solid hwb(120 0% 50%) !important;
   box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
 }
 

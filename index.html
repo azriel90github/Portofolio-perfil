@@ -817,7 +817,7 @@
                     <div class="separador">
                         
                     </div>
-                    <a href="#contacto"><button>Contratar</button></a>
+                    <a href="#contacto" class="selecionar-pacote" data-pacote="Desgin UI/UX"><button >Selecionar Pacote</button></a>
                     <div class="final-serv">
                         Pacote exclusivo
                         <i class='bx bxl-discord-alt bx-tada' style='color:#ffffff' ></i>
@@ -870,7 +870,9 @@
                     <div class="separador">
                         
                     </div>
-                    <a href="#contacto"><button>Contratar</button></a>
+                    <a href="#contacto" class="selecionar-pacote" data-pacote="Frontend Developer">
+                        <button >Selecionar Pacote</button>
+                    </a>
                     <div class="final-serv">
                         Pacote exclusivo
                         <i class='bx bxl-discord-alt bx-tada' style='color:#ffffff' ></i>
@@ -921,7 +923,9 @@
                     <div class="separador">
                         
                     </div>
-                    <a href="#contacto"><button>Contratar</button></a>
+                    <a href="#contacto" class="selecionar-pacote" data-pacote="Backend Developer">
+                        <button>Selecionar Pacote</button>
+                    </a>
                     <div class="final-serv">
                         Pacote exclusivo
                         <i class='bx bxl-discord-alt bx-tada' style='color:#ffffff' ></i>
@@ -972,7 +976,9 @@
                     <div class="separador">
                         
                     </div>
-                    <a href="#contacto"><button>Contratar</button></a>
+                    <a href="#contacto" class="selecionar-pacote" data-pacote="DevOps Cloud">
+                        <button >Selecionar Pacote</button>
+                    </a>
                     <div class="final-serv">
                         Pacote exclusivo
                         <i class='bx bxl-discord-alt bx-tada' style='color:#ffffff' ></i>
@@ -1023,7 +1029,9 @@
                     <div class="separador">
                         
                     </div>
-                    <a href="#contacto"><button>Contratar</button></a>
+                    <a href="#contacto" class="selecionar-pacote" data-pacote="Desktop Developer">
+                        <button type="button">Selecionar Pacote</button>
+                    </a>
                     <div class="final-serv">
                         Pacote exclusivo
                         <i class='bx bxl-discord-alt bx-tada' style='color:#ffffff' ></i>
@@ -1074,7 +1082,9 @@
                     <div class="separador">
                         
                     </div>
-                    <a href="#contacto"><button>Contratar</button></a>
+                    <a href="#contacto" class="selecionar-pacote" data-pacote="Mobile Developer">
+                        <button>Selecionar Pacote</button>
+                    </a>
                     <div class="final-serv">
                         Pacote exclusivo
                         <i class='bx bxl-discord-alt bx-tada' style='color:#ffffff' ></i>
@@ -1082,6 +1092,39 @@
                 </div>
             </div>
         </div>
+        <style>
+            /* Borda verde quando preenchido */
+            .campo-preenchido {
+                border: 1px solid hwb(120 0% 50%) !important;
+                box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+            }
+        </style>
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                // Seleciona todos os links com a classe 'selecionar-pacote'
+                const botoesPacote = document.querySelectorAll(".selecionar-pacote");
+                const campoFormulario = document.getElementById("campoFormulario");
+        
+                botoesPacote.forEach(link => {
+                    link.addEventListener("click", function (event) {
+                        // Atualiza o campo do formulário com o nome do pacote
+                        const pacoteSelecionado = this.getAttribute("data-pacote");
+                        campoFormulario.value = pacoteSelecionado;
+
+                        // Adiciona a classe para borda verde
+                        campoFormulario.classList.add("campo-preenchido");
+        
+                        // Pegamos o elemento de destino (#contacto)
+                        const destino = document.querySelector(this.getAttribute("href"));
+        
+                        if (destino) {
+                            event.preventDefault(); // Evita a rolagem instantânea
+                            destino.scrollIntoView({ behavior: "smooth" }); // Rola suavemente até o destino
+                        }
+                    });
+                });
+            });
+        </script>
         
         <div class="contacto" id="contacto">
             <img src="assets/svg/react.svg" class="react-cont" alt="">
@@ -1122,7 +1165,7 @@
                     </div> 
 
                     <label for="servico">Pacote Contrato:</label>
-                    <input type="text" name="servico" id="campoFormulario" placeholder="Selecionar (Pacote)">
+                    <input type="text" name="servico" id="campoFormulario" placeholder="Selecionar (Pacote)" readonly>
                     <div class="error-message">
                         
                     </div> 
