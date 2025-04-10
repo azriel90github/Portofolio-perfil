@@ -62,8 +62,8 @@ section {
 }
 
 .home .foto-perfil {
-    margin-top: 4rem;
-    padding: 40%;
+    padding-top: 4rem;
+    width: 100%;
 }
 
 .home .foto-perfil img {

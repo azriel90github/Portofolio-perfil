@@ -125,6 +125,7 @@ section {
     background-image: url(../img/bg.png);
     display: flex;
     align-items: center;
+    gap: 4rem;
 }
 
 .home .home-content {
@@ -208,12 +209,10 @@ section {
 }
 
 .home .foto-perfil {
-    padding: 17%;
-    margin: auto;
-    border-radius: 50%;
-    background-color: #0767AC;
-    background-image: url(../img/foto.jpg);
-    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
 /*
