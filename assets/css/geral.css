@@ -209,10 +209,9 @@ section {
 }
 
 .home .foto-perfil {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
+    background-image: url(../img/perfil/01.jpg);
+    background-size: cover;
+    
 }
 
 /*
