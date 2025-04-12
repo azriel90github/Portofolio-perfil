@@ -230,7 +230,7 @@ section {
 }
 
 .tech-rotate i {
-    color: #00BAE5;
+    color: white;
     font-size: 4rem;
 }
 
@@ -741,6 +741,15 @@ aside a:hover {
     opacity: 80%;
 }
 
+.port-img-streaming {
+    opacity: 90%;
+    background-position: top;
+    border-radius: 15px 0px 0px 15px;
+    width: 50%;
+    background-image: url(../img/pm-streaming/07.png);
+    background-size: cover;
+}
+
 .port-img-gelado {
     opacity: 90%;
     background-position: top;
@@ -1228,9 +1237,6 @@ form {
     margin-top: 20px;
     width: 40%;
 }
-
-
-
 
 /* fim dos contactos------------------------------*/
 
