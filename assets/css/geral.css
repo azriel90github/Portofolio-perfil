@@ -209,8 +209,9 @@ section {
 }
 
 .home .foto-perfil {
-    background-image: url(../img/perfil/01.jpg);
+    background-image: url(../img/perfil/02.jpg);
     background-size: cover;
+    padding: 40%;
     
 }
 
