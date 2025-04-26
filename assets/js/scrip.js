@@ -32,18 +32,18 @@ let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header nav a');
 
 window.onscroll = () => {
-    sections.forEach(sec => {
-        let top = window.scrollY;
-        let offset = sec.offsetTop - 150;
-        let height = sec.offsetHeight;
-        let id = sec.getAttribute('id');
+  sections.forEach(sec => {
+    let top = window.scrollY;
+    let offset = sec.offsetTop - 150;
+    let height = sec.offsetHeight;
+    let id = sec.getAttribute('id');
 
-        if(top >= offset && top < offset + height) {
-            navLinks.forEach(links => {
-                links.classList.remove('active');
-                document.querySelector('header nav a[href*=' + id + ']').classList.add('active');
-            });
-        };
+    if(top >= offset && top < offset + height) {
+      navLinks.forEach(links => {
+        links.classList.remove('active');
+        document.querySelector('header nav a[href*=' + id + ']').classList.add('active');
+    });
+  };
 });
 
 /*========== sticky navbar ==========*/
@@ -57,34 +57,4 @@ menuIcon.classList.remove('bx-x');
 navbar.classList.remove('active');
 
 };
-
-new TypeIt("#hero", {
-  speed: 50,
-  startDelay: 900,
-})
-  .type("I'm the Suéli Armando ", { delay: 100 })
-  .move(-9, { delay: 100 })
-  .type("o", { delay: 400 })
-  .move(null, { to: "START", instant: true, delay: 300 })
-  .move(1, { delay: 200 })
-  .delete(1)
-  .type(" ", { delay: 225 })
-  .pause(200)
-  .move(2, { instant: true })
-  .pause(200)
-  .move(5, { instant: true })
-  .move(5, { delay: 200 })
-  .type("D", { delay: 350 })
-  .move(null, { to: "END" })
-  .type("esign UI/UX, ")
-  .move(-5, { delay: 150 })
-  .type(" DevOps,")
-  .move(null, { to: "END" })
-  .type(' Software<span class="place"> Developer</span>', { delay: 400 })
-  .type('<em><strong class="font-semibold"> eXtreme</strong> <span style="color: yellow;">JS</span> <span style="color: #E6E6E6;">and</span> <span style="color: #007D9C;">Go</span>.</em>', {
-    speed: 100,
-  })
-  .go();
-
-
 
