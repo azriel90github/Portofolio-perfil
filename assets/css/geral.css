@@ -324,7 +324,6 @@ section {
 }
 
 
-
 .trilha-fundo-h2 .seta-trilha {
     text-shadow: 1px 1px 10px #16CBF7;
     font-size: 4rem;
@@ -1391,7 +1390,6 @@ footer  button:hover {
 }
 
 /*Desabilitar kit de ferramentas do input*/
-
 ::-webkit-inner-spin-button { 
    display: none;
 }
