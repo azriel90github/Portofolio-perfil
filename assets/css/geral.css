@@ -14,6 +14,7 @@
     font-weight: 100;
     margin: 0px;
     padding: 0px;
+    /* biome-ignore lint/a11y/useGenericFontNames: <explanation> */
     font-family: Mont;
     box-sizing: border-box;
 }
@@ -826,6 +827,15 @@ aside a:hover {
     border-radius: 15px 0px 0px 15px;
     width: 50%;
     background-image: url(../img/fundoMetas.png);
+    background-size: cover;
+}
+
+.port-img-portfolio {
+    opacity: 90%;
+    background-position: center;
+    border-radius: 15px 0px 0px 15px;
+    width: 50%;
+    background-image: url(../img/portfolio.png);
     background-size: cover;
 }
 

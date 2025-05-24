@@ -4,10 +4,10 @@ const min = document.querySelector('#min')
 const sec = document.querySelector('#sec')
 
 setInterval(() => {
-  let date = new Date()
-  let dHour = date.getHours()
-  let dMinute = date.getMinutes()
-  let dSec = date.getSeconds()
+  const date = new Date()
+  const dHour = date.getHours()
+  const dMinute = date.getMinutes()
+  const dSec = date.getSeconds()
 
   hour.innerHTML = `${formatTime(dHour)}`
   min.innerHTML = `${formatTime(dMinute)}`
@@ -16,11 +16,11 @@ setInterval(() => {
 }, 1000)
 
 function formatTime(time) {
-  return time < 10 ? '0' + time : time
+  return time < 10 ? `0${time}` : time
 }
 
-let menuIcon = document.querySelector('#menu-icon');
-let navbar = document.querySelector('.navbar');
+const menuIcon = document.querySelector('#menu-icon');
+const navbar = document.querySelector('.navbar');
 
 menuIcon.onclick = () => {
     menuIcon.classList.toggle('bx-x');
@@ -28,26 +28,28 @@ menuIcon.onclick = () => {
 };
 
 /*========== scroll sections active link ==========*/
-let sections = document.querySelectorAll('section');
-let navLinks = document.querySelectorAll('header nav a');
+const sections = document.querySelectorAll('section');
+const navLinks = document.querySelectorAll('header nav a');
 
 window.onscroll = () => {
+  // biome-ignore lint/complexity/noForEach: <explanation>
   sections.forEach(sec => {
-    let top = window.scrollY;
-    let offset = sec.offsetTop - 150;
-    let height = sec.offsetHeight;
-    let id = sec.getAttribute('id');
+    const top = window.scrollY;
+    const offset = sec.offsetTop - 150;
+    const height = sec.offsetHeight;
+    const id = sec.getAttribute('id');
 
     if(top >= offset && top < offset + height) {
+      // biome-ignore lint/complexity/noForEach: <explanation>
       navLinks.forEach(links => {
         links.classList.remove('active');
-        document.querySelector('header nav a[href*=' + id + ']').classList.add('active');
+        document.querySelector(`header nav a[href*=${id}]`).classList.add('active');
     });
   };
 });
 
 /*========== sticky navbar ==========*/
-let header = document.querySelector('.header');
+const header = document.querySelector('.header');
 
 header.classList.toggle('sticky', window.scrollY > 100);
 
